@@ -1,0 +1,819 @@
++3syH4VjJv	Career changer
++AYBXJNqIn	Counts reflect when findings were first detected by a scan — not necessarily when the vulnerability was introduced. An increase may include pre-existing issues found for the first time.
++EqGNX0pPR	Supply chain manager
++IDV5qdzWq	Gardener
++IIW8aX0N1	Receptionist
++Tg2ZwY6Gc	Influencer
++jn5I+1PC9	Restricted by your organization's Managed settings. Update Managed settings or your MDM-deployed configuration to change this.
++pD1ItWKxt	Underwriter
++rkY4+8rT0	· in {dir}
++tRn40sBkg	Adding marketplaces is blocked by your organization's policy. Contact your administrator.
++vS3H1eZas	Customs officer
++xKo0c6T1G	Software architect
+/06iwcQHPz	Large
+/0MsrWMCdB	Songwriter
+/YXteHLR8K	Actuary
+/bBN+CgLmb	Ecologist
+/yv6l69CX4	Primary school teacher
+07R0N8PtwA	Program manager
+08fK5mJlTX	AI engineer
+0BXihaWcFe	Therapist
+0LfuDKjQSo	last {period}
+0W02lLUPFi	Hospitality
+0YRp5WE0Wj	Intelligence analyst
+0ecfVQIfO+	Solopreneur
+0jKBnkxLS/	Registered nurse
+0k3ba9Nu/e	Payroll specialist
+0n0KQX3sqW	Psychiatrist
+0uewaBqoIO	This will create a copy of the artifact in a new chat in your workspace. You can <a>view the artifact</a> first.
+0xdmE4r3iQ	The {artifactId} live artifact uses connectors you haven't set up yet:
+13JgRA3twc	{severity} findings over the last {period}: {first} to {last}
+15ABaeyine	Author
+1E+/if8Ti8	Business owner
+1FxELCcuoK	Vice president
+1LuSiVKux0	Manage the organization’s Claude Design settings.
+1TSYwxCuHT	Curriculum developer
+1arWNHyIs7	Physiotherapist
+1nWL5SoYz8	Customer success manager
+1tebkMXtlg	Sports coach
+21ajH7Kc6+	Program and project management
+21ihzcyuTB	Photographer
+24lBjEianV	Get <fm>faster responses</fm> and <cr>automated code review</cr> when you buy usage credits. Credits also cover your team if they hit a plan limit.
+26gd7RckDR	Feature requests ({count})
+2DVLDWETtg	Controls which repositories Claude can reach across your organization.
+2F1wNJk3C5	Digital marketer
+2O7/1Pcuub	Fisherman
+2cq5xykhcF	Complete the steps below first
+2joSL9oY7h	Private equity associate
+31gfvJpZCW	Contract manager
+33Rbzddv0C	Chartered accountant
+359WtO1wuX	Converts to Team plan
+3Ap8PkWTMu	Technical recruiter
+3DsmOqe9q/	Customer support
+3IAAGWUdSi	Financial analyst
+3MKrYxb9kl	Marketing coordinator
+3OH8ucJqPe	Partnerships manager
+3PTbu+mhS/	Product owner
+3a9hdVuHEv	Music producer
+3hYY7wx8vu	Personal assistant
+3jYNk5AHO8	Risk analyst
+3oI1e8hcPi	Train conductor
+3qUj0BnERh	I agree to Anthropic’s <termsLink>Consumer Terms</termsLink> and <aupLink>Acceptable Use Policy</aupLink> and confirm that I am at least {minimumAge} years of age.
+3tyhrCA/2d	Pastry chef
+3vHX/E/Lbl	Email domain not allowed for this organization
+4+BQhbT62u	Virtual assistant
+48dwCgWFgT	Health coach
+4FafIIwjPh	Sales development representative
+4HAanzyDN0	Connectors needed
+4IcVuxCoFu	Microbiologist
+4KQHnOahc2	Welder
+4VHkqjCSyL	Copied {label}
+4VMi/z5/r6	Video editor
+4WzWyUTL9L	Growth marketer
+4ZsAJlUXHL	Cloud vendor profile
+4e5chge1cb	Manufacturing
+4l3NwSf6mB	No changes to commit
+4mIrys9NCF	End trial early
+4qD6K4ue8N	Dental hygienist
+4rEv+5l4IU	Media and communication
+4u3SsVDc3p	Composer
+4x7vudTshf	Sous chef
+56Ty0l1Qfm	Solutions architect
+5C+j0lRpwb	Travel agent
+5HmkKY65Wx	Community and social services
+5IEWALf4Op	detected · {period}
+5J3wuJh+0s	General contractor
+5bPsUlXnsE	Veterinarian
+5kzar+18de	General counsel
+5lLUUnDlv6	Compliance officer
+5qoxO80yaz	* These figures are provided as general guidance only. Actual consumption will vary based on your team's size, workflows, and usage patterns.
+5r8mwp/Cyc	Sidebar
+5xAl+v1+Vi	Operations manager
+5ySixRtO1T	Your organization doesn't have billing set up. Add a payment method to turn on Claude Security.
+6+7THVY7UQ	Comedian
+6+KgI34oD3	Assistant professor
+6CfSKjleUe	Finance professional
+6EugvxUazo	Java developer
+6FDJE2wmw/	Park ranger
+6MlKSs3EXy	Configuration may need attention
+6QJGxRqpxE	Tutor
+6a6UtnOahP	Loan officer
+6gdsBMsCpe	{legacyModel} is no longer available. New replies will use {defaultModel}.
+6i9OHHHVK8	PhD student
+6iFQvkU8r9	Academic advisor
+6ihvmCKJUX	Painter
+6j+DWHD/gC	School principal
+6rirxaZb5u	SEO specialist
+6vF7q7611U	HR coordinator
+6zU6WGR+vV	IT project manager
+7+3ctQcNrf	Career coach
+74+D4V1Hxc	Requires a pre-registered OAuth client. Select ‘Use your own OAuth client’ or CIMD to enable.
+7Eo8fXjApd	Substitute teacher
+7JPLaqJlgw	These figures are provided as general guidance only. Actual consumption will vary based on your team's size, workflows, and usage patterns.
+7Jg7kzOeG6	IT consultant
+7KY0vdRKXQ	Radiologist
+7PU6v6Rhds	Tattoo artist
+7Uy7TiLLN7	IT technician
+7ZlhrDLJqV	Some settings in your configuration are deprecated or could cause issues. See Details, then open Setup to update them.
+7m2SiiFaxI	Line cook
+7n6hPkVn//	Creative writer
+7oYVrUkvog	Technician
+7w5j+X/H7Q	Hardware engineer
+8/8Rm20Y/g	You synced recently. Please wait a moment and try again.
+83Zl4DXLGX	Safety specialist
+8At0WwWzZw	Hair stylist
+8NdOR0omTH	Paralegal
+8PRqo/eU4d	Probation officer
+8UZ3W517TY	Professional gamer
+8c6iN3kiDX	Interactive sign-in
+8cwtFvjUPk	School administrator
+8g4EC5vCgs	Interpreter
+8tq7gVJnDO	Choreographer
+9/rZMhtdXv	Event planner
+9APIZf3JzA	Phase data unavailable
+9ASYrtUmUT	Property manager
+9C+aQWrK+W	Cruise director
+9HK00w9OEg	Try again with {model}
+9QWMTBkrWK	Personal trainer
+9Qy/bfsrPl	Chaplain
+9RkBfXCDxT	Graduate student
+9meawIWGeC	BI analyst
+9mfgnSHEij	Middle school teacher
+9qT7j35avl	Indie hacker
+9yGg5eA0aW	Are you sure you want to dismiss {count, plural, one {this connector request} other {all # connector requests}}? This action cannot be undone.
+9zUIgyspNf	Tour guide
+A+ikgFz6E7	Project manager
+A/5lHt099w	Sorting applies to loaded projects — scroll to load more.
+A3ptulOTB3	Templates
+A4BrxrzuIl	Marketplace not found. Check that the archive URL is correct and the file is available.
+ABGBNvDIkh	Warehouse manager
+AD9Y1CtP8b	Claude Security couldn't be turned on. Try again.
+ADiORY7zzQ	Concierge
+ANPBErKpM2	{done} of {total} agents done, {running} running, {stalled} stalled, {error} failed
+ANVevfHQSO	Creative director
+APQ+N03Fnq	Advisor
+Ae2tDpxXYc	Environmental scientist
+AgPCZX1AJK	Brand designer
+Ahe51s8B/N	Enables in-app AWS sign-in (no AWS CLI needed). Set with the three SSO fields below.
+AoKi1kLX+A	Pay-as-you-go at API rates, billed monthly
+ApEEsgf2Jv	Claude needs to access your Documents folder to read this task.
+Ashsrwq4+p	Executive assistant
+Ax0SF7MMwu	Animator
+Ay+47NECJV	iOS developer
+B0J3CRKqgR	Speech therapist
+B0SaDlSPdX	Consulting
+B4XCcTMiS5	HVAC technician
+B73ba6azwB	Manager
+B7lgvHUlm/	Redirect / validate URL
+BPnT3TVya+	Small
+BQJiB0nVAr	Social worker
+BRBv0RHkPV	Videographer
+BU+rc742ra	We've credited {credit} to your next billing cycle on us.
+BUhgaHFe9c	Real estate developer
+BappPf7QWp	Anthropologist
+Bb0BPeTCk/	Foreign trade specialist
+Bbm2c69Mcl	Massage therapist
+BgFFAivw6n	UI designer
+BjfjGA0Es2	Undergraduate student
+Bp9QrOemu9	Forensic scientist
+BptJG4YTsC	your organization's device policy
+C99KChyVo4	Journalist
+C9ydl+qU6q	Embedded engineer
+CCgrBYDB0X	{count, plural, one {Editing # file...} other {Editing # files...}}
+CDRpaJWSXB	Investment professional
+CGaVT/FTcn	English teacher
+CQIv11exrU	Automation engineer
+CQoAoYxmRB	High school teacher
+CTUOToXsKC	Video preview
+Cloq/L/2WC	About these usage estimates
+ClrysNUKqv	Strategy consultant
+CoDJbGwNNT	Sociologist
+D2E7/D73GI	General manager
+D7jTww3yOv	Transcript text size
+DACh8AX/2a	Police officer
+DKjTT2rZu5	Talent acquisition specialist
+DNb7FnyNLB	Analytics
+DQ/S7GO6kT	Request seat change
+DQMTnOEPVv	Sound engineer
+DQS4l4qolC	Dermatologist
+DXPJjS2w0x	Human resources manager
+DgsvWGl75u	IT architect
+Dkl/EIFiQ6	Waiter
+Dt+XpSN5ux	Merchandiser
+Dti0UqAmUx	Independent contractor
+DxPlnLocfw	Voice actor
+E01sx3cGn+	Doctor
+E1kZDdoWFr	OIDC login URL
+E7BiLAdijs	CEO
+E8ThNQCayZ	Chemist
+E8bDIKsxJc	your Claude Code settings
+EBM+ocYPrl	Nurse practitioner
+ECdFElAw3s	ID token (default)
+EGRfCVo/0s	Management consultant
+EQZohHMh08	Earlier messages aren't shown — this conversation is too large to load in full.
+EQpfkSbt5q	Finished
+ERHaTTGXe9	Retail associate
+ETotBgps+I	Your styles have migrated to Instructions
+EWMF2xAC7m	Producer
+EZmVaFr6Ri	Customer service agent
+Ecu4U9R2zO	Freelancer
+EeUHjfldb1	Fitness instructor
+ElGuW5EFqy	Wellness coach
+ElpDyxiyTE	University student
+EmvDrW/JeB	Aerospace engineer
+F2XDqwLg5r	Soldier
+F2wBIntVwf	Stay-at-home parent
+F3yWYb7m3O	Arts and design
+F6oMbij7zR	MBA student
+FLsU4yBfew	Sales engineer
+FSvdnt+rIb	Lawyer
+FT41gaWyga	Motion designer
+FUyl6CpDdp	Farmer
+FgyGI7qPAX	Sales representative
+FiwV/oi580	Read aloud
+FkztHFcDfQ	Veteran
+FoY++i7JJp	Enterprise architect
+FsFttTiQVS	CIO
+FtnXOHZwJv	This file appears to be empty.
+FxwaqQnmgw	Enable all ({count})
+G/Jwzm+3Qv	Job seeker
+GAju6owG0t	Venture capitalist
+GElnq0Kna2	Real estate broker
+GIl7P1orjP	Administrator
+GNnEybvNWd	Postdoctoral researcher
+GQYhwxMXz2	Billed to the credit card on file · manage in Billing settings. Prefer to pay by bank transfer (ACH)? That's available on invoiced plans — talk to sales.
+GdryuJ0xGG	Fundraiser
+GkWb0yI0be	Esports player
+Gz1atyyXYp	Podcaster
+H7piYkzx7i	University professor
+HQ5zf7PiS7	Interior designer
+HWA1dpKsqe	Screenwriter
+HXowjyBX+/	This connector must be enabled from the connectors page.
+HaCOdG6yEC	Machinist
+HaIgIJ2fmN	Are you sure you’d like to disable <b>{keyName}</b>?
+Haf9rmGGtd	Osteopath
+I1s0K+wkoz	Chiropractor
+I1t+uPVzrH	Patent attorney
+I4G/u+pXkZ	{price} / seat / mo — fixed, billed annually
+IDXLMfIu2z	Legal analyst
+IHP74Tf4m+	Severity series: {severity}
+IJldLt3c/c	Bypass Permissions mode isn't enabled. The session started in Accept Edits — enable Bypass Permissions in Settings to use it.
+IL25i48nyt	Canvas is managed by Anthropic
+IMuJBup4OF	Nail technician
+IO/uRG6bWC	Government employee
+IaYSmcZpz/	Tax accountant
+IbrsxK7Z2v	Game developer
+Ih55KeQj+M	This marketplace is already in your list.
+Ik1IDmxJ7f	IT engineer
+IliGgBd0j9	Art teacher
+Iogrv29kP/	Community manager
+IqoUQ02g5V	Counselor
+Iqzzc92NO8	This is one of Claude's default marketplaces. You can enable it from the marketplace list.
+J15VMWRvdi	Attach "{directory}" to this session?
+J58nPDg8Yd	Psychologist
+J5a+x4NcCX	Pediatrician
+JAq2ozEK8A	You'll keep access until {date} and won't be charged.
+JCXcm1wybn	Librarian
+JDGJavzMoV	Product designer
+JHIL8N/3cd	Biomedical engineer
+JMg5Qd17cQ	Expand {group}
+JPTSPvOgW+	Attorney
+JQp5+PgvfA	Yoga instructor
+JTKWVcHeRX	UX designer
+JU8+dFfEFi	Auto technician
+JVDC0hxvpj	Trader
+JatAxkziOh	Stop requested — Claude will cancel it
+Ji2KgOWWaj	Business development representative
+JjjI/o7i0K	Ghostwriter
+JpGqIzkEo9	Paramedic
+JvjAC3rS5b	Content writer
+JvxfjN9e07	Barber
+KCtvHOZ0pQ	No charge until you confirm on the next step.
+KK3ssP3of4	Invite method
+KQo4YQZIik	Air traffic controller
+KYfRK+BUbb	Judge
+KhZW9QCghF	Findings trend
+KkhLagmCC1	Corporate counsel
+KomV7lUi/T	I confirm that I am at least {minimumAge} years of age
+Ks+jTIub/N	Cloud engineer
+KwN+nYX98p	Manage connector
+L1sJjUIBcB	Investment analyst
+L3Ps66dXF+	Law student
+LChYqT/3kH	Which token to send as the gateway bearer. Use access token for gateways that validate as an OAuth resource server.
+LCqzr6AjsF	You synced recently. Try again in {seconds, plural, one {# second} other {# seconds}}.
+LDgesBZCH+	No agents have started yet.
+LJ0SsXciNK	Curator
+LJpnUKX1YT	Re-enable key?
+LMQu2vdRrO	Connect them, then import again.
+LZTf+1iwJD	Coordinator
+Lb1lixylhm	Vet technician
+LmEgAnAnCH	Admissions officer
+LqkJ93Y17Y	Leave blank to fetch a key via browser sign-in, or to supply the key via a credential helper.
+LvJIBwAty8	Buyer
+LxDRf/gWsB	Finish setup to turn on Claude Security
+M8Wd/knh/b	3D artist
+MIHgZIoF4r	Describe what was happening on {date}. Any extra context we should know?
+MPQeY5DopE	Change manager
+MRcUOGnMN+	Defines available settings for Jamf / ProfileCreator and similar macOS tools.
+MW/r/bjC8y	HR business partner
+Mgt3i1+yZA	About these counts
+MiPhvn198P	Disable Code in the web?
+MjDkpX8pLA	Content creator
+Mjg7kb52km	Business analyst
+MmR0a74e8q	This marketplace is part of Claude's default set. If it's not showing in your list, it may need to be enabled in your workspace settings.
+MohjxR2tQe	Accountant
+Mue23dKNhe	Urban planner
+My4veGInXZ	Marketing manager
+N45BtiVnEl	Investment banker
+N8WSKi0ww6	A fixed seat fee you commit to, plus usage billed monthly at API rates — you only pay for what your team uses.
+NFDBSFsuTL	Technical support specialist
+NGPYDHaMP+	Profile Manifest (.plist)
+NJSW5axYrq	Cleaner
+NQcJQnlfF4	You must be at least {minimumAge} years old to create a {planName}.
+NSxU0x8SwA	Bioinformatician
+NXKA8of+hG	Real estate
+NiJ+3GLVOp	Programmer
+NnH9pvDzh1	Secretary
+NnTEdgCk/h	Document conversion is temporarily unavailable. Please try again in a moment.
+NwVgw8K2Ke	Industrial designer
+Nx70oExAtB	Customer support specialist
+Nz6TtOx3Pu	Customize this artifact?
+O3+tRxyH3n	External IdP for gateway sign-in. The user authenticates against this issuer; the resulting token (ID token by default) is sent to the gateway as the Bearer credential. Leave unset only if the gateway is its own OAuth authorization server.
+O6H0Fyq6zz	Styles are migrating to Instructions
+OD8s+ypcGS	Reporter
+OFRmtXBKT0	Investor
+OhplR7uOJ5	Database administrator
+OlqPCxVwdl	Required for access-token mode — set the gateway's API scope (e.g. api://gateway/.default). offline_access is appended automatically for silent refresh.
+OqZ+uVZ6Ix	Healthcare worker
+OqnSEhxSeV	Web designer
+OrgPluginsUrl	Organization plugins endpoint
+OrgPluginsUrlHint	Supplied by the bootstrap server; not directly settable.
+OrzZiyVwtN	Font for the Claude Code interface — menus, sidebar, and chat.
+OtbqX4PE60	Firefighter
+OuGz8H1+p1	CFO
+OuQRXIk3Tp	Financial controller
+OwpaLU5ONV	Astronomer
+P4GMl7RdZ7	Collapse {group}
+P7djTuHDN0	Phases
+PC6vaYJKDl	Backend developer
+PDSSKVu8jZ	Neuroscientist
+PKQusA3yW2	Credit analyst
+PV1eLVmpAp	Nonprofit professional
+PVAH52A/Vn	Mediator
+PYOZrpPBL5	Benefits administrator
+Pls3Eimslh	Schema only — defines available policies for Intune / Group Policy. Values are configured in your management console.
+PnVg0dCCMt	Mortgage broker
+Pq0kR7ZSDX	Accounting
+PvNxlfLQv6	Attached videos
+Q/om520SVO	Volunteer
+Q1PEnNfTKx	Marine biologist
+QFxLiwwOD1	Office manager
+QIXEEr2aTf	COO
+QUgYxqACkC	Chef
+QXaHwLqE5P	Business consultant
+QekSljlYfr	Recruiter
+QgObHz665R	Store manager
+Qsp7oZQwiJ	Frontend developer
+Qt5N/lbeF4	Overview period
+QxPSIhfQlc	Real estate agent
+QyBPaZjyms	College student
+RFV7lnSVuM	Nurse
+RGwrA0Ot7b	Pharmacist
+RO2B/Dop2J	sorted within loaded
+RQrN/oqObv	Session target
+RSzbw/QhC5	List price
+RU8vaFS1Ky	HIPAA compliance is now enabled for your organization. Changes may take up to 15 minutes to take effect.
+RX9XNzO9zh	Meteorologist
+RZP+mkDUjw	Are you sure you’d like to re-enable <b>{keyName}</b>?
+RelwnJ0QKN	Entrepreneurship
+RiUt1+QJk9	Factory worker
+RlVgS+PMoP	Hi! Which of your organizations can I help with?
+RpmobZ0wil	Wealth manager
+Rs4NrTp2Ph	Allowing all unlisted {cliName} commands isn't permitted by your organization's settings. Commands named in this plugin can still be allowed individually.
+RzrqtpkHUh	Server
+S+7U9CPQRf	Graphic designer
+S+X8+uAkB6	Information security analyst
+S/okdh4/uk	your organization's policy
+SSpqCNrrii	Robotics engineer
+SZkLzFlZm6	Salesforce developer
+SfvqvsqqRt	Couldn't write to the plugins directory. Check that Claude has permission to write to your home folder.
+SsQs+UNobC	Quantitative analyst
+T2BZSMD5FY	Claude Security needs these to run
+T4WJB39sEy	High school student
+T4u66gUDed	Singer
+TAEM27a2FP	Entertainment professional
+TEORoiZ7QE	Co-founder
+TFaHLYtz1l	Blogger
+TGMBdN52Rz	Near-black
+TTYIoD8xS7	Forester
+TXCsN55VpQ	Planner
+TaAOD4+ogx	Network engineer
+TcCxttJw2N	Delete your account?
+Tywkb9hgg7	Electrical engineer
+U3qku2Fxx0	Medical assistant
+UAISLIUyys	Performance marketer
+UEgWAjkqtM	“{preview}” hasn’t been sent. Start a session from it, or discard it?
+UK+5mAFkQE	By invite link
+UWegTjN+b1	Site reliability engineer
+Ucc1Zapvei	Optometrist
+UdlvIZGfQ4	Allowing this {cliName} command by default isn't permitted by your organization's settings.
+UiQDHTnkeG	Managing partner
+UoCDjwYaKt	Security guard
+UqSVSZGnNH	ESL teacher
+UuYJAmjye/	Show last 30 days
+UxMnu+Rijt	Claude Security depends on Code in the web. Disabling this will also turn off Claude Security for your organization.
+VFoz3ygCri	Production manager
+VHm711Ayl7	Product manager
+VNeMZktQo7	SAP consultant
+VNhaFRBO9u	Don't have Claude Code installed yet?
+VUNhns+BLv	End trial
+VWe402534k	{days, plural, =0 {today} one {# day ago} other {# days ago}}
+VcUUW+x87n	Anesthesiologist
+VgJTdSXdQe	Mobile developer
+Vjfb1rfrPR	Sales manager
+VjuMP3yaIw	Cybersecurity analyst
+Vyb4FIMdxP	People operations manager
+Vyn8NveP7M	Risk manager
+W/sDp9NiE+	Real estate investor
+W5KIjC9Blg	Archivist
+W6tg+zLWR/	Industrial engineer
+WCKP3CgB0q	Data analyst
+WEh+wDWiDw	Teaching assistant
+WHpymVw4z9	Dancer
+WN5h1Yx6ox	Some plugins couldn't sync
+WX6tdD8/BV	Marketing analyst
+Wg5dycr2/p	Caretaker
+WjFP5fN1/h	IT manager
+WsT/E/qNoC	How the gateway credential is sent on the wire (Authorization: Bearer vs x-api-key header).
+X/2TEGjFlw	Learning and development
+X1BDgPIMUC	Open {name}
+X58N8KQeya	Epidemiologist
+X9GgU0LRPC	President
+XCzdCi9dad	Novelist
+XIVTB0TTK/	The live artifact {artifactId} can use the following connectors automatically without asking for additional permissions.
+XKFlaofPdk	Occupational therapist
+XM0SHmCTot	Tourism professional
+XQSBCkzkUd	Small business owner
+XTHxOYpOlm	Discard draft?
+XVFXDUfAm8	Sets which repositories Claude can scan.
+XVWj+VPJvQ	Financial planner
+Xa46BSxahf	Diplomat
+XhFGm2B+nX	Claude can no longer access this repository. Make sure it still exists and the GitHub App is installed, then try again.
+Xi10IU6+Wf	Search
+XmHMtzW58B	You'll keep access until {date}, and you won't be charged. If you subscribe later, it'll be at the standard rate—your promotional rate won't carry over.
+XxjrAraE+H	Turn on for your organization
+XzejZSc1R2	New window
+Y/dXw+hMOR	Medical coder
+Y5askoVbGs	View options
+YCVxJdFNk0	Are you sure you want to dismiss {count, plural, one {this usage credit request} other {all usage credit requests}}? This action cannot be undone.
+YD2JzVqNVf	Frames
+YDOTZX4cm5	Compliance analyst
+YJXV78q8+U	{n} Tokens
+YN0CMhv7A2	Could not access the marketplace archive. Check that the URL is correct and the file is publicly accessible.
+YRTTH59ZWu	Delete <b>{name}</b> from your live artifacts?
+YU0/MHOGCf	Project coordinator
+YUhXOfjTF9	Teacher
+YUoGOJK4rY	Public relations
+YVDm9jryoM	Training manager
+YbmW+9Ub/A	See details for {connectorName}
+YfXudLEmrv	No chats yet
+Yl1AwkzcmN	Artist
+Yq50SucPIO	IT support specialist
+Yso7PCphMF	Nutritionist
+Yvw0P3DSJc	your organization's managed settings
+YxdZvZOEZ9	Military and protective services
+Z82EG02FFp	Technical writer
+ZETDp/Bvoq	Research
+ZGEmQ9ZGjO	Public affairs
+ZGHD3mVeYy	Need urgent help? Contact your workspace admin.
+ZIG94wo79x	Claude Security needs Chat + Claude Code seats. Ask an admin to change your seat type.
+ZLUzYGL3bY	By email
+ZQEzWpYttF	Dentist
+ZQsXVsFfju	Not you? Log out
+ZVDdO4gtZ9	Chemical engineer
+ZXgEHK2LPA	Geneticist
+ZmSZ2fdweS	Coach
+ZoFao4NS9T	Grant macOS permissions
+Zp1o5mp5MZ	Notary
+a+zeOXve7A	View phase: {title}
+a/0PArw8AA	{count, plural, one {Writing # file...} other {Writing # files...}}
+a08aqVJJ6O	Show last 7 days
+a0WkLavCtx	Claude Code on the web
+aJCI5xoB0F	Findings trend data unavailable
+aL/o54ZWx3	Delete session with uncommitted changes?
+aO5SuSziC7	Keep trial
+aS3zkrCdrT	Tailor
+aTnXnjT5cS	Manage the organization’s plugins, connectors, and skills.
+acxb3cKL+g	Plan
+af5O4JBM0G	Procurement manager
+akEaAQkag+	Electrician
+aoofFa0KBb	Instructional designer
+azlorCHty1	Cook
+b+0acWEcDy	App developer
+b1X+7lIn8r	Pilot
+b8UbwQ9O1/	Play attached video {name}
+bCUi0126X9	Startup founder
+bDzeBOP9QL	Delete <b>{name}</b> from your live artifacts? This will also unshare it.
+bE9vSkcQcP	Couldn't save that change. Try again.
+bF/TO6XmHh	Provide these to your Canvas administrator or Anthropic contact when configuring the Canvas integration.
+bK+BzqG4ry	Engineering manager
+bbTYecAUn+	View workflow: {description}
+bf/CVU9NmE	Retired
+bi9UHgVDtf	Bypass Permissions isn't available when running as root. The session started in Accept Edits instead.
+blnClE6Kpm	Makeup artist
+bmEVNynawW	Set a monthly spend limit for Claude Security.
+bnd9AdujOJ	Forklift operator
+bqUFWJddsu	Illustrator
+btKvrpQDpC	Folder isn't trusted — task wasn't started.
+c5aPH0hVww	Mental health professional
+cMzMxkGoQ0	Monthly spend limit for Claude Security
+cT/au+kPW7	Rancher
+cay4jV089/	Data scientist
+cb3O5CuJCr	Biologist
+ccDuVY6qQ8	Systems analyst
+cd4WRGzCcH	Geologist
+ceUtAN7StU	Publisher
+czApksZsRi	Physician
+d1Kk+iATfF	Remove "{name}" from your organization? Members will no longer see plugins from this source. You can add it back later.
+dA74mm+4JM	Roofer
+dCW6eMOhuT	Content marketer
+dLS4Pz15eJ	Education / Student
+dYJFnkgqHe	This is one of Claude's default marketplaces. You can enable it in your workspace settings.
+da22FFYrii	Market research
+dcv7L9wv6l	Music teacher
+dt0wATI2AM	Baker
+dwIZ/UipF8	Runs security scans in the same sandbox as Claude Code web sessions.
+dwIplNCeK2	Clinical researcher
+dx7AzLgNEr	Machine learning engineer
+dzx4HmnMim	Analyst
+e+GCsd0UDY	Administrative
+e/tg3WvGkP	Copy {label}
+e1LONIg710	Policy analyst
+eDdjj9fWiv	Advertising
+eG2u9zHV4K	Visual designer
+eHXmiTw2UY	Couldn't send request. Try again.
+eI1llbko2d	Filmmaker
+eQPXhYc69C	Home health aide
+eUrlnMPHJK	Set a monthly limit for Claude Security scans. Once the limit is reached, scans pause until it resets.
+eZoksf6AZO	Mechanic
+egbM7TI3La	Logistics manager
+ekn4IoP3Hq	Elementary school teacher
+f/33C7Nzcb	Nursing student
+fASClVS3Lp	Wedding planner
+fDKwAHBXR2	Android developer
+fF1UjYwi9/	How satisfied are you with Cowork? (optional)
+fFHcBBCOAH	Janitor
+fGwwCHW2k+	Stop this workflow
+fKu4bc6oo0	Restaurant manager
+fU+RsP4DHc	Revoke session token?
+fYQjCX4kwJ	Tax (if applicable)
+fZs/2US6Nc	Maintenance technician
+feSgGqTpbE	Detective
+fmv9jwDmiA	Medical student
+fr2hDkbFdD	Lab technician
+fsGiG7tMO5	Assembly line worker
+fvW7xxtFNi	Standard dark
+fy+lnSL5QY	We reviewed your account and removed the hold. Thanks for your patience, and sorry for the time it cost you.
+fyJb6ERuV+	Scheduled task "{name}" was skipped. Trust check couldn't be completed. You can try again.
+g+9HdlnskW	Public health specialist
+g2pIGBO0mC	Delete artifact?
+g2t/wp5lHu	Funds scans beyond what's included in your plan.
+g3wkXdBbEp	Statistician
+g7uO4woAin	Architect
+g8BMTiGHB6	Credential kind
+g9MffWY/In	QA engineer
+gCGKjtDPXg	Make project private?
+gD6r6xvYQ0	Day of week
+gDAHkV32ED	this project's local settings
+gDJznH6Zh5	Auditor
+gK3SVXJU89	Brand manager
+gLzvLItxRe	Your Frame deploys. Click a card to open it in your browser.
+gOlhCxVIpf	UX researcher
+gVHpKD2L2m	This is one of Claude's default marketplaces. Ask your workspace admin to enable it.
+gYos4Fy2zn	Editor
+gcnioKKSjn	Revoke runner token?
+gd34QikK8z	Unemployed
+geJiwUVqfS	Salesforce administrator
+gf1C99w6aN	Personal use
+guVgZTaC2z	Indie developer
+gyQ1sfJsT2	Clean up files on disk
+h+9N/zlBt8	Chief of staff
+hCh45u+gIM	{formattedUsageAmount} spent on Claude Security
+hF7c4B3XdI	Casting director
+hHnW+p2fWc	Pick a role so Claude can tailor your experience.
+hK4r77kDfr	Carpenter
+hK8y9v81JH	Barista
+hKR45+wskq	Independent consultant
+hMKzRC+/Ft	How long will the review take?
+hOPh8FVYws	Hotel manager
+hgBWvAuYBJ	An API error occurred
+ho9K369r81	Copywriter
+htj1w8Tz6S	{count, plural, one {# email is} other {# emails are}} not from an allowed domain. Remove to continue.
+hy3/BoDlMR	Not available when running as root
+hzwYtlo7+h	Microphone
+i0pQIFZiRB	Computer use is on. To finish setup, grant the macOS permissions below.
+i1/BigaDrE	Preschool teacher
+i6tXLlSSPC	Stop this loop
+iCRRFsOptv	Instructor
+iGtzKvdIAk	Restaurant owner
+iK1snJkI0k	Change seat types
+iOnFeKF59Q	Administrative assistant
+iPihIQoUti	IT analyst
+ic2iUxcLqr	Tax preparer
+igXgIgDZ5a	Dismiss session?
+ihczAKWYOS	Healthcare services
+imFGK6gCH+	Search roles…
+j19x5Yb25y	Claude Security needs Chat + Claude Code seats
+j2a47HY4HR	Truck driver
+j41G7W6+Hf	Caterer
+jTugika+/T	Required for screen visibility. macOS may ask you to restart Claude.
+jUIFXJt5p+	Courier
+jeJ4HVpDyj	Executive director
+jgG6UUkAjx	Gamer
+jl1/ns2jIT	Sales director
+jla/tequ7U	University lecturer
+joWZSrg4Ci	Implementation specialist
+jpnvWakUi/	The marketplace synced, but these plugins were skipped.
+juLu6291yR	Agricultural scientist
+jvAD4TAKZ0	HR generalist
+jwCpLkYAaZ	Mechanical engineer
+k1kWvuPCXc	Hairdresser
+k3uHjv4lto	Attached context
+k8l06lFyli	Stalled
+k9HvPqyTW6	Psychotherapist
+kBZQDL8VSc	Clinical psychologist
+kT5Jg7Fz/u	Delete {count, plural, one {session} other {# sessions}}?
+kYE777ByuP	Create key with destructive scopes?
+kbgJygBsZf	Life coach
+kgHEpmxl05	Static API key
+kko7my3fcS	Software developer
+ksE5jw1lHL	{count, plural, one {# background task running} other {# background tasks running}}
+l70gwmgEQ5	Allow connectors in artifact?
+l7fvM0c36v	Postal worker
+lEZe7nTER9	Delivery driver
+lOcWZZgAd5	What do you use your account for?
+laFkSQ77MY	Delete group?
+le6hjnmvLe	Construction manager
+leBTilydFd	Cardiologist
+ll98KLjL2C	Data engineer
+lyAc5sZfgG	Don't see your server? <link>Add it as a custom connector</link> first. Servers already in the directory aren't shown.
+lybci30Mtp	Go to Members
+m7NnUe3D/9	Claude Security is on. Run your first scan from the Claude Security workspace.
+mHVfgdsDNh	http://localhost:…/callback?code=…
+mQRzM3nqa2	Tax advisor
+mWPGSbK6BB	What can I take off your plate?
+mftqUGbWkM	Physicist
+mrB/qEiH0j	Musician
+mtUcqoPfjN	Correctional officer
+n3JzWEcKY3	This draft hasn’t been sent. Start a session from it, or discard it?
+nL1wMo7oPB	E-commerce manager
+nM3Yulcn4l	Civil engineer
+nTUhqfhEA1	End trial early?
+nTqLNus9lz	{done} / {total} Agents
+nXFA1wKvX4	Your LTI URLs
+nYNpqSBpYX	Pharmacy technician
+nZg0AjOHKf	Turn on Claude Code on the web to use Claude Security
+ndN6U4wZhC	Historian
+nhz8zOwwA2	Let members scan repositories where the Claude GitHub App is installed.
+nkNy+5FSdw	Click to preview
+nlEoJqMk8c	Bartender
+nvjLi/o8n8	Bookkeeper
+oBXvAZERRL	Revoke {keyName}?
+oCWGw0AsBF	Where do I find this?
+oL+wtCS02x	Media professional
+oReUAT0vwJ	Need a human?
+oaOr8QROkU	All methods
+of8LDDZLQu	Lecturer
+oi9y4wTcfO	Strategist
+omfvHBKSH6	Cashier
+on+KE6TLP7	Product marketing manager
+oobsf8x14s	Realtor
+op77VwdRsn	Emergency dispatcher
+oxF/dRg2xa	Physician assistant
+p0a72nIBLb	Interface font
+p0yHjO3ccu	Homemaker
+p26KNN/HQx	Checking setup…
+pKkbyZ3Dgu	Athlete
+pR4kSmcUEa	Communications manager
+pYxOj60gd4	Security analyst
+pao2bCavYH	Are you sure you want to dismiss this usage credit request from {name}? This action cannot be undone.
+peqQveKcHM	Speechwriter
+pf7UEyrvB8	Microphone
+pntDfnXoDX	Caregiver
+pt8fSiDYwW	Pastor
+ptUqmri1/B	IT specialist
+puXmkD6niN	Lobbyist
+py0OV1yQ1T	Systems engineer
+q+R/OmVFZj	Clear telemetry export settings?
+q/ksnYthHI	Manage repositories
+q2bjjQgSUi	Account manager
+q3e4cfMU7E	Bearer token
+q9o2lizqGj	DevOps engineer
+qFpwnvR1QT	Professor
+qMwuBittYY	Religious leader
+qP4wm8bImt	Treasury analyst
+qRYSAivQuA	To make changes to your Canvas LTI configuration, contact your Anthropic representative or reach out to support.
+qReGQG18aZ	Physical therapist
+qXhamskOhU	Microsoft Excel specialist
+qa2MaUihIr	Quality manager
+qnzeCjuRKT	Revoke {name}?
+qxUxifugoS	Quality inspector
+r9ZE86I+AC	Nonprofit director
+rOhNnIgaN0	Estimated usage per seat<sup>*</sup>
+rWmiDOvhwM	Loop: {description}
+rYvvcewdQB	Actor
+rc5qaoE+RS	Designer
+rcZ8QdQjDl	Archive session with uncommitted changes?
+rqJU4EMM7G	Landscaper
+rsXLcZHlrD	Stage manager
+rt1H01paOR	Claude Code (CLI, Desktop, IDE)
+rtRJVSpngy	Plumber
+ruHQE62ynl	Military officer
+rxKQVd2wMs	What can I still do with my account?
+ryHIzs+UIE	Are you sure you want to delete the group "{groupName}"? This action cannot be undone.
+s2fZojW7g2	Bank teller
+s6DBcSJz9Y	Compensation analyst
+s6KUOaELV5	Platform engineer
+sLFV4URXFG	Could not read this file. It may be corrupted or in an unexpected format.
+security/billing/cta_adjust_service_limit	Adjust spend limit
+slXOXs4bQM	Driver
+sv/PbdJxx1	this project's settings
+t8GDcBqlx6	Board member
+t9YGbLtEUC	Entrepreneur
+tO7KIDqgLQ	What's on your plate today?
+tQ1QpNqjb9	Midwife
+tXNvYDFhjq	Civil servant
+taIE1h8043	Politician
+tbWSCmaOBg	Med
+tfPnUTtdI/	Director
+tglNOo/DKz	Grant writer
+tsM+/5lCXz	CTO
+u0BIwSfcLj	Managing director
+u0qI/yUPu5	Insurance agent
+u1rRJ74R0f	Legal assistant
+u6dslcy9Ib	Video producer
+uHuG3QulGO	System administrator
+uOr+P/nXFU	Adding, editing, enabling, or disabling a Canvas instance is currently handled by Anthropic on your behalf.
+uTSSg3isX7	Access token
+uWa/DW4sTS	Economist
+ubx2Y5m1N0	You've created custom roles, but no members are governed by them yet. A member follows a custom role only after their role type is set to <b>Custom roles</b> on the Members page. Custom roles cannot grant features disabled at the organization level. Learn more about <link>roles and permissions</link>. Please review the <setupGuideLink>setup guide</setupGuideLink> when configuring custom roles.
+ucj6WpdJyt	Financial advisor
+uji2rAyFXB	Group Policy template (ADMX)
+upSJFXlKd2	Housekeeper
+uvhT6bpyf0	{count, plural, one {Reading # file...} other {Reading # files...}}
+v8WidgsvWJ	{count, plural, one {Add # member} other {Add # members}}
+vCxbpHgQva	Why are you ending your trial? (optional)
+vJI7emGfDw	How urgent is this? (optional)
+vNKlB5TMdW	Translator
+vRCzG2SouF	Art director
+vYxAJcTGXx	Event manager
+vc044PVYWT	Are you sure you want to dismiss {count, plural, one {this request} other {all # requests}} for {connectorName}? This action cannot be undone.
+vebC0YSl3f	Some settings in your administrator's configuration are deprecated or could cause issues. See Details, or share the report with your IT team.
+vlBOSSVWuK	Streamer
+vow8APvxf4	Archaeologist
+vu7IYZlGWw	More add options
+vzrsBJrs+V	Fashion designer
+w1A4zeclNH	Size of the conversation transcript text.
+wIsS0B2s6J	Full-stack developer
+wVR6ApzMXg	Dietitian
+wWy01tLPKj	Default from {source}
+wdG5bQSKxc	Bus driver
+wetYM3jwzA	Claude Security needs Chat + Claude Code seats. Change your seat types to turn it on.
+wqUIs/2OD5	Are you sure you want to dismiss this limit increase request from {name}? This action cannot be undone.
+wxJ3vz3net	Engineer
+x0iyV36/1i	View by project
+x2vzcMPxee	Certified public accountant
+x4rtCG7QSi	EMT
+xF/aAgrzNt	Mathematician
+xJhxYMg+Cl	claude://cowork/shared-artifact?uuid=…
+xQw7b9ic7S	Talent agent
+xR04uJHex9	Creative professional
+xXr+rGIv+A	Selects the credential source. When set, only that source is used (no fallback).
+xab7HXln1J	Sports professional
+xe/PXEVhGz	Special education teacher
+xgJaV699xi	Medical biller
+xkd3rS8R+W	Academic
+xqDPjoyaj1	Military
+xtIj9gn62S	Flight attendant
+xwUzgHTsDl	Synced · {count, plural, one {# issue} other {# issues}}
+xy65khgd5W	Will my billing be affected?
+y1PTfGjI+s	Portfolio manager
+yCQyxLZXzp	The Claude GitHub App is no longer installed on this repository. <link>Install the GitHub App</link> and try again.
+yDjXz1VVzW	Disable key?
+yJpnrqUbXj	Trainer
+yQ3ro+IJcG	Hobbyist
+yYm4B6fPE9	Esthetician
+ybA8wSOtiP	Sustainability specialist
+ypzSrbPbG/	How deeply Claude thinks
+z09GNnuCQ+	You'll keep access until {date}, and you won't be charged.
+z7l59l6Xkr	Surgeon
+zGOzqI5f3D	{count, plural, one {Running # command...} other {Running # commands...}}
+zH5HFp3/hv	Unable to read file from remote session.
+zJTA0ppA2e	Social media manager
+zJeLQ00e6r	To enforce member permissions with custom roles, go to the <link>Members</link> page and change the member's role type to <b>Custom roles</b>. Custom roles cannot grant features disabled at the organization level. Learn more about <defaultLink>roles and permissions</defaultLink>. Please review the <setupGuideLink>setup guide</setupGuideLink> when configuring custom roles.
+zT/ieMTOnn	Claude Security stopped running
+zToNS1DV/c	Account executive
+zeLZjmyUCu	Web developer
+zikSsHdNuJ	Business development
+ziqM1aiIgP	Couldn't turn on Claude Code on the web. Try again.
+zs2h0DLlYu	Email marketing specialist
