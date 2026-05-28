@@ -1,36 +1,36 @@
-{
-  "claudeVersion": "1.8555.0.0",
-  "generatedAt": "2026-05-28T15:24:07",
-  "summary": [
-    {
-      "file": "ion-dist",
-      "current": 14648,
-      "reused": 13867,
-      "cacheReused": 0,
-      "manualTranslated": 0,
-      "added": 781,
-      "englishFallback": 781,
-      "addedPath": "C:\\Users\\47436\\Desktop\\006_Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\new-ion-dist-keys-1.8555.0.txt"
-    },
-    {
-      "file": "desktop-shell",
-      "current": 373,
-      "reused": 370,
-      "cacheReused": 0,
-      "manualTranslated": 3,
-      "added": 3,
-      "englishFallback": 0,
-      "addedPath": "C:\\Users\\47436\\Desktop\\006_Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\new-desktop-shell-keys-1.8555.0.txt"
-    },
-    {
-      "file": "statsig",
-      "current": 46,
-      "reused": 46,
-      "cacheReused": 0,
-      "manualTranslated": 0,
-      "added": 0,
-      "englishFallback": 0,
-      "addedPath": "C:\\Users\\47436\\Desktop\\006_Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\new-statsig-keys-1.8555.0.txt"
-    }
-  ]
+﻿{
+    "claudeVersion":  "1.8555.0.0",
+    "generatedAt":  "2026-05-28T15:24:07",
+    "summary":  [
+                    {
+                        "file":  "ion-dist",
+                        "current":  14648,
+                        "reused":  13867,
+                        "cacheReused":  0,
+                        "manualTranslated":  154,
+                        "added":  781,
+                        "englishFallback":  627,
+                        "addedPath":  "D:\\claude-desktop-zh-cn\\new-ion-dist-keys-1.8555.0.txt"
+                    },
+                    {
+                        "file":  "desktop-shell",
+                        "current":  373,
+                        "reused":  370,
+                        "cacheReused":  0,
+                        "manualTranslated":  3,
+                        "added":  3,
+                        "englishFallback":  0,
+                        "addedPath":  "D:\\claude-desktop-zh-cn\\new-desktop-shell-keys-1.8555.0.txt"
+                    },
+                    {
+                        "file":  "statsig",
+                        "current":  46,
+                        "reused":  46,
+                        "cacheReused":  0,
+                        "manualTranslated":  0,
+                        "added":  0,
+                        "englishFallback":  0,
+                        "addedPath":  "D:\\claude-desktop-zh-cn\\new-statsig-keys-1.8555.0.txt"
+                    }
+                ]
 }

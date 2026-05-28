@@ -1,163 +1,41 @@
-+3syH4VjJv	Career changer
 +AYBXJNqIn	Counts reflect when findings were first detected by a scan — not necessarily when the vulnerability was introduced. An increase may include pre-existing issues found for the first time.
-+EqGNX0pPR	Supply chain manager
-+IDV5qdzWq	Gardener
-+IIW8aX0N1	Receptionist
-+Tg2ZwY6Gc	Influencer
 +jn5I+1PC9	Restricted by your organization's Managed settings. Update Managed settings or your MDM-deployed configuration to change this.
-+pD1ItWKxt	Underwriter
 +rkY4+8rT0	· in {dir}
 +tRn40sBkg	Adding marketplaces is blocked by your organization's policy. Contact your administrator.
-+vS3H1eZas	Customs officer
-+xKo0c6T1G	Software architect
-/06iwcQHPz	Large
-/0MsrWMCdB	Songwriter
-/YXteHLR8K	Actuary
-/bBN+CgLmb	Ecologist
-/yv6l69CX4	Primary school teacher
-07R0N8PtwA	Program manager
-08fK5mJlTX	AI engineer
-0BXihaWcFe	Therapist
 0LfuDKjQSo	last {period}
-0W02lLUPFi	Hospitality
-0YRp5WE0Wj	Intelligence analyst
-0ecfVQIfO+	Solopreneur
-0jKBnkxLS/	Registered nurse
-0k3ba9Nu/e	Payroll specialist
-0n0KQX3sqW	Psychiatrist
 0uewaBqoIO	This will create a copy of the artifact in a new chat in your workspace. You can <a>view the artifact</a> first.
 0xdmE4r3iQ	The {artifactId} live artifact uses connectors you haven't set up yet:
 13JgRA3twc	{severity} findings over the last {period}: {first} to {last}
-15ABaeyine	Author
-1E+/if8Ti8	Business owner
-1FxELCcuoK	Vice president
 1LuSiVKux0	Manage the organization’s Claude Design settings.
-1TSYwxCuHT	Curriculum developer
-1arWNHyIs7	Physiotherapist
-1nWL5SoYz8	Customer success manager
-1tebkMXtlg	Sports coach
-21ajH7Kc6+	Program and project management
-21ihzcyuTB	Photographer
 24lBjEianV	Get <fm>faster responses</fm> and <cr>automated code review</cr> when you buy usage credits. Credits also cover your team if they hit a plan limit.
 26gd7RckDR	Feature requests ({count})
 2DVLDWETtg	Controls which repositories Claude can reach across your organization.
-2F1wNJk3C5	Digital marketer
-2O7/1Pcuub	Fisherman
 2cq5xykhcF	Complete the steps below first
-2joSL9oY7h	Private equity associate
-31gfvJpZCW	Contract manager
-33Rbzddv0C	Chartered accountant
 359WtO1wuX	Converts to Team plan
-3Ap8PkWTMu	Technical recruiter
-3DsmOqe9q/	Customer support
-3IAAGWUdSi	Financial analyst
-3MKrYxb9kl	Marketing coordinator
-3OH8ucJqPe	Partnerships manager
-3PTbu+mhS/	Product owner
-3a9hdVuHEv	Music producer
-3hYY7wx8vu	Personal assistant
-3jYNk5AHO8	Risk analyst
-3oI1e8hcPi	Train conductor
 3qUj0BnERh	I agree to Anthropic’s <termsLink>Consumer Terms</termsLink> and <aupLink>Acceptable Use Policy</aupLink> and confirm that I am at least {minimumAge} years of age.
-3tyhrCA/2d	Pastry chef
 3vHX/E/Lbl	Email domain not allowed for this organization
-4+BQhbT62u	Virtual assistant
-48dwCgWFgT	Health coach
-4FafIIwjPh	Sales development representative
-4HAanzyDN0	Connectors needed
-4IcVuxCoFu	Microbiologist
-4KQHnOahc2	Welder
 4VHkqjCSyL	Copied {label}
-4VMi/z5/r6	Video editor
-4WzWyUTL9L	Growth marketer
-4ZsAJlUXHL	Cloud vendor profile
-4e5chge1cb	Manufacturing
 4l3NwSf6mB	No changes to commit
 4mIrys9NCF	End trial early
-4qD6K4ue8N	Dental hygienist
-4rEv+5l4IU	Media and communication
-4u3SsVDc3p	Composer
-4x7vudTshf	Sous chef
-56Ty0l1Qfm	Solutions architect
-5C+j0lRpwb	Travel agent
-5HmkKY65Wx	Community and social services
 5IEWALf4Op	detected · {period}
-5J3wuJh+0s	General contractor
-5bPsUlXnsE	Veterinarian
-5kzar+18de	General counsel
-5lLUUnDlv6	Compliance officer
 5qoxO80yaz	* These figures are provided as general guidance only. Actual consumption will vary based on your team's size, workflows, and usage patterns.
-5r8mwp/Cyc	Sidebar
-5xAl+v1+Vi	Operations manager
 5ySixRtO1T	Your organization doesn't have billing set up. Add a payment method to turn on Claude Security.
-6+7THVY7UQ	Comedian
-6+KgI34oD3	Assistant professor
-6CfSKjleUe	Finance professional
-6EugvxUazo	Java developer
-6FDJE2wmw/	Park ranger
 6MlKSs3EXy	Configuration may need attention
-6QJGxRqpxE	Tutor
-6a6UtnOahP	Loan officer
 6gdsBMsCpe	{legacyModel} is no longer available. New replies will use {defaultModel}.
-6i9OHHHVK8	PhD student
-6iFQvkU8r9	Academic advisor
-6ihvmCKJUX	Painter
-6j+DWHD/gC	School principal
-6rirxaZb5u	SEO specialist
-6vF7q7611U	HR coordinator
-6zU6WGR+vV	IT project manager
-7+3ctQcNrf	Career coach
 74+D4V1Hxc	Requires a pre-registered OAuth client. Select ‘Use your own OAuth client’ or CIMD to enable.
-7Eo8fXjApd	Substitute teacher
 7JPLaqJlgw	These figures are provided as general guidance only. Actual consumption will vary based on your team's size, workflows, and usage patterns.
-7Jg7kzOeG6	IT consultant
-7KY0vdRKXQ	Radiologist
-7PU6v6Rhds	Tattoo artist
-7Uy7TiLLN7	IT technician
 7ZlhrDLJqV	Some settings in your configuration are deprecated or could cause issues. See Details, then open Setup to update them.
-7m2SiiFaxI	Line cook
-7n6hPkVn//	Creative writer
-7oYVrUkvog	Technician
-7w5j+X/H7Q	Hardware engineer
 8/8Rm20Y/g	You synced recently. Please wait a moment and try again.
-83Zl4DXLGX	Safety specialist
-8At0WwWzZw	Hair stylist
-8NdOR0omTH	Paralegal
-8PRqo/eU4d	Probation officer
-8UZ3W517TY	Professional gamer
-8c6iN3kiDX	Interactive sign-in
-8cwtFvjUPk	School administrator
-8g4EC5vCgs	Interpreter
-8tq7gVJnDO	Choreographer
-9/rZMhtdXv	Event planner
 9APIZf3JzA	Phase data unavailable
-9ASYrtUmUT	Property manager
-9C+aQWrK+W	Cruise director
 9HK00w9OEg	Try again with {model}
-9QWMTBkrWK	Personal trainer
-9Qy/bfsrPl	Chaplain
-9RkBfXCDxT	Graduate student
-9meawIWGeC	BI analyst
-9mfgnSHEij	Middle school teacher
-9qT7j35avl	Indie hacker
 9yGg5eA0aW	Are you sure you want to dismiss {count, plural, one {this connector request} other {all # connector requests}}? This action cannot be undone.
-9zUIgyspNf	Tour guide
-A+ikgFz6E7	Project manager
 A/5lHt099w	Sorting applies to loaded projects — scroll to load more.
-A3ptulOTB3	Templates
 A4BrxrzuIl	Marketplace not found. Check that the archive URL is correct and the file is available.
-ABGBNvDIkh	Warehouse manager
 AD9Y1CtP8b	Claude Security couldn't be turned on. Try again.
-ADiORY7zzQ	Concierge
 ANPBErKpM2	{done} of {total} agents done, {running} running, {stalled} stalled, {error} failed
-ANVevfHQSO	Creative director
-APQ+N03Fnq	Advisor
-Ae2tDpxXYc	Environmental scientist
-AgPCZX1AJK	Brand designer
 Ahe51s8B/N	Enables in-app AWS sign-in (no AWS CLI needed). Set with the three SSO fields below.
 AoKi1kLX+A	Pay-as-you-go at API rates, billed monthly
 ApEEsgf2Jv	Claude needs to access your Documents folder to read this task.
-Ashsrwq4+p	Executive assistant
 Ax0SF7MMwu	Animator
 Ay+47NECJV	iOS developer
 B0J3CRKqgR	Speech therapist
@@ -198,46 +76,14 @@ DQMTnOEPVv	Sound engineer
 DQS4l4qolC	Dermatologist
 DXPJjS2w0x	Human resources manager
 DgsvWGl75u	IT architect
-Dkl/EIFiQ6	Waiter
-Dt+XpSN5ux	Merchandiser
-Dti0UqAmUx	Independent contractor
-DxPlnLocfw	Voice actor
-E01sx3cGn+	Doctor
 E1kZDdoWFr	OIDC login URL
-E7BiLAdijs	CEO
-E7LFF2+KCa	Scrum master
-E8ThNQCayZ	Chemist
 E8bDIKsxJc	your Claude Code settings
-EBM+ocYPrl	Nurse practitioner
 ECdFElAw3s	ID token (default)
-EGRfCVo/0s	Management consultant
 EQZohHMh08	Earlier messages aren't shown — this conversation is too large to load in full.
-EQpfkSbt5q	Finished
-ERHaTTGXe9	Retail associate
 ETotBgps+I	Your styles have migrated to Instructions
-EWMF2xAC7m	Producer
-EZmVaFr6Ri	Customer service agent
-Ecu4U9R2zO	Freelancer
-EeUHjfldb1	Fitness instructor
-ElGuW5EFqy	Wellness coach
-ElpDyxiyTE	University student
-EmvDrW/JeB	Aerospace engineer
-F2XDqwLg5r	Soldier
-F2wBIntVwf	Stay-at-home parent
-F3yWYb7m3O	Arts and design
-F6oMbij7zR	MBA student
-FLsU4yBfew	Sales engineer
-FSvdnt+rIb	Lawyer
-FT41gaWyga	Motion designer
-FUyl6CpDdp	Farmer
-FgyGI7qPAX	Sales representative
-FiwV/oi580	Read aloud
-FkztHFcDfQ	Veteran
-FoY++i7JJp	Enterprise architect
 FsFttTiQVS	CIO
 FtnXOHZwJv	This file appears to be empty.
 FxwaqQnmgw	Enable all ({count})
-G/Jwzm+3Qv	Job seeker
 GAju6owG0t	Venture capitalist
 GElnq0Kna2	Real estate broker
 GIl7P1orjP	Administrator
