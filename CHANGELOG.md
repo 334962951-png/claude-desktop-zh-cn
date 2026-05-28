@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file.
 - Added `update-1.8555.0-summary.json` for the current release
 - Added `new-ion-dist-keys-1.8555.0.txt` to track untranslated new entries
 - Added 3 translated `desktop-shell` keys introduced in `1.8555.0.0`
-- Added 644 translated `ion-dist` short-label, role, identity, and simple UI entries from the new-key backlog
+- Added all 781 translated `ion-dist` new entries introduced by Claude Desktop `1.8555.0.0`
 
 ### Changed
 
@@ -26,7 +26,7 @@ All notable changes to this project will be documented in this file.
 - `ion-dist`: `14648` entries
 - `desktop-shell`: `373` entries
 - `statsig`: `46` entries
-- Remaining new untranslated `ion-dist` entries: `137`
+- Remaining new untranslated `ion-dist` entries: `0`
 
 ## [1.8089.1] - 2026-05-21
 

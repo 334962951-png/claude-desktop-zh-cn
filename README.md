@@ -16,10 +16,10 @@ Claude Desktop 简体中文语言包项目。
   `ion-dist` `14648`
   `desktop-shell` `373`
   `statsig` `46`
-- 本次新增未补译条目：`137`
+- 本次新增未补译条目：`0`
   清单见 `new-ion-dist-keys-1.8555.0.txt`
 - 历史备份和旧版本更新产物已归档到 `archive/`
-- 已完成两批安全补译：累计 `644` 条短标签、职业、身份和简单 UI 文案
+- 已完成当前版本全部新增项补译：累计 `781` 条
 
 ## 特性
 
@@ -36,7 +36,7 @@ Claude Desktop 简体中文语言包项目。
 - 当前中文翻译目录：`translated-zh-CN/`
 - 当前英文提取目录：`extracted-en-US/`
 - 当前版本更新摘要：`update-1.8555.0-summary.json`
-- 当前版本新增 key：`new-ion-dist-keys-1.8555.0.txt`（剩余 137 条）
+- 当前版本新增 key：`new-ion-dist-keys-1.8555.0.txt`（已清空，全部补译完成）
 - 历史备份与旧版本产物：`archive/`
 
 
@@ -187,7 +187,7 @@ powershell -ExecutionPolicy Bypass -File .\LanguagePack.ps1 -Extract
 
 ## 路线建议
 
-- 继续补译 `new-ion-dist-keys-1.8555.0.txt` 中剩余的 137 个新增条目
+- 后续 Claude Desktop 更新后，重新生成新增 key 清单并继续增量维护
 - 后续 Claude Desktop 更新后，先运行 `LanguagePack.ps1 -Extract`，再复用现有中文条目进行增量升级
 
 ## 许可
