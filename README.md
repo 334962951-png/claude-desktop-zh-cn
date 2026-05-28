@@ -2,6 +2,8 @@
 
 Claude Desktop 简体中文语言包项目。
 
+[GitHub 仓库](https://github.com/334962951-png/claude-desktop-zh-cn) · [更新日志](./CHANGELOG.md)
+
 为 Claude Desktop (Windows) 的界面语言增加简体中文。已同步到 Claude Desktop 1.8555.0.0 的资源文本，并在 3P 模式下测试可用。
 
 使用 GLM5.1 / 自动翻译辅助 + 人工校对，尽量减少机翻味。
@@ -18,7 +20,23 @@ Claude Desktop 简体中文语言包项目。
   清单见 `new-ion-dist-keys-1.8555.0.txt`
 - 历史备份和旧版本更新产物已归档到 `archive/`
 
+## 特性
+
+- 支持一键安装和卸载简体中文语言包
+- 自动提取 Claude Desktop 当前安装版本资源路径
+- 自动注册 `zh-CN` 语言并切换本地 `locale`
+- 保留历史备份，便于在 Claude 更新后继续增量维护
+- 内置英文原文提取流程，方便后续升级版本时继续补译
+
 <img width="75%" alt="image" src="https://github.com/user-attachments/assets/16c330db-6df9-43ca-a333-61172057ad6e" />
+
+## 快速导航
+
+- 当前中文翻译目录：`translated-zh-CN/`
+- 当前英文提取目录：`extracted-en-US/`
+- 当前版本更新摘要：`update-1.8555.0-summary.json`
+- 当前版本新增 key：`new-ion-dist-keys-1.8555.0.txt`
+- 历史备份与旧版本产物：`archive/`
 
 
 ## 前提
@@ -163,6 +181,13 @@ powershell -ExecutionPolicy Bypass -File .\LanguagePack.ps1 -Extract
 ## 开发者说明
 
 - 更新翻译时，可运行 `LanguagePack.ps1 -Extract` 提取最新英文原文
+- 当前仓库默认维护最新活跃版本，旧版本更新产物移动到 `archive/updates/`
+- 当前仓库默认保留历史备份，便于对比资源变化和回退
+
+## 路线建议
+
+- 继续补译 `new-ion-dist-keys-1.8555.0.txt` 中的 781 个新增条目
+- 后续 Claude Desktop 更新后，先运行 `LanguagePack.ps1 -Extract`，再复用现有中文条目进行增量升级
 
 ## 许可
 
