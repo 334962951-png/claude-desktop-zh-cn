@@ -1,0 +1,26 @@
+{
+  "backup": "C:\\Users\\47436\\Desktop\\006_Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\backup-before-1.8089.1-20260520201910",
+  "summary": [
+    {
+      "file": "ion-dist",
+      "current": 14091,
+      "reused": 11744,
+      "added": 2347,
+      "addedPath": "C:\\Users\\47436\\Desktop\\006_Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\new-ion-dist-keys-1.8089.1.txt"
+    },
+    {
+      "file": "desktop-shell",
+      "current": 370,
+      "reused": 354,
+      "added": 16,
+      "addedPath": "C:\\Users\\47436\\Desktop\\006_Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\new-desktop-shell-keys-1.8089.1.txt"
+    },
+    {
+      "file": "statsig",
+      "current": 46,
+      "reused": 46,
+      "added": 0,
+      "addedPath": "C:\\Users\\47436\\Desktop\\006_Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\Claude Desktop 简体中文语言包\\new-statsig-keys-1.8089.1.txt"
+    }
+  ]
+}

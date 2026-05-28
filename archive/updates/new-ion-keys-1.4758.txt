@@ -1,0 +1,788 @@
+Added keys: 787
++3dQ8dsCYA	Couldn't save image.
++5F39RhvzJ	Evaluate architecture tradeoffs
++DFdFHgmud	Write an investor update
++EKGekH4j6	Match a writing style
++KfP5/XHxP	Move pane down
++P1qz9Jtew	Claude can use all unrestricted tools from these connectors — including writes — without asking for permission during runs. Remove any you don't want the agent to access.
++RhnH+vFLO	Empty
++T+zIDo6RW	Recheck
++d+wuJukpP	Set a data retention policy that matches your organization's requirements
++eCdFutY11	Read my eval metrics
++sKYgsF4NG	Crawl hasn't started — check that the Claude GitHub App has access to {repo}. Remove this repository and reinstall after granting access.
++sWw9INPXA	Set up single sign-on so your team can access Claude with their work credentials
++z1Ehk864m	Find my funnel drop-off
+/+2pQlKCPR	Your organization has disabled usage.
+/0kKb79sRu	<bold>Act without asking is on.</bold> Claude works, uses connectors, and browses the web without pausing for approval. <link>See safe use tips</link>
+/4hWf27rYg	I'll paste a writing sample, then share my draft. Analyze the sample's voice, sentence rhythm, and tone — then rewrite my draft to match it.
+/CbMIy5Lr5	Turn any idea into a diagram, chart, or visual you can click and explore.
+/HsT2PY0bw	{months, plural, one {# month} other {# months}} on us. Enter your work email to get started — we'll send you a sign-in link.
+/ITMq7gLY2	Outline my pitch deck
+/K9pfSQfHg	Artifacts that stay up to date
+/MflJmPNOU	I need a draft — I'll describe what it is and who it's for. Ask me for any details you need, then write a first version I can edit.
+/TYk+Fa2lO	Explain a legal concept in plain English — I'll name it; cover when it typically comes up and how it affects the parties involved.
+/VZAxwZ+u3	Draft pull request
+/byt/0F8Lp	Don't use device management? Team members can install directly from <link>claude.com/download</link>.
+0685INOwNB	I'm putting together a deck. Ask me about the client and the ask, then outline the story slide by slide.
+0A8Qa2Siv+	Give me a consulting deck structure — executive summary through recommendations — with a note on what to put on each slide.
+0EIcJkhauP	{count, plural, =0 {No browsers connected} one {# browser connected} other {# browsers connected}}
+0F2JlC7K47	Hub
+0b4wc308eP	Tighten my writing
+0bZdVXY0/q	Redeem your {partnerName} Team plan offer
+0oZ3Nu5ZdK	Review and run
+0vTMSdGW5Z	Claude will work without pausing for approval. This can put your data at risk. <link>Learn more</link>
+1+Gp2ANJql	I just signed up. Pick one concrete, useful task we could finish together in the next few minutes and start on it right away — don't give me a menu of options. If you need one piece of information from me before you can produce anything useful, ask just that one question first; otherwise, dive in.
+11BzxiLBAG	That signup code isn't valid for this offer.
+144iuH/PdL	Simplify my method for outsiders
+18R7JWx/B9	I need to explain a scientific method to a non-expert audience. I'll describe it — help me draft a plain-language version with one good analogy.
+1F/ulLHUxF	You said:
+1F7QTPr/wt	Turn my user story into Given/When/Then acceptance criteria — I'll paste it below. Show me one example first, then write the rest.
+1Pmrykl86d	Cowork runs in the Claude Desktop app. Deploy it centrally through your device management tool to manage installations and updates in one place.
+1b0HQC3cs5	{count, plural, one {# skill installed} other {# skills installed}}
+1gedvXbdcu	Cowork is generally available. Your network egress settings apply to all sessions.
+1o2vhVev7O	End with a quick check: is this the right direction, or should we adjust?
+1qoUgleiO5	Research isn't available while using {name}
+1woMZk+tqp	Manage marketplaces of plugins that members of your org can browse, install, and customize. <link>Learn more</link>
+1xrYFsraHs	Your Pro plan includes enough usage to get a feel for {product}. Upgrade to Max or buy extra usage to keep going.
+2/wYS2KHSQ	Some required fields are missing or malformed. Open Setup to finish configuring it.
+24xrcl01g8	Merge conflict
+2635clxyay	Drawing tool
+2AD+gsSTsJ	Review my engineering design spec for gaps, unstated assumptions, and failure modes. I'll paste it below.
+2AHLZhDni7	Untriaged
+2D8M6eIlMd	{category} ({count} events)
+2PFEOyyUry	Control network access and IP allowlisting
+2WS9gj9Rno	Explain something clearly
+2ZtFgxDAvp	Draft something for me
+2cj4Og2Jq7	I can help with pretty much anything—work, projects, figuring stuff out—but I’m a lot more useful once I know what you’ve got going on. Give me a couple minutes and I’ll make this feel like yours:
+2fp/G+mLiJ	Draft a patient handout
+2fsHJsA0ub	Queued to merge
+2lvUeg0WXQ	Summarize a paper
+2o0mNzA7Oa	Scheduled — first crawl will run overnight.
+2prY0bg+zV	Explain compound interest (or any topic I name) as simply as possible, then ask me a question to check I've understood it.
+2yvJEvJj0e	Administrators may re-enable certain non-covered features from the admin console. If re-enabled, your organization is solely responsible for ensuring that its Workforce does not use those features to process PHI and otherwise uses them in compliance with applicable legal obligations. See the Implementation Guide for configuration requirements, workforce training, and the full list of Eligible Services.
+30ip9v3tZL	Draft an SOP
+39PtLDGPIz	Instagram
+3DYXDfHeCm	Access to this offer was revoked for your account.
+3HmANJmoHG	Pick whichever’s easiest:
+3UQ+MSyRCe	I connected my Gmail
+3WQ9SJEp/j	Get cursor position
+3dENqVsRxB	chats
+3gnAjAC77g	Roll out with SSO, central billing, and admin controls
+4/679QeFQI	Help me plan a quick usability test — tasks, what to watch for, how many participants.
+4/vsXnLTRP	New cloud environment
+48bmSb2Weq	Explain how to design an approval workflow that scales — covering sequential vs. parallel approvals and how to keep it from becoming a bottleneck.
+4EAtPWhM42	Anthropic Sans
+4NnA2n6wWF	Confirm bug
+4Rw9O+MXf/	Couldn't start
+4YqpRgbuFg	Chrome instances signed in to your account that Claude can automate.
+4mtn18CSM2	I'll paste an HR policy draft below — please review it for clarity, coverage gaps, and anything employees might misread or misapply.
+4zIlUPWThW	Or just say hi…
+4zOvK89/in	The provider didn't respond. Check your network or VPN, then try again.
+53IQphKHIU	Explore my dataset
+57pjl5bO3F	Manage usage
+583tzYNO8w	Build a client deck
+5Ck6KTu2aN	Connected browsers
+5FRpr/k+Z1	Help me map an account plan for a target customer — stakeholders, blockers, next steps.
+5NeeG2lUlb	Sign up for a Max, Pro or Team subscription to connect your account, or use your API key.
+5Wdh7PoZGi	HIPAA compliance restricts your organization to the Eligible Services defined in Anthropic's BAA and Implementation Guide. Features that are not Eligible Services will be disabled by default. Administrators may re-enable certain non-covered features from admin settings and accept responsibility for workforce compliance.
+5WgK3YHf/y	Invalid email address
+5ZE6CqtAQY	Remove repository?
+5hwWK48bs8	Draft contract clause
+5j7bd5H/l2	<bold>High risk:</bold> Claude can act anywhere on the internet, which could put your data at risk. <link>See safe use tips</link>
+5lixZ+ZXMN	Issue opened
+5vdtTOLbDN	run skill
+60YXvmzIxf	your provider
+63FzSOhPt/	Sites blocked in your account's <link>Claude in Chrome settings</link> will stay blocked.
+68BwAWyYLs	Failed to install Bugcrawl. You can try again.
+6RINGEEO1W	Fix invalid value for {field}
+6SOwO4oo75	Failed to update environment. You can try again.
+6ZP5OA4tpJ	Draft a cold outreach email for me. If I haven't shared them, ask for: who I'm targeting, what I'm selling, and the hook. Then write a short, specific email.
+6g5cOVBsLQ	Connect {name}
+6i1K2q+DXI	Or enter owner/repo directly
+6mECp59iis	Help me plan the rollout of a process change — sequencing, owners, comms.
+6wdkHJyrN6	Plan my week
+78SRtbTqHI	Help me build a 30-day onboarding checklist for a new hire on my team.
+7G8vRXjEWS	Already on the base branch — check out a feature branch first
+7GCvHA5do9	Give me a step-by-step framework for planning a module refactor: how to sequence changes safely and what to test at each stage.
+7IQgds8u1T	Walk me through the most useful consulting frameworks — MECE, issue trees, hypothesis-driven problem solving — and when to reach for each.
+7JOC2r88CJ	Issue opened, edited, deleted, etc.
+7PpIRe7tuL	Reserve a name now; your app's URL switches on the next deploy.
+7Rs6WZbci3	Projects you create will show up here.
+7UETpE/OHp	I'll paste my dataset (or describe its columns) below — then help me figure out what to look at first and which plots to start with.
+7YNS3Brah9	Abstract from notes
+7ZWE+v/Zjn	Create an RFP template I can fill in for a vendor. Include sections for scope, requirements, evaluation criteria, and timeline.
+7iFJ6SiLGm	Your saved payment method was declined. Try a different card.
+7l2Q3afHt9	Plan an eng project
+7m+xur1GM0	File manager
+7mPTCryx4c	I'm planning a study. Ask me the research question, then help me think through methods and what could go wrong.
+7n48aLMqgL	Review my research design
+7o2/DKHv/F	Help me debug a stack trace — I'll paste it below. Walk through it and point to the likely root cause.
+7pfPwxrrdn	Design a research study
+7uxoiAwd82	{label}, Beta
+82HqDmrGjR	Pull request closed
+8D3mephZ0Y	Plan an onboarding checklist
+8HDfPQ35bp	This action cannot be reversed.
+8O3LNjnIh0	No scan has run yet. Findings will appear here after the overnight crawl completes.
+8PCuRWy+fX	Search across your whole organization
+8QTUnx+CLQ	Connect this connector to see its tools and set per-tool grants.
+8Yyc5WLmCb	Accept and bypass permissions
+8dbgSEhrkR	More accept options
+8dcRa4i+v2	{count, plural, one {# completed routine hidden} other {# completed routines hidden}}
+8m5YZjdK6Y	After enabling, your workspace will be limited to the Eligible Services defined in the BAA and Implementation Guide. Products and features that are not Eligible Services (including MCPs, Claude in Chrome, Cowork, and beta features) will be disabled by default for all members of your organization.
+8rn8rv6K0z	Remember information across conversations, starting from this one.
+8zBBdLtuin	Results update as you type. Press Down Arrow to go to results, Escape to return here.
+9CCNOjY/15	Enter to send{sep}Esc to skip
+9EdugiROwS	Resize pane rows
+9I7DPE4o5c	Draft a grant paragraph
+9Ic3U/9KsP	Auto-Allow disabled by your admin
+9Vk2Qm8I/Q	The {currency} amounts may vary based on exchange rates at the time of payment.
+9ZmrLfC43g	Refresh browser list
+9bXFecTyCs	Discovery
+9hA+O+0U7j	Broadcast connection request…
+A+cZ6lHV2K	Couldn't start that task. You can try again.
+A0KOo1PuQv	Draft a job description
+A3jj9z+p5h	Font
+A7w4nlWBJD	Couldn't reload tools from the server.
+A8Vn9qgqHz	Select workspace
+AFXhwydbvF	{provider} returned an error
+AG/HRUI3ML	{count, plural, one {# email is} other {# emails are}} not a valid address. Remove to continue.
+AOt6Q2hQVT	Stress-test my model
+AcYY99kWGZ	Help me respond to a legal demand letter. I'll describe the type of demand and our position; draft a measured opening response.
+AjBEo6D5fm	Write a first draft from my notes or brief. Match the tone and length I describe. Here's what I'm working with:
+Al+2UJn0fa	Draft a board memo
+Ao1+HpCJOZ	Classify session states
+BCkbqDNgmw	I’ll **remember what matters**—your work, how you communicate, what you care about.
+BGnO+YbNOZ	I need practice questions. Ask me the topic and difficulty, then write a short quiz with an answer key.
+BLvFp/0xiz	{state} for {tool}
+BNh7qKasB4	Help me prepare for a difficult conversation with a patient or family — breaking bad news, goals of care, or a family disagreement.
+BRcD7K7M3Y	The provider rejected your credentials. Re-enter them in Setup.
+BWsKrS3rFm	I need to have a difficult conversation with an employee. I'll describe the situation; help me plan what to say and anticipate how it might go.
+BX2m3FDfKM	Submit application
+BYzWUvJ+ZR	Claim your offer
+BZ0HN6YoR5	Help me compare engineering design options. I'll describe two approaches; weigh the tradeoffs and tell me which you'd pick and why.
+BixyJI+yq4	Design a study
+Bje47V7LU2	Provision with SCIM and role-based access
+BpuMwRROLB	Delete group
+BtUHC7dIF8	Work with bigger context (200K)
+BwMdhsfjS+	Your org is out of extra usage for the month
+ByoFECT9lO	Only the primary owner of this organization can enable HIPAA compliance.
+Byxi/3fzCp	{count, plural, one {# shell running} other {# shells running}}
+BzvY01UAmb	(no description)
+C/BbrTuDw+	Resources:
+C2CIgCALDk	Sending
+C4qBGynGSq	No browsers connected
+C6mP13h42J	Dismissed {name}
+CCB7HOX+Qa	{name} connected
+CFnbO5Uzcb	I've got a function that works but isn't great. Ask me to share it, then suggest a cleaner shape and walk me through the trade-offs.
+CNgy/YiToX	Help me survey the literature on a topic I'll share — map the key papers, name the active debates, and point to gaps worth exploring.
+CNzhBRtoSg	Your organization is not configured to process Protected Health Information (PHI) through Claude. Enabling HIPAA compliance allows you to execute Anthropic's Business Associate Agreement (BAA) for this workspace and limit Claude to the Eligible Services covered under that agreement.
+CSZ0IZC0ZV	We couldn't confirm your eligibility
+Cemj16yaPj	Final tax calculated at payment.
+Citc3lpQEW	⌘ Enter to send{sep}Esc to skip
+Ckcm/UElFV	<b>Before you continue:</b> If you have an existing Claude Team or Enterprise plan you intend to migrate to this AWS Marketplace contract, please don't proceed. Your Anthropic representative will reach out with next steps.
+D/DS8emBAE	Help me draft something
+D3iizT4MWt	Enable HIPAA Compliance
+D902pBVuIt	Review my design spec
+DCKOGNsWUU	A key metric moved unexpectedly. I'll share the metric, the change, and timeframe; help me list plausible causes and how to test each one.
+DEAz+d7FOi	Not a member of your organization
+DM+Rwx77E9	Failed to delete SSH configuration.
+DP3r2prxgK	Use a different card
+DPkqcvBVSG	Draft a contract clause (e.g. indemnity, NDA, limitation of liability) in plain language.
+DTTb3f6/u/	Download the BAA to continue
+DcxKisJJ3D	Questions? Reach out to <a>{email}</a>
+De0g+7jPxI	Repository actions
+Dja1nAdMHW	Confirm payment
+DspVBHah9T	Save to memory
+E1ikKaPExD	Work with the biggest context (500K)
+EKRek+OcnP	Branch hasn't been pushed to GitHub
+ES15uPcoB9	I need to write a proposal. Ask me about the engagement and scope, then draft something I can refine.
+EToNP0tHpN	<bold>Act without asking is on.</bold> Claude works, uses connectors, browses the web, and controls apps on your computer without pausing for approval. <link>See safe use tips</link>
+EUBapkYIWc	Connector discovery turned off — change anytime in Settings.
+Eajr9gyb0U	Stress-test my business model
+Ed4oKkPn9Y	Help me prep for a discovery call — questions to ask and traps to avoid.
+EvIK3TSIYs	Waiting for you to choose a browser
+F5WbqYocp8	Cowork is included in your plan with limited usage. <link>Learn how to use it safely</link>.
+FFns8I3V3B	Pick a concept I'm likely struggling with and explain it like it's my first time
+FHWOyGntK9	Setup progress: {filledCount} of {total}
+FPL4gR1TQh	Couldn't find the original skill to update.
+FQSdPxLNeK	Invalid: <b>{label}</b>
+FXDQLhbOSG	SCIM, role-based access, and IP allowlisting
+FehpsDg+98	All Projects
+FlOIWrOk0F	I'm planning something longer. Ask me the topic and angle, then sketch an outline I can react to.
+Fw/6rEReIC	Think of these as reusable starting points you can tweak later. Uncheck any you don't want.
+G7UOuc5h1o	Connecting to browser
+G9Brin1cKc	Think through a differential
+GCGbL5TuL7	A Claude gift membership gives someone access to Claude Pro or Claude Max for a set period of time. They'll get all the benefits of a paid subscription, including access to our latest models, Claude Code, and unlimited projects.
+GHRzoS0vqm	Remove {item}
+GMmmGPdXK+	Custom names aren't enabled for your account yet.
+GXLyPF1qmH	This crawl runs once and may incur significant cost. Your org admin will be notified.
+Gd3JU2QJ4l	We couldn't verify that link. Check it and try again.
+GeTE30KFyq	Help me prep for a client meeting — agenda, the questions to drive, likely pushback.
+Gg6OYlDghZ	Your usage allocation has been disabled by your admin.
+Ggk7AI3p66	Quick
+GkOJSaQw8N	Then start working: produce the first useful output right away — a draft, an outline, the first part of the answer. Don't describe what you could do; do it.
+GsO+rHn8LV	Delete project?
+GuZUAqZVJU	Break down a concept
+H+ePS+qZwA	The database has already been provisioned
+H/dEo4vSUv	Pick the right chart type
+H1DZD29UZn	Safe use tips
+H7bR0gWKKj	An administrator configured Cowork with settings we can't use. You won't be able to start tasks until your IT team fixes it.
+H8uWPfMPJh	Connected browsers
+HA12YI5ymR	({local})
+HCtWJ4PfvT	Walk me through a framework for diagnosing and improving ML model performance.
+HHjuhDZGjH	Application submitted
+HJh/wQKFrR	Act without asking?
+HKCzAXA/Ed	We're reviewing your application. You'll receive an email when it's processed, usually within 1–2 business days.
+HSAwr9CeHi	Audit logs, Compliance API, and data-retention controls
+HSK7hAyeOD	Your payment succeeded. Credits will appear in your account shortly.
+HYKsy970rd	We sent a link to {email}. Close this tab and click the link in your email to continue redeeming your offer.
+Hj9+1e8iWE	That name is already taken.
+HkDPaoKySM	We could not enable HIPAA compliance. Please try again or contact support.
+HpC1rD45hD	Claude controls the board. Try: “set up a board with my workstreams and active agents.”
+HqlBRpo6tx	Relaunch to update
+Hr056yyz3M	Mouse down
+HsVMyHuq5H	Device ID: {id}
+HtVAJyp6/g	Enable domain capture to automatically route people from your domain into this workspace
+I/GD7m7rBn	Save app name
+I/Wav5bdMN	Save my setup
+I1DHEXQk5F	Rectangle
+IDmR0u1fTg	What I picked up about you, kept across chats so you don't have to repeat yourself.
+IHT65KskwZ	Move mouse
+IMXShI1fd9	Say in one sentence what you're going to help me do, so I know we're aligned.
+IOSBPWdNr6	Think through a differential with me for a presentation I'll describe — for learning, not medical advice.
+IW02c5YV6K	Test my function
+Iaq0DNUS9V	Accept and allow edits
+IdGJer/vk4	Software engineer
+IgQnqmSkai	Summarize a clinical paper for me — population, intervention, outcome, and key caveats. I'll paste it below.
+IlnanrGpop	Something went wrong. Contact support if this keeps happening.
+In7XHZPlKn	{hostname} will be automatically added to Cowork's <link>network egress allowlist</link>.
+IqOnDJqaxS	Your Pro plan includes enough usage to get a feel for {product}. Buy extra usage to keep going.
+IsAX+f4c7y	⌘ Enter to continue{sep}Esc to skip
+It0W+f0c6m	Couldn't reserve that name. Try again.
+IuIUEQW5F/	Impact score {score} — Claude's estimate of how likely this bug is to cause real-world failures
+J3vPZ97skk	Couldn't save this skill. Please try again.
+J5/5Ub5l+Y	Crawl now
+JIOgZ/2kWi	Edited {time}
+JLeEBrmTLQ	Plan an annual budget cycle
+JMX8pxuNfB	I keep running into a code pattern and want to understand it. I'll paste an example — explain what it does and when to reach for it.
+JPZdPHiWn8	Summarize a clinical paper
+JWcfgQRlx7	Implementation Guide
+JkumrVLqpc	Help me respond to a sales objection without sounding defensive — I'll share what the prospect said.
+JlTXalY8bw	Summarize the contract I'll paste below — key obligations, deadlines, and any red flags or unusual clauses.
+JpBJaltPJi	Brainstorm ideas with me
+JwzywIJex6	Code session started
+K0BeG04X9q	I'll paste a paper below. Summarize it covering: contribution, method, key results, and what it doesn't show or can't claim.
+K9gSYy0Ltp	Audit a user flow for friction, dead ends, and unclear steps — I'll describe or paste the steps.
+KFr8VK8kjk	Ask Claude to show you
+KMo4o7ux3V	No findings yet — crawl in progress.
+KNFWQ+T1/T	Match system
+KODL04UyPx	Tools list refreshed
+KUGYej2bBv	Attached image
+KvCx9d4Oog	(no instructions sent)
+Kyzsup14KS	I'll paste my answer below. Point out where my reasoning goes wrong — explain the flaw, don't just give me the right answer.
+L1Fm2JNz6q	Flag contract risks
+L3HkMgBFnj	Claude Code is included in your plan with limited usage
+LBpU0Kx8rs	Deploy Claude Desktop
+LC4dx0yY+v	Install and run now
+LFRn8aVcS+	Help me plan a lesson. Ask me the subject, level, and time I have, then lay out a structure with activities.
+LFii8l3lP9	.claude.app
+LLa7VSv+Bj	<b>{title}</b> and its conversation history will be permanently removed.
+LStwu4n1yT	Act without asking
+LUIXrjfc8K	Design an experiment
+LZhhTdZ8Et	Move pane to top left
+Ld3pSsoBck	Back
+Ld3pSsoCde	Confirm this code matches the one shown in your browser.
+Ld3pSsoHnt	Approve the request in your browser, then return here.
+Ld3pSsoIpc	Sign-in failed unexpectedly. Try again.
+Ld3pSsoPnd	Opening your browser to sign in…
+Ld3pSsoSub	Sign in with your work account
+LfaLyyAW8v	Plan a campaign calendar
+Llabya+Ocy	Setting up plugins...
+LntqzQpNrX	Find friction in my flow
+Lpd1XNQ5sG	Try Cowork and Claude Code with limited usage
+LvLxsnAfn4	Reveal transcript file
+Lyqil1apTo	Enabled by {email} on {date}
+LzrJWgzbU1	Reddit
+M+OMP3gb/i	I've got a pull request I'd like a second pair of eyes on. Ask me to share the diff, then point out bugs, edge cases, or anything that'd trip up a reviewer.
+M/i1B/sAk+	Confirm you accept the BAA and understand this cannot be undone
+MCPW+2vNFH	Select events from a single category — filters can't span pull_request and release.
+MGqbo/jEtS	Create a one-page PRD outline template with sections for problem statement, goals, scope, and success metrics
+MS4FXVJgyN	Claude can use all unrestricted tools from these connectors — including writes — without asking for permission during runs.
+MSmBnvqAot	Checking connected browsers
+MjdaSP6ppx	Rename project
+N/nVEY1mJ/	Ship code and hand off tasks on every seat
+N6pFRd5PSr	Your workspace is ready for your team. Revisit the admin guide any time for SSO, usage limits, and more.
+NFwCG8Qcnq	Sites blocked in your organization's Claude in Chrome settings will stay blocked.
+NKQ6+2wNhL	Out of usage
+NMR4NIt3uJ	Verifying eligibility…
+NNk8EA87Ea	Deploy for macOS
+NPQLBdf6b2	Debug a stack trace
+NQsZAnMpGY	Allow Claude to fetch a page from <bold>{domain}</bold>?
+NjvrSeeka8	Hey, I’m Claude.
+Nq8e0A+cqt	Invalid offer
+NzlFrb/xCm	Couldn't load workspaces.
+O0InXqTIa2	Put Claude to work on tasks while you step away. <link>Cowork</link> is now available on Pro.
+O3MYVaIwRS	Saved as <b>/{name}</b>
+O6OPwZlzlS	Include completed
+OBlBKNC812	I'm scoping a research area. Ask me the topic, then map the key threads and where the open questions are.
+OHZHdhvGFN	Outline my essay
+OKpI985Pqc	Hub session — ask Claude to set up your board.
+OMNHDzYzLm	Move pane bottom-right
+OVqA9c2xmu	Failed to start crawl.
+OdIq2N0iHf	Complete · {count} findings
+OeUuN2jMpD	Accept and auto mode
+OgmA2wd1ok	Session couldn't be created. You can try again.
+OlUz+cTPHP	Frame a budget variance
+OunijE+cai	You'll receive
+Ow0lyar+J/	Explain approval workflows
+P7Gsz0n+vA	Write microcopy for a UI element I'll describe — buttons, empty states, error messages. Ask what tone fits our product.
+P8Pu8RIEkd	Campaign copy variants
+PCSt5TwTnx	Preferences
+PEZU0p9nAQ	Researcher
+PQA/PDYqMy	Pick one foundational stats or ML concept and explain it clearly — what it is, why it matters, and a small worked example. Then ask if I want another.
+Pdj6VWB5RG	Updated <b>/{name}</b>
+Pe0ogRZhIF	Theme
+PfxzLvm3Da	Checking…
+Pj8J8VQe9d	No pull request
+Pnui1EO3c+	Agree to the terms below to continue.
+Pq3xtXwwXq	Ellipse
+PrkyZZFZtZ	Setup guide
+PtLljQFg5D	Which one?
+Q119IAIBiR	Failed to update finding. You can try again.
+QFymnnrzmR	Dreaming
+QHhNtxVPGF	Line
+QLkzoSyiQs	Saving
+QTkwKPUFtf	Loop prompt
+QUbwO4nVxX	Copy report for IT
+QgvHTLxEa/	Reset access
+QioDnN9esd	Structure an analysis
+QpvgT6ZTTn	No repositories yet. Add one to start crawling.
+QugFfH6JLb	That name isn't available.
+QworyB/b//	Weigh a hard decision
+R+PcigaQot	Respond to a legal demand
+R9nhxnjq8d	SSO, domain capture, and central billing
+RBeBKRyyOK	Run on a recurring cron schedule or once at a future time
+RDbJYdDpK8	Help me plan my week. Here are my tasks (replace with yours): finish report, schedule dentist, prep for Tuesday meeting
+RMh+ORMoWc	Crawling — {pct}% complete · {count} findings so far
+RQrN2d8wg9	Give me three copy variants for a campaign — I'll paste my brief and CTA below. Try different angles (urgency, aspiration, social proof).
+RS5cyWd7p2	Failed to create environment. You can try again.
+RSOztRtXRO	Starts now · approximately {shards} parallel sessions
+RSfWdfCRJ4	Permission for {connector}
+RW/OgjdrxF	Code with Claude
+RaHHgwG2+U	The admin email domain doesn't match this organization's domain. Double-check you entered the right organization ID.
+Rb/hb951oE	LinkedIn
+Rb5Xk94v+l	Remember my choice for this artifact
+Rf2BmI0YwG	Claude will help you find available connectors in your directory. Change anytime in Settings.
+S6UTQy8TyU	Some fields need attention before you can submit.
+S8SifF7ozV	This offer is no longer available to you
+SUut3WKCHI	Nice to meet you.
+SkeJ2jZe5A	Failed to refresh tools list. You can try again.
+Smt3tykQa9	Got it — here are a few places we could start.
+T+Kr97NzhZ	Map an account plan
+T32Nq+pp8l	I'll paste a contract below. Flag the clauses that carry the most risk for my side and briefly explain why each matters.
+T33X2yu4SS	Map the competitive landscape
+T5EpE7iGMy	Review my methods section for clarity, reproducibility, and missing details. I'll paste it next.
+T8KHp3Z9Ej	Brainstorm 4-5 angles for an article, with a punchy one-line hook for each. I'll share the topic next.
+TGcsPhpoYw	Freehand pen
+TJsByVO95W	I want to write something. Ask me the format and audience, then draft a first pass we can shape together.
+TQF6+7wVoI	Almost done…
+Ta6zu8le38	Diagnose a student misconception
+TaI0fepKbN	You'll pay
+Tc1R6xAZMh	Create an interactive version of the periodic table
+TcZazFieTF	Crack a client case
+U22D2u+7yn	Help me scope an engineering project: phases, dependencies, and risks.
+U2sDX/og9N	Help me write a technical document — an RFC, design doc, or runbook section.
+U3dunYxxHa	Move pane to bottom left
+UM3ZCL13Uk	Do more with {product}
+UN8lbO6Nou	Enter to continue{sep}Esc to skip
+UQXG4vYSXA	My Server
+URMKCp9hxi	Sign up for a Max or Pro subscription to connect your account, or use your API key.
+UdbAYzep45	Boost model performance
+Udvs+En60A	You've already applied
+Uj5zPEHmrp	Can't reach {host}
+UmjYo+o40J	I want a clearer way to explain something. Ask me what it is and who it's for, then give me two or three angles.
+UntW78doSE	Connection failed: {error}
+Uq7XJOqbGR	I'm a product designer working on a mobile app, and I'd love help thinking through onboarding flows…
+V+LrNK0onT	Find article angles
+V46uwF2QKb	Interview questions from JD
+VBKiCyScAn	My students keep getting one concept wrong in the same way. I'll describe what they do — help me diagnose the misconception and how to reteach it.
+VIqFN+u6iU	Draft behavioral and role-specific interview questions. I'll paste the job description below.
+VYNR7Ewy69	Map & fix a process
+VrW1V5UWAl	{summary} ({count, plural, one {# failed} other {# failed}})
+W/gs7FTQUq	I have a paper to get through. Ask me to paste or describe it, then pull out the contribution, method, and limits.
+W7aIoUd18K	Couldn't sign in to {provider}
+WBB9SynFwv	Give me a quick-hit explanation of one tricky finance concept — like DCF, accrual accounting, or working capital — with a concrete example.
+WBI1EoDBmT	Pay <b>{amount} + tax</b> with {brand} ••{last4}
+WD3l3Z+wbq	Cowork is available in the Claude desktop app.
+WJQkVdn/y/	Consultant
+Wj5TbNJP8W	Issues
+Wje83O5VMa	Draft a job description — I'll share the role title and key details.
+WkPQRKGkjp	Brainstorm with me
+WqonWkjtfL	OTEL export
+WvdS95YAji	<bold>High risk:</bold> Claude can use connectors, browse the web, and control apps without asking. This could put your data at risk. <link>See safe use tips</link>
+Wz7TEnXpR2	Based on that, pick the single most useful task we could finish in the next few minutes and let's get started — don't give me a menu.
+X++cN7FICT	This connector is receiving too many requests. Wait a moment and try again.
+X+8YJBw3rU	No projects match your filters.
+X23z11ToUx	Prep a tough employee talk
+X2MF2snv7H	I'll paste a function next. Ask me the language and test framework if unclear, then write unit tests covering the happy path and the edge cases that matter.
+XCcNiNeA5Z	Help me outline an essay — thesis, body sections, and what each should cover. I'll paste my essay prompt or topic next.
+XHacYyNvDk	Install failed. Please try again.
+XNAhD6PkvS	Review my sales pitch and flag where it loses momentum or sounds generic — I'll paste it below.
+XOADzDn5qJ	No versions captured yet. Snapshots are saved automatically as you build.
+XOs72jtV/E	Your organization has been configured to process Protected Health Information (PHI) through Claude in accordance with HIPAA compliance requirements and the executed BAA.
+XUemf/Tsxk	Explain a code pattern
+XVp5P+fJAL	Polish an HR policy draft
+XWv7UbE7Pt	Add cloud environment…
+XZO2PtcKAh	Survey the literature
+XkiDWR9Pyd	Hang tight — we're still reviewing your application. You'll see the result here in a moment.
+XmeqihuS93	Review the following PR diff for bugs, readability issues, and edge cases. I'll paste the diff below.
+XtFMZX5Xhj	HIPAA compliance restricts your organization to the Eligible Services defined in Anthropic's BAA. Features that are not Eligible Services will be disabled by default. To learn more about Eligible Services and how to configure your organization to remain compliant, download and review the Implementation Guide.
+Y/vx7nLNtS	Prep for a discovery call
+Y2DeY6Relg	No bridge session found. Start one from your CLI, then refresh:
+YA40dw3pEX	Import memory from other AI tool providers
+YLcp+eluei	Couldn't turn on memory. You can enable it from Settings → Memory.
+YNviPDNbFs	Build a lesson plan
+YScydo43CK	Claude Max or Pro is required to connect to Claude Code
+Z+L2i/YjpS	Review my pull request
+Z/L5eHjaVv	{name},
+ZA4ifEIe2U	Reply to Claude…
+ZDPJGpNgBl	We couldn't load this offer right now. Try again in a moment.
+ZG6Ev35WVm	Controlled by your organization
+ZGjreOZXXE	<b>Only connect if you just started signing in from a Claude add-in.</b> This code should match the one shown there. Otherwise, close this tab.
+ZHnjBp9Sl+	Polish my draft's clarity
+ZKiKG+Tbwj	Failed to save environment variables.
+ZMK9Ub22Wu	connector tool calls
+ZP0h8q6l3g	Give me a framework for prioritizing backlog items by impact and effort, and show me how to spot the easy wins. I'll paste my items next.
+ZPCkLpNuEB	Brainstorm ideas with me — I'll tell you the topic and you push back where it helps.
+ZZOlcBlumj	I'll paste a piece of student work next. Give me a constructive feedback framework, then apply it once I share.
+ZZolQZZzUf	Tools you already use — connect now or anytime from Customize.
+Zg9Q7PicU/	Debug a failing test
+a7j0mz6myW	Summarize a contract
+aBXL6/1+6R	Use Gmail
+aEpLJv00jR	Draft a structured scientific abstract from my bullet points. I'll paste my key findings, methods, and conclusions — you handle the framing.
+aIbdwIrEbf	Starting task…
+aJHxdMSalD	Failed to rename project. Please try again.
+aKhMMh+fOM	Failed to load environment variables.
+aWLNysX9i4	Critique the UI mockup I'm about to share — flag issues with hierarchy, spacing, and anything that reads as confusing.
+aWeoUVD13A	This service is disabled for your organization. We let your admin know.
+aan8hU6Fyl	Mouse up
+aefFbqzQB/	Comment actions
+atH8/TnoHb	I'm weighing a hard decision. I'll describe it; ask me one question at a time to clarify what matters, then help me see the tradeoffs.
+atSpJPeTC+	For teams starting fresh. Your existing Claude Team workspace, if any, will not carry over.
+avAEvova7y	Make live artifacts—a team digest, inbox tracker, or meeting brief—that stay current with your connected tools.
+b5c9HnvwjG	Tell me a bit about yourself and what you're hoping to do.
+bIyvdkPpW5	Draft a cold outreach email
+bKY3XV8bLH	Explain a finance concept
+bO4YKnuyRr	Select a repository. Bugcrawl starts immediately on the default branch.
+bRnYRqa1nq	Monitor usage
+bVeFRVZSuD	{count, plural, one {# {singular}} other {# {plural}}} matching "{query}"
+bZY0tSFMcF	Pick a concept to explain
+bcDbALuEGq	Refactor this function
+bdBO1oObPN	details
+bgg7mixQcc	Every plan includes Claude Code, unlimited projects, and access to our latest models.
+bn8CqvGlhl	Tax calculated at payment.
+bnYwYNIjbF	Help me explain a concept to my students. I'll share the concept and grade level — give a clear explanation and one analogy they'll relate to.
+bq6xSZHjaS	Move pane right
+bvKYYTt8no	I'll paste my financial model below. Stress-test the key assumptions and tell me which ones the output is most sensitive to.
+bwT0jeddeB	+ {count} more
+bwj+Wa1vhn	Quiz me on my notes
+byXWJvyqO6	Your seat type doesn't include extra usage.
+c/tOaAUZ7h	Stay compliant with audit logs, retention controls, and the Compliance API
+c0MU9uo4b8	Save image
+c5gLVulGtJ	Help me find where my marketing funnel is leaking. I'll paste my stage-by-stage numbers — tell me the biggest drop-off and likely causes.
+c9NQ1HKECA	My Gmail is already connected
+c9fsVL9wrY	Your provider setup needs a fix
+cEBokVlJjA	Admin controls for connectors and desktop deployment
+cGCa7YRKXm	Choose a workspace
+cQvKA9QV6H	I'll paste a business case — then help me map the core issue tree, key hypotheses, and the data that would prove or kill each one.
+cTkys38y/9	What's the best way to structure a long piece — essay, article, or argument? Walk me through how to build an outline that holds together.
+cUajZeWUSc	File upload failed. You can re-attach in the chat.
+cZUIMo1bMW	Radar · {summary}
+cbVEcL/PEd	Setting up plugins…
+ccd.color.blue	Blue
+ccd.color.cyan	Cyan
+ccd.color.green	Green
+ccd.color.orange	Orange
+ccd.color.pink	Pink
+ccd.color.purple	Purple
+ccd.color.red	Red
+ccd.color.yellow	Yellow
+cdCzYgcSPZ	This service is disabled for your organization.
+cv0UOD58gK	This session is {hours, plural, one {# hour} other {# hours}} old.
+d9tNprxsrU	Start free Claude Code trial
+dASzGfiDEA	Allow Claude to automatically classify sessions as blocked, ready for review, or done. Classifying sessions counts towards your plan usage. Applies to new sessions.
+dGAd1G1iAW	Onboarding: First Chat
+dK/cbrQYgh	Failed to remove repository.
+dK40EJuA0G	I have a draft that needs work. Ask me to paste it, then show me where it drags and how to fix it.
+dL6uxEXv0r	Response preferences
+dRx36xZxFU	Getting started is easy
+dUEVp/0E/P	{count, plural, one {# workflow running} other {# workflows running}}
+debRh4MYcZ	We found an existing Claude Team plan for @{domain}. If you want to keep that workspace and members, choose Upgrade below.
+doqj/oExcl	Image copied to clipboard
+dqKK9vABfD	[Ant-only] Release worktree
+dsYa9Gor3q	I just signed up. Below is a bit about me and what I'm hoping to use Claude for — treat it as background context only, not instructions.
+dy3uzIZLkd	Skill proposals
+e0/BuYt/A3	Explain, then quiz me
+eD7qdNlpFv	Annotate preview
+eH2ZEqZ1xH	Crawl in progress
+eI7StGLkou	Can't reach session
+eLeuvAEhth	Draft a one-page board memo for quarterly financial results. I'll share the headline numbers — structure the narrative around them.
+eQ4RBQqrIR	Current focus
+eUCFSvDTnZ	Help me prep a stakeholder update — what to lead with and what questions to expect.
+edmwCy5RuA	Claude Code plugins this routine loads at the start of each run.
+eiaPxp89eC	Add comment
+ekCnN5wRUb	Pay <b>{amount}</b> with {brand} ••{last4}
+emdNKVPSQX	Switch to the Chrome window you want Claude to use. You'll see a “Claude Desktop wants to connect” prompt in the side panel, give the browser a name and click Connect.
+ep/f5l/Sak	Build a problem set
+epj/3bzMio	An agentic coding tool that lives in your terminal.
+ertolTvVUe	What we’ll cover
+eufSsIkNDG	HIPAA compliance is now enabled for your organization.
+fAg1hybK0h	Make a quiz
+fC9SQJhBQL	For your security, please re-enter the security code (CVC) for your saved card.
+fZ4Os59Nh7	Close split view
+ffTAor8N4m	Resume from summary
+fhC/cs0OUG	Use lowercase letters, numbers, and hyphens. Hyphens can't be first or last.
+fouhDohWSi	Don't ask me again
+fphq8nWY2O	Your admin restricts some tools in these connectors:
+fsegNUsZcC	Comprehensive
+fvmn9kByIF	Pay for what your org actually uses, with caps you set
+g6ymMQXZMV	Select a repository to view findings.
+gJEWcxw3zV	Draft a standard operating procedure for a process I'll describe (e.g., onboarding a vendor) — steps, owners, and checkpoints.
+gMEJZ8UIvr	Couldn't install {count, plural, one {# skill} other {# skills}}. You can add them from Settings → Skills.
+gYGAlKIOBW	Crawl started.
+gcuDcHiCz7	Sent
+gq8cIvVz6D	No findings.
+grbHHDHZqY	Decode a lab result
+grxa9AXRZV	Write microcopy for a UI
+gvsHSaq7ku	Looks like you're trying to get an offer that is not valid or no longer available.
+gxFSojQzTJ	+{n}
+hDVL6rV47T	Structure long-form writing
+hRRbANJFAk	Define a legal term
+hSASZkQ70O	Labels are applied after the PR is created, so the opened event arrives with empty labels and this filter won't match. Add Pull request — labeled to fire when the label lands.
+hpxy9ikYks	Your group's usage limit is set to $0.
+hsPMc7m3Nj	Build a PRD template
+hvkOAU2wAB	See for yourself
+hwnCPdNjYm	This application didn't meet the offer's eligibility requirements.
+i+qmbb8TPs	{count, plural, one {# email is} other {# emails are}} not a member of your organization. Remove to continue.
+i4R9M3oJoo	{status} · {ref}
+i7m2b6Jn4t	No Chrome instances are connected. Open Chrome with the Claude extension and sign in.
+iCcoyE1Z0e	<bold>Act without asking is on.</bold> Claude works, uses connectors, and controls apps on your computer without pausing for approval. <link>See safe use tips</link>
+iJxhaoCjyd	Admin setup guide
+iamqOyi/BB	No {plural} match "{query}"
+ifjQW4uB/Z	Help me design a controlled experiment to test a hypothesis — I'll describe it next. Include controls, variables, and methodology.
+iq5NEmPs1D	{filledCount}/{total}
+iyK4JPDq1b	Claude Ship
+j69QC8mhjP	Nice to meet you, {name}.
+jAlcTer1Um	Too many name changes. Try again in a moment.
+jI1YX71gDm	Debug unexpected behavior
+jKRGwSaHdn	I'll paste my results below. Help me interpret what they show, what they don't show, and how to frame them accurately.
+jLFxR/Wzez	Questions? Reach out to <a>{email}</a>.
+jLfHntdt2D	e.g. software engineer, teacher, consultant
+jW7Lpj0eKY	Yes, continue
+jYUssf6Jbe	Deploy for Windows
+jYw2K3E1r3	Ready for review
+jgXeeHI2Nn	Showing {visible} of {total}
+jnLRcxnYL6	Item {n}
+joL/p4ynXk	Environment API not available.
+jztaow6Wm4	Educator
+k+yLsrlkhB	Ink color
+kLZ+dNE3vR	Help me map out a structured annual budget process — key phases, timing, who owns what, and common failure points to avoid.
+kNX7UtF75g	Running skill
+kSuwrNXT+s	If you genuinely need one piece of information from me before you can produce anything useful, ask only that one question instead, and keep it specific.
+kbCT1RnsNs	I represent that I am authorized to bind my organization to Anthropic's Business Associate Agreement and to comply with the Implementation Guide, and I understand that enabling HIPAA compliance is permanent and cannot be undone.
+kcDSNuG6U/	Draft a vendor RFP
+kdtq0q1erT	Prep a stakeholder update
+khjKGjoVqR	View source
+km8TIrYq00	Create a practice problem set going easiest to hardest. I'll share the subject and grade level.
+km9GyoyHKo	Draft a one-page patient handout on a condition I'll name (default to hypertension if I don't) — plain language, non-alarmist, for a general adult audience.
+l3NXbEicSh	That name is in use by another project in your organization.
+l48+J1nxkN	Customize access
+l4thh9jsLg	Plan a lesson
+lA4FCLZF30	I have a messy business question. Ask me what I know so far, then help me break it into a clean framework.
+lI6dUVuWZk	the provider endpoint
+lLDXLpTWeZ	This deletes the bugcrawl routine for {repo}. Existing findings remain visible until the page reloads.
+lPiq+minAy	View attached image {n}
+lamypqr6JO	We couldn't submit your application. Try again.
+lbBBDXrBoV	Pull request merged
+lgnLhGyiiY	<bold>Act without asking is on.</bold> Claude works and uses connectors without pausing for approval. <link>See safe use tips</link>
+lq3UeNBmbU	Browser listing requires a newer version of the desktop app.
+lqwlBMZyov	Review my sales pitch
+luSlSnqqVj	Get free access to Claude for Excel and PowerPoint. Plus Cowork, Claude Code, and more.
+lv+bhopVDB	{count, plural, one {# {singular}} other {# {plural}}}
+lx9AdwYQWp	You're editing the note above — tap Done when you're finished.
+m2k1yZD6Ay	Create and run agent sessions on your behalf
+m5CvOs/NyD	TikTok
+mJN/znKMzN	Explorer
+mNMtMrngcf	Critique my study methodology the way a peer reviewer would — flag weak points, assumptions, and gaps. I'll paste my methods section below.
+mPYDbpPFmw	Add a comment or send to Claude
+mVLH2tFKfH	You've already redeemed this offer
+mWdc2p9f8h	I want to design a study. I'll share my research question — then help me choose variables and controls and flag threats to validity.
+mY7b0ItdjC	{count, plural, one {# background task} other {# background tasks}}
+mdFGZpne5X	Explain a concept simply
+meR9n7Np9W	{count, plural, one {# needs reconnection} other {# need reconnection}}
+mfB6ZBXrWZ	Give me a leadership-ready explanation framework for a budget-to-actual variance.
+mgtFKhYlJU	Create GitHub issue
+n095SPEUL+	Hey {name}, I’m Claude.
+n4QYgzr1OZ	I'll describe a process and you'll map it step by step, flag where it breaks down, and suggest fixes.
+n8gemYorqC	Your org is out of usage for the month
+nGujgI3Ygu	Draft a technical doc
+nIgpHN34hP	Accept and enable HIPAA
+nOO//VOFne	Crawl progress
+nTBGuhcdBj	Checking connected browsers…
+nXrmnRN2WW	Recheck connection
+nYS6WD1VK8	X / Twitter
+ne5uHhIPyk	Open Setup
+nlZROHfaF5	Finder
+nlt3l7sZeV	Outline a pitch deck for my startup — problem, solution, market, traction, ask.
+nqZ+ZcG/4J	Some files failed to upload — the rest were attached.
+nrvy7yZK7M	Make a study plan
+oBu4r1Zt46	Add to chat
+oIGoNawMHy	Open PR
+oIy6iajp5C	Debug my reasoning
+oOtu+7ZBLc	Investigate a metric shift
+oTwqC8GnFi	Write a first draft
+oaZvkOxsuB	Continue with this
+obhoLqPiUC	I’ll **suggest starting points** that fit you, so you’re not staring at a blank page.
+omq6PdW3ff	Your connection works, but the provider rejected a test request. This is often a model-access or quota issue your admin can resolve.
+onSSJm/8gN	Thinking about what to suggest…
+ooNoKkHuyF	Edit my draft for clarity and flow — keep my voice, cut anything that doesn't earn its place. I'll paste it next.
+ovh8zyJkaM	blocked by your admin (will not run)
+ox7fwjKfD/	I'll paste my evaluation results below. Help me interpret what the metrics mean and suggest what to try next.
+oyLSggYpFh	Writer
+oytBq6p7NY	HIPAA Compliance
+p33uKUDXaM	Walk me through how to choose the right chart for a data science result.
+pIrfg0rGWU	{count, plural, one {# agent running} other {# agents running}}
+pLJvmpJKk5	Help me make a study plan for an exam — what to cover each day and how to test myself.
+pQ5vWqowS8	Help me scope a consulting engagement — recommend phases, key deliverables, and where the main risks typically sit.
+pTw9NHyJkg	Chat memory has moved to Customize. Head to the new Customize page to manage your memories.
+pghwun9+eb	New beta
+pkwMvZoVjz	Prep a difficult conversation
+pnIuF3mAci	Explain attribution models
+poSnVyMNag	Keep full session
+ppCRMTK9ap	Default (no color)
+ps3MQ4ugIl	Allowing this action comes with risks. Malicious instructions in files, emails, and web content could trick Claude into unintended actions. <a>Learn more</a>
+ptQps49wt4	I'll paste a lab result below — explain it in plain language I can share with a patient.
+q5SfWNIhmo	Your Projects
+q6g1norszY	Reviewing your details…
+q9qkQf17NB	Install the Claude GitHub App on {owner} first, then try again. Install link: {url}
+qJ10nmAali	Type your answer
+qQBHIZX329	We're having trouble reaching this connector right now. Please try again.
+qV5DrBiofF	Claude crawls your whole repo and surfaces correctness bugs, ranked by impact.
+qVL1wCerN6	Select which workspace {clientName} should access. The token issued will be scoped to this workspace.
+qXdJKlzxYM	Ink color {n}
+qf3TDtKtwy	Keep your current workspace, members, and settings. Requires your organization ID.
+qgCGqdOcRx	Help me brainstorm visual directions for a brand or feature — moodboard feel, color palette, and typography.
+qi/BRE9OH3	Resuming the full session will consume a substantial portion of your usage limits. We recommend resuming from a summary.
+qlTe+eC7Ec	new
+qmYNn7jcu2	Claude independently verified this finding ({n}/3 checks passed).
+qzzoq72Ben	Give me a reusable grant-application paragraph template for a research proposal — I'll swap in my project details.
+r0YP+bA7cC	Explain a hard concept
+r1qge9393a	Critique my mockup
+r7GETy8S9S	Pull request open
+rAf5UyJl8O	Handle a sales objection
+rPbuNdYYJZ	Add…
+rUBS9M0lSS	Pull request approved
+rZABr1HsEJ	Sorted by impact, descending
+rhBYC0gl3v	Update cloud environment
+rj4w1fGXYb	based on /{target}
+rpUkyT5RSr	Let Claude surface connectors from the directory that may be relevant to your conversation.
+sAH3SxwfcQ	Tighten my landing page
+sCm5gNAcvf	The provider rejected the credentials IT configured. This usually means an expired key or wrong region.
+sDLcyVT0d0	Once HIPAA compliance is enabled for your organization, the configuration is permanent and cannot be disabled by an administrator.
+sJmvZiIAOf	None configured.
+sPuACPwqmi	The provider didn't respond. Check your network or VPN. If the issue persists, your IT team may need to allowlist the host.
+sQ7MlJMdyd	Select your role
+sR1hf1k+Ia	Outline a long piece
+sSRWkTrDlY	Ran skill
+scAMIF15ap	I'll describe what I'm building in one line. Map the competitive landscape: key players, how they're positioned, and where I can differentiate.
+sl9SgqEbQQ	Interpret my results
+sq+2TtFwI7	Edit link
+srOYzuubje	Download again
+sss7VKhIiE	Search workspaces…
+sv2A53seir	Reserved. Takes effect on the next deploy.
+szNOvh3Xf3	Move pane to top right
+t/SDgM3kNy	Go to your team
+t0Vcp1t2C6	You aren't eligible for this offer.
+tFIy+ZTdIg	By clicking ‘Subscribe’, you agree to Anthropic’s <terms>Commercial Terms</terms> including any <serviceTerms>Service Specific Terms</serviceTerms>, and you represent that you are authorized to enter this agreement by Customer. By providing your payment information, you allow Anthropic to charge your card in the amount above today, then your full subscription price {billingInterval} starting {trialEndDate}, until you cancel in accordance with our <cancellation>terms</cancellation>. Additional <promoTerms>promotional terms</promoTerms> apply. You can cancel at any time.
+tJ5pGdkg87	your-site
+tO6RMkz5lT	Give student feedback
+tQpQonQot/	Mark done
+tSDtXt8ujX	If you believe this is a mistake, email {email}.
+tUEwmSuf+R	Stop crawl
+tWI4LwbBpv	Plan a rollout
+tY5160Q3XW	This connector's server is currently unavailable. Try again in a moment.
+tjk2BnErxl	To transmit, upload, or communicate about Protected Health Information (PHI) through Claude, your organization must first execute Anthropic's Business Associate Agreement (BAA). Download and review the agreement below. By proceeding, you represent that you are authorized to bind your organization to these terms.
+trydBofN8O	I've got a test failing and I'm not sure why. Ask me to share the code and the error, then help me figure out what's going on.
+twxP7+K8AU	{count, plural, one {# monitor running} other {# monitors running}}
+u1nE4xvRzb	Walk me through the main marketing attribution models — first-touch, last-touch, linear, time-decay — and when each one makes sense.
+u44BCAemZJ	What I'm picking up
+u75ND9XDYI	Healthcare
+uFPkS//I8W	Explain a consulting framework
+uFsyWVwb6J	I need to write something. Ask me what it is and who it's for, then help me get a first draft down.
+uHQchr2Hxs	Help me write this month's investor update. Ask for the key metrics and one narrative beat, then draft it.
+uJmganeKau	This offer has already been applied to your account.
+uL66aeCJzL	Value does not match the required format.
+uMhpKeySlx	Color
+uQE85KFkH5	Plan next quarter
+uXnlgzzwt4	Methods section feedback
+ua9bYcdBRR	Launching…
+ufmahxJ7x6	Claude can browse and act on sites without pausing for approval.
+ufqDr5dsum	Your card will be charged in {currency}. The {currency} amount may vary with exchange rates.
+ulVZt0OKLC	Scope an engagement
+uoZbXFF1vU	−{amount}
+uvO/XUVpV+	Turn on connector discovery
+vGTLz1R2QC	Plan a usability test
+vHkY8PnlKn	Send this to your other assistant, then paste what it gives you in the chat below.
+vLoeyZI6JH	Build a lesson plan for a topic I'll share — include learning objectives, at least two activities, and a quick check for understanding.
+vYCL/necc9	Claude Code, Cowork, and 200K context
+vauCKKwFnN	Configuration can't be used
+vd2mrvsuyj	Team members can also install directly from <link>claude.com/download</link>.
+vecV01k9cc	Bugcrawl
+vk9RhziZdL	Write acceptance criteria
+vwxMsyPVYx	file
+w3voacLs0Y	Pooled usage with org and user spend limits
+wCyOSQaWWq	What are you shipping today?
+wFprkIpXqt	Plan a refactor
+wJBo861hq0	Resize pane columns
+wMENzOykHo	Work or employer
+wPzuexp9Ta	Pick a topic you think I'd find interesting and explain it in plain language, then check what I'd like to go deeper on.
+wQXiDXmjd5	Build a consulting deck
+wbuPTPMOpS	I'll paste my notes below — quiz me with short questions, then tell me what I got wrong and why.
+wh08wWwkI7	Review my landing-page copy and tighten the headline, sub, and CTA — I'll paste it below.
+whxze0azWR	Prioritize my backlog
+wiJGoE4uBV	Preview markdown
+wn+W3g7saH	Refresh tools list
+wwav3Y1msr	This is taking longer than usual
+wws+xjsxwW	(approx {local})
+x3fqdhjm1T	Business Associate Agreement
+x4cwIh3l71	Explore visual directions
+x6lNHReAnN	14-day free trial · <termsLink>Terms</termsLink>
+x6sLDIMG91	I'll keep these personal preferences in mind when I respond.
+xEjBS7TVzI	For you
+xFYgqAj/7A	Takes 20–60 min · uses more tokens
+xV8x5cQkzs	Help me prioritize next quarter. I have a small team and limited runway — ask what we're building and our top constraint, then propose a focused plan.
+xhOipac/MD	Download the Implementation Guide to continue
+xhgyP4DOE2	Move pane to bottom right
+xi8Twb3xa6	Poke holes in my business model — where does it break, and what would an investor push on? I'll describe it below.
+xiEo+ua+z2	Assign Claude Code seats to developers on your team
+xmz6s1/PNr	Draft a piece
+xnmDYbH504	Claude will use your connectors without pausing for approval.
+xpbaVYJ29w	Use 3–63 characters.
+y26s++iwVG	Run once
+yStOj/PJIF	No workspaces match.
+yiJ2Xv8I3b	Help me plan a campaign calendar for the next quarter — channels, cadence, milestones.
+ylkb8036ZW	I'm seeing unexpected behavior or errors in a system. Help me work through it systematically — I'll share details on what's happening.
+yoojHE5XEd	Couldn't copy image.
+yuiyES8sOS	General Settings
+z+3A8Hr2nF	Prep for a client meeting
+z2Ayna2YQb	Crawling · {pct}%
+z3m5JkfEfc	I'd like to brainstorm. Ask me a couple of quick questions about what I'm working on, then suggest three directions we could take it.
+zApbjQWOBc	Review my PR diff
+zEiu9N7u4f	Middle-click
+zOU/9VFxRH	Text
+zVcSPql3Eg	Mark undone
+zcSY+rVy3D	Act
+znCeYD3m6L	Your connection works, but the provider rejected a test request. Often a model-access or quota issue.
+zuA3BgDC6u	YouTube
+zuBzxY6QwA	Claude Max, Pro or Team is required to connect to Claude Code
+zwnS8XKVNg	Loading tools…

@@ -1,0 +1,2347 @@
++/yYn89HLV	AWS config directory
++0Oum8s8/p	Keep chatting
++57GhlYuNS	Allow using Claude Design to generate design artifacts.
++5pVgQAZZr	What this URL is overriding
++6PpsCazwm	The endpoint rejected the request. Check cert trust, IP allowlist, or auth headers.
++8+Afje+QL	Define a collection of users
++8nVZyI6SB	<b>{category}</b> needs {count, plural, one {{label}} other {# fields}}
++9qv0W3kKW	Select {email}
++AQagzW8cG	Secure VM features
++Bd6t2XtyN	Active Claude Code users in this period
++Bvqi7XleM	Unsafe URL blocked (only http/https are allowed).
++EiT5beQUU	No usage data yet — plan usage appears once limits load, and session usage after Claude's first reply
++IJtuFJicj	Public Projects
++J17tTSxMS	Create API key
++UTJD9uDf0	Log out of current session
++UxVPjmWv+	You've reached your spend limit for this month. Manage spend limit to keep going now, or wait until {time} when your plan usage resets.
++ZLTl3VMv+	Stop this task
++aUKGm2IHp	the Bedrock control-plane
++gBb3x0fj/	X-Header-Name
++i6kfVZs4O	Select a role
++iG8JNhLmB	Folder with AWS config/credentials. Defaults to ~/.aws when no bearer token is set.
++jl8kGm4v6	Visualize anything
++lMnhmI8z5	Optionally attach SOC 2 / ISO certificates for enterprise review.
++oLBeHixUl	Claude Security requires usage credits to be turned on. Contact an organization admin to turn them on.
++rF7YHHN6s	Learn how to level up
++tXAEC63X9	Don't ask again for this tool
++uM2tA+VbV	Failed to create API key.
++w1YB5AI4t	More actions for token {name}
++xavC+M73T	Turn off usage credits?
++zZ6KeQPTP	Show banner
+/29gJi+64E	Give your developers access to Claude Code
+/3CSjeiTpY	Install Claude Code in your terminal or IDE
+/6750qvS54	Have a visual UI MCP App now? Email your carousel images to <link>{email}</link> and we'll attach them to your listing manually.
+/7tAIdVl9o	This runner's token is invalidated immediately. Its next API call will be rejected.
+/ACWgnVcXZ	We're doing some quick maintenance on billing. Your current plan still works as usual — check back shortly to upgrade.
+/EjJtHJxer	Usage credits keep you going when you hit your plan limits. If you're past a limit now, your current chat will get cut off.
+/Gv4CeZ7SR	Copy organization ID
+/HHfFvWS71	session
+/HUoUvA4uE	This connector doesn't use authentication. You can block individual tools instead.
+/HcvzyHD/i	Your admin can't lift the hold directly. If your organization has an Anthropic account team, your admin can ask them to flag your case for review — that's often the fastest path.
+/NB+TAjGNv	You're now past your plan's included usage. Your weekly limit resets {day} at {time}.
+/ORJw3F96g	Change team logo
+/OvJVmHb97	Show fewer
+/OyPYShmOc	You've reached your spend limit for this month. Your plan usage resets at {time}.
+/PjeqYiSOL	{low} – {high} / mo
+/Q6CUQbieS	Remove queued message
+/SUwcDKRj4	This capability is enabled but its required capability Chat is not.
+/aRxUjWdXd	Your local time, next day
+/adJPj1rXf	Connector data hidden in shared chats
+/anA6Br7/K	Copy relative path
+/c0GeY5Wgm	Commits
+/dk65J5QxC	~/Documents/work
+/e1WqvRJdO	Continue without answering
+/ety3+dcoN	Type or paste in emails separated by commas or new lines
+/favH7/Yn8	Which organization is this about?
+/gQocC77Od	Starting the agent
+/gko4gyXu5	Upgrade to {plan}
+/h/XKrqXS4	Secret copied to clipboard.
+/iEJDxw41Y	Checking install status…
+/jH1+GB9/3	My connector does not query or extract data from Claude's memory, chat history, conversation summaries, or user files. (§1.F)
+/jpohGWrkJ	Sent as the X-Amzn-Bedrock-Service-Tier header. Leave unset for on-demand.
+/kaSYf8LkE	Connected · {latency}ms
+/m0q/Dre6A	Model ID
+/m3o1Ontbw	Reducing seats isn't supported on this plan. Contact your account team to adjust your allocation.
+/m74yeDEuy	Restart to apply this configuration.
+/mLI9f4gDS	There are too many members to check. Review group memberships before making changes that could affect access.
+/qpG/9bUOK	Back to analytics
+/r1dlmQouE	{label} configuration
+/uvgPpD1+N	Create a role
+/vCpIsjvbm	Domains where this credential may ever be sent. Wildcard only as the leftmost label (e.g. *.example.com). Enforced even if a rule's condition is broader.
+/xIM5QF15F	Invocations
+/zBewcOy3f	Your organization's policy has blocked access to this folder. Choose a folder inside an allowed workspace, or contact your IT team.
+01+wvmSaB8	Your organization has reached the maximum of {limit} groups. Remove an existing group before creating a new one.
+05sWumUU1+	The default host-native mode starts faster and works behind restricted networks. Shell commands run inside the VM; file tools run on the host with path-based access control. Enable this only if your security review requires the agent loop itself to run in the VM.
+080C5vUX5n	Not in use — toggle on to fetch and apply this URL.
+0CaKKmtZPs	You've reached your spend limit for this month. Request more to keep going now, or wait until {day} at {time} when your plan usage resets.
+0Hw2bpDvTI	Scanning…
+0Nsvk4xG6E	Fetch and apply the URL above at launch. Turn off to keep the URL saved but skip the fetch.
+0OAox1ElyE	Opening your browser to sign in…
+0Om7HmCRxO	Feedback requires a newer Claude desktop app. Please update and try again.
+0StYQKzFD4	ex: Sales
+0U9UIrGCGt	Anthropic sources
+0WaLn4wSAQ	Open Slack
+0X/lTj2Hvv	Product-usage analytics and diagnostic-report uploads. No message content.
+0X2jYr2Lz+	× {price} / mo
+0aJxT29U/1	Updated {time}
+0bgOb2/JIp	Already in this workspace
+0hPFsTuQ1X	Extra HTTP headers sent on every inference request to the configured provider. For tenant routing, org IDs, Bedrock Guardrails, etc.
+0hzmTPDdkC	Try sending your message again.
+0iPwHQ1GrE	The directory does not template tenant subdomains. For per-tenant URLs, typically use separate directory entries or the Custom connection auth mode.
+0imfIKOYnp	No active subscription
+0kTK2ONcnO	By clicking to accept, you represent and warrant that: (i) you are the individual registered to this administrator account; (ii) you have full legal authority to bind {organization} to this BAA; (iii) you have read and understand this BAA and the Implementation Guide; and (iv) you agree, on behalf of your Organization, to the terms and conditions of this BAA.
+0lL1+zD8qJ	You don’t have permission to assign custom roles or groups. These members won’t have any role-based access until a custom role is assigned.
+0ne8LIXFnY	By health
+0rDhOvgLin	Failed to revoke service token. You can try again.
+0rLmv1esFb	Update-check requests, so the app can stay current
+0tE2ujn+Za	{amount} in usage credits, on us
+0wC/nHinD3	Are you sure you want to delete the role "{roleName}"? This action cannot be undone.
+0wvgi5wPfI	Helps reviewers gauge whether your server can handle directory-scale traffic.
+0zcJJs/iy7	{count, plural, one {# user will be removed from this role} other {# users will be removed from this role}}
+10Lkbatf+R	Get logs and open Slack
+10k56ZRjVw	Connect your organization's GitHub Enterprise instances to enable code review and repository access.
+11BXmGIT/S	We put your account{hasEmail, select, yes { ({email})} other {}} on hold on {date} because of unusual activity. Your chats and data are safe.
+11EFPJEdQz	GitHub App installed
+11iQbk1L9r	No chats match “{query}”
+12bGPRFDpH	Helper ran, but its output isn't a usable credential
+13C0T/3Ydn	Couldn't run the helper
+159pClRrG6	Issuer URL
+16+ehubl/n	Crash reports and error diagnostics, so we can fix bugs
+177LpOw4Oq	Next: Configure permissions
+199jLdv0Og	Claude couldn't finish this response. Try again in a moment.
+19vfTFVJFY	/usr/local/bin/corp-cred-helper
+1AtxnggWsr	A separate allowance to try Claude Design. After it's used up, Claude Design will draw from your normal usage.
+1HLmdzwR9I	Your GitHub credentials were rejected. Reconnect GitHub to continue.
+1LzDVURyP7	Use Plan mode for complex changes
+1OzTJ7v1QD	Absolute path to the server executable, run on the user's machine.
+1QKV7FS8FM	Allow user-added MCP servers
+1QdLfinpa0	openid email https://www.googleapis.com/auth/cloud-platform
+1T3xoXkGRs	Claude {plan}
+1WcIuIpt9o	The URL returned 200 but the body isn't a valid config document.
+1Y2R5lqV7A	For VPC endpoints or gateway proxies.
+1YV+DALw5C	Failed to save rule. Check your inputs and try again.
+1aAFqmDEYx	Curated marketplaces of plugins built by Anthropic
+1b3/jVoSUZ	{capped} of {total, plural, one {# day} other {# days}} at limit
+1bYxQUKrv5	Overrides SSO. Ignored when a bearer token is set.
+1cK4ov0mvh	ex: Manager
+1e9zwhbnvk	Link URL
+1eifSpBeSa	I'm an AI sales agent, here to help you figure out which plan fits, what it'll cost, and how to get your team set up. We can do all of it right here.
+1fPbl8sb8U	api://…/access_as_user offline_access
+1hlwc+LGtJ	Reducing seats isn't supported on this plan.
+1iKVZQOqQ4	Your organization's customer-managed encryption (CMEK) policy doesn't allow changing this setting.
+1lTXqk6ea5	Public documentation for this connector will be live by the publish date.
+1lfKA3pk6u	Manifest {status}: {detail}
+1oztgcYddf	Security and compatibility fixes will not install automatically. Make sure IT has another distribution path.
+1pj238c/R8	The saved endpoint and headers will be removed and telemetry export will stop.
+1rsHyv9MB1	You're next in line for review
+1sNBIJ7fu7	Your organization doesn't have any allowed email domains configured. To fix this before inviting members, <link>contact support</link>
+1uitN9RlFW	Upload logo file
+1v9Ga0vYPM	Built-in tools removed from Cowork.
+1x8HzUvZ+A	Anthropic API
+1xdADWuuof	Session was interrupted
+1yRrT11eFX	5000000
+1zpzpUyPyM	Failed to remove source.
+2+mkmXuQGF	Dismiss session
+20mZGxPe9J	Run {serverName}
+21CV5Tczjm	This session's working folder no longer exists. Choose a different folder or start a new session.
+253L2NMhDt	{users} users
+25HN5vIs76	Loading devices…
+25WZoqr6rF	About discoverable domains
+26THi8CeO1	Allowed hosts
+28WSWIW1GZ	Disable Canvas instance
+2BEeBiSuPX	Not synced yet
+2C7GSQtNJE	press right arrow to stop
+2EHGE7qUFn	Auto mode isn't available for this session. Asking for permissions instead.
+2FTGx2qY66	This capability is enabled but its required capability Cowork is not.
+2FtKG7rr7j	Showing {start}-{end} of the first {loaded, number} loaded ({serverTotal, number} total). Use search to find specific members.
+2IB0Hxh1vO	.dxt and .mcpb installs.
+2QKXfWnX8D	{count, plural, one {# user will have no role assigned} other {# users will have no role assigned}}
+2RkwPJ39x2	Uninstall {extensionName}?
+2UCn0+Hjdv	System info (app version, OS), MCP connector status, VM info, and recent Cowork service logs. Logs are scrubbed for known secret/token patterns before upload.
+2WpSzHZZ1X	[Ants-only] Org UUID
+2X9HBvATB1	Unable to load groups. <link>Retry</link>
+2YUiQyLcAf	Sent to the Claude mobile and desktop apps.
+2ZGJzXGfCl	Loading output…
+2bBSM1Hlc6	Try the basics
+2cJOU8aydx	Has a pending subscription change — try again after it completes
+2fisBu66YH	Free plans are limited to {count, plural, one {one project} other {# projects}}. Upgrade to create as many as you need.
+2ioGdTuxCo	Enable Claude Code in the web to use Claude Security.
+2jK6ZU5YQz	You can only share projects with specific individuals. Contact your admin to request the ability to share with your whole organization.
+2pwaqX5iEv	GOCSPX-...
+2q1AloiRLz	{roleList} have different permission levels for this connector. Members assigned to multiple of these roles get the more permissive level.
+2rQYX7/A0M	Microsoft Entra Conditional Access is blocking {serverName}. Ask your IT admin to review Conditional Access policies for this app.
+2tQzCPSbi0	Deleted {count, plural, one {# session} other {# sessions}}
+2wHQR3Uy3V	Send a friend a free week of Claude Cowork. If they love it and subscribe, you'll get {rewardAmount} in usage credits to keep building. <termsLink>Terms apply</termsLink>
+2wLwVveH2Y	Missing system library
+2wdDIpKRyN	Let team members request usage credits when they reach their limits. <a>Learn more</a>
+2xt15PXLR6	Create apps, prototypes, and interactive documents that use Claude inside the artifact.
+2zquyaeUIo	Why was my account put on hold?
+31OZ8O6ag0	{count, number} from {fileName}
+31fFckJI2n	Couldn't check whether the Claude GitHub App is installed on this repository. Retry to continue.
+35j2Q7fMHM	Servers & settings
+3F+P/Ke1tb	Client ID Metadata Document (CIMD). The server must support it.
+3FyZxMk7uC	Code Execution & File Creation
+3HnBzRh3JG	{name}, rename chat
+3HsvZ8U/SX	<hl>{name}</hl> invites you to join <hl>{org}</hl> on Claude Code
+3KG2vkfG5K	Your styles have migrated to Skills
+3KW7P5jhld	We reviewed your account and the additional context you shared, and decided not to restore access. This is our final decision.
+3L2wPNt++S	No targets routed through this proxy yet.
+3NZgLTCo36	All sections AND. Values within a section OR. Leave empty to match everything.
+3PndDPtcJF	Net gain
+3Q0d0kQ+5W	Voice speed
+3RLO9ysmBM	Not on a Team plan
+3Rkb+dzIYj	No plugin.json
+3T2o/IA7rO	You've reached your spend limit for this month. Manage spend limit to keep going now.
+3XI+xKIxnt	Sees {count, plural, one {# message} other {# messages}} from main chat
+3bo26A21gA	Required when the server asks
+3efJ/Ga/kq	You're about to enable the Canvas instance ‘{platformName}’.
+3gFEPaO32z	Describe what was happening recently. Any extra context we should know?
+3gNFS1DF0J	Request usage credits
+3iLLaW8pc5	Tumbling window length for the token cap. Max 720 hours (30 days).
+3jpE3Vkl1p	I have saved this secret
+3kc1I8pWuV	You've reached your monthly spend limit, but you still have credits. Increase your limit to keep working.
+3lvTbjitpe	No server selected.
+3mzEki9uWH	Saving memory
+3qvMQVWyxg	<strong>Exception:</strong> Claude Code stays available to your users but is not covered by the BAA. Only Claude Code with ZDR is covered by the BAA. Claude Code with ZDR is available only for qualified accounts and must be configured by your account team. To restrict Claude Code use within your organization, see <link>Role-based permissions</link>.
+3rKljC8I57	Paste the callback URL below
+3vfA9Z756a	{pct}% of skill users use this
+3vu0YRpEU4	Hi {name}! Which of your organizations can I help with?
+3xAmiGOI8S	Turn on {extraUsageLink} for additional runs.
+3yY1p8m6VT	Delete role
+4/3NIq0i3K	Claude Pro is required to connect to Claude Code
+41KyM/J1BL	Session moved to the cloud.
+42iloQctkX	your organization
+43fHBvBM8S	You just hit your free message limit. Upgrade to Pro to send more messages. You also get:
+47aHGyWFid	Single line, truncated on overflow. Maximum 200 characters.
+47svuNMHCd	Installation
+49Qk5uPdkt	Revoke agent proxy?
+4E0tRa/tSS	Ability for Claude to search the web for real-time information during conversations. When off, Claude can only use its training knowledge.
+4HEXemED4V	•••••••• (saved)
+4I/ijU9BSO	Hi there, let's find the right plan for your team.
+4M2CY2u25i	Failed to update Claude Code setting. You can try again.
+4M8v6unyJX	Couldn't restore the previous session
+4MengK4xQ/	hours
+4MnrK68K3P	Unscheduled
+4Q6tWDAIvr	Not recognized
+4QdFGDyddi	Set up usage credits so anyone with a usage-based seat can use Claude.
+4RK/3dvxuB	{count, plural, one {This session} other {These # sessions}} will be permanently deleted. This can’t be undone.
+4RwYWBmY40	This disables artifact previews and connector icons. Artifacts will not render in conversations.
+4UtfB0TvB4	Product management
+4XTG+LtKI0	PRs
+4YT0wQbRoq	Curated by Anthropic. Sources you add appear for everyone in your organization.
+4aG3t6MUs/	Set up a routine
+4ahpF5N/t0	Power through tedious tasks
+4f4V4aBUm2	{count, plural, one {# extra usage request} other {# extra usage requests}}
+4fGytPLZ4o	Failed to start
+4hrAYpn2S6	Only set if your IdP requires an exact-match redirect port. Entra accepts any.
+4lpmeOScgx	Enable connectors individually to provide HIPAA attestation.
+4rZseUiJ/1	You're now past your plan's included usage. Your Cowork limit resets {day} at {time}.
+4sn+9mj8VH	Share visibility
+4tBI+hIy1i	Secret for the Desktop-app OAuth client above.
+4tdiEppQ3S	Essential telemetry
+4voWiOClI8	Sales-managed subscription — contact your account manager
+4w2mdIEQf/	Another program (e.g. antivirus) has a temporary lock on app files. Wait a moment and try again.
+4zrmdy4x65	No additional details are needed for this connector.
+5+ZlKl+Von	{featureName} isn't included in your plan
+50CI+O6SDT	To enforce member permissions with custom roles, go to the <link>Members</link> page and change the member's role type to <b>Custom roles</b>. Custom roles cannot grant features disabled at the organization level. Learn more about <defaultLink>roles and permissions</defaultLink>.
+5136Kri9cs	This Claude Enterprise organization is configured to process Protected Health Information (PHI) under the executed BAA.
+51etlAwunD	Tested with MCP Inspector
+53rjekVsYJ	Contact your Anthropic representative to procure additional seats.
+571VErsGEK	Your local time, previous day
+5BI7hemeRU	Access to higher usage limits, taste of Claude Code and Cowork, and much more.
+5CIoYVOrIV	Usage credits are off for your org
+5Ch3Wkh1WN	{price} / yr
+5DkACZ8D5d	Copy {file}
+5DvVdHWYeP	Reading files
+5GnwjnPT99	Organization instructions saved.
+5J779v0w4/	Prompt ({length, number} characters)
+5JBKsF+pXr	Env
+5KBKe9GaKm	Third-party connections
+5KunhsKbWZ	Sign in to your organization
+5P51EWFg/l	Public URL session containers use to reach the proxy. You can change it later.
+5SJ4ZG3Kp2	HTTPS endpoint that returns a per-user JSON config overlay. Values from the response override local settings and become read-only.
+5UH4ihGx1z	Step {step} of {total}: {label}
+5VxKcPxf4n	Nonprofit pricing is only available for subscriptions billed in USD
+5WLafALiPe	Hours before a downloaded update force-installs. Blank = 72-hour default.
+5ZymBsxYIf	12-digit AWS account ID assigned to users in IAM Identity Center.
+5bm86N5sK2	Your plan is past due. Make a payment to restore access.
+5c1T61cmWe	Subtotal · {seats} seats
+5cbekPftj7	These users are not assigned to any other role through their groups. After removing these groups from this role, they will no longer have access to any features enabled by roles.
+5i3lbP7/1j	Lets members run Cowork in the background and send it tasks from any signed-in device.
+5lQcMEt3AU	Or continue with {provider}
+5oTa1gWQsk	Allowed egress hosts
+5qlmjg4fJG	Couldn't switch branches
+5s0Im9rAJC	Add connectors for your organization to control which roles can use them.
+5tapNuBXD8	You're about to disable the Canvas instance ‘{platformName}’.
+5yMDA83YA1	Client private key (PEM)
+6/y9s8gTUJ	More usage, SSO, advanced security, and dedicated support for your organization.
+60+BpHIvF/	Filter by product
+6897NXmDnD	Access to Claude Opus
+6ADOslBl20	We reviewed your account and lifted the hold. Thanks for your patience, and sorry for the time it cost you.
+6ATFmKfE8D	Remixing
+6C5sC1i2Q8	{count, number} selected. Select-all is limited to the first {loaded, number} loaded members.
+6ISjoQ9Mkh	in
+6IjSTkGhXh	Booting…
+6L9Y5wO1ji	On GitHub event
+6NwjCQmCZB	Override the Google OAuth scopes (space-separated). Leave blank for the default.
+6T78KTXhBM	Custom inference headers
+6TfZyoMzg5	{hits, plural, one {# view} other {# views}}
+6TgDeF8iRs	Add policy
+6UfMpt7MRj	Upload compliance certificate (SOC 2 / ISO)
+6Vvmjv/OFI	Productivity lift percentage
+6cmRKZgiFv	Full URL of the inference gateway endpoint.
+6dGAp13rJ/	Filter projects by name
+6e54GYtEBl	Skip confirmation
+6eMQjpT3Y9	AWS bearer token
+6h8w5qGtdW	Remote screen
+6hg7UUZsmD	Spend controls for the {service} service.
+6iUlbh1s3t	You're out of usage credits. Buy more to keep going now, or wait until {day} at {time} when your plan usage resets.
+6ilxzWQ8aG	Connect your GitHub account so Claude can list your repositories during setup.
+6kv8VKLwHa	Claude is using the cached response. Newer changes at the URL won't apply until a successful sync.
+6onYSxSKA+	Sign up for a Pro or Team subscription to connect your account, or use your API key.
+6qZJPYESfX	Run parallel sessions on your real codebase—each with its own terminal, editor, and preview—so you can take a change from idea to merged.
+6uDnct6clQ	Allow team members to access Claude Design.
+6vV5oGkCFL	Notify me when this routine finishes
+6w60Rd5Jor	Continuing from a side question.\n\nQ: {question}\n\nA: "{answer}"\n\n
+6wS2xK8Og+	Claude Code analytics view
+6xap9LaOTG	Good
+6xyJHAPd24	Claude Security illustration
+6ytx+ItLia	Already has nonprofit pricing
+6zUj8MXKAF	Please enter a valid number
+6zZPTguJOr	Cost is only available for the current month.
+7/0pxcYQhw	Usage credit requests turned on
+71dtHvbhEs	Wait for Claude
+725LtLiE2E	GCP project ID
+72oJOfXboG	Copy ACS URL
+74RVxgCUX+	Last total · {month}
+77MbQyFrM3	Signed in
+7CyTe1G1ef	The environment or runner pool pre-selected when your team starts a new Claude Code web session.
+7E4mBLKWTa	Filter by severity
+7EpRnG/Kol	Remove {overage, plural, one {# address} other {# addresses}} to continue. Need more capacity? <link>Contact sales</link>
+7F5OAaiiBU	artifacts
+7FGXQIVLgp	It won't be shown again. The proxy authenticates with it on every heartbeat — if you lose it, revoke this registration and create a new one.
+7FyEwY5cXb	Manage user invitations, seat assignments, and deprovisioning.
+7H52V8cfN1	Run functional tests — calls {count} read-only tool(s)
+7JzwmYwdqB	Ask Claude about your code
+7KENh/cIdm	(on-demand)
+7KFLgD8w8i	Couldn't get a sign-in token from your identity provider. Try signing out and back in, then reconnect.
+7NIBxwugIx	Disconnected from the remote session. Send a message or refresh to reconnect.
+7OW8BTDziy	Configuration
+7PQu3bgx83	Usage credits draw down as you go. Good for occasional busy days.
+7S0Li0OjBJ	Failed to update Claude Code in the web.
+7TICmxuTsz	Extra usage is disabled for your account. Manage spend limit to keep going now.
+7U5OZwbVj5	https://intranet.example.com/usage-policy
+7UUZNR6Ap5	Your org is out of usage credits. Buy more to keep going now, or wait until {day} at {time} when your plan usage resets.
+7V6vuDWSaW	Action needed
+7WUboosKAY	What's included?
+7XLBSpnkO+	Tap <b>Verify my age</b> above — verification takes about a minute and your account is restored automatically if you pass.
+7Xx8IXXGTJ	Continue to checkout
+7beLuu03iF	Will be required and enabled on {date}.
+7eMdIUQj/m	None of your organizations are currently eligible. See the reason next to each, or create a new Team organization below.
+7oFrM64tU+	Legal
+7q0oJax+NE	Buy usage credits
+7qMu4OdZsc	Your org has reached its spend limit for this month. Manage spend limit to keep going now, or wait until {time} when your plan usage resets.
+7sDcr49UF4	If you had an active paid subscription, it was cancelled when your account was put on hold and your last payment was refunded.
+7sXvnsxywE	Claude Code Desktop already enforces your <link>Managed settings</link> and MDM-deployed configuration. This legacy toggle will be retired in an upcoming release. To keep an existing restriction in effect, set <code>permissions.disableBypassPermissionsMode</code> to <code>{value}</code> in Managed settings or via MDM.
+7syyPo6BcF	Create and modify your Claude Design projects
+7tU4FaQxYY	Remove {domain}
+7vTavgWpok	AWS profile name
+7xYRPYgjLF	Set by bootstrap URL · <h>{host}</h>
+7yXozdQoAD	Couldn't dismiss request. You can try again.
+7zXg4ifvoR	Cancel dictation
+8+GEYEqcFF	{serverName} requests your input
+80SZmOzpMP	This guide doesn't exist or was removed.
+852HznY0AW	Usage credits show up on your invoice at the end of each billing cycle.
+85tu4iWmvj	Copy guide content
+88GIE2tp0x	Site permissions
+88z5M/JghN	Message from session {name}
+89RRikLolL	GitHub access check failed
+89uBcpSCey	Hand off complex tasks
+8C+hlpjXXu	Failed to rename pool. You can try again.
+8CEcyDdp/p	Open {provider}
+8CGvSG1VJL	↑ ↓ to navigate{sep}Enter to select{sep}⌘ Enter to submit
+8EHxLoXmVO	How does age verification work?
+8F+30bQ20n	Optional auth headers for the collector.
+8FII3P6bdq	Last scheduled scan failed
+8Jc9WEC0S8	Desktop extensions (Python runtime)
+8KVYB6WLbg	OAuth — Anthropic-managed client
+8MEdGSggd1	The Claude GitHub App isn't installed on this repository. Install it to run a scan.
+8PYVgsFRnq	Limit increase requests disabled
+8TQoLRh7Ea	seconds
+8UbhBwPYz/	Include files
+8a8+TeDqJr	Any session tokens this runner issued will also be revoked.
+8fXrWqpNtx	{count, plural, one {# usage credit request} other {# usage credit requests}}
+8iFOB5Ru96	Refund of {amount} (plus {creditsAmount} for unused usage credits) processed. Expect it in 3–10 business days.
+8igZF1i+Pg	That device is already shown in another tile.
+8jEVRl+dbg	paused — resumes on next message
+8k6fMsg4IY	Your seat type doesn't include extra usage. Manage spend limit to keep going now.
+8ks1vwbmb6	Server submitted for review
+8lCjAMCo+L	Priority
+8mRNBDIXEf	Previous month
+8mRSoJLpG6	Tell us how users authenticate with your server so we can list it correctly and route the right connection flow.
+8nsTrp2M6s	You can change this later by signing out.
+8sEg8zVUkv	Press enter after each email, or paste a list.
+8sdwytNUjt	public projects
+8w6hTfl5d7	Identity & Access
+8w8SOeyOJA	Attaching…
+8xiLmGrsv8	Time period
+8y0ekybqHa	Failed to load skills. Try refreshing the page.
+9+GO1v/jPW	Buy usage credits so your team can keep using Claude if they hit a limit.
+9+xImU/m9u	Enable Claude Security in settings to start scanning your repositories.
+92uIUqhDHB	Configured on this device
+933XjkoVGh	No simulators found — install one in Xcode
+94VSGBCf7C	We'll review your account
+9904KlI+jU	Branch to new chat
+99M81+3Fji	Message to Anthropic
+9APUjQes22	Your seat type doesn't include usage credits.
+9AucHUJjjh	Use the credit on Claude.ai, Claude Code, Claude Desktop, or third-party apps. When it runs out, you can add more usage credits to keep going past your plan limits. Expires {date}.
+9B9oxKzS23	Let's tackle something together
+9HU8vwHwVV	Reply
+9IqzYQZfCD	Claude gives better answers when it understands what matters to you
+9Kp4ZgNuBk	Copy answer
+9NLCgvt8no	{sec} s (limit)
+9NklzoAdVS	No recurring scan scheduled
+9ORjMEju5A	Anything authenticating with this key will lose access. This action cannot be undone.
+9PrNnwUTkp	Claude Max 5x
+9R4NPWEKk0	No artifacts matching “{search}”
+9S5YZDQ09o	Upgrade to Claude Max to use our best and latest models
+9TQZs+B5Zw	Awaiting sign-in
+9TuGhcPdgo	Injected on every proxied request to allowed hosts. Values are write-only and never shown after saving.
+9UY2MISrxR	Manage in Connectors
+9WVmruBamk	Code appearance
+9XUYQtJvwF	Import
+9fP4TVlrXg	Leave blank to supply the key via a credential helper.
+9me4Da2SKC	See what's included
+9qQVeeZUgq	Back to plans
+9rJhEHELoO	Couldn't fetch your organization's configuration. Open Setup to see details and sign in.
+9s1k/OyX4V	Remove entry
+9v3wPYCIOx	Annual Claude Code spend
+9w/oawRjHR	Delete anyway
+9zWLPs3K7f	The runner and its other sessions are not affected. To cut off the whole runner, revoke the runner's token instead.
+A0clT7+tFG	Connector submissions
+A30swJoJat	Calls are made with your connected account. Tool annotations are self-reported by the server and not verified by Anthropic — connect a test account with representative data where possible. Write/destructive tools are never called. Snippets of the tool responses are saved with your submission for Anthropic reviewers, so don't run this against a server holding real customer data.
+A4P4vvhQZV	Unable to load agent proxies. Try again later.
+A5CxfUT9CA	Failed to upload {name}. It won't be attached.
+A6a5gAY9+n	Applies to this session only
+A8rWfKl1gY	Refresh marketplace
+A9/lbJqU6I	Redirect port
+AAeS757eXL	Lost connection to the remote session. Reload the page to reconnect.
+AAoen1ynSV	Worked for {duration}
+AB2EVdRKmB	Only the first {max} rows were imported.
+ABbr43jXlD	Claude understands your codebase and helps you build, debug, and ship faster. Upgrade your plan to get started.
+ACeXpvieoL	Agent proxy
+ADeZaQ2mEe	Payment system failed to initialize. You can try again.
+AFVTqMDEF5	You've reached your spend limit for this month. Your plan usage resets {day} at {time}.
+AFcnmzHf3k	Project CLAUDE.md
+AVOMYOSiRF	Remove {count, plural, one {# invalid} other {# invalid}}
+AWT+dWCL0C	This task runs during peak hours (weekdays {ptStart}–{ptEnd} PT, {localStart}–{localEnd} local time) and will consume your session usage limits faster.
+AWWmM+LoL9	Sign in & test
+AZAYog2LGY	Open {hostname} to authorize {name}?
+Ab/1gV+iTB	{count, plural, one {# row was} other {# rows were}} skipped — only @{domain} addresses can be invited.
+AcNj9+sIQc	Claude will send you a one-line summary when each run completes — only when there's something worth telling you for routines that watch for a condition.
+AmpQ4SI339	e.g. JetBrains Mono
+Amxb69AvfR	Choose where Claude Desktop sends inference requests.
+AoDWQXWufp	So you're not starting from scratch
+AsG53SJGti	Run these in a terminal, then come back and paste the guide above.
+Awup86Qe5L	press right arrow to run
+B0171SFQhg	Build at a bigger scale
+B2JAEkQZ5I	Reviewing…
+B4iKD1c+UP	· {plan}
+B5pbgQ3tWM	Anything else we should know?
+B6F2sC7pVE	Restarting Claude Desktop may resolve this.
+BAG8RhfFpc	Confirm and create key
+BC1jV+JUBP	Your organization's zero data retention (ZDR) policy doesn't allow changing this setting.
+BDlrpaFylr	Open Claude Security
+BEFJ78AlgE	We put your account{hasEmail, select, yes { ({email})} other {}} on hold because of unusual activity. Your chats and data are safe, and your teammates aren't affected.
+BEKApZtIyI	Print as PDF
+BFErJkP7dz	Access to the Claude Mythos model in Claude Code and Claude Security.
+BFX5sgeN+B	Running — click to cancel
+BFYprPQTJR	Mobile notifications
+BG+3SSJZr9	Connect a tool with /mcp
+BHCo66oUWR	We'll redirect you to your GitHub Enterprise instance to create a pre-configured App with one click. You won't need to enter credentials manually.
+BI4+6wSEak	Claude will walk you through your team's setup and get you started.
+BIqNe0P6rs	Ask Claude to find a fix and open a pull request
+BPBvYjVmyP	Filter by risk level
+BRDaNhNCg/	Reading mount folder…
+BV6xvahcWZ	Best for developers and anyone who needs more usage
+BVsRV2Qswd	<bold>Act without asking is on.</bold> Claude works, uses connectors, and controls apps on your computer without pausing for approval. You can turn off individual connectors in the Add menu. <link>See safe use tips</link>
+BWQmIeBoYY	You are now signed in as <b>{currentEmail}</b>. If you didn't expect this, log out.
+BY343C3tWs	Change
+Ba3MtjwP5h	Telemetry & updates
+Bal7txmD9x	You've reached your spend limit for this month. Request more to keep going now, or wait until {time} when your plan usage resets.
+BdxRviUbrE	· {count, plural, one {# warning} other {# warnings}}
+BfHrtKLzKn	my-gcp-project
+Bfx0/xIb4+	Use Claude from where you already work
+BnnyuqFEw0	Import from link
+Bq+7Yk+xp3	Maximum of {max} file attachments per message.
+BvDDtnyu3v	Use a different name on invoices (optional)
+BwZb5mni5x	Get Claude Code
+ByvmscaYAo	Paste this guide into Claude Code
+Bz0oDcq6PV	Enter a valid date and time.
+C6F5RhayyU	You've reached your {limitName}. It resets at {resetTime} on {resetDay}. To keep working before then:
+C7DSObBfyT	Administrators may re-enable certain features not covered by the BAA from the admin console. If non-covered features are re-enabled, your organization is solely responsible for ensuring that use of those features complies with applicable legal obligations.
+C94JQ00QFp	CEL condition
+CAGgWm3Ni+	Remove "{name}" from your live artifacts? This will also revoke its share link. The HTML file will remain in your Documents/Claude/Artifacts folder.
+CCUxBOb3va	Disable claude:// deep-link handling
+CIQ+PQt0Gj	Failed to update managed environment visibility. You can try again.
+CL+wlCY6he	Can my workspace admin help resolve this?
+CLGAzTq1Mz	Tool policy for {name}
+CLtEFnO361	{price} / mo
+CMD3LZRbga	No checks reported yet
+CME8RboXni	Learn how to install
+CMWsmuOTxU	Upgrades are temporarily paused
+CN/B/k3dCh	Connection lost
+COXInF+iYH	We'll email you the outcome
+CP8/J+x7OC	Get an email when a Claude Code security scan finishes.
+CR09OGPdpk	Seats can be set up for usage credits once rate limits are hit. Usage credits are billed at API rates on an additional invoice. Admins can enable this and set spend limits in Settings. <link>Token pricing can be found here.</link>
+CR13R/8+rv	Rule updated.
+CSj5pLBh3f	Usage credits ({count})
+CSrGfx9XpY	Failed to update source.
+CUJthq8kug	My connector does not collect conversation data beyond what is needed for its function. (§1.D)
+CUUkUwAi8M	Draft a message →
+CUV9CxJHTh	Server reachable but rejected the unauthenticated handshake. Choose an OAuth mode above to sign in, or add an Authorization header.
+CUo9b6y3JH	Enabling HIPAA compliance executes Anthropic's Business Associate Agreement (BAA) and configures this Claude Enterprise organization to handle Protected Health Information (PHI) within the Eligible Services the BAA covers.
+CVncDlL5pt	{id} (deleted)
+CWInmiTUxd	Failed to load skill metrics. Try refreshing the page.
+CWxAZo6MyF	my-foundry-resource
+CaejUJWm2D	Configured by your organization
+CbPYtuP6+N	Your identity or account details
+CcTtITT9H1	Reset {fieldTitle}
+CipIsrvbtO	Configured inputs
+CnTF2BoJLJ	+{count} more…
+Cnm0QAkWnp	Queued
+CoWpJWiYVJ	Instructions for Claude
+CqbD7cgcay	Started from a <link>Security finding</link>
+CqiCvCglOv	Failed to create service token. You can try again.
+CtLYikSjMz	{count, plural, one {# can't be invited} other {# can't be invited}}
+Ctsw12wjcJ	Permission for all connectors
+Cu9LfmbCZK	Contact your Anthropic representative to procure additional seats, or assign them to a tier which has enough available seats.
+CvfEKP/fiK	The request couldn't be completed — open Details for more.
+CwADEGuH8H	Workspace restrictions
+D+/iC3ajYb	Let’s connect the tools your admin approved.
+D+i4rWGZl+	We put your account on hold because of unusual activity. We can't share the specifics—that would help bad actors get around the same checks—but the review is your chance to share context so a team member can review. This affects only your account, not your workspace or teammates.
+D095BlwmjX	This is your local time
+D0A8pf6o17	Use your own OAuth client
+D4CuWTj4f5	Instructions can't be changed because one of your orgs has an encryption key configured.
+D64VZJtPev	scanning on schedule
+D7vaDuz9sI	Ask on the side without touching the main chat
+DAuEfP9CaO	Daily usage: {capped} of {total, plural, one {# day} other {# days}} hit the limit
+DC+lIM7C8k	Managed MCP servers
+DDEsmngOcW	Configuring machine...
+DDTISmk7iL	The previously selected server is no longer connected. Return to the Connection step and pick a server.
+DH64q1WipL	Save {percentage}%
+DHOAzXPuzl	Select all members
+DHdnIxD7G9	Disable Claude.ai sign-in
+DHrma67pss	Pin loaded compensation, coding hours, or lift to recompute against your own assumptions. These overrides shape the page only — they aren't saved.
+DJmIHIHO1w	Enable now
+DMt6zkcaX6	What if verification fails?
+DSKxEcqnR4	Anthropic-hosted environments shown
+DT+jM1tfQu	Showing first 100 of {count} rows
+DUFsNTkAts	Quantity must be at least {totalMembers} (current total seats)
+DVBoZOoX9C	Navigate to your project
+DY0aw7svrD	Reject desktop extensions that are not signed by a trusted publisher.
+DZwrOk9TjA	Approve this folder in the trust prompt to continue.
+DaI9fcJPQS	{count} people from {domain} are using Claude
+DgpHBoCXb3	If you just created this session from the Claude Code CLI, make sure you're signed in to the same Claude account here as in your terminal.
+Dh6dn2tG7q	Sent to the email address on your account.
+DkTE5kRzHp	Private Beta
+Dn82ALx/+V	Live
+DnXPcFgmqb	Helper script
+Dnj3+Wz87Q	Annual value minus annual spend
+Dp7S069Qyi	Open a folder and ask what it does
+Dqf5XiV+yy	View detected-findings trend
+DrFn3Jpzg4	This link contains embedded credentials, which may be an attempt to disguise its destination. You will actually be sent to:
+DrfFB3GGAI	Not returned by discovery: {ids}
+DyHEh6lC7R	idempotent
+E+RqlmVfKb	No matching results.
+E2xA5BCsl1	The OAuth client_id Anthropic should hold for this server.
+E5IlMRKNe6	Sign in to your Anthropic account in the desktop app, then try again.
+E6XV6UBsi4	macOS version not supported
+E9ffNa95kd	The Claude Code binary is missing or damaged. Reinstall Claude Desktop to continue.
+E9wxPzczmK	We'll email {email} after we review your account. Until then, you won't be able to use Claude, but you can come back to this page to check the status.
+EATQrlttOw	Organization UUID
+EBTFAIao5X	Enable Canvas instance
+ECWb/hpBBY	good
+ED8pZ3DB5G	Failed to revoke session token. You can try again.
+EDAsx6Trra	We couldn't update your spend limit. Please try again.
+EF/mc0e1fk	Windows registry file
+EGOuVJosgc	Crash and performance reports to Anthropic.
+EGoO2zD6ex	Failed to update default worker. You can try again.
+EJRwP/GmWX	{amount} left from your gift
+EKiPNBn+Zw	No repos match
+EN3DA/4fyw	Open Claude Code
+ENjsSOF4+m	This capability is currently turned off at the organization level. Once it's turned on in organization settings, this role will gain access.
+EPJrd6MUhK	You've reached your weekly Sonnet limit. It resets {day} at {time}.
+EThsmphP7E	Scope is required when Tenant ID is set.
+EUwx3zKuAm	Inject credential
+EYpAlZr0c0	Only users in "{orgName}" organization can access artifacts you share.
+EaNkqMDiol	Unassigned members still use a paid seat. Assign a seat type so they can start using Claude.
+EauHnet1z9	…and {n} more
+EcAvDUnycA	Rename terminal
+EcTe3kuYJI	Sign in to fetch this configuration.
+Eg75dL9bMF	Some invites may need an admin to approve them.
+EgFDCZEjpt	A new cloud session will be created from this conversation. Your branch is pushed and a transcript summary is sent so Claude can pick up where you left off. The local session stays on this device.
+Ehsx5s/+/3	Add GitHub Enterprise
+Ekag1cjwe2	Net gain ÷ annual spend
+El8zCNCbMh	Cowork can be usage intensive. For the best experience, consider <link>upgrading</link>.
+ElnDv39eAw	Cowork memory
+EmFCpBoR7n	New terminal
+En0xJdhLpd	My connector does not transfer money, cryptocurrency, or other financial assets on a user's behalf. (§4.A)
+EoAEryzLKC	Claude understands your codebase and helps you build, debug, and ship faster. Get started in the desktop app.
+EoyvrF04wv	Data-handling practices
+ErCpG12/4F	(ephemeral)
+EtWnHVE/at	Press enter to get started
+EvDJ2Gc+tI	{amount} billed this month
+EvwX+qKToR	server-name
+ExD7p6m+tU	You selected Write only, but these tools are annotated as read-only: {tools}. Choose Read and write, or fix the tool annotations on your server.
+EzXcdcs6cZ	{days, plural, one {# day} other {# days}} left in your Pro trial
+F/6VqPBLCE	Server
+F/wmsowKxn	No roles found for "{search}".
+F1D+oS6ryj	Your team can start using Claude now. When you're ready for more, the Administrator Guide covers SCIM, audit logs, and org-wide rollout.
+F2A3VUA+5z	Refund of {creditsAmount} for unused usage credits processed. Expect it in 3–10 business days.
+F2NgzRnfNo	Period spend
+F3+47beVFp	Configured model not available
+F3Vucs2fRz	Get a daily PR digest, dependency check, or briefing
+F4EQoxQeAV	Copy Metadata URL
+F536zGs9Gw	Press enter after each email, paste a list, or drag in a CSV.
+F7xHuBeE78	That email is already a member of this workspace.
+F8qDe2egem	Payback
+FF+UtbbxbH	You already have a nonprofit organization
+FGl0QHAcOI	artifact
+FHufq6FL5k	Can’t reach Claude. Check your connection and try again.
+FIAOKqTF+W	/feedback isn''t available for this session. Try again from a connected session.
+FIVoMsfQ2t	Claude Max is required to connect to Claude Code
+FKK0SXWZ79	Your current seat doesn't include access to {featureName}.
+FM97dDOF6k	Very
+FOOQ+7iqkd	Filter group members
+FP7nsXX0LJ	View seats
+FPbbtXthCD	Open the browser DevTools Network tab and look for the /completion request for the full server response.
+FQWAL855EP	Available with a Claude Max plan
+FSyyISlTnS	Token cap window
+FYjiyj920L	Failed to dismiss session. You can try again.
+FaNPWTvFlX	Self-hosted runner pool
+FcISn6aVjf	Gateway SSO IdP (OIDC)
+FcnRll3gMl	Company email required
+Fdln1zPmTV	Please review the <link>setup guide</link> when configuring groups.
+FhGtLPegFw	Set by admin
+FhYnU4Hl8w	Widget from {server}
+FhzC4fZ6k5	Will become unavailable on {date}.
+FiXNt10l2f	default
+Fm3M+yFIbr	Finance
+Fm5cFewoGE	One conversation from anywhere
+FmKKxT5Cz6	Sync a plugin marketplace from a GitHub repository or git URL
+FnkQmHtZvP	{count, plural, one {# deletion} other {# deletions}}
+FpsLRqqDsF	Couldn''t send feedback. Please try again.
+FsRuvVSbmk	Get usage credits
+Fu64yNzLKm	You're currently in {orgName} — you can try switching to a different organization.
+FuhC3TOQ32	Choose a task…
+FvtFvrlt9S	Remove the highlighted addresses to continue.
+FxkRR0MSCK	{count, plural, one {email ready to invite} other {emails ready to invite}}
+G/QQvx0Tsd	Override the auto-discovered model list. First entry is the default.
+G5skau4jJF	Dismiss error
+G6KtJYtGMs	Are you sure you want to dismiss {count, plural, one {this limit increase request} other {all limit increase requests}}? This action cannot be undone.
+G8T4pPDWCR	You're approaching your {limitName}. It resets at {resetTime} on {resetDay}. To keep working without interruption:
+G8b9e/SQQ1	Repository not found. If it's private, GitHub access is required. <link>Connect GitHub</link>
+G90shAPRdF	Sign up for a Pro subscription to connect your account, or use your API key.
+GAIsvleakL	Anthropic team
+GAeqmRP3Ha	Down {n} this period
+GBVm0o0Ztk	{price} / mo × 12 months
+GEKZb1pIje	Usage settings are only available on Max plans. Upgrade to view your usage.
+GEYi/Ks4S2	When usage credits drop to:
+GFhSwY2YQB	Skill
+GGv1vjhiWU	Accepting this BAA binds your organization to the agreement. Enabling HIPAA compliance here only configures this Claude Enterprise organization. To enable HIPAA on Anthropic API or Claude Code with ZDR, contact your account team.
+GJElfXQeyr	Access to Cowork, the desktop tool for anyone to automate knowledge work.
+GJsF32tZ3H	What if I think this is a mistake?
+GKnvD2WPfQ	More Opus with Max plans
+GLbhLWOYr/	Automatically buy more usage credits when you're running low
+GLw2yO7QXE	Failed to remove target. You can try again.
+GRl1b24qKm	Forking project…
+GUTix/pvpN	Couldn't stop the response — check your connection and try again.
+GVO1SUl+Ej	Should have triggered thinking
+GVTSDBkCfS	Your org is out of usage credits. Buy more to keep going now, or wait until {time} when your plan usage resets.
+GW6Zyo3cO4	Small text
+GWAB3T0SLp	Extra resource attributes to attach to every span/metric.
+GX8+SGUXDd	read-only
+GY/dOFclqe	2–3 concrete tasks a user would ask Claude to do with this connector. These appear on your directory listing and inform our review of whether the tool set matches the stated purpose.
+GYOgJNzMZF	You're approaching your {limitName}. To keep working without interruption:
+GYrwE5ehu1	Tool egress (Cowork sessions)
+GabEjU04GT	Manage in Claude Security
+GbqWxytTwO	GitHub connector
+GcUjjOYvYK	Create skills
+Gh3Od11jga	Claude Sales
+GhgU+/h0oI	Paste a shared artifact link to add a copy to your Live artifacts.
+Ghkq27jKoe	Ready to check out
+GkKNiO4C8s	Need urgent help? <a>Contact support</a>
+GlLIgmVzDF	Can manage
+Gmhved2U/e	Queried analytics
+GqELGE1iJK	Trend visualization coming soon.
+GrnZDNX+lX	Saved.
+GuZxY7ypCy	The runner process keeps running on your infrastructure but can no longer authenticate. Restart the runner process to re-register and reconnect.
+GvbzPfNyKC	Enter your tenant's web hostname (acme.ghe.com), not the api. subdomain — the API endpoint is derived automatically.
+Gxk66QH6Qu	Helper returned a valid credential
+GzwfABozww	Bedrock base URL
+H/XqXJZoja	Increase
+H0aDFjOjWz	Your message was sent to Anthropic sales
+H23fxGBYPm	Share details about how you were using your account on {date} to help us understand the full picture.
+H5VNOxBx2O	Couldn't sign the authentication token. Try again.
+H8Gxfl3nyg	View your Claude Design projects
+HA0OcsX8yk	This scope is inactive because the API is disabled above
+HA2UIzGsaT	Block nonessential services
+HBcJPD/Lqp	Set a monthly limit for how much {target} can spend on usage credits.
+HH/bLSGM/Y	Claude can choose to notify you about important updates from a Code session.
+HIjCnaQF93	Helper cache TTL (sec)
+HMTRokKp6O	The server this review was based on is no longer connected. Return to the Connection step and pick a server before submitting.
+HO922/quOT	Copy details
+HQcXlU4DEE	Editing files
+HS1aFA7dJT	Somewhat
+HSe6gAsXMQ	**The fastest path in.** No scheduling or back-and-forth — you'll have a quote and a plan by the end of this conversation.
+HXHWJTRvEA	More download options
+HaIgIJ2fmN	Are you sure you’d like to disable <b>{keyName}</b>?
+HcBaNizX6R	Filter members
+HdT+pDi01J	{count, number} added earlier
+HfMQVThKYy	You've reached your usage limit. Try again after your limit resets.
+HhwYFtK23H	Large text
+Hi1k4p3uvv	If you make this project private, you won't be able to make it public again. Contact your admin to request the ability to share with your whole organization.
+HldV0QAMie	Claude Code crashed
+HnYfF2KC3h	Usage credit requests turned off
+HoiRncoib+	Add target
+Ht9KEfQ/49	Navigate time range
+HuIg1+BeMP	Optional HTTPS URL. The banner text becomes a link when set.
+Hua8CMkV3r	Your gift covers this plan through {paidThrough}. You won’t be charged until then.
+HyV/bwvxfD	{count, plural, one {# comment thread} other {# comment threads}}
+HzajXQuk6g	Skills you can add
+I/BbnVE2jn	Create a new group
+I20fJp5Utk	We couldn’t update your billing rate automatically. Try again or contact support.
+I2z5s/mIOa	Next period
+I9ZeR8iH95	Loading more projects…
+I9iBj6bErP	Enables in-app AWS sign-in (no AWS CLI needed). Set with the three SSO fields below. Ignored when a bearer token or profile is set.
+IAJaf2MM/F	Failed to add the allow rule. The credential was created but could not be rolled back — remove it from the Credentials tab if needed.
+IDTNNuwLsj	Always required
+IDvGk1lbwU	Failed to upload {names}. They won't be attached.
+IErkkuIcBi	A group with this name already exists.
+IHENczwSR2	https://config.example.com/claude-desktop
+IIbhqlJNXJ	Delete failed. Please try again or contact support.
+IL/+4WxJp6	Querying analytics
+ILpwnjjKGP	Claude Code is built into this app
+IMYTrpBkI6	Your organization's static service terms don't allow changing this setting.
+IPiHjIy59N	No steps yet
+ITXd/w9hjj	Connect to GitHub Enterprise
+IVxsgx4aeC	Subscription downgrade canceled. Your subscription will now auto-renew.
+IWWmERMxem	This artifact's folder is missing on disk. It may have been moved or deleted outside of Claude.
+IXF/1bytWQ	Turn on notifications
+IXvntQt2Zf	Claude's proposal included
+IYeGbUTTdn	Claude needs permission to access your Documents folder to read this task.
+IdHGKHb1Rb	Advanced: CEL condition
+IdOylIUstO	This session's token is invalidated immediately. Any work in progress using it will fail on its next API call.
+Idr1JpYIjt	Network egress controls do not apply to <a>web search</a>, web fetch, or MCP connectors. Web fetch runs through Anthropic servers and is limited to URLs found in the user prompt or web search results.
+IdzXYb1nI4	Tell us more about what happened.
+If8vD/U3nE	You're set up
+IfXX/CT7v5	The server is public and doesn’t need sign-in.
+IfbMvMjNsr	"{value}" in your Claude Code settings doesn't match an available model. Update the model setting; using {fallback} for now.
+Im8aIqcax+	{credit} in usage credits, {percent}% off
+ImaGMydTD2	(internal override) Looking at org {uuid}.
+IoDlcdvSxd	Slug
+IpddJZInwy	{total} / yr
+Iq2YTCACUZ	Scroll to your message
+IsJE3n7saV	Install the Claude GitHub App on repositories you want to scan.
+IsgOISniNu	Your new limit is still below this month's usage. Try a higher amount or remove the limit.
+IvU+8OWSJG	Apply nonprofit pricing
+IwRaId+4hv	Taking screenshot
+IxmIOr4U3i	{totalSteps, plural, one {# step} other {# steps}}
+J+38wFg/kx	Sign-in failed:
+J/9zW8VFme	Create long-lived tokens for applications calling the Claude Security API.
+J/X6rJeKpd	User Management
+J/Y8HJm8hj	Fetching config from this URL.
+J15L81nD+Y	Back to previous question
+J15VMWRvdi	Attach "{directory}" to this session?
+J5PAXosO8h	Add from a repository
+J7x7yfBqN/	Create a group
+J8PEX2S4/1	Helper produced no output
+JFYjwM0G9V	Latest published version
+JGS86GqRG8	Your trial has been canceled. You’ll lose access on {cancelDate}.
+JHJJAHtcx8	Save as draft
+JJNV3wIw9A	No frames yet
+JJVljnyegG	Local command (stdio)
+JLVj/6T9+B	Security scans run on usage credits. Turn them on to get started.
+JLrcr76/LZ	Test again
+JNrKHzhNQC	Open the session to approve
+JOFb1Tb7WF	This configuration is fetched from a bootstrap URL at launch. Fields it provides are locked below.
+JOfHjTLD++	Rendering widget
+JQs8c3pGcl	Gateway base URL
+JTd8z+nZIg	configured in {section}
+JVx4V7ROGz	Available for Pro plans
+JaJU6bwpVB	Select at least {min}.
+JbUrMoOK+Q	Get <fm>faster responses</fm> and <cr>automated code review</cr> when you buy usage credits. Usage credits also cover your team if they hit a plan limit.
+Jfr7P/A89q	{m} mo
+JgRwRuBWFK	OpenTelemetry resource attributes
+JiaScEwUsv	Keep going
+Jj5UsNkTxk	Locked by another program
+JkYdw9Axes	Payment system failed to load
+JkbN+kWYy3	Reading or writing the session folder failed. Check disk space and permissions, then try again.
+Jnwtujdc+1	Faster responses, higher cost. Opus 4.6 and 4.7 only.
+JoFFlh/6P/	Creative
+JqV9XQ9o/J	No default
+JqaU0qkb9c	Azure AI Foundry API key
+JsOnt26X3G	Something went wrong. Try again, or run /mcp in the terminal for details.
+Ju9RzSbqq5	No available self-hosted environments.
+JuGCjB7IPE	Users pick from a fixed list of URLs (e.g. regional endpoints).
+JuIByQC0hN	OAuth — Anthropic-hosted client metadata (CIMD)
+JuPk3Hz8Vg	Spend limits view
+K+HLu2negq	Failed to associate. You can try again.
+K5RfQB1jdx	Usage credits are off
+K5YEiW3NOB	See our <tos>Terms of Service</tos> and <aup>Usage Policy</aup> for what Claude can be used for.
+K7gZgqTptz	Claude is at capacity right now. Try again in a moment.
+K9q4XwLJd2	MCP servers
+K9tTRBc5Ru	Couldn't verify the GitHub App is installed on this repository. Click to retry.
+KAvrsFSPnq	Once instances are heartbeating, associate environments or runner pools to route their sessions through this proxy.
+KCh2/LCBMZ	No data returned.
+KCpkFKuCP4	About annotations
+KEMbnwqu9G	Everything Claude Security needs to run.
+KER1zNW5fX	alice@example.com
+KIBB1zhazU	{count, plural, one {# question} other {# questions}} — open to answer
+KL1VgUyLuG	Anyone with the link
+KN7KCEgZIc	An egress allow rule will be created for {hostCount, plural, one {this host} other {these hosts}} so the credential can be used.
+KOjHRBHy5e	Too many responses are running at once. You can stop a response or wait for one to finish, then try again.
+KRFHugeoFG	Let others create their own project from a copy of this one. Only the latest captured version is shared.
+KTSbDsrJwt	A Windows system library is missing. Reinstall Claude Desktop or repair the Visual C++ Redistributable.
+KUFMiMvZMW	Revoke access
+KUQsZcvjDh	Grants ability to read organization spend limits
+KZbdbvaU9V	Plugins & skills
+Kf24Vp3vyU	Project .mcp.json
+Kgx5XeA8Qd	Anything authenticating with this token will lose access. This action cannot be undone.
+KheppEGP0D	Only show your self-hosted runner pools and BYOC environments in the Claude Code worker picker.
+KjD/3UVik3	Waiting for the server to confirm completion.
+KrzoC2ZcIq	Running… {sec} s
+Kt9cSdP+p/	Claude's got the basics
+KtH0oCK2rM	Claude Code requires a newer version of macOS. Update macOS to continue.
+KtZV9pULgo	Connection
+KuMXETeZRT	What teams of your size and shape typically spend across our customer base.
+Kx3gGtlJLI	Supported out of the box — no further action needed.
+KxBn0Mphyz	Methods
+KxgRloPVO6	Role name
+KzoNMjYI07	Open task
+L+geN0DrtO	Gateway sign-in (OIDC)
+L05EkQSQ0J	{cause}. Retrying in {seconds}s (attempt {attempt} of {maxRetries})
+L2pgmUxXgz	I'll keep these in mind when I respond.
+L4dIq9u0LB	127.0.0.1
+L4qZQU5ic/	Open guide
+L8llNnDKU/	Code Review cost
+LAKyj5vJUG	Your Microsoft Entra admin needs to grant consent for {serverName}.
+LGWBpdPOR4	Your account will remain closed
+LJpnUKX1YT	Re-enable key?
+LMNHhIswuf	What reviewers check (review criteria)
+LQOsG3yWng	Code permission requests
+LSVniN62Ib	Session usage
+LTRPpq9O6n	Re-enable
+LTUSyVsrMA	If this is a mistake, you can verify your age now — it takes about a minute and your account is restored automatically.
+LUVKDK49aS	None (passthrough)
+LVgbWJo83E	Runs tools inside an isolated VM instead of the host. Stronger isolation; slower file access and no host-process tools.
+LYW270E/cl	Per seat / month if billed annually. {standardMonthlyPrice}/seat{taxSuffix} and {premiumMonthlyPrice}/seat{taxSuffix} if billed monthly. Minimum {minimumSeatCount, plural, one {# seat} other {# seats}}.
+LceR0Q2gvp	No agent proxies yet
+LiIIR5Z/yr	This artifact couldn't be loaded. Try again in a moment.
+LjOcsYKzL1	Denied (401/403)
+Lm201lTPzE	You will be able to change this setting starting {date}.
+LnITqSG0Ju	{count, plural, one {# setting} other {# settings}}
+Lpq+8Nau5X	Hosts your network firewall must allow, derived from your current settings. This list is read-only and updates as you make changes. Traffic is HTTPS on port 443 unless a custom port is specified (OTLP, gateway, or MCP server URLs).
+LqoebBwYLp	Supported. Anyone can connect without credentials.
+Ltyy58/WyD	All users connect to the URL above.
+Lv1zlpRUzM	Your seat type doesn't include usage credits. Manage spend limit to keep going now.
+LvjzymLIWo	Sharing data from Labs features helps Anthropic improve these products. You can change this anytime.
+M/hk1LFpsi	No valid email addresses were found in that CSV file.
+M0ukgUOjs6	None set.
+M1ekod7Ohm	AWS SSO start URL
+M3grSEetWi	“{groupName}” will be removed. Sessions in this group will move to Ungrouped.
+M5teCgPUZY	Register a proxy fleet. You'll get a one-time secret to start the proxy with — every replica shares the same registration.
+M6v83AYyhr	For MCP Apps with a visual UI, you'll be able to upload carousel images that showcase features in-app on your directory page.
+M7HJaTn8JL	Open annotated image: {label}
+MB3WNtF4pk	Add role
+MDU8QJlXdN	Features that are not Eligible Services will be disabled. Administrators may re-enable certain features not covered by the BAA.
+MEMmccJJ44	This capability is enabled but its required capability Code Execution & File Creation is not.
+MGTW+MpZ7U	This role
+MHBNNaX0vZ	Dream
+MHF4zVWFBC	Based on what you've described, a smaller plan is the better fit.
+MHiHyxBcob	MANAGED LOCAL
+MIHgZIoF4r	Describe what was happening on {date}. Any extra context we should know?
+MLsBHfP3T5	Message from teammate {name}
+MNy7T+ep8v	⌘ Enter to continue
+MPdK0gXvRA	Bootstrap config URL
+MQ0s+vubuA	Claude for Enterprise {tier}
+MQbmj7g3BG	Operations
+MSA5ERgzNZ	1-token completion in {ms} ms{model, select, none {} other { ({modelCode})}}{sourceLabel, select, undefined {} other { · via {sourceLabel}}}
+MSCljlKMFZ	Sign up for a Max subscription to connect your account, or use your API key.
+MTCozhhiyd	Claude Max or Team is required to connect to Claude Code
+MV/dAsb5T8	<link>Upgrade</link> to use Claude in {suiteName}
+MW4a5sB6yS	Admin policy applied to plugin-delivered MCP servers.
+MYYAX2WEkL	What Anthropic may receive (configured by your organization)
+MasEfgJI0V	Plain JSON
+Mfl1eCOlkX	This task will run on your computer.
+MfrNN963cy	Claude is working in {count, plural, one {# session} other {# sessions}}. Relaunching now will interrupt that work.
+Mi7VR7P+5/	Usage settings are only available on Pro plans. Upgrade to view your usage.
+MicyCPHGJb	Anthropic API key
+Ml1+Fc32zR	{count, plural, one {# is} other {# are}} already in this workspace.
+MloGeTBKJl	Claude in {suiteName} is available on Pro, Team, and Enterprise plans
+Mp/WrRk9SN	A role with this name already exists.
+Mq8VsmNihX	Skill metrics
+MuwRgZqh4O	Changes here affect how users find your server. The connector URL and auth configuration are locked — contact {email} to change them.
+MyIJbrHxpk	Contents
+N0k1M621DW	Ability to share skills with specific people in your organization. Revoking this capability does not revoke previously shared skills.
+N4dGyyihU2	Select an environment
+N5b/n+Jq/c	Include screenshot
+N5hOiMqiZn	Auto-register (dynamic client registration)
+N60ejKRcbM	Copy {value}
+N99WPD4fbO	We'll email you once we've reached a decision. Review decisions are final.
+NA4SBfPMeA	Gateway API key
+NHT3tsgO9s	Groups are a collection of members that can share roles.
+NHvtv6jJcx	https://REGION-aiplatform-ENDPOINT_ID.p.googleapis.com
+NIp274ENLM	Manage usage credits
+NMKFYByQzc	Push notification
+NOVKLgrAVh	Your group's usage limit is set to $0. Manage spend limit to keep going now.
+NSX5q967/k	Prompt preview
+NUASktdfTk	https://login.microsoftonline.com/TENANT/v2.0
+NW2DOCqE8/	This rule injects a credential via {handler}; that injection type can't be edited here.
+NaorlXses7	Your new payment method may decline {currency} charges. If a renewal payment fails, your subscription will switch to {fallback}.
+NjiVxTgINb	Search or type owner/repo
+Njl7Bqim7I	You can't spend more than your credit balance.
+NkHFa9G1Qp	Authentication failed — sign in again to continue.
+NkIrMvD+5k	Test script
+NkMAbPAtIN	Tags telemetry events with your organization's UUID so Anthropic support can find them. Not used for auth.
+Nldb9z0tsa	You haven't used Claude Design yet
+Nmx8aeyXHP	Failed to delete access key.
+NnbFIgvVDy	View or manage plans, invoices, payment methods, usage & cost reports, spend limits, and overage approvals.
+NoWHh46yvP	Upload carousel images
+Nq9lushSgw	This server exposes no tools.
+NvV/DDLkPI	Sign up for a Max or Team subscription to connect your account, or use your API key.
+Nvto3gzetM	Auto-review
+NwUAfHUQN1	Or reply directly…
+NxWkpRIOP4	Folder not allowed by your organization
+NxzeNU+cfW	Dead
+Ny0rQwG3Ce	Instance
+Nz51q0FhNV	*<link>Usage limits apply.</link>
+O+oyTLAiQq	Download guide
+O07vpSxT5L	Access to fast mode in Claude Code. Fast mode has the same intelligence with significantly faster output. It uses more credits and is billed via usage credits.
+O0zxaLsWs9	User-added MCP (Python runtime)
+O1hruShcEs	Organization-wide limits are managed in <link>connector settings</link>.
+O3JKmenvgB	By clicking ‘Turn on’, you agree to turn on usage credits as defined in our <link>Help Center article</link>.
+O7WR5z2gPu	Months until value covers spend
+OAqeZmgo4V	Fast mode is only available on Opus 4.6 and 4.7
+OBB+5a51S+	This skill file isn't a valid archive. Ask Claude to repackage it as a zip.
+ODoMZOvv0+	Security scan emails
+OHkPdKRZWH	Take Claude everywhere
+OKZQJjK0xQ	Existing API keys can now use compliance scopes
+OKdi45oPS7	That URL is missing an authorization code. Copy the full address the browser was redirected to.
+OL7Tgn9cjy	History {index}/{total}
+ON+LmRDPBq	<top>/ month</top><bot>billed annually{taxSuffix}</bot>
+OPzRDblZkI	Loaded annual compensation per engineer in USD
+ORcS+jTUP7	Testing…
+OSbNg+1qqF	Good response
+OTO45213qY	Updated dashboard
+OTZfypjWAC	You've reached your session limit. It resets at {time}.
+OTuMWTHY/9	Registration actions
+OV5pIaqT7N	Failed to create the registration. Check the URL and CA cert and try again.
+OWjLMbTp3z	Switch to Claude Code and let Claude work directly in your repo, running and testing as it goes.
+OX1+jdVwLL	Block auto-updates
+OYOu0U2iok	Non-consensual intimate imagery
+OaOwDo7XQp	Usage credits paused. You can increase your spending limit or wait for the next billing cycle.
+OafNfUufYW	**Free to talk.** This conversation doesn't count against your usage.
+OcHw9o00qo	Go to routine
+OcN2GyDiz5	Session not found on disk
+OeWgRJWrgU	You're out of extra usage. Buy more to keep going now, or wait until {day} at {time} when your plan usage resets.
+Of+FSNcEp2	Increase usage credit limit for {name}
+OgGFDhVMzh	Dynamic Client Registration (DCR). Works with most servers.
+OhXU1lP/03	Available (will boot)
+OhcSptaq97	Keys are owned by the organization and remain active even after the creator is removed.
+OndUIFOOc4	OAuth — dynamic client registration (DCR)
+OnpAzIS6lb	HTTP {status}
+Otoh797VHW	Claude Security runs on the same sandboxed environments as Claude Code web sessions.
+OuIbXfafbi	If this is a mistake, you can verify your age — check your email for a verification link, or <a>contact support</a>.
+Ov1Ty3UUIN	Only {domainList} addresses can join this workspace.
+OyCsGh4JcJ	Upgrade to Pro or Max to use {featureName} on desktop.
+OzIqxn5jJT	Message sent
+P+/GQ+gmAe	Callback host
+P+XihqpFRg	Stale
+P2Y0Bawbx5	Scheduled and on-demand scans are managed in the Claude Security workspace.
+P2dcA8Q5QF	Let Claude edit files, run commands, and ship changes from the desktop app, your terminal, or your IDE.
+P4YVhxeN9c	session limit
+P7PLVj/gW7	Notifications
+PBIKPEv1ir	Enter {field} to test the connection
+PD+fH35/sZ	Define permissions, allowed directories and more for your entire org. This will override user and project settings and applies to Claude Code in the CLI, IDE, and Desktop app. <link>Learn more</link>
+PDQUOV3Ovx	Spend information
+PEiYctxogE	For this task, Claude will work and use connectors without pausing for approval. <link>See safe use tips</link>
+PFnaHeIApM	usage credits
+PHj+a3XtC7	Group spend limit info
+PJhe0HJqkm	Token URL
+PNFwYup600	Auto-updates
+PO+0DdDIId	Background tasks
+POk4kFsSdO	This is a GitHub-managed host (*.ghe.com) — port, custom CA certificate, and read replicas don't apply.
+PTKusPVImM	You have no seats available to assign. You can <link>purchase additional seats</link> to add new members.
+PUNLFLsK2n	Available with a Claude Pro plan
+PUgWgRCglo	Coding hours per week
+PW+sL4vFvs	N/A
+Pc8UzwjRqD	Nonessential services
+PhBPNhWniL	When enabled, the webhook payload will include the finding’s title, file location, and description. Leave this off to send only a link back to Claude Security.
+PiKtVdYYS4	Your browser is running an outdated version. Refresh the page and try again.
+PjE3Znx4JW	We put your account{hasEmail, select, yes { ({email})} other {}} on hold because we found signals that your account was used by someone under 18. Claude is for users 18 and over.
+PjRuAwdqpE	Couldn't add skill. You can try again.
+PkCCmqpR/t	Loading your connectors…
+PoX2HNO9XV	Send request
+PphFPyu33Y	Include details
+PqXHHY/YQb	Couldn't look up your account.
+PqmLVnSl7X	Next month
+PsUzYxe+dF	Get a ping when long-running tasks finish
+PuQodKw2Rt	Default environment or pool
+PvMfiitQFC	Unexpected output from Claude Code
+PvOSnSrr3W	plan's limit
+PvpnX6G33c	Compliance certificates
+PvtZylU1JR	Failed request
+PxB0kZS3Uh	Allow Claude to
+Pyrgvhs2vg	We'll email you after we review your account. Until then, you won't be able to use Claude, but you can come back to this page to check the status.
+Q0r2veO/Mx	({skipped} non-plugin {skipped, plural, one {entry} other {entries}} in folder skipped)
+Q24HXtC3KP	Please review the <link>setup guide</link> when configuring custom roles.
+Q5Fhu5RORb	{low} – {high} / mo per seat
+Q6zr1vGzlF	Use bootstrap config
+QACujtHutn	Tool permission restriction
+QDgJKCzkB7	Custom spend limit info
+QIyF4rbXyZ	Pool keys
+QL5gWJ5JBl	the provider
+QL6+R/isje	Usage credits keep your team going when they hit a usage limit. If anyone is past a limit now, their current chat will get cut off.
+QOejI7M2b0	Create registration
+QSOsS3rV8S	Access tokens
+QScUkPYxgA	Permission for {tool}
+QUpWmrxCaB	Ask an admin to turn on usage credits.
+QW+Q5NHmeF	Clear all
+QXP97g/t1z	You're out of usage credits. Buy more to keep going now.
+QXxWwEu3q1	They're still here. Try again to reload them.
+QYSg1SpWKz	Resolved this period
+QbuXNa7Ata	Focus previous split pane
+Qdow8xfuuP	Failed to load organization plugins.
+Qe65weE8lC	About file deletion
+Qee7joNNug	Core (VM bundle + Claude CLI binary)
+Qf1fgCTsmu	Search permissions...
+QfxTu03U4g	Claude connects without credentials first, then prompts to sign in if the server requires it.
+QhJxtbMJfB	Archive {count}
+QiP05lqinH	Routines are paused — your usage credits spend cap has been reached.
+QkbhtcTa4t	enduser.id
+QoTanoh+6w	Teach Claude your project
+Qpzxn9hNaC	Type of bug
+Qr9R5OBs5c	Match
+QredwIagLx	Telemetry config conflict
+QsrdXim0Vj	Couldn't load the guide
+QupT91F+qX	Your MCP server has been received. The review team will evaluate it and reach out at the contact email you provided.
+QvYxF2hB46	Contact Claude Sales
+QxWCILUZ/n	us-west-2
+QxjZcaGQYm	Feedback sent. Reference ID: {id}
+R/6nsxJ4TN	Subscription
+R/p8Jr8LKw	Curated by Anthropic. Choose which sources to include.
+R1LeISHTBH	Custom Roles
+R2Q/hqc3Ry	Unable to update seat limit. Please try again.
+R4RAjXE44v	Send reply
+R5JFx0xeAO	Teams at <bold>{domain}</bold> are already on Claude.
+R5wFLmtp3U	{days, plural, one {# day} other {# days}} of Pro left
+RCy/fSOZ38	The endpoint returned an error.
+RF538op5DA	Turn on usage credits
+RFFH1lyEc7	https://d-1234567890.awsapps.com/start
+RFLU3xUdnQ	Limit increases ({count})
+RG7DQpwgjC	Archive anyway
+RIbw6nN4dR	Updating memory
+RJAkrNLuy2	Folder access denied
+RJbe2fl4Qr	Set up single sign-on so your team can use their work credentials
+RPIOKgGXs3	We put your account{hasEmail, select, yes { ({email})} other {}} on hold on {date} because of unusual activity. Your chats and data are safe, and your teammates aren't affected.
+RX3oWSQgNC	This service is disabled for your organization. Manage usage settings to re-enable it.
+RZJPnT4moD	Add group
+RZP+mkDUjw	Are you sure you’d like to re-enable <b>{keyName}</b>?
+RaVP62wW+g	53280
+RcMetnFGHz	Bedrock service tier
+RdqsITWRJU	Waiting for Claude to finish — the app will relaunch automatically.
+ReIz6qpW+M	Requests for {connectorName} dismissed
+RfUzHqQ1Mt	{name} (session)
+RfjCWNL9cB	Open annotated image
+Rio+Mmk17s	Restricts login to specific org UUID(s). Single UUID string or JSON array.
+RjtlxQ2HJv	The Claude GitHub App isn't installed on this repository, so it can't be scanned. Click to recheck.
+Rl96x0Mg7A	Move to cloud
+RlVgS+PMoP	Hi! Which of your organizations can I help with?
+RmK02BajUH	Active members by seat type.
+RnUPG/PmrW	My server calls our own first-party APIs (or APIs we legitimately proxy with permission). (Directory Policy §3.F)
+Rp+i/nzORw	Rewind to an earlier message or clear the session to continue.
+RrqSeGhG0E	Select at most {max}.
+RtLYfLZ2bT	Helper script TTL
+RtSXJpna/C	The SSH connection dropped and auto-reconnect didn't succeed. Your session is preserved on the remote host — resend your message to reconnect and pick up where you left off. If it keeps failing, check that the host is reachable (VPN, network) and your SSH agent is unlocked.
+Ruse+1F0VI	JSON output with {count, plural, one {# auth header} other {# auth headers}}, parsed cleanly.
+Rx6iQuXgiX	MITM CA certificate
+S1bAbRQzWY	Upgrade to let Claude edit files, run commands, and ship changes right in your repo.
+S1npAgSUMu	Build apps and interactive documents that use Claude inside the artifact.
+S251OQBJUr	Copy Entity ID
+S5Ia/3aoNz	{count, plural, one {# addition} other {# additions}}
+S8/4ZI1Fhf	More actions
+S9ajVNibgO	Each member is assigned exactly one role. If a member's groups map to multiple roles, the highest-precedence role is used: Owner > Admin > Custom roles > User.
+SKeCK+7hmh	Local sessions
+SM396mPAdJ	AWS SSO account ID
+SM8Ak39Vjh	Vertex OAuth client secret
+SMdocQSZzr	Nonprofit pricing requires monthly billing
+SPcsMyI8yd	OAuth — your own client (with secret)
+SRfvtxpa+5	Only available in local sessions
+SW4VE6t1LX	Subscription has been canceled
+SZ/y+QPlLO	Feedback type
+SZXkm24sDA	Bring your own client
+SaXlY62nT8	API ownership
+ScD/SsMBkF	Custom connectors
+Sd85G3KDUx	To delete your account, please cancel your {productName} subscription first.
+Sfrwx+npwr	You're almost out of usage credits
+Sijf7QyRi3	AWS region for the Bedrock runtime endpoint.
+SkF4qFf6sx	Couldn’t update that setting
+SlaNB/mm2w	Remote Control disconnected
+SnxeYJYoto	Required for single-tenant Entra apps. Leave blank for multi-tenant or non-Microsoft IdPs.
+SsD9TTwUkB	Server name
+StnRZmM3Xn	Absolute path
+StxsdmJZ7G	Doesn't look like an Anthropic model: {reason}
+SuGpwv1fKH	Install Git (Xcode Command Line Tools on macOS, Git for Windows on Windows) to continue.
+SwO3Dd2FGA	Claude will keep these in mind across chats and Cowork within <aupLink>Anthropic's guidelines</aupLink>. <learnMoreLink>Learn more</learnMoreLink>
+SxVB1ueqrR	Couldn''t send feedback{detail}. Please try again.
+Sz6LtfD7Fs	More sessions with uncommitted changes will follow.
+T0b7SPxo+B	Display name (optional)
+T4GXrqae36	macOS configuration profile
+T7bXIiakSf	{count, plural, one {# tool} other {# tools}} from {name}
+TAuycZeIjw	Vertex AI base URL
+TEDYbOzyTJ	Get faster replies and automated reviews for your team by buying usage credits.
+TEFPBgUznr	Archived {count, plural, one {# session} other {# sessions}}
+TGvezLkV3s	Feedback collection is not available for organizations with custom data retention policies.
+TGyeqFZWHH	Helper output is cached for this many seconds. Re-runs at the next session start after expiry.
+THt5anCoNZ	Select all members on this page
+THz7NQ5+GI	You've reached your {limitName}. To keep working before it resets:
+TLOm++7Rz1	Remote agent
+TQWgyWeD6E	Blocked by endpoint security
+TR4NZQsAzg	us-east-1
+TSL5cSDLvN	Enable Canvas instance?
+TSXUAMQg4w	No heartbeat
+TSyGhXRzqz	No client ID — register one automatically
+TU4G1seELu	Favicon fetch and the artifact-preview iframe origin. Artifacts will not render.
+TU6KL2gKFr	Create a new service token
+TV8zcitmLi	Set to Public if every user sees the same list — including authenticated servers that return one tool set for all users. Anything not set defaults to Private.
+TVC7JJ1/zv	openid profile email offline_access
+TWLjj2UeQy	We’ll put this toward your next {invoice} invoice.
+TXZnHMlGJe	plan limit
+TY8Ho1r3xy	Commands
+Tab2NpXFaB	Organization instructions could not be saved. You can try again.
+TatAu7Hngw	Something went wrong. Try refreshing the page.
+TbE/BlbbKm	Environment {id}
+TcCxttJw2N	Delete your account?
+TcILfiP013	Audit your organization's data programmatically. <a>Learn more</a>
+TcNnUVP8Mw	Error running the helper
+Tcca7mIVXQ	Auth
+TcmH/mEEcz	Terminals
+TcwMs6UN4E	Instances
+TeyXN4tT5R	Pauses the session and clears its stuck state. The owner keeps the session; it re-enters the queue if they send another message.
+Th6aZuHVh7	Make private
+ThZGZa5x4m	No memory yet
+TjpZxnSuQ5	Local stdio servers added via the Developer settings. Remote servers come from the managed list above, or plugins mounted to a user's computer by an organization admin.
+TkA72ubrGt	Test this connection
+TkU78G9atb	Verify my age
+TlAHC5VbxB	You can also wait until your {limitName} resets at {time} to keep working.
+TpA1k4vilH	Not available when HIPAA compliance is enabled.
+TrBQmzhHCG	Scans use pay-as-you-go billing beyond your plan's included usage.
+TtQGAIkUrs	Couldn't turn on usage credits
+Tu8nogZtgp	Set context once, reuse it every chat
+Tuu08EHZLE	Give feedback about Cowork
+TvH8+bmxO3	Disable Canvas instance?
+TvOD8VviD2	Get the desktop app
+TwRmDqA67A	Join your team on Claude Code
+U+XKaZVHnt	Couldn't determine the target to remove. Refresh and try again.
+U0+7nWAZ7R	Connector couldn't be enabled. You can try again.
+U5lBq+CZ7G	Anonymous usage metrics including usage counts (not conversation content)
+U8DVwUsvy2	Claude Code can't run inside another Claude Code session. Close the outer session to continue.
+U8NlJ2YR4v	Choose simulator
+UA5qaXd0Nt	{days, plural, one {# day} other {# days}}
+UAHjMdtFyJ	sorted ascending
+UBNVL60qQZ	Workspace failing to start
+UBXsZZ/YgR	From your IdP app registration
+UDny5+FEko	Estimated subtotal · {seats} seats
+UEgWAjkqtM	“{preview}” hasn’t been sent. Start a session from it, or discard it?
+UErh8i6mOO	Worker defaults
+UGEnd0JtKP	123456789012
+UH36/HdhSQ	GitHub Enterprise connected.
+UH5I4LR9eS	This looks like a certificate signing request (.csr). Paste the issued certificate (.crt).
+UJXKwgmtN8	poor
+ULnTQCHxiV	What Anthropic doesn’t see
+UM/XMG5GQu	Data science
+UO05zdm59r	Set by bootstrap URL
+UQLzOZq7h3	A persistent banner across the top of the app window after sign-in.
+USlfHdFqDQ	When set, the bootstrap request sends a Bearer token from a browser sign-in (authorization-code-with-PKCE).
+UXI5kx9c08	Deleting files
+UcSl6igYJT	We’ll put this toward your next invoice.
+Ud6SFEd7iU	Frame it
+UkBVDCUMyP	*.corp.example.com
+UmH4IX1ER9	Mark {count} as unread
+Us/KWk8ZwZ	AWS SSO role name
+Uso+kDhaYE	Restart to fetch the config from this URL.
+Ut/AGXDKqu	Claude Mythos
+UurEjm0WsE	This image is too large to send. Rewind to remove it and try again.
+UvFUuqXLIg	Student
+UwDpB34PBL	The org-wide GitHub connector governs repository access across products — manage it in Connectors.
+UzLHrala3Q	Nonessential telemetry
+V/2dOOWlyn	Continue for free
+V0HgvxEWZe	Parallel agents
+V1tcEBi4Tk	Header name (optional)
+V3zYr4QXbI	You can't use Claude right now, but your chats, projects, and data are safe and waiting for you.
+V60sZOn/h5	Enable Claude in Slack to configure this setting.
+V6LeaFyLW4	Finish dictation
+V7BAr/Fq82	This capability requires Cowork to be enabled.
+V7kWHcIfvA	Previous-generation model. May be removed in a future update.
+VAhXOjC/rV	Enter to continue
+VCuP0gfvz4	Coding hours per week per engineer
+VG4PssT7q0	{amount}/month included
+VHCpTGgB9x	Response couldn't be sent. You can try again.
+VIlLAcHVfz	Filter by name
+VJ5vi2nLRk	Send a message to start fresh in this directory.
+VJo+Oukn/S	This conversation is powered by Claude. Claude is AI and can make mistakes. Please double-check responses.
+VLBmqLi5dO	from your data
+VM5cIele/U	URL pattern
+VMFtfaCreu	Open my.frame ↗
+VNhaFRBO9u	Don't have Claude Code installed yet?
+VRBhqhHylw	External IdP for gateway sign-in. The user authenticates against this issuer; the resulting ID token is sent to the gateway as the Bearer credential. Leave unset only if the gateway is its own OAuth authorization server.
+VTHx5NYClh	Enter a valid date (YYYY-MM-DD).
+VVBYM+eQSW	One URL per line.
+VYduLHa4Q7	Get {label}
+VZoqkcI7dm	View role
+VcZA7eNvfu	Define what your groups can and can't access.
+VdfqU5wMCX	Tenant ID
+VjaHD60gcP	Per engineer, fully-loaded
+VjynyQmk9u	Text size
+VlK239o5cj	Connecting to screen…
+VlL8j9MrTM	weekly Sonnet limit
+VnXp8ZIfSy	Avatar
+VniLAMIRf/	This feature isn't included in your plan.
+VpVGnT/CF4	Allow + inject {name}
+Vr3s2AbC15	After enabling HIPAA compliance, your organization settings will be updated to support only the Eligible Services defined in the BAA and Implementation Guide. Products and features that are not Eligible Services under Anthropic's BAA (including MCPs, Claude in Chrome, and beta features) will be disabled for all members of your organization.
+VsGAVpT2nz	Your device doesn't meet your organization's Microsoft Entra compliance policy for {serverName}. Contact your IT admin.
+VtGZB5zU0L	This file has changed since it was shared. Collaborators are viewing an older version and can only comment on the latest one.
+VvD0cvZb+g	Route an environment or runner pool through <b>{label}</b>. New sessions for that target will tunnel through this proxy.
+VvGyJdt8Tv	Or, wait until your {limitName} resets at {time} on {date} to keep working.
+VyHQLEV7vC	Link not found
+VzUR2M/sin	Available with a Claude Pro, Team, or Enterprise plan
+W+1MOmUpyU	Method
+W/V6+Y+Vy2	Collapse
+W/gejUYYZ9	Authorization tokens
+W0SBzkCd8H	No service tokens have been created yet.
+W1TBB422kj	Your request for {connectorName} was not approved
+W8whiozp3T	{total} / mo
+WAzaKpY7Vs	Users enter their own URL matching a regex (e.g. per-tenant subdomain).
+WCuzblJN7u	GCP service account key (JSON)
+WE9lZKk2Zv	No connectors configured
+WFUsIiOBLU	Feedback description
+WIm4/6845I	Archive session
+WJX26PBiWe	When a connector is restricted both here and in your organization's settings, the more restrictive setting applies. Members assigned to multiple roles receive the most permissive setting among their roles.
+WKR57Cw9V+	Signed in. Applying your organization's settings…
+WKTt4OYLXJ	Your {plan} plan was canceled and refunded while your account was on hold. We've credited {credit} to your account so you can restart your plan.
+WQi9ddLKzs	This is a desktop extension. It runs locally in Claude Desktop — team members install it on their own computers, and it can't be installed from the web.
+WS/jKP1tZa	Choose where Claude will read and write files
+WS0Ccrbl0Y	via {host}
+WV6U7uYD/h	You can also wait until your {limitName} resets to keep working.
+WWuFiWgc9+	Focus previous pane
+WWw2W44/dd	Couldn't start sign-in for {name}: {error}
+WZTXKm3Yxq	Trend
+WZnFg9CJ0V	Research Labs organization — contact support
+Wb/3E+ALRw	Check your internet connection, VPN, or proxy and try again.
+WbM+LbvT9p	Six-digit hex (#RRGGBB). Applied exactly as configured; not theme-adapted.
+WcmN0GCOgd	Updating tasks
+WjS6pPOwe8	Anyone with access to the server URL will be able to use this connector. Only choose this if the server is intentionally public.
+Wl626GK45n	Vertex OAuth scopes
+Wla+8f6fjg	Lines accepted
+Wmft2kvHyE	Use Anthropic’s hosted client metadata
+WpRL5YIjxH	Sign in to Claude.ai
+WsXyqQwst4	New agent proxy
+Wus8scKGCj	**I already know your account.** If your company uses Claude, I can see your current plan, seats, and usage. We don't train on your data.
+Wy/pjxrXEI	Human resources
+X6AN/irP13	A Windows security policy is blocking Claude
+X7pd/oEAeZ	Installed on {count, plural, one {# repo} other {# repos}}
+XDoEh05w2J	Failed to archive session. You can try again.
+XEIR/IZd3h	The same numbers powering the Productivity and Insights tabs, surfaced here so you can sanity-check the inputs.
+XLRt150uj5	No access
+XNDCZ6NENL	Distinct users
+XOxizlPPjM	You don’t have permission to assign custom roles or groups. This member won’t have any role-based access until a custom role is assigned.
+XS5aW+ySh8	A team member will review your request and account activity together.
+XTHwHXkxB9	If you're part of a workspace, your workspace admin may be able to help speed things up. You can also request a review from us directly.
+XTHxOYpOlm	Discard draft?
+XVLCaBkgOo	Callback port
+XX2OZVUmF+	Each account is limited to one Team organization with nonprofit pricing.
+XXU5DanepS	We couldn’t find a completed nonprofit verification for your email address. You can still create a Team plan at standard pricing.
+Xa4IkAcYLf	CA fingerprint (SHA-256)
+Xb9nNP5stJ	You're out of extra usage. Buy more to keep going now.
+Xc8RlqtvzR	This capability requires Code Execution & File Creation to be enabled.
+XcLQwmCY8g	No groups found for "{search}".
+XdAiuncu2t	{count, plural, one {# comment thread} other {# comment threads}} on text that's no longer here
+XfOmm8BNBA	Azure AI Foundry resource name used to construct the endpoint URL.
+XfPm5051bZ	{label} seats × {price} / mo
+Xg3qSlS+xe	Store this secret now.
+XhQrGbBOW/	APIs
+XjbkMHaoN8	The connector failed to reconnect. Try again, or run /mcp in the terminal for details.
+XkRb8klagl	Ran {count, plural, one {# agent} other {# agents}}
+XmEeibWrlB	{count, plural, one {# address can't be invited.} other {# addresses can't be invited.}}
+XoZI2iCtxL	Claude Design
+XofxOZPgHr	admin estimate
+Xqch4Sg+TQ	Group names
+XrGFgeyjLR	Productivity gain × loaded comp
+Xt+8YWBbF9	Get Cowork
+XtXm3euW3d	Usage analytics help us prioritize improvements for third-party inference. Diagnostic-report uploads will also be blocked. No message content is included in either.
+XtmOkfeInj	Claude is working in {sessionLink}. Relaunching now will interrupt that work.
+XujStw7kbF	Running {count, plural, one {# agent} other {# agents}}
+Y0/NpCBqzJ	WDAC, AppLocker, or endpoint protection is preventing the workspace runtime from starting. Copy the details for the binary path and policy rule needed to allowlist it.
+Y0M5WDD4f1	Your request has been sent to our sales team.
+Y4C0t0V1cY	Redirecting to Slack…
+Y6zxVipUAc	open-world
+Y7FG5MdL98	Image not available
+Y8cDeQ4dJB	Failed to move session to the cloud.
+YBsf28NJkQ	Now Claude works your way
+YCVxJdFNk0	Are you sure you want to dismiss {count, plural, one {this usage credit request} other {all usage credit requests}}? This action cannot be undone.
+YCvwCVYxqe	Claude in {suiteName} is available on Pro, Max, Team, and Enterprise plans
+YG3ENc+IFC	Couldn't connect to the screen share.
+YKDcvb7Gma	This capability is restricted by your organization's policies.
+YKjZUvhNn/	{count, plural, one {# connector enabled} other {# connectors enabled}}
+YL1v8ytE14	Duplicate key — only the last value is kept.
+YNqFQSwLwD	I want you to learn this codebase. Run /init — it scans the repo and writes a CLAUDE.md with the project's structure, conventions, and key commands. Show me the draft before saving it.
+YOz1zA29uc	Couldn't reconnect {name}: {error}
+YQ6jL67z2e	{count, plural, one {Connector request dismissed} other {# connector requests dismissed}}
+YSEHO70vKb	Your tenant may not be allowlisted yet — send the Client ID and Tenant ID above to your Anthropic representative (2-3 business days to activate).
+YU19nSq9tC	Upgrade for unlimited projects
+YZCXKWreNm	Disable now
+YaT1FqvwXh	Daily usage data unavailable
+YaUOOYz4f+	Keep enabled
+YdXbbC3iJI	Unhealthy
+Ye0Clmvfec	Attach
+Yep1kfh68S	That doesn't look like a URL.
+YfKwjcmMqC	You can also wait until your {limitName} resets at {time} on {date} to keep working.
+Yk0+YjpaDc	Stop external apps and websites from opening Cowork via claude:// links.
+YnZFl81rZD	Your nonprofit status has been verified. Choose a Team organization to receive nonprofit pricing.
+YoIQO7Er7E	Your local time
+YpVoLgjsW6	Monitor
+YqygSYX+GY	Terminal name
+YrXzPn80LF	{count, plural, one {Send # invite} other {Send # invites}}
+YsRc+anYk2	Dismiss question
+YsgtPcBjMt	Drop CSV to import
+YvJKUek0yj	GCP region where your Vertex AI Claude models are deployed.
+YxC9/iVoy6	Your org has reached its spend limit for this month. Manage spend limit to keep going now, or wait until {day} at {time} when your plan usage resets.
+YyME4yN0zj	The form has changed since this review ran. Re-run auto-review to check the current state before submitting.
+Yyp8xwgnUo	Reconnecting…
+Yza/6EVU0q	Started the agent
+Z/1udvpF5B	Edit group
+Z0j8rlZ30r	Observed metrics
+Z444Es4IIr	{name}, rename session
+Z7L01lYFaQ	Claude Pro or Team is required to connect to Claude Code
+Z7rOV54sUb	Open a folder to view a screen.
+Z98lmHNsmL	Claude is temporarily unavailable. Try again in a moment.
+Z9SEbF2UCN	OAuth
+ZBXWfWmBKK	Syncing…
+ZD2tIbi7L+	Restart with {credit} off
+ZGHD3mVeYy	Need urgent help? Contact your workspace admin.
+ZI2sllkKCJ	Set by MDM profile
+ZJ8AM5SdKM	OAuth client
+ZLCJGEzSTj	No available runner pools.
+ZM5siB581d	Adoption, error rate, and trend per skill across your organization. Error rate is a session-level proxy.
+ZN/pQHUlzx	Couldn't update the remix setting.
+ZN8K4a6UPQ	Setup snippet copied to clipboard.
+ZNIbC4QVVZ	That doesn't look like a shared artifact link.
+ZON8uMn14w	tokens
+ZOQ43/L2E3	Get the most out of Cowork with more usage for ambitious projects
+ZQ/zPzSC5G	No data available yet.
+ZQsXVsFfju	Not you? Log out
+ZRMqH+j2yz	Test model discovery
+ZRmNpoXsSD	Your plan supports up to {limit, number} members. This would put you {overage, number} over.
+ZTyMjOkl+U	Your data
+ZU0GHEGovM	Other bug type
+ZV6LW1+/S9	MCP tool
+ZXmKO+3tgM	Increase usage credit limit
+ZZGMGiY/ig	{field} swatch
+ZcVRmEYomz	Update Claude Desktop to enable fast mode for Opus 4.7
+ZclF/wzozr	Estimated subtotal
+Zejj2Gw5fy	github
+ZfDLd0VuSN	Agent proxies aren't available for this organization.
+ZhBH1drSOU	, {activeCount} of {maxSessions} sessions, press right arrow to view
+Zhf0h7AARy	You've hit your monthly spend limit, but you have more credits.
+ZhkFBG4biD	Get notified when Claude has finished a response. Useful for long-running tasks.
+ZnwdLP1ZJQ	Cowork lets Claude complete work in the background. Describe what you need and come back to finished work.
+ZoW3+gh5QU	· {count, plural, one {# error} other {# errors}}
+ZrKJ7Cu87f	Set permissions for all current and future connectors, or customize per connector.
+Zs8lQq1ycL	Share skills with team members
+ZtN6Gqclvr	We put your account{hasEmail, select, yes { ({email})} other {}} on hold on {date} because we found signals that your account was used by someone under 18. Claude is for users 18 and over.
+ZyHpoI0cj7	Authorization didn't complete. Finish signing in (or check you're signed into claude.ai), then try Reconnect again.
+ZyUhcKOTes	Decrease spend limit
+Zz6QTaW0y5	Available for macOS, Linux, and Windows.
+ZzDDx2I9HP	Make it real in Claude Code
+a/Ak9taD00	Collaborate with your team with shared projects and centralized billing.
+a/idsVayO5	Filter artifacts
+a/pLy2qFJI	You've reached your spend limit for this month. Manage spend limit to keep going now, or wait until {day} at {time} when your plan usage resets.
+a2/6cB+aof	Billing data unavailable
+a2IVwFEmcc	Group limit reached
+a6NQWIy8oJ	Couldn't load Anthropic sources.
+a87VTwtQw3	Offer 1M-context variant
+aDMSjyyGz9	Your Team plan now uses nonprofit rates. The new pricing takes effect on your next invoice.
+aDVRC23jKg	Skills have moved to <link>Customize</link>.
+aH2gXkKfct	You've already used {amount} this month — set your limit above that to keep working.
+aL/o54ZWx3	Delete session with uncommitted changes?
+aLHSaxeOw1	More usage for everyday work
+aMi61Pj/D3	Annotating image…
+aRuqK/KXrl	Selects the inference backend. Setting this key activates third-party mode.
+aTTY7rU6Bh	Max tokens per window
+aVV2vbXPVE	SCIM
+aX5kprod05	Manage repos
+aXPsDlwURm	Existing API keys are now blocked from using compliance scopes
+aYunrFFOTs	You're now past your plan's included usage. Your Opus limit resets {day} at {time}.
+aaZwJKRvqB	Attach simulator
+adtasdGkl9	<link>Contact our Support team</link> to request the deletion of your organization and its associated data.
+afMqiczJqk	Multi-group spend limit
+afjdqvFrPn	found {n, plural, one {# model} other {# models}}
+aiew2+sp3v	Share skills with the full organization
+aj5POhAKey	Bearer …
+akXG4ChYkN	Enable remote control by default
+amo4Y6DbKh	{featureName} has been turned off by your organization's administrator.
+aojEGT2eHI	No activity yet
+auYj3lyf1+	Anthropic telemetry
+aufbiHNTwC	Waiting for sign-in…
+avbpbUOTiG	Seats are what you pay for; members are the people who fill them.
+axfcFaQPcz	Agent proxies
+axpBl7HA0g	Describe what you need and come back to polished work. Claude works across your files and connected tools, on the schedule you set.
+b6/n7wQhfO	Required organization
+b7vgLij1HS	https://otel.example.com
+bDNRyyPJKa	Medium text
+bDeD1Pt66Y	The script exited cleanly but wrote nothing to stdout. Check that it prints the credential.
+bELf2s68U0	Download for Linux
+bFX6KfrkdG	{n}/user
+bHXDzT9YLr	Reframe it
+bOQrZqbwk9	Usage & limits
+bR2zG7N+wa	{id} (different profile)
+bS7WElxrrh	Lock the approval state for specific tools. Unlisted tools stay user-controlled.
+bSNyh608ig	Server saved as draft
+bTOzkt8zV5	Your org is out of usage credits. We let your admin know.
+bU34Yscprn	Organization banner
+bU3HdZHuf+	Define sets of permissions and capabilities to assign to a group.
+bX9nWH/7vb	Now using credits.
+bXHdEidOYa	Select chats
+baVN++N04E	Membership for this group is managed by your identity provider. To add or remove members, update the group in your IdP. <link>Manage SCIM settings</link>
+bcfGi8C+Qv	Couldn't complete sign-in for {name}: {error}
+bejjit3KOY	Tab to add
+bjsmP3cU/f	Permanent after submission. Lowercase letters, numbers, and hyphens. Leave blank to use the name.
+bmH8vfWbiu	A shell hook or tool wrote unexpected output. Check your shell startup files and Claude Code hooks for stray stdout writes.
+bmP92ZCban	Require signed extensions
+bp6E29TomA	View billing
+bqOLf0vLQm	Show extension directory
+br4rCh0hZP	Request sent to your admin. Your plan usage resets {day} at {time}.
+bx+Ne2nP0J	Workspace trust needed
+c+swVkDN3t	Create token
+c1LGvG2F3D	Claude Opus 4
+c35gM5T7cu	Roles
+c4KlpXkyJj	Search chats...
+c6OSA4qGNk	"{value}" in {path} doesn't match an available model. Update the model setting; using {fallback} for now.
+c6vnz34Plb	Select roles
+c7Ay05DAMp	In another tile
+cA45Z+zupi	No sites added yet.
+cBHlDG/VDr	{connectorName} is now available
+cCZGxuVmEN	You can still download it for macOS or Linux below.
+cCi8DNBIJd	Anything a user must have or do before the OAuth flow will succeed — paid plan tier, admin role, API access enabled, allowlisting, etc. Shown to users on the directory page so they don't hit a dead end mid-connect.
+cEODxG0K2h	Your subscription is billed in {currency}. Changing your billing country to {country} will switch your renewal currency to {fallback}.
+cF2v7DP0GL	Start a conversation first, then try /feedback again.
+cIhy/1CdU5	Couldn't load the connectors directory. Some connector details may be missing.
+cJF3YC4JVz	This file lives in the remote container and isn't downloadable.
+cKrD3R/rro	Add egress credential
+cNKkQb0v3X	The BAA also covers your use of the Anthropic API and Claude Code with ZDR (for qualifying organizations). Those services are configured separately. Contact your account team to enable HIPAA with other Eligible Services.
+cNjUc3GutQ	A boolean CEL expression ANDed with the structured match above. Use for predicates the match fields can't express.
+cUnRExpJpM	Users need to connect before any tools or resources are available.
+cVMpuel8sz	grpc or http/protobuf.
+cVZHXzfYOF	No GitHub Enterprise instances configured. Add one to get started.
+cWH/+f1VV8	We couldn’t load your organizations. Please try again.
+cWHePzM1Cd	Now using credits • Your plan limit resets {day} at {time}.
+cYun9vMrBE	Import shared artifact
+cbTtulMUaI	Open the session to respond
+ch3siAnO8o	{price} / mo × {seats} seats
+clgt37Cfja	Close session logs
+corudiYNBg	Analytics Chat
+cqGbQhSB6R	This task will run remotely.
+cqtDKyc29T	Waiting for authorization in your browser…
+cr1jN833YB	Remove link
+cs8gIqiZjk	Targets
+csMCt23Z9V	You've reached your spend limit for this month. Request more to keep going now.
+ctWkktQM0M	Ask on the side without touching the main chat. Claude sees the full context, and nothing here is added to it.
+czsWtn0GU0	e.g. Datadog
+d1Kk+iATfF	Remove "{name}" from your organization? Members will no longer see plugins from this source. You can add it back later.
+d1OgEDiJnJ	(optional)
+d31D8knCyJ	Increase limit
+d7Fp1bwUtF	Connection refused
+d7LeX7HHLR	App images
+dAAs2ZCYuk	You selected Read only, but these tools are annotated as writing data (readOnlyHint=false or destructiveHint=true): {tools}. Choose Read and write, or fix the tool annotations on your server.
+dBdqoa/Bno	No plugins found ({skipped} non-plugin {skipped, plural, one {entry} other {entries}})
+dEdA60m9FJ	Sent as an Authorization: Basic header on every proxied request to allowed hosts. Values are write-only and never shown after saving.
+dH8dliMp56	Create a registration, then deploy the agent-proxy binary in your network with the secret. Associate environments or runner pools to route their sessions through it.
+dJCs31/3q8	All private
+dJLcQZRSQW	Pick a template or ask a question. Claude can query your organization's usage, spend, and adoption metrics.
+dPjlbCZyRa	Higher usage limits, recommended for Claude Code and Cowork, priority access at high traffic times, and more.
+dQKgzxReOT	View all projects
+dRE4SG0mip	This connector doesn't use authentication. You can block individual tools from the connector's settings.
+dRNx90dka9	You've reached your weekly Opus limit. It resets {day} at {time}.
+dS5LOtrmFl	Manage groups...
+dVnXY34i9I	Terminal {n}
+dX8NokK66c	Live stream of {deviceName} simulator
+dYL/Qs05VJ	Keep disabled
+dYlenA3UP7	OpenTelemetry
+dZ+qQwQue/	Enabling HIPAA compliance allows you to use PHI within the Eligible Services defined in the BAA. Download the Implementation Guide for configuration requirements, workforce training, and the full list of Eligible Services.
+deK3vjiB1v	The previously selected server is no longer connected. Go back to the Connection step and pick a server.
+dpX0T8fSMc	Coding boost view
+dpoHgMeiUG	GCP region
+drckGukPRv	This capability requires chat to be enabled.
+duW5uzGvOT	Included routine runs per rolling 24 hours. Additional runs use usage credits when turned on.
+dxgIR941IO	From your couch to your commute, hand off tasks to Claude and pick up exactly where you left off.
+dyyjkYo1D5	Restricted
+dz33KviCE3	Couldn't load the repository list. Type owner/repo below to continue.
+dzVdmB+VtN	Show the Code tab (terminal-based coding sessions). Sessions run on the host, not inside the VM.
+e/PjhY7W0C	Copy to clipboard (redacted)
+e3PGhdV1sS	{x}×
+e7MZONhk6R	Credential parsed, with warnings
+e81uWL4KJc	Replace team logo
+e9JrXbOHR/	Response instructions
+eA0XYEy4Tt	No active sessions
+eCZJoLFsb6	Leaderboard view
+eCp7KgB6Nv	Nested session detected
+eF+Y8JJNCJ	Allow Claude Code tab
+eGvPBVASAG	Sharing this artifact will also share its associated attachments, files, and comments. New versions will be shared automatically so collaborators can keep commenting on the latest content.
+eHjxMLTN40	Your application is under review. We'll email you once it completes, usually within 2 to 3 business days.
+eJaz4MqpCW	Usage credit requests
+eMV1kF66ej	Set a custom monospace font for code and terminal.
+eN+yubJ/WE	Save rule
+eR2n3jLyzd	Get notified on your phone when Claude messages you here.
+eSkY8USDa6	User guidance
+eT3QufLrtq	Functional testing is disabled because no tools are marked readOnlyHint: true. Only read-only tools are eligible.
+eUqutTpkXV	Click here to confirm your purchase of additional User seats and acknowledge that Anthropic may invoice you as above.
+eVIjIQGS41	Feature request
+eZ5nPbhsce	No organization plugins found
+ebrohjmQEB	Also delete files on disk
+ebywudyiF+	URL configuration
+ecSHaFmEbs	Couldn’t save that change
+eclXxBQs7M	project (local)
+edRO2Rl84H	Upgrade to Pro or Team
+ee/siz+mkq	<bold>Act without asking is on.</bold> Claude works, uses connectors, and browses the web without pausing for approval. You can turn off individual connectors in the Add menu. <link>See safe use tips</link>
+ee3Gh/JB3E	{label} seat
+eeh+Jjs5sn	You can try again as many times as you need, including with a different method. If you keep having trouble, contact support.
+egudkQe+rV	v{appVersion} · {platform} {osRelease}
+eiKQeeC6XY	Microsoft Entra requires multi-factor authentication to connect {serverName}. Sign in again and complete the MFA prompt.
+ek/rdG0G9V	Crash and error reports are how we diagnose failures specific to your inference setup. Support turnaround will be slower without them.
+ekUhldQH+f	<b>{sessions, plural, one {# session token} other {# session tokens}}</b> issued by this runner will also be revoked — work in progress on those sessions will fail.
+eldDXe+8Gp	Terminate session
+emnwYY92/x	This mode needs coordination. Email <link>{email}</link> with details before we can list your server.
+enn6AdQzxk	Prompts, completions, and your data are never sent to Anthropic. Telemetry covers crash and usage signals only.
+eo3lwMaLQi	Editing notebook
+eoV49s48Fm	Poor
+eqPXnGTl4D	This will work alongside your <link>profile instructions</link> and the selected style in a chat.
+eqxOWmCQm/	Connected successfully · {latency}ms
+esGypq5DkS	About allowed domains
+euh78Eu8Ph	<top>/ month</top><bot>billed monthly{taxSuffix}</bot>
+ew8PW2k7VZ	Nothing to rewind to yet
+eyymz6vzhn	macOS blocked this script
+f/C9+T3Hji	Your organization's HIPAA compliance doesn't allow changing this setting.
+f/SS18330G	Show session logs
+f0W26fit1x	Revoked
+f1i0YzV/bT	Claude Desktop — firewall allowlist (SNI hostnames; HTTPS/443 unless a custom port was configured)
+f5pAS1Qsxp	Claude Code Desktop already enforces your <link>Managed settings</link> and MDM-deployed configuration. These legacy toggles will be retired in an upcoming release. To keep an existing restriction in effect, set <code>permissions.disableBypassPermissionsMode</code> and <code>disableAutoMode</code> to <code>{value}</code> in Managed settings or via MDM.
+f6fZr0QFmF	Your frames
+f6xBiu5oIa	Send and stay here
+f6yYh+x/o9	Open Link (Accept)
+f73A2GAHil	Complete the earlier steps first: {steps}.
+fBG/GeW9Uc	Cost
+fDHA3t9LOJ	Configure scanning, limits, and GitHub App access for your organization.
+fF1UjYwi9/	How satisfied are you with Cowork? (optional)
+fFMa7D0Hp3	By continuing, you agree to our {privacyPolicy} and {commercialTerms}.
+fFT86R3sdt	Failed to revoke. You can try again.
+fIFjFz15eK	Taking a little longer than expected
+fKywfBeGXX	The credential parsed, but the script wrote to stderr. Review the output below.
+fNCL13ySK4	This Claude Code session is too old to support remote reconnect. Update Claude Code, or run /mcp in the terminal.
+fNLMOqBBvM	Grant access
+fO2poeLmt6	OpenTelemetry exporter headers
+fOXm32nDnC	Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural language commands.
+fOqAO8Bi2x	Unlimited projects with Pro plans
+fOwDivXvG7	This connector isn't set up for single sign-on.
+fPQyD2sMrT	Detach simulator
+fU+RsP4DHc	Revoke session token?
+fVSO74vxG+	AWS SSO region
+fVTceFF1Au	This folder doesn't have a GitHub remote
+fVfPjDIwfi	Your prompts, Claude’s responses, or any conversation content
+fZWB1lJ5xH	Task to include
+fZpOPxjvTI	Allow remixing
+fc+oEygAS4	iOS Simulator
+fcCQB+JkNg	Loaded annual compensation
+fgSvg8Hrzb	Basic features and reduced usage
+fgplxJ+y/1	idle
+fiUP5zDImT	Please choose a .csv file.
+fkzH83T+V/	Add attribute
+fmpHkU4mZX	openid profile
+foWx9wd5jd	{count, plural, =0 {None need attention} one {# needs attention} other {# need attention}}
+fqXgA2cNmk	destructive
+fuPbbsL+eC	Out of usage credits
+fwkR05tthg	I'd like help sizing a plan for {orgName}.
+fxBXV4btFa	Bare token output, parsed cleanly.
+g3IlHezQJl	Saves to local project settings
+g5CBvedxhJ	The browser didn't return for {name}. If you finished signing in, paste the callback URL below.
+g5WkoXEVnb	The previous transcript couldn't be found on disk. Send your message again — it will start a fresh session.
+g5bUHJ/enw	⌘ Enter to send
+g77sOdPXuL	Starting {date} — Learn more
+g7d9j8Vr7D	Absolute path to service-account JSON. Leave blank to fall back to ADC.
+g83bHOtSLG	A Claude gift membership gives someone access to Claude Pro for a set period of time. They'll get all the benefits of a paid subscription, including access to our latest models, Claude Code, and unlimited projects.
+g8s4jWgsLf	The in-app catalogue of installable extensions. Hide to allow sideload only.
+g9ISsdWuxw	Warn
+g9nIpRif6b	By clicking ‘Turn on’, you agree to turn on usage credits for your organization as defined in our <link>Help Center article</link>.
+g9tPT3BdJw	Read failed: {err}
+gCGKjtDPXg	Make project private?
+gDe4RE775E	This service is disabled for your organization. Reach out to your admin to re-enable it.
+gFZBqNIZje	Exposed tools
+gMNYUPAzij	Helper exited with code {code}
+gNBjlRI7ie	Create a new token
+gO6Ri0QD54	Close terminal
+gO9HzBH8JD	Filter by role
+gQ64GH3wbo	Use their Claude Code setup:{br}Skills, connectors, plugins, and workflows.
+gSca15D99T	sorted descending
+gSgL+AU8rp	Sharing data from Labs features helps Anthropic improve Claude Design and future Labs products. You can change this anytime.
+gU/CAVq2St	Select a profile…
+gU3t/zm/wz	Could not load agent proxy profiles.
+gVJFzpb3d2	We found signals that your account was used by someone under 18. Claude is for users 18 and over.
+gVUaJetCsw	Scan projects
+gY/PES7Iq3	View or manage authentication (SSO and provisioning), domains, security, IP allowlist, organization merging, groups, and custom roles.
+gZ16wR3vLf	Failed to load value summary. Adjust your inputs below or try refreshing the page.
+gbDw6t4BxJ	The most usage for your biggest projects
+gcnioKKSjn	Revoke runner token?
+geOrzylJdv	Remote Control is disabled by your organization's policy.
+gfP1E/2WKd	Failed to update access key.
+gkoSAmTJDl	Delete {count}
+glT45LQohY	Make {domain} discoverable
+glsBTDlsyh	{connectorName} enabled
+gnf5+v5LbX	Capabilities not listed here can't yet be configured per role and will follow your organization's settings.
+goFrVwfFKU	New scan
+gpPg2JJ/Ae	Your description and current session transcript will be sent to Anthropic to debug related issues or improve Claude Code.
+gqoZMYUd/j	Auto
+gsQCjt8bIu	Annual value
+gshbVTjZni	Connectors have moved to <link>Customize</link>. Head there to browse, connect, and manage them.
+guZdznamRe	These users are not assigned to any other role through their groups. After deleting this role, they will no longer have access to any features enabled by roles.
+gweuSJ0k9B	We put your account{hasEmail, select, yes { ({email})} other {}} on hold because of unusual activity. Your chats and data are safe.
+gyxqABc0/g	Scientist
+gzM1emSg4n	Add rule
+gzod7jxy4Y	Enter to send
+h/JaEuOQWD	Request sent to your admin.
+h18LHY6fif	Configuration sync issue
+h2GZyav5YW	Couldn't update the usage credit requests setting. You can try again.
+h2iQNXAVGN	Turn on usage credits in Settings → Usage to let them run
+h3IJeFcbkv	Automatically connect new local sessions to Remote Control so you can continue them from the CLI or claude.ai/code.
+h3KBgW+kak	Changing the name on a published server affects existing users and requires re-review.
+h88F9CYOLS	Some connectors couldn't be enabled. You can try again.
+hA9+5hDo01	Failed to update public projects setting.
+hCCWuZaL02	Previous period
+hCq44SytMs	Or, wait until your {limitName} resets at {time} to keep working.
+hD0T/0cTEY	Organization plugin settings
+hGpr0+i/er	More Opus with Pro plans
+hIatmGaemL	Claude can't read this folder. Grant access in System Settings → Privacy & Security → Files and Folders.
+hIfjoooWG1	{count, plural, one {# feature request} other {# feature requests}}
+hK+jFMBKQg	This capability requires Claude Code to be enabled.
+hLlz6Wp0Se	Universal URL
+hMAgrgvspB	Ability to share skills with everyone in your organization at once. Revoking this capability does not revoke previously shared skills.
+hMKzRC+/Ft	How long will the review take?
+hOxyfcrIGr	We couldn’t complete this upgrade for your billing region. Contact support for help.
+hRXRYG6aMN	Failed to download file. You can try again.
+hRmb1QdBoV	Reviews take about {eta} days.
+hSOU6TJwIn	Ask your admin to turn on usage credits for additional runs.
+hUQwVJRIuz	When you create groups they will appear here.
+hXoqjR434c	for higher limits every month.
+hZ2DipvK2w	The Claude Code binary doesn't match this computer's architecture. Reinstall Claude Desktop for your platform.
+hZdMg4CpV3	'Always allow' is disabled by your admin. Ask them to turn it on in Organization settings → Cowork.
+ha5HbvlDOk	Your gateway couldn't serve {model}. This model may not be configured on your gateway, or access may be restricted.
+hcCko2FR/r	**The best price you'll get.** I always check our latest pricing, including volume discounts.
+hcgi+IKEQp	· {seats} seats
+hcpszlrtjU	“{sessionTitle}” will be permanently deleted. This can’t be undone.
+hesC0E8eFo	Users see only this provider at the login screen. The option to sign in to Claude.ai is hidden.
+hg/DxQvpUn	Claude in Chrome requires a paid plan
+hhKxQ3MtxT	Built-in tool policy
+hqCEM8JCoM	Create a new Team organization instead
+hrJRMjrWP7	Blank
+hrgq62oWSR	Your Frame deploys. Click a row to open it in your browser.
+hrhyvgzlp8	IAM Identity Center home region.
+hsvAwBKpgC	Working…
+htu3nz1Y5z	Helper timed out
+huDeDZC21e	Ask Claude to turn an idea into a diagram, chart, or visual
+hukXe/7Esg	Annualized from period spend
+hv0F38ESRM	Model list
+hvKxkXJdGR	Claude Code Desktop respects your organization's <link>Managed settings</link> and any MDM-deployed managed settings, the same as Claude Code in the CLI and IDE.
+hwL7a0I9HE	Engineering
+hwOQwMvP6h	Role permission changes may take up to 15 minutes to take effect.
+hxEtvPfhQo	Forget sign-in
+hySSWTQhiX	Pool {id}
+i0aevA7HTR	Code review repositories
+i1Kd8ClUUS	{live} / {total} live
+i2UE+509BT	Access the Claude Developer Platform within a workspace
+i8fSuvZDK/	Models to show in the picker. First entry is the default.
+iDNZSmL6d0	Commit & push
+iFRwRJ8SE0	This session is archived. Unarchive it to continue the conversation.
+iFhBHMeCjp	toolName
+iFpU0bfIqQ	Move the script out of Documents, Desktop or Downloads, or grant Claude access in System Settings > Privacy & Security > Files and Folders.
+iGBQxXJG+B	Slash command
+iGPHC9Tm20	Disabled built-in tools
+iKKWKBxt8H	No plan yet
+iRL3iA3MaY	Failed to update limit increase requests setting. You can try again.
+iRR53RuwGk	SSE transport is being deprecated. If you maintain this server, consider switching to streamable-http.
+iT4oEXdDNK	Estimated by {eta}
+iT6tPNj+MH	List caching
+iUFIszfB3g	Agent proxy profile
+iVMMqvoiru	Your org is out of extra usage. Buy more to keep going now.
+iXI0v+hQ0H	GitHub account (you)
+iaoC3pwTj8	Help me connect a tool you can use — run /mcp to set up an MCP server.
+ic/AiMeJ55	Signing out. Returning to your sign-in options…
+idJaPSX8EP	AWS region
+igXgIgDZ5a	Dismiss session?
+ii5A1SkJXE	Diagnostic logs will be attached.
+ii9HazU1Ez	Connect to GitHub Enterprise ({hostname})
+iivVAGSaYT	Token name must be 64 characters or less.
+ikSDjJ8Q2T	everywhere
+ikcJfvGZqW	Enable Cowork to configure this setting.
+imtaAMSOYh	Pick your role to see tailored starter prompts.
+iovJG9P9k+	You'll have the option to pay in your local currency at checkout.
+ip38yxjPeG	Paste the JSON key file downloaded from Google Cloud (IAM → Service Accounts → Keys). The proxy uses it to mint short-lived access tokens; the key itself is write-only and never shown after saving.
+iqrVycMLiS	{n} ({pct}%)
+is7LOAMcXx	Checking affected members…
+itJLA50x3s	How we got there
+itifTpr4dO	No working directory for this session
+j+fH/JceSc	Keyboard captured — click outside to release
+j/5+o6pC9/	You hit your 5-hour message limit. It resets at {resetTime}, or you can upgrade for higher limits.
+j2rMYi9440	Edit Canvas instance
+jA2Ho46qnI	Go further with Claude Code
+jA6GVIoYuc	Create dynamic artifacts that stay up-to-date using live data from <link>your connectors</link>.
+jDG/zHUMzK	Requested
+jETNRIFigw	OpenTelemetry exporter protocol
+jFf5VYsr/X	You can permanently remove your account and data. This can't be undone.
+jIE93jSpv8	Skills your teammates use in Claude Code, ranked by daily active users.
+jIxWF75rlr	Couldn't restart identity verification. Please try again.
+jJz20QocAd	Auto-update enforcement window
+jLs6b9otPB	Decrease
+jLtP9xFFDM	You've been signed out
+jMXnPowVZL	We use a trusted age-verification partner. You can verify with a selfie age estimate, a government ID, or a digital ID — it takes about a minute and your data isn't shared with us.
+jMs7QaCoI0	({requestCount, plural, one {# request} other {# requests}})
+jN6aThWHKY	Nonprofit verification not found
+jP2yeM9WkV	Your branch has uncommitted or unpushed changes. Ask Claude to commit and push them, then try again.
+jRCHO+DkNq	Request was blocked — check your permissions.
+jTl0ZfUTLp	and {count, plural, one {# other} other {# others}}
+jU4z+3Uk7+	Model discovery
+jVgNO4zlov	weekly Opus limit
+jXWMKXfgen	More usage for more ambitious projects*
+jYN28dkg5i	↑ ↓ to navigate{sep}Enter to select{sep}or type below
+jZ+pOcsnKx	Copy filename
+jZbFunwzNt	Edit payment details
+jZfzg1FMug	I want to ship my first PR with you. First, check if GitHub is connected — if not, walk me through connecting it. Then find a small, safe improvement in this folder (a typo fix, a README tweak, a missing test) and open a PR for it.
+jZt3l/k6rN	Search capabilities...
+jav0jLSnCA	When you create roles they will appear here.
+jd5qR1RcUF	Rate limit reached
+jilxfQjKK7	No matching settings
+jl1rXrrAl3	Shared with me
+jmqxvZTZAZ	This session's worktree has {count, plural, one {# uncommitted change} other {# uncommitted changes}} that will be permanently discarded.
+jn64phvSjS	We put your account on hold because of unusual activity. We can't share the specifics—that would help bad actors get around the same checks—but the review is your chance to share context so a team member can review.
+jo5Yhm8cjX	We reserve the right to manually review all servers. Provide clear test-account setup and access instructions. We're working to automate this process to reduce the time it takes to get your server into the directory — write these instructions so they contain every link, credential, and step needed to autonomously access the MCP server. For enterprise accounts or servers that require a fully populated account, provide test credentials that grant access to a fully populated account for review.
+jpoenuIoRs	Start Claude
+jrKJkm+3pR	This permanently removes your account and all data. This can't be undone.
+juB2hBksBZ	warn
+juB5ECvnTt	Focus next pane
+juN8iLYxPd	Ability for Claude to remember personal context from your team members' chats to make conversations more relevant. When off, each conversation starts fresh with no cross-session context.
+jvPZgv9yY1	Nonprofit status applied
+jwhET3l/sr	Application
+k+2rmRpDUC	Directory Policy §3.F — servers must call their own first-party APIs, or APIs they legitimately proxy.
+k+zfnqEfSn	Role has been updated.
+k3Er5/cw2M	Reviews take about 10 days. We'll email you when there's a decision, and you can come back to this page anytime to check your status.
+k6ld7Mp5ii	Your endpoint-security software blocked Claude Code. Ask your IT team to allowlist signing Team ID Q6L2SF6YDW.
+k7DhqlK9Ii	Bypass Permissions was blocked
+k8c4D/0nRo	Add Canvas instance
+kAT0zh5LEA	Feedback isn't available for organizations with custom data retention policies.
+kKIZFdib/K	<top>/ seat / month</top><bot>billed annually{taxSuffix}</bot>
+kNPvzSB7Oj	Or, wait until your {limitName} resets to keep working.
+kOzPKztUoq	Simulator touch surface — click to focus, then type to send keystrokes
+kQ/lZuAwzb	Usage credit balance
+kQilPi/TYx	You’re signed in as {email}. This account doesn’t have a plan that includes Claude in Chrome. Upgrade, or switch to a different account below if you already have one that does.
+kSMqM4htfo	out
+kT5Jg7Fz/u	Delete {count, plural, one {session} other {# sessions}}?
+kWbmHkeXbP	Join <hl>{org}</hl> on Claude Code
+kYE777ByuP	Create key with destructive scopes?
+kYNOhKLB2l	Couldn't start sign-in. Please try again.
+kYPOvwih/w	Couldn't claim your credit. Please try again.
+kYR4isdnsb	Member status
+kYamB10LLL	You hit your weekly message limit. It resets at {resetTime} on {resetDay}, or you can upgrade for higher limits.
+kYdcJy0wVq	Click to capture keyboard
+kZqxEvVpFT	Anthropic Serif
+kbCx2ZYlvk	Browsing
+kdNlg7hhVa	Submitted on {ts}
+kdb7LsdYh+	Callback URL: {url}. Static bearer tokens are not yet supported.
+kdoUubpNNW	Claude is still working
+kemaiSh7+2	Error saving as PDF
+kgysYftJ4g	This service is disabled for your account. Manage usage settings to re-enable it.
+kiGKbhTzP/	Conversations period
+kj1OhLrdXf	Bypass permissions isn't available for this session. Asking for permissions instead.
+kk7ypnG1Xe	You're out of usage credits. Buy more to keep going now, or wait until {time} when your plan usage resets.
+kmfNQR5hW8	Spend limit actions
+knHnvzpkOf	Allow desktop extensions
+knMPP8lqSe	3600
+knPL7KmAA0	Run a proxy fleet in your VPC so sessions can reach internal services with credentials that never leave your network.
+knyq95AtH2	This is a beta feature designed to scan repositories your company owns, maintains, or is otherwise authorized to administer. You may not use Claude Security to scan or review repositories, systems, or codebases that your company does not own or lacks permission to review.
+kodQAhcRuI	You just hit your free message limit. Upgrade to Max to send more messages. You also get:
+krldAjGH6h	Compliance scopes allow this key to access data from any organization under the same parent organization.
+ku1gyUj4uT	Grants ability to update organization spend limits
+kwIjvz74YW	When your account was put on hold, we cancelled your subscription and refunded your most recent payment in full.
+kzPX1htqNc	From PRs touching Claude Code
+kzaYlDwmLT	Screen
+l+QSeTZpyq	Edit role
+l+dE/S7JbF	Reply to Claude
+l11SKaTIxq	No connected custom connectors
+l3cKu6I4+3	This looks like a private key. Paste only the certificate (.crt) — the key stays with the proxy.
+l4y3RMip2B	Claude Design grant
+l8BwmnfrED	Saves to project settings
+l9Ar7t7nk3	Service tokens
+lB1Dj9ygsk	Your account is on hold
+lBmDe1u+fB	Remixing isn't enabled for your account yet.
+lEAPaAhXw3	No result — task {status, select, failed {failed} stopped {stopped} other {ended}}
+lESQFJUZz2	Chrome, Slack, mobile, and more
+lEjOWeCQVl	Your org is out of usage credits. Buy more to keep going now.
+lHmZsKQArt	Verify your age to continue
+lKL06F7LOG	/usr/local/bin/uvx
+lMTOYdy4La	Browse Anthropic sources
+lNFYd00Hds	Firewall allowlist (.txt)
+lNkHsi7ue9	Pending policies
+lOcWZZgAd5	What do you use your account for?
+lQjIYrOGmW	Rules and credentials belong to a profile. The profile's bindings decide which agents see them.
+lR5K+zDgJO	Loading your connector…
+lR97+xMZmY	No projects match that filter.
+lREZ+nmQDo	A Windows user-rights policy is preventing the virtualization service from signing in. The details below describe what needs to change.
+lRgsztqfPC	Continue to Team plan
+lWRC0uTneY	Experimental. Runs an automated screening of your listing, use cases, and live tool list using Claude. Advisory only — it does not affect whether you can submit.
+lX/KK8VESU	Functional testing is disabled because {count, plural, one {# tool does} other {# tools do}} not declare annotations.readOnlyHint. Add it on your server (see the Tools step for which ones), then reconnect.
+lY2D3mXwpE	An OTEL console exporter in settings.json is interfering with Claude Code. Remove the OTEL_*_EXPORTER=console setting.
+laFkSQ77MY	Delete group?
+lfMT778uLH	e.g., Integration Key
+lixQFBgPLo	Local scheduled tasks only run while your computer is awake.
+ll3OMXtx55	Connect to your own gateway
+llfeF8chfY	Upload CSV
+lmEBYwa437	Start on {host}
+lmRwaQEbTk	This is a beta feature designed to scan repositories you own, maintain, or are otherwise authorized to administer. You may not use Claude Security to scan or review repositories, systems, or codebases that you do not own or lack permission to review.
+loOLfNC7C6	Step {step} of 2
+lp9vT7reXT	Open repo in GitHub
+lsQiuPixCH	Get a detailed plan before any edits
+lw2hWLsnLE	Set up your nonprofit Team plan
+lyAc5sZfgG	Don't see your server? <link>Add it as a custom connector</link> first. Servers already in the directory aren't shown.
+m2+K4DTKFL	Writing files
+m8DrPQvjnp	Claude Code couldn't start
+m96XNyCIsO	Share latest version
+mA/24PZHk8	No cached response available. Claude is running with local values instead.
+mA9gLyQ7Fb	Claude GitHub App
+mAFCmVJBIH	This project isn't available to remix.
+mCLd4QPWax	Choose which environment or runner pool Claude Code sessions use by default, and whether Anthropic-hosted environments are offered.
+mF7e5hj/v8	Failed to load value summary. Try refreshing the page.
+mG35sa1b0r	Last sync failed
+mHVfgdsDNh	http://localhost:…/callback?code=…
+mI1OFdfVgs	Attached files
+mIva1+ircI	GCP service account key JSON
+mKkfuHn2hN	More information
+mKwz48B7PF	Charged as {settlement}
+mLYVwQPBUl	Return to your app—the add-in will finish connecting automatically.
+mMGJuVlWu3	Functional testing is disabled because all read-only tools sit past the first {max} tools in your server's tool list, which is the limit for the auto-review prompt. Reorder so read-only tools come first, or trim the tool set.
+mMxRbpUjV1	#000000
+mNdTr/RC08	Quick toggles
+mVRhLn+q0L	Bring history from another AI
+mWO1/wzuYt	Claude Code is available to use with HIPAA compliance enabled but features are not covered under Anthropic’s BAA without ZDR enabled. ZDR is available for qualified accounts only. If your org needs to use PHI with this feature, please contact a sales representative to evaluate options.
+mWPGSbK6BB	What can I take off your plate?
+mWsGjRx48v	Maximum wait for the helper executable to finish. Raise this if the helper opens a browser for interactive sign-in.
+mZEu3Lidh3	Invalid host. Use a domain like api.example.com or *.example.com.
+md/83m1aan	Up {n} this period
+md4QkbfaZg	never
+micfwa1L0h	SSE (legacy)
+mkV0H5iBw5	<top>/ seat / month</top><bot>billed monthly{taxSuffix}</bot>
+mkqoCnt2bq	No Anthropic sources available.
+mkrNk79rZg	Header name contains invalid characters.
+mlUMfkfWw6	Open high severity
+mmwoyRqFji	Creating cloud session
+moJOqxw4hU	Something went wrong submitting your request. Please try again.
+mq2fw5GnAJ	Enter a full URL, like https://proxy.internal:8080
+mq9iWc3GXq	You're now past your plan's included usage. Your Sonnet limit resets {day} at {time}.
+mqvwgPdeOF	Disable model verification
+mtxg0J1jnm	Partial auth is experimental. Behaviour may differ across Claude surfaces — test carefully.
+mvAiCS2xo1	Help me get something working today. If this is a code project, walk me through what it does. If it's empty or not a project, give me 3 small, fun interactive ideas — one productivity tool, one creative toy, one game — and let's build one in a new subfolder.
+mvHCZXuHQ0	Add seats anytime. Remove seats at your annual renewal.
+mxjs8gIe/G	Worked
+mxy1AjprZX	Use "{query}"
+mzhmvOrz49	Proxy URL
+n0wQL1YJLZ	Inference
+n3tYs1H3AQ	Folder not found
+n9KWNXLDcK	Email
+nBQeVvSeP7	When Claude pushes changes to a branch, it automatically opens a pull request without asking first. Applies to remote sessions only.
+nDW7OKTF0P	Manage usage settings
+nGuhQF6s7c	Describe your typical workflow and which Claude products you use (chat, API, Claude Code).
+nHoVvLvbhp	Feedback details
+nIEb3KeGUI	Finish in browser, then click to reconnect
+nIWd9aJGhK	updated
+nJT22EpxMV	Estimated usage per seat
+nM04gPHngB	No changes to show
+nMuHmEI9ty	Or try it in
+nN4nDZfEes	View organization usage analytics and activity dashboards.
+nOBN85iT+Z	Mount plugin bundles to this folder using your device-management tool and Cowork will load them at launch. The folder is read-only; tool policies you set below are saved in this configuration.
+nOLuwYiSJ0	Allow members to request a limit increase when they reach their usage limit.
+nPIcwFPBF/	GitHub Enterprise
+nPX61KkXA8	Helper was terminated before exit
+nQAnjQ1+69	Access to Claude for Chrome, the browser extension that lets Claude browse and act on web pages on the user's behalf.
+nQWOkPHl29	Download as .{ext}
+nTDxjQZxYi	Agent proxy registered
+nVS7KTcY1H	No open pull requests
+nWeV+8P/YZ	Using skill
+nXc09BBdmP	Submitting report…
+nYTRjcoCf/	Usage credits are turned off for your account. Manage spend limit to keep going now.
+nZAVyUccg2	Commit or stash changes, or check your repository for issues like a missing branch, locked files, or Git LFS setup.
+nZCHBxEAlK	Keep editing
+ndWa897vah	Hide Anthropic-hosted environments
+neJ+WAvag5	More allow options
+neSuIPewuG	Deploy the agent-proxy binary with the registration ID, this secret, and your local CA keypair (the cert you registered plus its private key, which never left your machine):
+nfymUJgaww	{serverName} wants to open a URL
+nk62aaWH8C	Add an MCP server
+npgQgzh1YI	weekly limit
+nrMB+6pFKo	Failed to update organization icon
+ntHXOjbf0G	All environment and pool associations are removed immediately, so new sessions stop routing through this proxy. The proxy fleet stops heartbeating and shuts down. Sessions already running keep their tunnel until they end.
+nuFaeF1G78	Last scan failed
+nuWB/LxYc6	Waiting for browser…
+nwFCeft5Tp	Existing API keys can now use analytics scopes
+o0AKZGU+ZU	Hi {name}, let's find the right plan for your team.
+o1HpUu35GN	Set a model first
+o5paQRepgZ	+{count, number} more
+o5tMLk+Zgq	Static headers
+o76PKBGVE1	Script terminated before producing a credential.
+oBXvAZERRL	Revoke {keyName}?
+oCWGw0AsBF	Where do I find this?
+oILLvyXvqn	Build this for real with Claude Code
+oIdTieNI8W	Ability to share projects with everyone in your organization. When off, projects can still be shared with individual users.
+oIuIOzlHdS	<bold>Act without asking is on.</bold> Claude works and uses connectors without pausing for approval. You can turn off individual connectors in the Add menu. <link>See safe use tips</link>
+oLjWuwuWon	Anthropic-hosted environments hidden
+oMMPQhnWpD	Some tools return 401 and prompt for auth on demand (server starts authless)
+oMOLgYnZwB	Server is busy
+oOkvYkq+lC	No simulator attached. Pick a device below — Shutdown devices will be booted.
+oRZy+mE3Yg	Settings covered by the URL are read-only below.
+oReUAT0vwJ	Need a human?
+oSvX/bCNNc	Request a review
+oT3AdLMVZK	00000000-0000-0000-0000-000000000000
+oX5o9cerv1	**A human if you want one.** For complex or large deals, I'll hand you to our team with everything you've shared already in context. I'm an AI and can make mistakes.
+oaEmIzxURK	Ask about pricing, security, or what plan fits
+oaHo7PDUPU	Chat name
+obP7mr2o1D	Set up Remote Control
+oj+zHKpRFQ	My connector does not use AI models to generate images, video, or audio. (§4.B)
+oo3cP6GRIE	Your org is out of usage credits for the month. We let your admin know.
+oo4Av05fBn	Block nonessential telemetry
+oqBUnTcd78	#F5F5F5
+ouQJbxzDP5	Request sent to your admin. Your plan usage resets at {time}.
+ourJRJheT4	Your gift covers your next invoice. After this billing cycle, you’ll still have {remainder} left for future invoices.
+oypk76fvMk	Remove source
+ozzKmITBMv	Per-user soft cap, counted client-side over the duration below. Not a server-enforced quota.
+p/4qG0gjyQ	NNN.apps.googleusercontent.com
+p0Vi703w32	Sign in again to continue.
+p0mXaeDCmE	Weekly · Claude Design
+p1cV4hEZ7I	Thanks for the feedback.
+p2tXYvgZQP	Existing API keys are now blocked from using analytics scopes
+p4HosqD3kb	Private key (JWT signing)
+p4M9yr6CUo	Per seat / month if billed annually. {standardMonthlyPrice}/seat{taxSuffix} if billed monthly. Minimum {minimumSeatCount, plural, one {# seat} other {# seats}}.
+p5LNtBKZns	Not set
+p7bjKNufr2	Max tokens reached
+p8Z4FQ25gZ	/etc/claude/vertex-sa.json
+p9MPkbVUdx	Reply…
+pBgZotXlmX	Absolute path to an executable that prints the credential, optionally with per-request headers.
+pCJSKAwUBW	That's you
+pCzhvoUfeb	Couldn't turn off usage credits
+pEg5SGohtk	Who can remix your app
+pFPAqum5io	Scan coverage
+pG4M7DKJyA	{toolName} from {serverName} wants to open a URL
+pJ4JpkB+z4	Search roles...
+pMSvrNHUFy	Turn on usage credits to keep using Claude if you hit a limit. <link>Learn more</link>
+pMWMhEu56d	Invalid response
+pMkBIACj3b	Service token created
+pNuagxf0/v	PEM-encoded CA cert (the proxy's MITM CA). Paste the .crt — the private key stays with the proxy. The proxy validates its CA fingerprint against this on every heartbeat.
+pOeEMxHCXp	Add server
+pPg+NzFStg	That point in the conversation couldn't be found. Send your message again to continue the session.
+pTf9owcUnZ	Unlimited projects with Max plans
+pUFr0I705E	Failed to revoke runner token. You can try again.
+pUe25MEkoL	Booted
+pWv55L2571	You've reached your weekly Cowork limit. It resets {day} at {time}.
+pYWXi5lIwq	Read the documentation
+pZtlP3k82t	Credential type
+pao2bCavYH	Are you sure you want to dismiss this usage credit request from {name}? This action cannot be undone.
+pcZ2IBDdS3	Copy setup command to clipboard
+phFsQ4XcYo	{sec} s
+phgu1eEZsj	Couldn't load. <retry>Try again</retry>
+pig+2F2slv	Select month
+pizdDc/r5c	Requests are signed with the proxy's own AWS service identity (web-identity federation). No secret material is stored.
+pkHKHk/BKz	Add logo
+pl7XHUmb+2	https://vpce-0123-abcd.bedrock-runtime.us-east-1.vpce.amazonaws.com
+pmVdxZrPST	Users must re-authenticate every {days, plural, one {# day} other {# days}}.
+pndT4iky5F	(no output)
+ppGQx8IB9l	Drag to reorder{sep}⌘ Enter to submit
+pqKz+hZAbn	Slow
+psM6gLyLsK	Active user metric
+ptSllaQeJ0	Tool descriptions contain no instructions about Claude's behavior, other tools, or external instruction sources, and no hidden or encoded text. (§2.D-G)
+pv1lF7n7cd	Workflow
+pxttCSSeAj	Here's {credit} off your first month of a paid plan, whenever you're ready.
+py0WKACDyF	Claude asked
+pyOEm0IpBI	Feedback sent. If you''re working with Anthropic support, include the reference ID below.
+pz/AYYggAV	~/.aws
+q+R/OmVFZj	Clear telemetry export settings?
+q00/352aSe	Your org is out of extra usage. Buy more to keep going now, or wait until {day} at {time} when your plan usage resets.
+q2PtfeOums	Bootstrap sign-in (OIDC)
+q6lTz9euau	{count, plural, one {# plugin} other {# plugins}} found
+q87c5Fstfm	Sign-in required
+qHYZxIkG2Y	Add your server as a custom connector in <link>Settings → Connectors</link> and connect it, then come back here. Servers already in the directory won't appear.
+qIq6jKrPzK	Claude Security requires usage credits to be turned on for your organization.
+qLJiFW/uRw	Include task transcript
+qNUteTsXGM	Add a CLAUDE.md so Claude learns your project's conventions
+qTJwFvQqbK	Claude is working in {count, plural, one {# session} other {# sessions}}, including {sessionLink}. Relaunching now will interrupt that work.
+qUkur6mzf3	Claude in {suiteName} is available on Max, Team, and Enterprise plans
+qVkE3AmeyI	To use PHI within Claude Enterprise, your organization must first execute Anthropic's Business Associate Agreement (BAA). Download and review the agreement below.
+qXZriv1i+6	We'll store this securely on your behalf. Entry is disabled until the secrets vault integration ships.
+qY3SvxvSic	Briefly describe the bug type
+qbSSn3IFFx	Limit increase requests enabled
+qfVcnCi7C0	A descriptive name to identify this token.
+qgAU8uFaCa	Team size
+qgN98bidUV	Your files, code, or workspace contents
+qikCtjDBm7	You're now past your plan's included usage.
+qjMZL1XFnR	Bootstrap config server
+qlzGGo7cQB	Rename pool
+qn+0AN40B2	You've reached your spend limit for this month.
+qnzeCjuRKT	Revoke {name}?
+qp79ux8hAz	Your organization has configured Claude on this device.
+qpevTf51dy	Productivity lift
+qz07ubuWTz	Couldn't rewind
+r0n1Av9+Xx	Applying as {email}
+r1wotwKKVi	Audit logs period
+r4MPo4tE4P	Failed to create egress credential. Check your inputs and try again.
+r8UhFrWBXI	us-east5
+r8XsCUEvou	Connector
+r9cXAQhMUS	Claude will work and use your connectors without pausing for approval. This can put your data at risk. <link>Learn more</link>
+rB9YN3t2or	Search GitHub or paste a repository URL
+rFV8CjOMtI	Channel message
+rI22zTbD16	About domain verification
+rIHzXxyjrm	If you think this hold is an error, you can request an account review.
+rL6qR3THkV	This response didn't load.
+rLrsA4NJjf	Failed to add the allow rule for this credential. The credential was rolled back.
+rMIvRLBQcT	Pick a folder where Claude can work
+rNSmFin0Cy	You've reached your usage limit. It resets at {time}.
+rNVE37aMeu	Manage Claude Code
+rPFZ93PZaU	Get a push notification when Claude needs your approval to run a command in a Code session.
+rRgYdNpDK9	Ship your first PR
+rSjsRnCzKf	A Claude gift membership gives someone access to Claude Max for a set period of time. They'll get all the benefits of a paid subscription, including access to our latest models, Claude Code, and unlimited projects.
+rTFm2huXkK	What you can do
+rTfTQ9fXkS	Everything on this page can be edited after you submit — only the slug is permanent.
+rVjiDOZd0Z	Search your artifacts
+rWsQWsj/f2	Refused to open sign-in URL for {name}: must be https
+rXXv7KtIgc	Claude's response was interrupted.
+rYEGVSKAls	Disconnected — reconnect in Settings before submitting
+rYX+CMp0zD	PNG, ≥1000px wide, 3–5 images, cropped to the response. No video or GIFs.
+rZHM+lhUdC	Most requests
+rbCX7Hs+fs	Your server was saved but not yet submitted for review. You can keep editing and submit from the detail page.
+rcZ8QdQjDl	Archive session with uncommitted changes?
+rdKIIOydC8	Block essential telemetry
+recCg9im82	Updates
+rhPs8UtdHq	tool name
+rhSIS6ldfI	Keep my {planLabel} plan
+rkQrFJ5c0U	Request received
+rkRw+L4dz2	A user with manage access can grant themselves or others additional permissions by editing custom roles, and can promote themselves or others to Owner by editing SCIM role mappings.
+rlXzveEJ7h	Skills are disabled by your organization
+rnRxQqcWJq	No roles assigned
+rnps5WQOpb	Start the agent
+rvJMzIiu+H	Provide a client ID you registered with the server. Secret is optional (leave blank for a public client).
+rw/K6qxEdn	Queued sessions
+rxKQVd2wMs	What can I still do with my account?
+ryHIzs+UIE	Are you sure you want to delete the group "{groupName}"? This action cannot be undone.
+s+j6yEtVLW	claude-opus-4
+s+uKG6QDMq	Founder
+s2XIgr4I+a	Show details
+s3+O5jyM3P	Dark code theme
+s3uCYVnfB5	Searching code
+sEcfVaSh1G	Connect GitHub in Settings or run gh auth login
+sFbp0HrPGn	found {n, plural, one {# model} other {# models}}; {m} of yours not in the list
+sKM2ueljV6	Mid
+sLpHHDXlyF	Copy this token now. You won't be able to see it again.
+sO/IpM8cJF	Enter {field} to discover models
+sSJC59tn68	Supported out of the box — no further action needed. For high-traffic servers, prefer CIMD or Anthropic-held credentials — DCR registers a new client per user connection.
+sTAEPIuq02	We got your request
+sTQn+HWxcS	Private (default)
+sThS3jTs5d	Check disk space and the repository on that machine, then try again.
+sUDyO6AWUZ	Create a project for ongoing work
+sWiwHyMHSA	Increase Seat Limit
+sYWwXvJhx5	<kbd>↓</kbd> to restore your draft
+scjLYJp/kr	Remove policy
+sco9+A3ElC	URL must start with http:// or https://.
+security/billing/contact_admin	Contact your organization's billing admin to resolve.
+security/billing/cta_add_credits	Add credits
+security/billing/cta_manage_usage	Manage usage settings
+security/billing/cta_org_limit	Raise spend limit
+security/billing/headroom_vs_cost	{headroom} remaining · scan requires {cost} reserved during execution
+security/billing/in_flight	{reserved} of your usage credits is currently reserved by running scans.
+security/billing/in_flight_count	Some of your usage credits are currently reserved by running scans.
+security/billing/org_spend_limit	Organization spend limit
+security/billing/prepaid_balance	Usage credit balance
+security/billing/service_spend_limit	Claude Security spend limit
+security/model_not_available	The selected model isn't available for your organization. Choose a different model.
+security/org_out_of_credits	Your organization is out of usage credits.
+security/org_spend_limit_reached	Your organization's spend limit has been reached.
+security/project_scan_in_progress	A scan is already running for this project. Wait for it to finish before starting another.
+security/scan_cost_exceeds_headroom	This scan's reserved credits would exceed your remaining billing headroom.
+security/service_spend_limit_reached	The Claude Security spend limit for your organization has been reached.
+siNA1noRXi	How the gateway credential is sent. Choose Bearer or x-api-key for a static key or credential-helper output; choose SSO to have each user sign in via your identity provider.
+sipjfZmVF9	Your plan was canceled. Renew your plan to restore access.
+sj38GHbBxz	Some connector requests couldn't be dismissed. You can try again.
+skoFVeItSH	Create a Team organization
+slIZF8X6Sk	+ Add server policy
+spLkCJotvs	Your team at <bold>{domain}</bold> is already on Claude.
+spnNJeD1fC	Bug
+sqfi+II5M9	Endpoint is plain HTTP; auth credentials travel in cleartext.
+ssmKrOHndG	Run parallel agents—each with a full terminal, editor, and preview—so you can build, review, and correct without ever leaving the session.
+stDXjblxoJ	Your installed plugins
+swKnU9TQJ9	No emulators found — create one in Android Studio
+swRudjTjLO	Hosts
+sx5iiXr5PJ	Additional request headers
+syUb6gOB8Z	Folder missing on disk
+syhtMdzH3S	I want to refactor the largest file in this folder into smaller modules. Before touching anything, write a plan: which file, how you would split it, what could break. Wait for my go-ahead.
+t+whQh8PDG	Upgrade to Claude Max to use our legacy models
+t0NuWXREIj	Domains Cowork's tools may reach during a turn. Also surfaced under Egress Requirements.
+t2ElSZR3Hy	Organization instructions
+t4jUKhgBRC	Send a friend a free week of Cowork. If they love it and subscribe, you'll get {rewardAmount} in usage credits. <termsLink>Terms apply</termsLink>
+t8UlU+rfkJ	Generate code, documents, and designs in a dedicated window alongside your conversation.
+t9Edz+c6F/	The saved endpoint, headers, and resource attributes will be removed and telemetry export will stop.
+tC+RpDbEnO	Complete all required fields in the highlighted steps first.
+tDirXwjVKd	cache w
+tFFMkFDBMO	Pause
+tLNmODKok8	Client certificate (PEM)
+tMa1K2yQ90	Your account is back, with {credit} on us
+tNxpKP4AlE	Stop Cowork from fetching updates. You'll need to push new versions yourself.
+tO7KIDqgLQ	What's on your plate today?
+tP0hLnu8P5	{label} members
+tQVvCrCxZY	Point this configuration at a bootstrap URL to have your organization manage these settings remotely.
+tSYisYSlsV	A value is already saved. Enter a new one to replace it.
+tSwEpl8XcL	<b>{count, plural, one {# session stuck} other {# sessions stuck}}</b> — failed on 3 different runners each. Auto-recovery exhausted. Check runner logs, then retry or dismiss.
+tT9FhdK84Y	View and manage memory
+tTCSuAGxCA	No project snapshot is available yet. Try again once a version has been captured.
+tTpUg6yC9D	Default worker updated
+tXmfGMTmpi	Token name is required.
+tZZd4f7e0+	Approve the request in your browser, then return here.
+tb1OJygJ7I	Applies once a plugin ships an MCP server with this name.
+tbgDpfcbO5	Use localhost only if your IdP's registered redirect URI specifies it.
+tbxj5vlvTo	OAuth — your own client (public, no secret)
+tcQPkx2rdY	Ability for Claude to run code, create documents (Word, Excel, PowerPoint, PDF), and access network resources within conversations.
+tdj4b/xhUV	Azure AI Foundry resource name
+tfbJpvj596	File contents
+tgblN/n/hK	Folders users may attach as a workspace. Leave unset for unrestricted access.
+tgkg69DKCl	You’re running Claude through your organization’s own inference provider ({providerDisplayName}). Your conversations are sent there, not to Anthropic, and are governed by your organization’s agreement with that provider.
+thmTw+Z7rC	Live summary isn't available for this session yet
+tibq2MpiPM	Background work appears here
+tj9EVhMTo0	Styles are migrating to Skills
+tkhIquzFus	This connector has no tools to configure.
+tm9UPqY7wq	Days at limit
+tmwK1KjFte	Gateway auth scheme
+toEmobFiDF	Request a review and our team will look over your account. The more specific you are about what you were working on, the better we can match it against the signal that triggered the hold.
+tpgRwsCwi1	Revoking <b>{label}</b> is immediate and can't be undone.
+trmBDXWSf3	Brainstorm in chat, build in Cowork
+tsufAXEzIj	Please select at least one option.
+ttCnSylPMH	Allow Datadog reads
+ttY1TwjFUv	That target is already routed to a different agent proxy. Dissociate it there first.
+tuJiA0ZNUD	Bad response
+tusLrorIlY	Describe the issue or feedback
+twYwlwBck8	Selected task
+tyqELdJzWL	View all ({count})
+u+Xq/47idy	No agent proxy profiles yet. Create one in the Agent profiles section above before adding rules or credentials.
+u+b+OpBo2Z	Claude Code refused to start in Bypass Permissions mode on this machine. The session has been switched to Accept Edits — send your message again to continue.
+u2FluSQcfr	This isn't something I can help with here.
+u2FtqndK9t	Run <code>claude rc</code> on your machine to code from here.
+u34ZldItJv	The amount you paid for unused usage credits ({amount}, before tax) will be refunded to your card.
+u58ODvHlfF	Send a friend a free week of Claude Code. If they love it and subscribe, you'll get {rewardAmount} in usage credits to keep building. <termsLink>Terms apply</termsLink>
+u5HPoAdU8m	{count, plural, one {# other role} other {# other roles}}
+u5yuAufK9w	Automatically buy more usage credits when you're running low.
+u6WxmjB6Ef	Paste a PEM-encoded certificate (-----BEGIN CERTIFICATE-----).
+u7SSMky/e3	Claude Code in the web
+u7p4qILnGs	Remove "{name}" from your live artifacts?
+uADsBJbgIO	View group
+uBpPj2y9zj	Error details copied to clipboard. Paste in Slack (⌘V), then drag the zip from Finder into the message.
+uDHJ1rSeba	Go to Claude Code
+uJ504fQ0kX	Gift purchases aren't available for your account at this time.
+uKGsERu2+G	Complete the items above first:
+uNrBqFbR2v	Unlisted tools stay user-controlled. Policy is keyed by server name and applies even if the plugin is later updated.
+uOyE+ZzhxH	{extensionName} and its configuration will be removed from Claude Desktop.
+uPrf4QlRgF	You're now past your plan's included usage. Your session limit resets at {time}.
+uRCffDWQcJ	Where Cowork sends OpenTelemetry logs and metrics. Leave blank to disable.
+uSQ/bLKBIp	Tool policy
+uSf7bzwv7f	Edit {tierLabel} limit
+uV5y1u6H7A	Vertex OAuth client ID
+uYv0mtuNZV	Usage credits available at API rates
+uZAEAKmgwF	Choose a data retention policy that fits your organization
+uamCkavwvi	Service token revoked
+ubTnWU94wG	Confirm this code matches the one shown in your browser.
+ucEwQXR1d4	Last synced
+ueNfIWK3BX	Focus next split pane
+uiL7XCPiaV	Authorization URL
+ujMR8bFlEJ	{count, plural, one {# member} other {#{hasMoreMembers, select, true {+ members} other { members}}}}
+ujzQLwSmX+	Quantity must be greater than 0
+uksEExpTuY	Desktop-app OAuth client ID. Enables Sign in with Google instead of a credentials file.
+uqP93vFyyR	All Claude features, plus more usage*
+uzNayhc7GO	Access to Claude Code, the terminal-based coding assistant for agentic software development. Requires a seat tier that includes Claude Code.
+v1vJ778CW5	Edit rule
+v44MDIQZct	Buy extra usage to get started
+v6zzf5Fu/E	Claim your {credit}
+v7iKOdJf1d	You hit your weekly Opus limit. It resets at {resetTime} on {resetDay}, or you can upgrade for higher limits.
+v89OonElB8	You don’t own any Team organizations yet. Create one to get nonprofit pricing.
+vCeNCCZA+t	Bash
+vEq8UN/T+P	Egress credential created.
+vF0faJ3D+Q	Let members keep Cowork running on their computer to work on tasks in the background. They can send instructions from any signed-in device, and Cowork can access files, apps, and websites on their computer without direct supervision.
+vFSV/fXiEx	Frame it…
+vFVn1aUZzi	{count, plural, one {# connector needs additional configuration. Enable it from the Connectors page.} other {# connectors need additional configuration. Enable them from the Connectors page.}}
+vJI7emGfDw	How urgent is this? (optional)
+vKsO0y5sme	Contact your Anthropic representative to procure additional seats, or use a tier which has enough available seats.
+vN8KEpa87z	Complete {count, plural, one {# required field} other {# required fields}} in {category}
+vO/fpEfAcB	Loading frames…
+vO83rYMcTm	{memberName} doesn’t have any custom roles assigned. They’ll lose all role-based access until a custom role is assigned.
+vQlFTyCs71	Sent on every MCP request alongside the OAuth bearer token. Values are stored securely and never shown again.
+vRwo1ZXtWd	Allow using chat, projects, and artifacts.
+vU5+974e6V	This is a gift subscription
+vWFeomlZtp	Connector discovery
+vY1mc3XjCP	Select {chatName}
+vYp+pnDYOX	Load all {serverTotal, number} members
+vZ6g+h2+rD	IAM Identity Center permission-set name granting bedrock:InvokeModel* on the account above.
+vd4GI5V7Tx	Select a pool
+vgSQNDrmBi	BedrockInference
+vgWtXmfv6E	{amount} in usage credits added! When it runs out, you can add more to keep third-party apps going. <a>Manage auto-reload</a>
+vhjtIjR7yP	Sign-in failed unexpectedly. Try again.
+vikR8aVphg	Light code theme
+vjKy2zY6Fv	Not tested
+vk3nayKTSF	Industry default unless pinned
+vnGeEyUHvQ	Confirm your eligibility
+vnWh2lYNYA	A Windows security policy is blocking Claude's workspace
+voIKOiozbh	Will be automatically disabled on {date}.
+vr+XA6xjAJ	GCP credentials file path
+vs/sS5UaxP	Available with a Claude Max, Team, or Enterprise plan
+vst1oJkFnn	Check icon
+vwGcTc9clK	No members.
+w4GWnUqqmv	Hand off tasks, code with Claude, and do more from your desktop
+w7oH594Ox+	Values are write-only and never shown after saving.
+w8P7bOK/O0	View or manage data retention, chat and connector sharing, public projects, location metadata, and feedback collection. Manage access also enables data and audit log exports.
+wAM7X1pIFa	24
+wD2eJe600C	Organization and access
+wEZDiW+6ZT	Your org has reached its spend limit for this month. Manage spend limit to keep going now.
+wG2dpZSzTk	Org-pushed MCP servers: remote (HTTP/SSE) or local (stdio command). May embed bearer tokens.
+wHChJytals	… and {more} more
+wHY8kRCa7f	Reopen URL
+wIpyGT+5YJ	Click to retry reconnecting
+wIuoveDMgx	Run functional tests (unavailable)
+wL51Js4/qx	Annotated image
+wNfx2KMPrE	Something went wrong adding your usage credits. Try again or contact support.
+wQRUBw9rk7	Require full VM sandbox
+wSIy1+/HLg	Try sending your message again. If it keeps happening, share feedback so we can investigate.
+wYUQnuzAJH	You're out of extra usage. Buy more to keep going now, or wait until {time} when your plan usage resets.
+wcSMN7iBHv	This task runs during peak hours and will consume your usage limits faster.
+we1m4ZIlaP	https://llm-gateway.example.com
+we2rT0atUs	{count} this week
+weftE7Eekg	Clear avatar
+whFH9beKiB	Check that your SSH host or local proxy is reachable, then try again.
+wlKRJiNFRT	Create your first agent proxy
+woFlBYmlIQ	Chat memory has moved to <link>Customize</link>. Head there to manage your memories.
+wqUIs/2OD5	Are you sure you want to dismiss this limit increase request from {name}? This action cannot be undone.
+wsS6U0UWNv	{count} × {name}
+wtC2B29FKg	Usage credits are on
+wtOt83XrGz	Code notifications
+wylVMYvzWU	Migrate accounts using your domain
+x+MG25XWVf	Headers helper script
+x/AANGatCX	Lost connection to {host}
+x1ndu+SlGN	Your gift covers your next invoice.
+x2gr2Tsp9/	Pick based on what your tools actually do, not what your product can do. We cross-check this against your tools' readOnlyHint / destructiveHint annotations — a mismatch will be flagged below and during review.
+x3qvaC3GqD	No runs yet
+x6fFkz95ZZ	Notifications won't reach your phone yet. Open Claude on your phone and allow notifications.
+x8r3+rMaHq	Credential helper timeout
+x92i4iwZiS	Ability to create or upload custom skills. When off, members can still use skills.
+xE25u/ftbw	Anchored regex users' URLs must match.
+xG20TCv+oy	Claude Code can build a prototype you can run, tweak, and launch when it's ready.
+xGAsrLhA7J	Filter by category
+xHHO70UFYc	PSC endpoint, if using one.
+xJhxYMg+Cl	claude://cowork/shared-artifact?uuid=…
+xMES0BJ8mg	Programmatic access to engagement metrics for your organization.
+xNApr3Zf57	cache r
+xNiJtsP+z/	Next: Configure connectors
+xP4LRsHGdQ	Access the Claude Developer Platform on your behalf
+xQXSrujr+1	Token name
+xSxKLKg4CN	Your organization has unlimited seats. Contact support to add other seat types.
+xWiIy0pAlB	Auto-populate the model picker from {url} at launch.
+xXbJsopyfR	Sign out
+xY1EE6Ndl5	Egress Requirements
+xfnfqk+S8q	Click Sign in to open your browser, then confirm this code matches.
+xjzC7lKFZe	Hide session logs
+xlol5nvcMG	Override or default benchmark
+xo70FAR2Eu	{cause}. Retrying now (attempt {attempt} of {maxRetries})
+xovdJlXIM6	OpenTelemetry collector endpoint
+xrcSnuqbsb	No limit set
+xtIyoIFEkB	["mcp-server-fetch"]
+xv05OlEAl+	No skill usage data for this period yet.
+xwNOzKba7c	Copy remix link
+xxO9Cpg9/Q	Another app wants to attach "{directory}"
+xy65khgd5W	Will my billing be affected?
+xyS7d891o+	A diagnostic report, only if you explicitly choose “Send to Anthropic”
+xygVVMSUxn	You've used over {surpassedThresholdFormatted} of your usage credits
+xzt9/sWixj	Upgrade to Max or Team
+y/6sGoi9YF	Connectors & extensions
+y1b/4uVGmm	Requested by your team
+y2My7nx48l	Some files were too large to attach. Maximum size is 30 MB.
+y3gym+4SMI	Allowed workspace folders
+y4+EmLrL+h	Overrides profile and SSO when set.
+y4dl3eyfcO	Shared bearer token: every org member authenticates as the same identity.
+y8BcIUajBi	Source removed.
+y8c8KzJEws	Shown in the model picker. Leave blank to auto-format from the ID.
+yDjXz1VVzW	Disable key?
+yGWqVdFHxN	Set a monthly limit for Claude usage in your organization. Note, once the org hits that limit, Claude access will be cut off for all users until the limit resets.
+yHCzdpvVUS	Available for Max plans
+yKjBeNZsMS	Plan ready
+yKxvEwoB7Q	Disk error
+yLxdX99Dsa	Will be automatically enabled on {date}.
+yOxbhdKeEw	Multiple URLs
+yQqK9phSTc	{seatPrice}/seat + tax. Usage cost scales with model and task.
+yTIp4vi0Yk	Manage custom roles...
+yUsyxi1gKs	Android Emulator
+yWgQU4eQPw	sk-ant-…
+yXXNM6hrp5	Auto-review failed
+yad9BCPTB8	· {seats, plural, one {# seat} other {# seats}}
+ybBzCL/MmO	Couldn't load your projects
+ycDInRy6bx	Path prefix must start with /.
+ycbPjA3Vlo	Seat fees
+ycj+QgUAwI	Across projects
+ye9sGm7rX3	Ship features, not lines
+yew/eTvhGh	Saves to user settings (all projects)
+yfrhV8/n3J	Claude Code stopped responding
+ygxd+6Voo7	Run auto-review
+ymK1YZvA8G	Keep going in Claude Code
+yoRCkYqe0X	Revoke token
+yqVxuknP4/	Path prefixes
+ysWGwt3JHC	Legacy
+yu6dKcgk3O	Claude Max 20x
+ywnK18sC/9	The amount you paid for unused usage credits ({amount}, before tax) will also be refunded to your card.
+yx8RFxCspM	I have run every tool via MCP Inspector or as a custom connector in Claude
+yxNx68iDp9	Spend limits
+yyIEWowL6r	Couldn't set up remote folder
+z2/BwrFUvx	No model usage in this range
+z3TvMLm89H	Search artifacts...
+z3wu6afpSd	Limit increase requests
+z52r3x+O39	Rule created.
+z68HEkRUVe	Invalid domain. Use example.com, or *.example.com to match subdomains.
+z8vWoohnwq	Remove "{name}" from your live artifacts? This will also revoke its share link.
+z9dRCCzyuv	Claude will be able to read this file and may share its contents with third-party tools it connects to. Be careful about exposing sensitive information.
+zArQLV68ud	Not at all
+zB2cYFBQjl	You've reached your weekly limit. It resets {day} at {time}.
+zDO7TrOPzA	This webhook is already verified. Close and refresh to see its current state.
+zElqHZzItw	Write a message…
+zG+cZGZk3P	Run again
+zGsvZUPTo8	e.g. DD-API-KEY
+zJ89XREpbw	Share details about how you were using your account to help us understand the full picture.
+zNarR/5dRy	Runs on this computer
+zPhYdevJ+s	Per-tool approval policy. "ask" requires user approval before each call; "allow" is the default. Use Disabled built-in tools to remove a tool entirely.
+zPuIVh5KvJ	This key includes a scope that can permanently delete data across any organization under the same parent organization. Deletions cannot be undone.
+zS5yI0rzXy	Bootstrap OIDC parameters
+zUO6Ii5EAT	Add model
+zY2DKvK5ks	Custom roles have no effect for this member
+zaPxGqzW4A	Your terminal's Claude Code session stopped responding. Check your terminal for errors, then resend your message.
+zb0N8OFkqA	<bold>Act without asking is on.</bold> Claude works, uses connectors, browses the web, and controls apps on your computer without pausing for approval. You can turn off individual connectors in the Add menu. <link>See safe use tips</link>
+zbNxSYpKvR	View server
+zbnAhr8BKq	Canceling will immediately remove your {productName} access. Your last unpaid invoice will no longer be due and recurring billing will stop. You may resubscribe at any time.
+zd6kBu7o9f	Test connection is not available for local (stdio) servers.
+zg1AOLkMMN	Your org is out of extra usage. Buy more to keep going now, or wait until {time} when your plan usage resets.
+zgMsosqNrx	Authorization
+zgUY6lOy4t	Public: {keys}
+zgsfe3qspj	Upload CSV of email addresses
+zu9kMqfe1c	No messages yet
+zx7mbcAENI	This capability is enabled but its required capability Claude Code is not.
+zysx6rea8c	No instances heartbeating yet. Deploy the proxy with the registration secret.

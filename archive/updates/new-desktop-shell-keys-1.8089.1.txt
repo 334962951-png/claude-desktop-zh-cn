@@ -1,0 +1,16 @@
+1BYhB06oNf	The Chrome extension's session expired. Open the Claude extension in Chrome and sign in again, then retry.
+1Gc0Drz87C	Open
+47FYwba+bI	Cancel
+71dtHvbhEs	Wait for Claude
+FoqhUPsr9l	This artifact wants to open a {protocol} link in another app: {url}
+MtBSpEDoNX	Open link in another app?
+NM+6y1CtJl	Sign back in to Claude in Chrome
+V9Eb08nwTF	Claude is working in {count, plural, one {# session} other {# sessions}}. Quitting now will interrupt that work.
+j17BCr6YjW	Quit anyway
+jepkj1EMUH	Cancel
+kdoUubpNNW	Claude is still working
+nVK7qlCd2+	Always allow {protocol} links from artifacts
+q6RXyVAhm/	This artifact wants to open {appName} with the link {url}
+qZLubHG4SC	Don't ask again
+sS5kY5l/lE	Dismiss
+yNExH0dp3+	Open Chrome

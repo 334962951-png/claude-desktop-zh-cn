@@ -1,0 +1,8 @@
+.claude/
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.log
+*.orig
+*.rej
