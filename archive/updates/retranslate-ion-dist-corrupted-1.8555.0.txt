@@ -10,7 +10,6 @@
 +tRn40sBkg	Adding marketplaces is blocked by your organization's policy. Contact your administrator.
 +vS3H1eZas	Customs officer
 +xKo0c6T1G	Software architect
-/06iwcQHPz	Large
 /0MsrWMCdB	Songwriter
 /YXteHLR8K	Actuary
 /bBN+CgLmb	Ecologist
@@ -165,7 +164,6 @@ B0SaDlSPdX	Consulting
 B4XCcTMiS5	HVAC technician
 B73ba6azwB	Manager
 B7lgvHUlm/	Redirect / validate URL
-BPnT3TVya+	Small
 BQJiB0nVAr	Social worker
 BRBv0RHkPV	Videographer
 BU+rc742ra	We've credited {credit} to your next billing cycle on us.
@@ -189,7 +187,6 @@ Cloq/L/2WC	About these usage estimates
 ClrysNUKqv	Strategy consultant
 CoDJbGwNNT	Sociologist
 D2E7/D73GI	General manager
-D7jTww3yOv	Transcript text size
 DACh8AX/2a	Police officer
 DKjTT2rZu5	Talent acquisition specialist
 DNb7FnyNLB	Analytics
@@ -348,7 +345,6 @@ OqZ+uVZ6Ix	Healthcare worker
 OqnSEhxSeV	Web designer
 OrgPluginsUrl	Organization plugins endpoint
 OrgPluginsUrlHint	Supplied by the bootstrap server; not directly settable.
-OrzZiyVwtN	Font for the Claude Code interface — menus, sidebar, and chat.
 OtbqX4PE60	Firefighter
 OuGz8H1+p1	CFO
 OuQRXIk3Tp	Financial controller
@@ -690,7 +686,6 @@ on+KE6TLP7	Product marketing manager
 oobsf8x14s	Realtor
 op77VwdRsn	Emergency dispatcher
 oxF/dRg2xa	Physician assistant
-p0a72nIBLb	Interface font
 p0yHjO3ccu	Homemaker
 p26KNN/HQx	Checking setup…
 pKkbyZ3Dgu	Athlete
@@ -744,7 +739,6 @@ tO7KIDqgLQ	What's on your plate today?
 tQ1QpNqjb9	Midwife
 tXNvYDFhjq	Civil servant
 taIE1h8043	Politician
-tbWSCmaOBg	Med
 tfPnUTtdI/	Director
 tglNOo/DKz	Grant writer
 tsM+/5lCXz	CTO
