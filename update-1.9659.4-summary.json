@@ -1,0 +1,39 @@
+{
+    "claudeVersion": "1.9659.4.0",
+    "generatedAt": "2026-06-02T09:34:07",
+    "summary": [
+        {
+            "file": "ion-dist",
+            "current": 15209,
+            "reused": 14384,
+            "cacheReused": 0,
+            "manualTranslated": 106,
+            "machineTranslated": 715,
+            "added": 825,
+            "englishFallback": 4,
+            "addedPath": "D:/claude-desktop-zh-cn\\new-ion-dist-keys-1.9659.4.txt"
+        },
+        {
+            "file": "desktop-shell",
+            "current": 397,
+            "reused": 373,
+            "cacheReused": 0,
+            "manualTranslated": 24,
+            "machineTranslated": 0,
+            "added": 24,
+            "englishFallback": 0,
+            "addedPath": "D:/claude-desktop-zh-cn\\new-desktop-shell-keys-1.9659.4.txt"
+        },
+        {
+            "file": "statsig",
+            "current": 46,
+            "reused": 46,
+            "cacheReused": 0,
+            "manualTranslated": 0,
+            "machineTranslated": 0,
+            "added": 0,
+            "englishFallback": 0,
+            "addedPath": "D:/claude-desktop-zh-cn\\new-statsig-keys-1.9659.4.txt"
+        }
+    ]
+}

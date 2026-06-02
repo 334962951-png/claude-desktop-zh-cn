@@ -3,7 +3,10 @@ param(
     [switch]$Uninstall,
     [switch]$Extract,
     [switch]$NoRestart,
-    [switch]$PauseAtEnd
+    [switch]$PauseAtEnd,
+    [switch]$SkipElevation,
+    [string]$OriginalLocalAppData,
+    [string]$OriginalUserProfile
 )
 
 Set-StrictMode -Version Latest
@@ -37,6 +40,14 @@ function Ensure-Administrator {
         "-File",
         "`"$PSCommandPath`""
     ) + $Arguments
+
+    if ($env:LOCALAPPDATA) {
+        $argumentList += @("-OriginalLocalAppData", "`"$($env:LOCALAPPDATA)`"")
+    }
+
+    if ($env:USERPROFILE) {
+        $argumentList += @("-OriginalUserProfile", "`"$($env:USERPROFILE)`"")
+    }
 
     Start-Process -FilePath "powershell.exe" -Verb RunAs -ArgumentList $argumentList | Out-Null
     exit
@@ -157,7 +168,37 @@ function Backup-File {
     }
 
     [System.IO.Directory]::CreateDirectory($backupDir) | Out-Null
-    Copy-Item -LiteralPath $Path -Destination (Join-Path $backupDir (Split-Path $Path -Leaf)) -Force
+    $backupPath = Join-Path $backupDir (Split-Path $Path -Leaf)
+    if (Test-Path -LiteralPath $backupPath -PathType Leaf) {
+        return
+    }
+
+    Copy-Item -LiteralPath $Path -Destination $backupPath -Force
+}
+
+function Get-PreferredLocalAppDataRoots {
+    $roots = New-Object 'System.Collections.Generic.List[string]'
+
+    if ($OriginalLocalAppData) {
+        $roots.Add($OriginalLocalAppData)
+    }
+
+    if ($env:LOCALAPPDATA) {
+        $roots.Add($env:LOCALAPPDATA)
+    }
+
+    if ($OriginalUserProfile) {
+        $roots.Add((Join-Path $OriginalUserProfile "AppData\Local"))
+    }
+
+    if ($env:USERPROFILE) {
+        $roots.Add((Join-Path $env:USERPROFILE "AppData\Local"))
+    }
+
+    return $roots |
+        Where-Object { $_ -and (Test-Path -LiteralPath $_ -PathType Container) } |
+        ForEach-Object { [System.IO.Path]::GetFullPath($_).TrimEnd("\") } |
+        Select-Object -Unique
 }
 
 function Patch-JsLanguage {
@@ -171,47 +212,192 @@ function Patch-JsLanguage {
         return $false
     }
 
-    $jsFiles = Get-ChildItem -LiteralPath $assetsDir -Filter "index-*.js" -File -ErrorAction SilentlyContinue
-    if (-not $jsFiles) {
+    $indexFiles = Get-ChildItem -LiteralPath $assetsDir -Filter "index-*.js" -File -ErrorAction SilentlyContinue
+    if (-not $indexFiles) {
         Write-Host "  [警告] 未找到 index-*.js，跳过 JS 补丁" -ForegroundColor Yellow
         return $false
     }
 
-    $exactOld = 'Mz=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"]'
-    $exactNew = 'Mz=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN"]'
-    $regex = [regex]'((?:\w+)=\["en-US"(?:,"[^"]+")+)\]'
+    $allJsFiles = Get-ChildItem -LiteralPath $assetsDir -Filter "*.js" -File -ErrorAction SilentlyContinue
+    $fallbackReplacements = [ordered]@{
+        'defaultMessage:"New task",id:"K4O03zh0vo"'       = 'defaultMessage:"新建任务",id:"K4O03zh0vo"'
+        'defaultMessage:"Projects",id:"UxTJRaKagI"'       = 'defaultMessage:"项目",id:"UxTJRaKagI"'
+        'defaultMessage:"Scheduled",id:"cXAlMRerxW"'      = 'defaultMessage:"已排期",id:"cXAlMRerxW"'
+        'defaultMessage:"Live artifacts",id:"fo4LT2foY3"' = 'defaultMessage:"实时构件",id:"fo4LT2foY3"'
+        'defaultMessage:"Customize",id:"TXpOBiuxud"'      = 'defaultMessage:"自定义",id:"TXpOBiuxud"'
+        'defaultMessage:"Pinned",id:"fWZYP5U4xZ"'         = 'defaultMessage:"已置顶",id:"fWZYP5U4xZ"'
+        'defaultMessage:"Recents",id:"wA4FIMmtlS"'        = 'defaultMessage:"最近",id:"wA4FIMmtlS"'
+        'defaultMessage:"View all",id:"pFK6bJU0EM"'       = 'defaultMessage:"查看全部",id:"pFK6bJU0EM"'
+        'defaultMessage:"View all projects",id:"dQKgzxReOT"' = 'defaultMessage:"查看全部项目",id:"dQKgzxReOT"'
+        'const rp={chat:"New chat",cowork:"New task",code:"New session"}' = 'const rp={chat:"New chat",cowork:"新建任务",code:"New session"}'
+        '{id:"projects",surface:"projects",icon:"Projects",label:"Projects",modes:["chat","cowork"]}' = '{id:"projects",surface:"projects",icon:"Projects",label:"项目",modes:["chat","cowork"]}'
+        '{id:"scheduled",surface:"scheduled",icon:"Clock",label:"Scheduled",gate:"scheduled",modes:["cowork","code"]}' = '{id:"scheduled",surface:"scheduled",icon:"Clock",label:"已排期",gate:"scheduled",modes:["cowork","code"]}'
+        '{id:"cowork-artifacts",href:$t,icon:"Artifacts",label:"Live artifacts",gate:"cowork-artifacts",modes:["cowork"]}' = '{id:"cowork-artifacts",href:$t,icon:"Artifacts",label:"实时构件",gate:"cowork-artifacts",modes:["cowork"]}'
+        '{id:"customize",surface:"customize",icon:"Tool",label:"Customize"}' = '{id:"customize",surface:"customize",icon:"Tool",label:"自定义"}'
+        'const lp="Recents"' = 'const lp="最近"'
+        'z5t={recents:"Recents",shared:"Shared"}' = 'z5t={recents:"最近",shared:"Shared"}'
+        'children:["View all",Bo.jsx(Ht,{name:"CaretRight",size:"xsmall"})]' = 'children:["查看全部",Bo.jsx(Ht,{name:"CaretRight",size:"xsmall"})]'
+        'Bo.jsx(Vt,{collapsed:r,onToggle:i,children:"Pinned"})' = 'Bo.jsx(Vt,{collapsed:r,onToggle:i,children:"已置顶"})'
+    }
+    $debugTargets = @(
+        'label:"项目"',
+        'label:"已排期"',
+        'label:"实时构件"',
+        'label:"自定义"',
+        'const lp="最近"',
+        'cowork:"新建任务"',
+        '查看全部'
+    )
+
+    $exactLanguageArrays = @(
+        @{
+            Old = 'Mz=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"]'
+            New = 'Mz=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN"]'
+        },
+        @{
+            Old = 'const yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID",];'
+            New = 'const yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN",];'
+        },
+        @{
+            Old = 'const yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"];'
+            New = 'const yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN"];'
+        },
+        @{
+            Old = 'const xF="en-US",yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID",];'
+            New = 'const xF="en-US",yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN",];'
+        },
+        @{
+            Old = 'const xF="en-US",yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"];'
+            New = 'const xF="en-US",yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN"];'
+        }
+    )
+    $languageRegexes = @(
+        [regex]'((?:\w+)=\["en-US"(?:,"[^"]+")+)(,?)\]',
+        [regex]'((?:\w+)=\["en-US"(?:,"[^"]+")+)(,?);',
+        [regex]'(const\s+[A-Za-z_$][\w$]*="en-US",[A-Za-z_$][\w$]*=\["en-US"(?:,"[^"]+")+)(,?)\]',
+        [regex]'(const\s+[A-Za-z_$][\w$]*="en-US",[A-Za-z_$][\w$]*=\["en-US"(?:,"[^"]+")+)(,?);'
+    )
+    $mergeExactOld = 'const f={...u,...l?.messages};c(f,l?.gates??[],n?r:void 0)'
+    $mergeExactNew = 'const f={...l?.messages,...u};c(f,l?.gates??[],n?r:void 0)'
+    $mergeRegex = [regex]'const\s+([A-Za-z_$][\w$]*)=\{\.\.\.([A-Za-z_$][\w$]*),\.\.\.([A-Za-z_$][\w$]*)\?\.messages\};([A-Za-z_$][\w$]*)\(\1,\3\?\.gates\?\?\[\],'
+    $mergePatchedRegex = [regex]'const\s+[A-Za-z_$][\w$]*=\{\.\.\.[A-Za-z_$][\w$]*\?\.messages,\.\.\.[A-Za-z_$][\w$]*\};[A-Za-z_$][\w$]*\([A-Za-z_$][\w$]*,[A-Za-z_$][\w$]*\?\.gates\?\?\[\],'
 
     $patched = $false
 
-    foreach ($jsFile in $jsFiles) {
+    foreach ($jsFile in $indexFiles) {
         Grant-WriteAccess -Path $jsFile.FullName
 
         $content = [System.IO.File]::ReadAllText($jsFile.FullName)
+        $originalContent = $content
+        $languageMatched = $false
+        $mergeMatched = $false
+
         if ($content.Contains('"zh-CN"')) {
-            Write-Host "  已注册: $($jsFile.Name)"
+            Write-Host "  已注册语言: $($jsFile.Name)"
             $patched = $true
-            continue
+            $languageMatched = $true
         }
 
-        Backup-File -Path $jsFile.FullName
+        if (-not $languageMatched) {
+            foreach ($languageArray in $exactLanguageArrays) {
+                if ($content.Contains($languageArray.Old)) {
+                    $content = $content.Replace($languageArray.Old, $languageArray.New)
+                    $languageMatched = $true
+                    $patched = $true
+                    Write-Host "  已注册语言: $($jsFile.Name)"
+                    break
+                }
+            }
 
-        if ($content.Contains($exactOld)) {
-            $newContent = $content.Replace($exactOld, $exactNew)
-            Write-Utf8File -Path $jsFile.FullName -Content $newContent
-            Write-Host "  JS补丁已应用: $($jsFile.Name)"
-            $patched = $true
-            continue
+            if (-not $languageMatched) {
+                foreach ($languageRegex in $languageRegexes) {
+                    $newContent = $languageRegex.Replace($content, '$1,"zh-CN"$2]', 1)
+                    if ($newContent -ne $content) {
+                        $content = $newContent
+                        $languageMatched = $true
+                        $patched = $true
+                        Write-Host "  已注册语言(正则): $($jsFile.Name)"
+                        break
+                    }
+                }
+            }
         }
 
-        $newContent = $regex.Replace($content, '$1,"zh-CN"]', 1)
-        if ($newContent -ne $content) {
-            Write-Utf8File -Path $jsFile.FullName -Content $newContent
-            Write-Host "  JS补丁已应用(正则): $($jsFile.Name)"
+        if ($content.Contains($mergeExactNew) -or $mergePatchedRegex.IsMatch($content)) {
+            Write-Host "  已启用运行时中文优先: $($jsFile.Name)"
             $patched = $true
-            continue
+            $mergeMatched = $true
+        }
+        else {
+            if ($content.Contains($mergeExactOld)) {
+                $content = $content.Replace($mergeExactOld, $mergeExactNew)
+                $mergeMatched = $true
+                $patched = $true
+                Write-Host "  已启用运行时中文优先: $($jsFile.Name)"
+            }
+            else {
+                $newContent = $mergeRegex.Replace($content, 'const $1={...$3?.messages,...$2};$4($1,$3?.gates??[],', 1)
+                if ($newContent -ne $content) {
+                    $content = $newContent
+                    $mergeMatched = $true
+                    $patched = $true
+                    Write-Host "  已启用运行时中文优先(正则): $($jsFile.Name)"
+                }
+            }
         }
 
-        Write-Host "  [警告] 未匹配到语言列表: $($jsFile.Name) (Claude 可能已更新)" -ForegroundColor Yellow
+        if ($content -ne $originalContent) {
+            Backup-File -Path $jsFile.FullName
+            Write-Utf8File -Path $jsFile.FullName -Content $content
+        }
+
+        if (-not $languageMatched) {
+            Write-Host "  [警告] 未匹配到语言列表: $($jsFile.Name) (Claude 可能已更新)" -ForegroundColor Yellow
+        }
+
+        if (-not $mergeMatched) {
+            Write-Host "  [警告] 未匹配到运行时覆盖补丁: $($jsFile.Name) (Claude 可能已更新)" -ForegroundColor Yellow
+        }
+    }
+
+    foreach ($jsFile in $allJsFiles) {
+        Grant-WriteAccess -Path $jsFile.FullName
+
+        $content = [System.IO.File]::ReadAllText($jsFile.FullName)
+        $originalContent = $content
+        $replacementCount = 0
+
+        foreach ($pair in $fallbackReplacements.GetEnumerator()) {
+            if ($content.Contains($pair.Value)) {
+                continue
+            }
+
+            if ($content.Contains($pair.Key)) {
+                $content = $content.Replace($pair.Key, $pair.Value)
+                $replacementCount += 1
+            }
+        }
+
+        if ($content -ne $originalContent) {
+            Backup-File -Path $jsFile.FullName
+            Write-Utf8File -Path $jsFile.FullName -Content $content
+            Write-Host "  已更新默认文案回退: $($jsFile.Name) (+$replacementCount)"
+            $patched = $true
+            if ($jsFile.Name -like "cc3d*.js") {
+                $hits = @()
+                foreach ($target in $debugTargets) {
+                    if ($content.Contains($target)) {
+                        $hits += $target
+                    }
+                }
+                if ($hits.Count -gt 0) {
+                    Write-Host "  [调试] cc3d 命中: $($hits -join ', ')"
+                }
+            }
+        }
+        elseif ($replacementCount -gt 0) {
+            Write-Host "  [调试] 命中但内容未变化: $($jsFile.Name) (+$replacementCount)" -ForegroundColor Yellow
+        }
     }
 
     return $patched
@@ -228,45 +414,132 @@ function Unpatch-JsLanguage {
         return
     }
 
-    $jsFiles = Get-ChildItem -LiteralPath $assetsDir -Filter "index-*.js" -File -ErrorAction SilentlyContinue
-    $exactOld = 'Mz=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN"]'
-    $exactNew = 'Mz=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"]'
-    $regex = [regex]'((?:\w+)=\[(?:"[^"]+",)+)"zh-CN"\]'
+    $indexFiles = Get-ChildItem -LiteralPath $assetsDir -Filter "index-*.js" -File -ErrorAction SilentlyContinue
+    $allJsFiles = Get-ChildItem -LiteralPath $assetsDir -Filter "*.js" -File -ErrorAction SilentlyContinue
+    $exactLanguageArrays = @(
+        @{
+            Old = 'Mz=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN"]'
+            New = 'Mz=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"]'
+        },
+        @{
+            Old = 'const yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN",];'
+            New = 'const yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID",];'
+        },
+        @{
+            Old = 'const yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN"];'
+            New = 'const yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"];'
+        },
+        @{
+            Old = 'const xF="en-US",yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN",];'
+            New = 'const xF="en-US",yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID",];'
+        },
+        @{
+            Old = 'const xF="en-US",yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN"];'
+            New = 'const xF="en-US",yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"];'
+        }
+    )
+    $languageRegexes = @(
+        [regex]'((?:\w+)=\[(?:"[^"]+",)+)"zh-CN"(,?)\]',
+        [regex]'((?:\w+)=\[(?:"[^"]+",)+)"zh-CN"(,?);',
+        [regex]'(const\s+[A-Za-z_$][\w$]*="en-US",[A-Za-z_$][\w$]*=\[(?:"[^"]+",)+)"zh-CN"(,?)\]',
+        [regex]'(const\s+[A-Za-z_$][\w$]*="en-US",[A-Za-z_$][\w$]*=\[(?:"[^"]+",)+)"zh-CN"(,?);'
+    )
+    $mergeExactOld = 'const f={...l?.messages,...u};c(f,l?.gates??[],n?r:void 0)'
+    $mergeExactNew = 'const f={...u,...l?.messages};c(f,l?.gates??[],n?r:void 0)'
+    $mergeRegex = [regex]'const\s+([A-Za-z_$][\w$]*)=\{\.\.\.([A-Za-z_$][\w$]*)\?\.messages,\.\.\.([A-Za-z_$][\w$]*)\};([A-Za-z_$][\w$]*)\(\1,\2\?\.gates\?\?\[\],'
+    $fallbackReplacements = [ordered]@{
+        'defaultMessage:"新建任务",id:"K4O03zh0vo"'   = 'defaultMessage:"New task",id:"K4O03zh0vo"'
+        'defaultMessage:"项目",id:"UxTJRaKagI"'       = 'defaultMessage:"Projects",id:"UxTJRaKagI"'
+        'defaultMessage:"已排期",id:"cXAlMRerxW"'      = 'defaultMessage:"Scheduled",id:"cXAlMRerxW"'
+        'defaultMessage:"实时构件",id:"fo4LT2foY3"'    = 'defaultMessage:"Live artifacts",id:"fo4LT2foY3"'
+        'defaultMessage:"自定义",id:"TXpOBiuxud"'      = 'defaultMessage:"Customize",id:"TXpOBiuxud"'
+        'defaultMessage:"已置顶",id:"fWZYP5U4xZ"'      = 'defaultMessage:"Pinned",id:"fWZYP5U4xZ"'
+        'defaultMessage:"最近",id:"wA4FIMmtlS"'        = 'defaultMessage:"Recents",id:"wA4FIMmtlS"'
+        'defaultMessage:"查看全部",id:"pFK6bJU0EM"'    = 'defaultMessage:"View all",id:"pFK6bJU0EM"'
+        'defaultMessage:"查看全部项目",id:"dQKgzxReOT"' = 'defaultMessage:"View all projects",id:"dQKgzxReOT"'
+        'const rp={chat:"New chat",cowork:"新建任务",code:"New session"}' = 'const rp={chat:"New chat",cowork:"New task",code:"New session"}'
+        '{id:"projects",surface:"projects",icon:"Projects",label:"项目",modes:["chat","cowork"]}' = '{id:"projects",surface:"projects",icon:"Projects",label:"Projects",modes:["chat","cowork"]}'
+        '{id:"scheduled",surface:"scheduled",icon:"Clock",label:"已排期",gate:"scheduled",modes:["cowork","code"]}' = '{id:"scheduled",surface:"scheduled",icon:"Clock",label:"Scheduled",gate:"scheduled",modes:["cowork","code"]}'
+        '{id:"cowork-artifacts",href:$t,icon:"Artifacts",label:"实时构件",gate:"cowork-artifacts",modes:["cowork"]}' = '{id:"cowork-artifacts",href:$t,icon:"Artifacts",label:"Live artifacts",gate:"cowork-artifacts",modes:["cowork"]}'
+        '{id:"customize",surface:"customize",icon:"Tool",label:"自定义"}' = '{id:"customize",surface:"customize",icon:"Tool",label:"Customize"}'
+        'const lp="最近"' = 'const lp="Recents"'
+        'z5t={recents:"最近",shared:"Shared"}' = 'z5t={recents:"Recents",shared:"Shared"}'
+        'children:["查看全部",Bo.jsx(Ht,{name:"CaretRight",size:"xsmall"})]' = 'children:["View all",Bo.jsx(Ht,{name:"CaretRight",size:"xsmall"})]'
+        'Bo.jsx(Vt,{collapsed:r,onToggle:i,children:"已置顶"})' = 'Bo.jsx(Vt,{collapsed:r,onToggle:i,children:"Pinned"})'
+    }
+    $indexNames = @{}
+    foreach ($indexFile in $indexFiles) {
+        $indexNames[$indexFile.Name] = $true
+    }
 
-    foreach ($jsFile in $jsFiles) {
+    foreach ($jsFile in $allJsFiles) {
         $backupPath = Join-Path $backupDir $jsFile.Name
 
         if (Test-Path -LiteralPath $backupPath -PathType Leaf) {
             Grant-WriteAccess -Path $jsFile.FullName
             Copy-Item -LiteralPath $backupPath -Destination $jsFile.FullName -Force
             Write-Host "  从备份恢复: $($jsFile.Name)"
-            continue
         }
 
         Grant-WriteAccess -Path $jsFile.FullName
         $content = [System.IO.File]::ReadAllText($jsFile.FullName)
+        $originalContent = $content
 
-        if (-not $content.Contains('"zh-CN"')) {
-            Write-Host "  无需恢复: $($jsFile.Name)"
-            continue
+        if ($indexNames.ContainsKey($jsFile.Name)) {
+            if (-not $content.Contains('"zh-CN"')) {
+                Write-Host "  无需恢复: $($jsFile.Name)"
+            }
+            else {
+                $languageRestored = $false
+                foreach ($languageArray in $exactLanguageArrays) {
+                    if ($content.Contains($languageArray.Old)) {
+                        $content = $content.Replace($languageArray.Old, $languageArray.New)
+                        $languageRestored = $true
+                        Write-Host "  语言注册已恢复: $($jsFile.Name)"
+                        break
+                    }
+                }
+
+                if (-not $languageRestored) {
+                    foreach ($languageRegex in $languageRegexes) {
+                        $newContent = $languageRegex.Replace($content, '$1$2]', 1)
+                        if ($newContent -ne $content) {
+                            $content = $newContent
+                            $languageRestored = $true
+                            Write-Host "  语言注册已恢复(正则): $($jsFile.Name)"
+                            break
+                        }
+                    }
+                }
+
+                if (-not $languageRestored) {
+                    Write-Host "  [警告] 无法移除 zh-CN: $($jsFile.Name)" -ForegroundColor Yellow
+                    Write-Host "  建议重新安装 Claude Desktop" -ForegroundColor Yellow
+                }
+            }
+
+            if ($content.Contains($mergeExactOld)) {
+                $content = $content.Replace($mergeExactOld, $mergeExactNew)
+                Write-Host "  运行时覆盖补丁已恢复: $($jsFile.Name)"
+            }
+            else {
+                $newContent = $mergeRegex.Replace($content, 'const $1={...$3,...$2?.messages};$4($1,$2?.gates??[],', 1)
+                if ($newContent -ne $content) {
+                    $content = $newContent
+                    Write-Host "  运行时覆盖补丁已恢复(正则): $($jsFile.Name)"
+                }
+            }
         }
 
-        if ($content.Contains($exactOld)) {
-            $newContent = $content.Replace($exactOld, $exactNew)
-            Write-Utf8File -Path $jsFile.FullName -Content $newContent
-            Write-Host "  语言注册已恢复: $($jsFile.Name)"
-            continue
+        foreach ($pair in $fallbackReplacements.GetEnumerator()) {
+            if ($content.Contains($pair.Key)) {
+                $content = $content.Replace($pair.Key, $pair.Value)
+            }
         }
 
-        $newContent = $regex.Replace($content, '$1]', 1)
-        if ($newContent -ne $content) {
-            Write-Utf8File -Path $jsFile.FullName -Content $newContent
-            Write-Host "  语言注册已恢复(正则): $($jsFile.Name)"
-            continue
+        if ($content -ne $originalContent) {
+            Write-Utf8File -Path $jsFile.FullName -Content $content
         }
-
-        Write-Host "  [警告] 无法移除 zh-CN: $($jsFile.Name)" -ForegroundColor Yellow
-        Write-Host "  建议重新安装 Claude Desktop" -ForegroundColor Yellow
     }
 
     if (Test-Path -LiteralPath $backupDir -PathType Container) {
@@ -280,14 +553,24 @@ function Update-Config {
         [Parameter(Mandatory = $true)][string]$Locale
     )
 
-    $base = Join-Path ${env:LOCALAPPDATA} "Packages\Claude_pzs8sxrjxfjjc"
-    $configPaths = @(
-        (Join-Path $base "LocalCache\Roaming\Claude\config.json"),
-        (Join-Path $base "LocalCache\Roaming\Claude-3p\config.json")
-    )
+    $configPaths = foreach ($localAppData in (Get-PreferredLocalAppDataRoots)) {
+        $base = Join-Path $localAppData "Packages\Claude_pzs8sxrjxfjjc"
+        @(
+            (Join-Path $localAppData "Claude-3p\config.json"),
+            (Join-Path $localAppData "Claude\config.json"),
+            (Join-Path $base "LocalCache\Roaming\Claude\config.json"),
+            (Join-Path $base "LocalCache\Roaming\Claude-3p\config.json")
+        )
+    }
+
+    $configPaths = $configPaths | Select-Object -Unique
+    $updatedCount = 0
 
     foreach ($configPath in $configPaths) {
+        Write-Host "  检查配置: $configPath"
+
         if (-not (Test-Path -LiteralPath $configPath -PathType Leaf)) {
+            Write-Host "    不存在，跳过"
             continue
         }
 
@@ -304,11 +587,16 @@ function Update-Config {
 
             $json = $config | ConvertTo-Json -Depth 100
             Write-Utf8File -Path $configPath -Content $json
-            Write-Host "  $(Split-Path $configPath -Leaf)"
+            $updatedCount += 1
+            Write-Host "    已设置 locale=$Locale"
         }
         catch {
-            Write-Host "  [警告] 配置更新失败: $(Split-Path $configPath -Leaf) ($($_.Exception.Message))" -ForegroundColor Yellow
+            Write-Host "    [警告] 配置更新失败: $($_.Exception.Message)" -ForegroundColor Yellow
         }
+    }
+
+    if ($updatedCount -eq 0) {
+        Write-Host "  [警告] 未找到可更新的配置文件，Claude 可能会继续使用英文界面" -ForegroundColor Yellow
     }
 }
 
@@ -471,6 +759,16 @@ function Restart-Claude {
     }
 }
 
+function Stop-ClaudeProcess {
+    try {
+        Stop-Process -Name "claude" -Force -ErrorAction SilentlyContinue
+    }
+    catch {
+    }
+
+    Start-Sleep -Seconds 2
+}
+
 function Get-RequiredTranslationFiles {
     $required = @(
         [pscustomobject]@{ Name = "ion-dist"; Path = (Join-Path $packDir "ion-dist\zh-CN.json") },
@@ -529,6 +827,10 @@ function Install-LanguagePack {
     Write-Host "  Claude: $($resolved.ClaudePath)"
 
     Write-Host ""
+    Write-Host "  正在关闭 Claude Desktop..."
+    Stop-ClaudeProcess
+
+    Write-Host ""
     Write-Host "[2/5] 获取写入权限..."
 
     # WindowsApps 目录有系统级保护，需要给路径链上的关键目录都授予管理员权限
@@ -582,7 +884,7 @@ function Install-LanguagePack {
     }
 
     Write-Host ""
-    Write-Host "[4/5] 注册中文语言..."
+    Write-Host "[4/5] 注册中文语言并修复运行时覆盖..."
     [void](Patch-JsLanguage -ResourcesPath $resolved.ResourcesPath)
 
     Write-Host ""
@@ -608,6 +910,10 @@ function Uninstall-LanguagePack {
     Write-Host "[1/4] 查找 Claude Desktop..."
     $resolved = Resolve-ClaudeResources
     Write-Host "  Claude: $($resolved.ClaudePath)"
+
+    Write-Host ""
+    Write-Host "  正在关闭 Claude Desktop..."
+    Stop-ClaudeProcess
 
     Write-Host ""
     Write-Host "[2/4] 删除翻译文件..."
@@ -718,8 +1024,19 @@ if ($NoRestart) {
 if ($PauseAtEnd) {
     $scriptArgs += "-PauseAtEnd"
 }
+if ($SkipElevation) {
+    $scriptArgs += "-SkipElevation"
+}
+if ($OriginalLocalAppData) {
+    $scriptArgs += @("-OriginalLocalAppData", "`"$OriginalLocalAppData`"")
+}
+if ($OriginalUserProfile) {
+    $scriptArgs += @("-OriginalUserProfile", "`"$OriginalUserProfile`"")
+}
 
-Ensure-Administrator -Arguments $scriptArgs
+if (-not $SkipElevation) {
+    Ensure-Administrator -Arguments $scriptArgs
+}
 
 $exitCode = 0
 try {

@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9659.4] - 2026-06-02
+
+### Changed
+
+- Synced language resources to Claude Desktop `1.9659.4.0`
+- Re-extracted the installed app resources from `Claude_1.9659.4.0_x64__pzs8sxrjxfjjc`
+- Rebuilt `translated-zh-CN/` against the new `en-US` baseline while preserving existing translations
+- Archived the previous active update artifacts for `1.8555.0` into `archive/updates/`
+- Updated the installer to patch the runtime i18n merge order so local `zh-CN` messages win over bootstrap `gated_messages`
+- Updated the installer to support the new compiled language array structure used by `1.9659.4.0`
+- Updated the installer to preserve and target the original user `LOCALAPPDATA` path after elevation
+- Added verification screenshots under `docs/screenshots/`
+- Refreshed the project documentation for a formal release layout
+
+### Translation Status
+
+- `ion-dist`: `15209` entries
+- `desktop-shell`: `397` entries
+- `statsig`: `46` entries
+- New `ion-dist` entries translated this round: `821`
+- Remaining intentional English fallback entries in `ion-dist`: `4`
+- Remaining new untranslated `desktop-shell` entries: `0`
+
+### Verified
+
+- Home page Chinese UI verified in-app
+- Settings menu Chinese UI verified in-app
+- Settings page core labels verified in-app
+
 ## [1.8555.0] - 2026-05-28
 
 ### Added

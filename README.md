@@ -1,204 +1,202 @@
-# claude-desktop-zh-cn
+# Claude Desktop 简体中文语言包
 
-Claude Desktop 简体中文语言包项目。
+Claude Desktop Windows 版简体中文语言包项目。  
+当前已适配并验证 `Claude Desktop 1.9659.4.0`。
 
-[GitHub 仓库](https://github.com/334962951-png/claude-desktop-zh-cn) · [更新日志](./CHANGELOG.md)
+[更新日志](./CHANGELOG.md) | [发布说明](./RELEASE.md)
 
-为 Claude Desktop (Windows) 的界面语言增加简体中文。已同步到 Claude Desktop 1.8555.0.0 的资源文本，并在 3P 模式下测试可用。
+## 项目说明
 
-使用 GLM5.1 / 自动翻译辅助 + 人工校对，尽量减少机翻味。
-当前版本基于 1.8555.0.0 重新提取资源并合并旧翻译；新增 key 暂以英文保留，后续可继续人工补译。
+这个项目为 Claude Desktop 的 Windows 安装包补充简体中文界面资源，并通过脚本自动完成：
 
-## 项目状态
+- 写入 `zh-CN` 翻译文件
+- 注册 `zh-CN` 语言
+- 修复运行时语言覆盖顺序
+- 将本地 `locale` 切换为 `zh-CN`
+- 支持一键卸载并恢复英文
 
-- 当前适配版本：Claude Desktop `1.8555.0.0`
-- 当前翻译条目：
-  `ion-dist` `14648`
-  `desktop-shell` `373`
-  `statsig` `46`
-- 本次新增未补译条目：`0`
-  清单见 `new-ion-dist-keys-1.8555.0.txt`
-- 历史备份和旧版本更新产物已归档到 `archive/`
-- 已完成当前版本全部新增项补译：累计 `781` 条
+当前版本已经验证：
 
-## 特性
+- 主界面中文可用
+- 设置菜单中文可用
+- 设置页主要内容中文可用
+- 兼容 Claude Desktop `1.9659.4.0`
 
-- 支持一键安装和卸载简体中文语言包
-- 自动提取 Claude Desktop 当前安装版本资源路径
-- 自动注册 `zh-CN` 语言并切换本地 `locale`
-- 保留历史备份，便于在 Claude 更新后继续增量维护
-- 内置英文原文提取流程，方便后续升级版本时继续补译
+## 截图
 
-<img width="75%" alt="image" src="https://github.com/user-attachments/assets/16c330db-6df9-43ca-a333-61172057ad6e" />
+首页：
 
-## 快速导航
+![首页中文界面](./docs/screenshots/home-overview.jpg)
 
-- 当前中文翻译目录：`translated-zh-CN/`
-- 当前英文提取目录：`extracted-en-US/`
-- 当前版本更新摘要：`update-1.8555.0-summary.json`
-- 当前版本新增 key：`new-ion-dist-keys-1.8555.0.txt`（已清空，全部补译完成）
-- 历史备份与旧版本产物：`archive/`
+设置页：
 
+![设置页中文界面](./docs/screenshots/settings-overview.jpg)
 
-## 前提
+## 当前版本状态
 
-- 已安装 [Claude Desktop](https://claude.ai/download)
-- Windows 10 / 11
+- 适配版本：`1.9659.4.0`
+- `ion-dist`：`15209` 条
+- `desktop-shell`：`397` 条
+- `statsig`：`46` 条
+- 本轮 `ion-dist` 新增条目：`825`
+- 本轮 `desktop-shell` 新增条目：`24`
+- 当前仍保留少量英文专有名词或未优先处理文案
 
-## 快速安装
+详细统计见 [update-1.9659.4-summary.json](./update-1.9659.4-summary.json)。
 
-1. 以 git clone 或 zip 的形式下载本仓库
+## 快速开始
+
+### 安装
+
+1. 下载或克隆本仓库
 2. 完全关闭 Claude Desktop
-3. 双击 `安装中文语言包.bat`。如果界面卡住，可以按几下回车键。
-4. 在管理员权限弹窗中点击「是」
-5. 等待安装完成
-6. 打开 Claude，在左下角设置中切换语言为中文
+3. 双击 [安装中文语言包.bat](./安装中文语言包.bat)
+4. 在管理员权限弹窗中选择“是”
+5. 等待脚本执行完成，Claude 会自动重启
 
-## 快速卸载
-
-1. 完全关闭 Claude Desktop
-2. 双击 `卸载中文语言包.bat`
-3. 在管理员权限弹窗中点击「是」
-4. 等待卸载完成
-
-
-
-## Cowork 使用教程
-
-### 一、已有官方付费订阅
-
-1. 打开 Claude Desktop。
-2. 登录你的 Claude 账号。
-3. 登录后，在左侧或主界面找到 **Cowork** 即可
-
-### 二、3P 模式
-
-无付费订阅的账号登录后无法使用 Cowork，需使用 3P 模式并设置自己的 API 端点。
-
-1. 打开 Claude Desktop，不要登录 Claude 账号
-
-2. 打开左上角菜单（三个横杠）：
-
-```text
-帮助 → 故障排除 → 启用开发者模式 (Help → Troubleshooting → Enable Developer Mode)
-```
-如果左上角菜单点不开，可以先点击邮箱输入框，再按 `Tab` 切换选定到菜单按钮并回车。
-
-4. 开启开发者模式后，打开：
-
-```text
-开发者 → 配置第三方推理 (Developer → Configure third-party inference)
-```
-
-5. 在 connection 页面填写你的第三方接口信息，包括：
-
-```text
-Gateway base URL：https://你的 base URL。 
-Gateway API key：你的密钥
-Model list：依次添加你想要的模型。如果不添加，Claude 会自动获取。
-```
-<img width="50%" alt="image" src="https://github.com/user-attachments/assets/1e275fdf-1aac-4f4b-a9ad-23b71b49f101" />
-
-注意base URL 结尾不要带 `/v1`，否则会导致自动获取模型失败，仅显示legacy 模型。只有本地 API 端点可以使用http，非本地 API 端点要求https。
-无须勾选"Skip login-mode chooser"。
-可按需在 Telemetry & updates 标签关闭前两项遥测。
-
-
-6. 填好后点击：
-
-```text
-本地应用 (Apply locally)
-```
-
-7. Claude Desktop 会重启，重启后正常使用 Cowork 即可。
-
-
-## 命令行用法（PowerShell）
+也可以直接运行 PowerShell：
 
 ```powershell
-# 安装（默认行为，需管理员权限）
+powershell -ExecutionPolicy Bypass -File .\LanguagePack.ps1
+```
+
+### 卸载
+
+1. 完全关闭 Claude Desktop
+2. 双击 [卸载中文语言包.bat](./卸载中文语言包.bat)
+3. 在管理员权限弹窗中选择“是”
+
+或运行：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\LanguagePack.ps1 -Uninstall
+```
+
+## 命令行用法
+
+```powershell
+# 安装中文语言包
 powershell -ExecutionPolicy Bypass -File .\LanguagePack.ps1
 
-# 卸载，恢复英文
+# 卸载中文语言包
 powershell -ExecutionPolicy Bypass -File .\LanguagePack.ps1 -Uninstall
 
-# 安装/卸载后不自动重启
+# 安装/卸载后不自动重启 Claude
 powershell -ExecutionPolicy Bypass -File .\LanguagePack.ps1 -NoRestart
 
-# 提取英文原文（开发/更新翻译用）
+# 提取当前已安装版本的英文原文
 powershell -ExecutionPolicy Bypass -File .\LanguagePack.ps1 -Extract
 ```
 
+## 构建发布包
+
+仓库内置了一个简单的发布打包脚本：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\build-release.ps1
+```
+
+默认会在 `dist/` 下生成：
+
+- `claude-desktop-zh-cn-1.9659.4/`
+- `claude-desktop-zh-cn-1.9659.4.zip`
+
 ## 工作原理
 
-安装脚本会做三件事：
+安装脚本会执行以下步骤：
 
-1. **写入翻译文件** — 将 `translated-zh-CN/` 下的 3 个 JSON 复制到 Claude 的 resources 目录
-2. **注册 zh-CN 语言** — 在 Claude 的 JS 包中补丁语言列表，添加 `"zh-CN"`
-3. **切换配置** — 将 Claude 的 `config.json` 中 `locale` 设为 `"zh-CN"`
+1. 查找当前已安装的 Claude Desktop 路径
+2. 获取 `resources` 目录写入权限
+3. 复制 `translated-zh-CN` 中的翻译文件到 Claude 安装目录
+4. 修改前端资源，注册 `zh-CN` 并修复运行时语言覆盖顺序
+5. 更新当前用户配置文件中的 `locale=zh-CN`
+6. 重启 Claude Desktop
 
-卸载时反向操作：删除翻译文件、从备份恢复原始 JS、重置 locale 为 `"en-US"`。
+卸载时会反向恢复：
+
+1. 删除中文翻译文件
+2. 恢复已备份的前端资源
+3. 将 `locale` 重置为 `en-US`
 
 ## 目录结构
 
-```
-├── 安装中文语言包.bat                  # 一键安装入口
-├── 卸载中文语言包.bat                  # 一键卸载入口
-├── LanguagePack.ps1                    # 主脚本
-├── translated-zh-CN/                   # 当前使用的中文翻译
-│   ├── ion-dist/zh-CN.json             # 主界面 (14,648 条)
-│   ├── desktop-shell/zh-CN.json        # 桌面外壳 (373 条)
-│   └── statsig/zh-CN.json              # 功能开关 (46 条)
-├── extracted-en-US/                    # 当前版本提取的英文原文
-├── translation-template/               # 待翻译模板
-├── new-ion-dist-keys-1.8555.0.txt      # 当前版本新增未补译 key
-├── update-1.8555.0-summary.json        # 当前版本更新摘要
-└── archive/                            # 历史备份与旧版本更新产物
-    ├── backups/
-    └── updates/
+```text
+.
+├─ LanguagePack.ps1
+├─ 安装中文语言包.bat
+├─ 卸载中文语言包.bat
+├─ translated-zh-CN/
+│  ├─ ion-dist/zh-CN.json
+│  ├─ desktop-shell/zh-CN.json
+│  └─ statsig/zh-CN.json
+├─ extracted-en-US/
+├─ translation-template/
+├─ docs/screenshots/
+├─ archive/
+├─ update-1.9659.4-summary.json
+├─ new-ion-dist-keys-1.9659.4.txt
+├─ new-desktop-shell-keys-1.9659.4.txt
+└─ new-statsig-keys-1.9659.4.txt
 ```
 
-## 维护说明
+## 更新与维护
 
-- 根目录保留当前活跃版本 `1.8555.0.0` 的文件。
-- `archive/backups/` 保存历史备份目录。
-- `archive/updates/` 保存旧版本的新增 key 清单和更新摘要。
-- 后续升级新版本时，建议保留最新版本在根目录，旧版本继续移动到 `archive/updates/`。
+当 Claude Desktop 升级后，通常需要重新适配一次。建议流程：
+
+1. 更新 Claude Desktop
+2. 运行 `LanguagePack.ps1 -Extract`
+3. 对比新版本 `en-US` 资源
+4. 合并旧翻译并补齐新增 key
+5. 更新 `translated-zh-CN/`
+6. 重新执行安装并验证界面
+
+历史版本资料和备份保存在 [archive](./archive/)。
+
+## 已知说明
+
+- 项目当前以 Windows 版 Claude Desktop 为目标
+- 少量品牌名、字体名、专有名词可能保留英文
+- Claude Desktop 更新后可能覆盖安装目录，需要重新执行安装
+- 如果新版本前端结构变化较大，安装脚本中的前端补丁规则也需要同步更新
 
 ## 常见问题
 
-**安装后界面没变中文？**
-- 确认 Claude Desktop 已重启
-- 检查 Claude 设置 → 语言是否已设置为「中文(简体)」
+### 安装后没有变成中文
 
-**脚本报权限错误？**
-- 会自动请求管理员权限，若被系统拦截请手动允许
-- WindowsApps 目录受系统保护，`takeown` + `icacls` 需要管理员权限
+- 确认 Claude Desktop 已完全关闭后再安装
+- 确认脚本执行时已弹出并同意管理员权限
+- 确认安装日志中出现：
 
-**Claude 更新后中文消失？**
-- Claude 更新会覆盖 resources 目录，需要重新运行安装脚本
-- 如果新版 JS 变量名变化，脚本会自动尝试正则匹配
+```text
+已注册语言: index-*.js
+已启用运行时中文优先: index-*.js
+已设置 locale=zh-CN
+```
 
-## 开发者说明
+### Claude 更新后语言包失效
 
-- 更新翻译时，可运行 `LanguagePack.ps1 -Extract` 提取最新英文原文
-- 当前仓库默认维护最新活跃版本，旧版本更新产物移动到 `archive/updates/`
-- 当前仓库默认保留历史备份，便于对比资源变化和回退
+这是正常情况。Claude 更新可能会：
 
-## 路线建议
+- 覆盖 `resources` 目录
+- 替换前端 JS 文件名和结构
+- 新增或改动翻译 key
 
-- 后续 Claude Desktop 更新后，重新生成新增 key 清单并继续增量维护
-- 后续 Claude Desktop 更新后，先运行 `LanguagePack.ps1 -Extract`，再复用现有中文条目进行增量升级
+重新运行安装脚本即可；如果仍有问题，需要针对新版本做适配。
 
-## 许可
+### 为什么还有少量英文
 
-仅供个人学习使用。Claude Desktop 是 Anthropic 的产品，本项目与 Anthropic 无关。
+常见原因有两类：
 
-本项目采用 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0)（CC BY-NC-SA 4.0）授权。
+- 专有名词刻意保留，例如字体名、品牌名
+- 当前翻译文件里仍有个别未翻译条目
 
-你可以在非商业目的下复制、分发、修改本项目，但必须保留原作者署名、注明修改内容，并以相同协议继续发布衍生版本。
+## 许可证
 
-## 感谢
-- 简体中文包原型：https://linux.do/t/topic/2040184 by [RICK](https://linux.do/u/lbls888)
-- 使用教程： [开启Claude 3P模式与自定义推理端点](https://linux.do/t/topic/2032192) & [使用自定义模型映射](https://linux.do/t/topic/2034445)
-- [Linux Do 社区](https://linux.do/)：[![](https://ldo.betax.dev/badge/community)](https://linux.do/)。学AI，上L站。
+本项目采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)。
+
+Claude Desktop 是 Anthropic 的产品，本项目为第三方中文化项目，与 Anthropic 官方无关。
+
+## 致谢
+
+- 中文包原始思路参考 Linux Do 社区相关讨论
+- 现版本在旧版翻译基础上完成资源重提取、增量合并和脚本适配
