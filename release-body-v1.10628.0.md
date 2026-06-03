@@ -18,6 +18,16 @@
 - `zh-CN` 语言注册已写入当前前端资源
 - 运行时中文覆盖顺序已生效
 
+### 截图
+
+首页：
+
+<img src="https://cdn.jsdelivr.net/gh/334962951-png/claude-desktop-zh-cn@main/docs/screenshots/home-overview.png" alt="首页中文界面" width="1200" />
+
+设置页：
+
+<img src="https://cdn.jsdelivr.net/gh/334962951-png/claude-desktop-zh-cn@main/docs/screenshots/settings-overview.jpg" alt="设置页中文界面" width="608" />
+
 ### 安装
 
 ```powershell

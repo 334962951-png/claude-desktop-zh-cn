@@ -26,11 +26,11 @@ Claude Desktop Windows 版简体中文语言包项目。
 
 首页：
 
-<img src="./docs/screenshots/home-overview.png" alt="首页中文界面" width="1200" />
+<img src="https://cdn.jsdelivr.net/gh/334962951-png/claude-desktop-zh-cn@main/docs/screenshots/home-overview.png" alt="首页中文界面" width="1200" />
 
 设置页：
 
-<img src="./docs/screenshots/settings-overview.jpg" alt="设置页中文界面" width="608" />
+<img src="https://cdn.jsdelivr.net/gh/334962951-png/claude-desktop-zh-cn@main/docs/screenshots/settings-overview.jpg" alt="设置页中文界面" width="608" />
 
 ## 当前版本状态
 
