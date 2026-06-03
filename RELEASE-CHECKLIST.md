@@ -6,7 +6,7 @@
 - 已运行安装脚本并验证主界面中文正常
 - 已验证设置菜单和设置页主要中文内容
 - 已确认 `README.md`、`CHANGELOG.md`、`RELEASE.md` 已更新
-- 已确认 `release-body-v1.9659.4.md` 可直接用于 GitHub Release
+- 已确认 `release-body-v1.10628.0.md` 可直接用于 GitHub Release
 - 已确认截图资源存在于 `docs/screenshots/`
 - 已确认 `LanguagePack.ps1` 安装与卸载都可执行
 
@@ -18,30 +18,30 @@
 - `README.md`
 - `CHANGELOG.md`
 - `RELEASE.md`
-- `release-body-v1.9659.4.md`
+- `release-body-v1.10628.0.md`
 - `docs/screenshots/`
 - `translated-zh-CN/`
 - `extracted-en-US/`
 - `translation-template/`
-- `update-1.9659.4-summary.json`
-- `new-*-1.9659.4.txt`
+- `update-1.10628.0-summary.json`
+- `new-*-1.10628.0.txt`
 
 ## 建议 Git 提交信息
 
 ```text
-release: prepare v1.9659.4
+release: prepare v1.10628.0
 ```
 
 ## 建议 Git tag
 
 ```text
-v1.9659.4
+v1.10628.0
 ```
 
 ## 建议 GitHub Release 标题
 
 ```text
-v1.9659.4 - Claude Desktop 简体中文语言包
+v1.10628.0 - Claude Desktop 简体中文语言包
 ```
 
 ## GitHub Release 附件建议

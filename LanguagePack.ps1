@@ -737,13 +737,7 @@ function Start-ClaudeDetached {
 }
 
 function Restart-Claude {
-    try {
-        Stop-Process -Name "claude" -Force -ErrorAction SilentlyContinue
-    }
-    catch {
-    }
-
-    Start-Sleep -Seconds 2
+    Stop-ClaudeProcess
 
     $claudePath = Find-ClaudePath
     if (-not $claudePath) {
@@ -760,8 +754,34 @@ function Restart-Claude {
 }
 
 function Stop-ClaudeProcess {
+    $claudePath = $null
     try {
-        Stop-Process -Name "claude" -Force -ErrorAction SilentlyContinue
+        $claudePath = Find-ClaudePath
+    }
+    catch {
+    }
+
+    $desktopExe = $null
+    if ($claudePath) {
+        $desktopExe = Join-Path $claudePath "app\claude.exe"
+    }
+
+    try {
+        Get-CimInstance Win32_Process -Filter "name='claude.exe'" -ErrorAction SilentlyContinue |
+            Where-Object {
+                if (-not $_.ExecutablePath) {
+                    return $false
+                }
+
+                if ($desktopExe) {
+                    return ([System.IO.Path]::GetFullPath($_.ExecutablePath) -ieq [System.IO.Path]::GetFullPath($desktopExe))
+                }
+
+                return ($_.ExecutablePath -like "*\WindowsApps\Claude_*")
+            } |
+            ForEach-Object {
+                Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue
+            }
     }
     catch {
     }

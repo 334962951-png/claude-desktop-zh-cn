@@ -1,0 +1,495 @@
++7wBOtcfgZ	Repurpose this blog post across channels
++GKWHWveHu	Build me a 3-year financial model — base, bull, and bear cases, linked formulas, sensitivity table. Pull the data from my connected tools. If you're missing a source, ask before building.
++MxL8DZZiQ	Allow your team to run multi-agent workflows in Claude Code.
++jEQog5/Bd	Reading memory…
++nkPjkM8vF	no limit
+/QvsXl23+v	SCIM synced
+/bW52d0sP+	Helper run cancelled
+/cqjioq+55	Editing {fileName}…
+/dJ//G7jPC	New conversations return to the default instead of the member's last-used model. Members can still switch models within a conversation. Also applies to role defaults.
+/vS0q3Ih3h	Adds to this run's prompt:
+/vjDPeOyDm	Project ID
+0A4Q6xDWgl	You've hit your {period, select, daily {daily } weekly {weekly } monthly {monthly } other {}}spend limit, but you have more credits.
+0GsRxkTbO8	Bypass permissions mode and auto mode controls for Claude Code Desktop are moving to Managed settings on June 5, 2026, alongside the CLI and IDE.
+0PDitvSoS4	Typically supplied by your bootstrap server. Ignored when bootstrap is disabled.
+0QsHlMb8HD	Allow Auto mode
+0WKDjemQuM	Domain claim could not be started because one or more required settings were changed. Review the requirements and try again.
+0XPZhVZucD	Migrate accounts using your domains
+0XuZalshtF	View affected accounts
+0ZtIccX+T2	Using {toolName}…
+0jm+4+uUDY	Create polished slides, prototypes and designs.
+0pbjL+qdYK	Relaunch anyway
+0sJjwzeMC8	Starting Claude…
+0wHam6BzxQ	~{count} tokens
+10P48tR2FZ	Auto-accept permissions mode
+13oSrCj+vV	This may open your browser to finish signing in. It can take a moment.
+1Bzbhy1/I6	You've reached your {period, select, daily {daily } weekly {weekly } monthly {monthly } other {}}spend limit. Request more to keep going now, or wait until {day} at {time} when your plan usage resets.
+1GAyt5I8uf	Claude for Outlook
+1LlppFGnYb	Set up a product metrics dashboard — DAU/WAU, weekly retention, funnel conversion, feature adoption, plus a quick read on the trends. Pull the data from my connected tools. If you're missing a source, ask before building.
+1PrIc0N1tK	Design (opens in a new window)
+1SokOHvw3r	This task runs in the cloud. Your computer doesn't need to be on.
+1b9yRcGkrQ	Downloaded {filename}
+1fHnAx5y8M	Set up a pipeline dashboard — stages, pipeline value over time, and what needs attention this week. Pull the data from my connected tools. If you're missing a source, ask before building.
+1foySNVZOy	View latest
+1fy7qkmmCd	Surfaces one-click SSO for this email domain on the login screen, without restricting login.
+1xpKfv7GwN	{name} added to your team
+2E1wYB9RWZ	Can't reach GitHub — check your connection.
+2FlgXz0uda	shells
+2QWN8hlND7	Sessions you start will show up here
+2n3WlAzStK	Server is temporarily limiting requests
+32LQlYNxi3	The default weekly spend limit applied to each member of this group. Seat tiers are monthly-only.
+32Yl/KqgPN	Collapse {title}
+359ygmQBPw	You've reached your {period, select, daily {daily } weekly {weekly } monthly {monthly } other {}}spend limit.
+371DelXUjL	{count} tokens
+3OoO84OwLp	Claude Code remote control
+3PgVVBNJ6+	Stops and restarts the container. Your files and chat history are kept.
+3sR8EbZ7D2	Now using extra usage
+3x+WPYpgig	Open browser activity
+3y6EVd0Lvq	Access your Claude security scan results
+4GtTA3LpA5	Manually created
+4IrgLz6JjI	Disables this task
+4W1TXf3c2q	Failed to save the {failedList} spend {count, plural, one {limit} other {limits}}. Try again.
+4W3bvwMX+U	This applies to all accounts using any of your verified domains
+4mT4touUHE	Connector domain restriction
+59LbiS6VIL	Failed to initiate domain claim. You can try again.
+5BqfBaQ4lt	Start migration
+5DAxzM/clP	Restrict verified-domain connectors to your enterprise
+5FRiNX6oXm	SSO enabled
+5PPBR0IHhV	**Free to talk.** This conversation doesn't count toward your usage.
+5RwmJxJ314	You've reached your {period, select, daily {daily } weekly {weekly } monthly {monthly } other {}}spend limit. Request more to keep going now, or wait until {time} when your plan usage resets.
+5at+W4GX/M	Injected on every proxied request to allowed hosts. The prefix is prepended to the secret when the header is sent — leave it empty to send the secret as-is. Values are write-only and never shown after saving.
+5hkF/un5+o	After deleting this role, <b>{count, plural, one {# user} other {# users}}</b> will have no custom roles assigned. They will no longer have access to any features enabled by custom roles.
+5nvWQkBMdw	Search eligible members
+5yFg0M6lM9	Enable a Custom Connector
+6JmsGLI59u	Too many requests right now — try again in a moment.
+6La3aSs7aY	Workflows
+6p+YJwQX1o	Local video attachments play in the lightbox
+6tCgwPzBfO	People who aren't in your identity provider (IdP) will be locked out, even after migrating
+76XKCsY1RU	Choose how org members get help when they contact Anthropic support.
+7Hu0LVI9rc	Expand {title}
+7I76Gt7pqd	Put together a customer-ready QBR deck — pull recent news on the account, work it into the slides, end with a recommendation. Pull the data from my connected tools. If you're missing a source, ask before building.
+7MYtB45RD0	None selected
+7P+BfHK5OP	Finding files
+7WkvzNBqWd	Max effort can use excessive tokens resulting in hitting limits. Consider using a lower effort setting.
+7YpOS0414K	Used for new turns in this Conway. Changing it doesn't affect your other chats.
+7knnVyGATZ	Your GitHub organization has an IP allowlist that is blocking Claude's servers. Add <link>Claude's IP ranges</link> to your GitHub allowlist, then try again.
+7mL9QEUFav	Style
+7pQN5F/n/2	These controls are moving to <link>Managed settings</link> on June 5, 2026.
+7uVqyrFzVP	Too many attempts. Wait a few minutes before trying again.
+85VTkK2wHr	After these changes, <b>{count, plural, one {# user} other {# users}}</b> will have no custom roles assigned. They will no longer have access to any features enabled by custom roles.
+8By5nlWG7I	Dynamic workflows let Claude fan out to many subagents on a single task
+8Dg3tNvAq8	Data sharing with Anthropic
+8DwGRd/whZ	Show all sessions
+8N9621GkBg	No API keys have been created yet.
+8TyU5yY7ic	Spend limits are still loading. Try again in a moment.
+8UzT6d+sXk	CSV
+8e0c1Eh+be	Please select fewer images.
+8iTRYqMOkx	Sonnet only
+8pB3pA45eO	To use {feature, select, voice {voice} other {dictation}}, select the site settings icon in your browser's address bar and allow the microphone.
+8uN+pRpuBV	Workforce Identity IdP (OIDC)
+96GJ5wSQam	No matches
+9JwFrHkhbZ	Custom daily and weekly caps will be removed. Where a group sets a daily or weekly limit, that limit will still apply.
+9Ni9ggkEz/	Unknown group
+9QflHHezNu	Model overloaded
+9Qm4oMKLGW	Mock up 2-3 clickable mobile prototypes of a feature — each a different take — so my team can react to something real, not a doc. Pull the data from my connected tools. If you're missing a source, ask before building.
+9WV8HAHpzA	The starting model for members with this role. Role defaults take priority over the organization default. When a member has multiple roles, the most capable default model applies.
+9XiW3xWqO5	Loop
+9dx43BqWHy	Faster
+9jut5bkOz9	Cron expression (UTC)
+9leZTp+tqL	Refreshing your payment method…
+9uZHI0Dsh3	Custom tools, UI tabs, and context handlers installed in this Conway.
+9xNm4jtXWJ	Your Sonnet usage counts toward this limit, as well as your weekly and 5-hour session limits
+A7erSH45jI	Try again in {remaining}
+AEHa55VPDw	Your previous session was reset. Starting a new conversation.
+AI5UUm6GEl	Only Claude accounts in your enterprise can connect supported connectors using an email on your verified domains. Contact support to request additional connectors.
+AOC+33vwzD	Write my weekly marketing review — pipeline vs goal, engagement by segment, biggest gaps, what to watch — for me to review before I post it. Pull the data from my connected tools. If you're missing a source, ask before building.
+ATiEEnZh2l	To enforce member permissions with custom roles, go to the <link>Members</link> page and change the member's role type to <b>Custom roles</b>. Custom roles cannot grant features disabled at the organization level. Learn more about <defaultLink>roles and permissions</defaultLink>, or see the <setupGuideLink>setup guide</setupGuideLink> when configuring custom roles.
+Aba2uTiXAG	Offer Auto mode in the Cowork and Code permission selectors. Claude decides which actions need approval.
+Ae+ocWZlqj	Couldn't load existing limits. Refresh the page and try again.
+Aq6oidUiEi	This number is temporarily blocked after repeated attempts. Try again later with the same number, or use a different one.
+B4eNbY3VOR	Approaching extra usage limit
+B9l27BNEGU	Workforce Identity audience
+BBdIiDX7hr	Claude Opus 4.8 is now available in the model picker
+BCq+xoiDzP	GCP project for STS billing and quota. Defaults to the Vertex project ID above.
+BIYQtyYBdw	Search mode
+BIhNXWv4cN	See resolved curl example
+BNrlE9/X9N	Creating memory…
+C/4uHXmPs/	Background {noun}
+C33sdRxDco	Resets at {time}
+CCLjcz8lBX	Allow members to request a limit increase when they reach their weekly or monthly limit.
+CMEBXEWEim	Before you start, confirm you understand:
+CV12DkOyvZ	Searching the web…
+CZtxXr6jop	Take a blog post and turn it into a LinkedIn post, an email newsletter blurb, and a one-page PDF. Pull the data from my connected tools. If you're missing a source, ask before building.
+CbdzhlchNJ	Draft my follow-up emails
+CjsWsZhIqS	Searching file contents with `?` works for folders that aren't git repos
+D8loZOMbyP	Failed before any agents started
+DGQiEU/2Ss	Each run continues this session
+Do1vz/3MWU	Build a comparison deck — positioning, pricing, key features, and where we win — across a few competitors. Pull the data from my connected tools. If you're missing a source, ask before building.
+DolRxwrLXf	The Claude Code binary on the remote host is missing. Send your message again to redeploy it.
+DrsTyw0Tuh	Continue to Team checkout
+Dvf9VEg4i3	Remote Control turned on.
+DzRnZunx0y	View scheduled tasks
+EBQHEgxMx3	//iam.googleapis.com/locations/global/workforcePools/POOL/providers/PROVIDER
+EPlvd4h6u/	tasks
+EYOanHZfsA	Open effort selector
+EegzoyLG9O	Couldn't preview which members would lose role access. Review this role's group memberships before deleting.
+EemewPnZp7	Couldn't stop this remote task from this device — open its session from the sidebar to stop it.
+Eos5DtFKCe	Permission mode change failed. Try again.
+Ewz8JERJ62	{count, plural, one {# group added} other {# groups added}}
+F/XfP2ZLIg	Developer partner program
+FQYsFhnpw2	“{groupName}” will be removed. Sessions in this group will no longer be grouped.
+FXPVnZbMuE	Couldn't update the {failedList} spend {count, plural, one {limit} other {limits}}. Try again.
+FtuI0DrmqS	Relaunch Claude Desktop
+Fv5rzfD1Y+	Members with this role get the organization default ({modelName}) unless another of their roles sets one.
+G65XMEd2UY	Select {name}
+GCiKUALiJT	Phase: {title}, {status}
+GIsMNqpIOj	Spend limit removed for "{groupName}".
+GKRkihdCmn	Your organization's OIDC IdP. The app runs an authorization-code-with-PKCE flow against this issuer and exchanges the returned ID token at GCP STS.
+GQpLNSZoy5	Everyone in {orgName} can view this session
+GS7x43ANvk	Find every customer thread I owe a response to and draft the follow-ups for me to review and send. Pull the data from my connected tools. If you're missing a source, ask before building.
+GeC/eGucT3	Message the Anthropic team
+Gi7sf5ObGK	Using {connectorName}…
+H0IjerDjaB	Members with this role get the organization default unless another of their roles sets one.
+H6k5CXsEU3	Write a weekly stakeholder update
+HQVQfgjV4I	Level {position} of {total}
+HTV1/vvS2O	Install plugin
+HUkfp9oW6x	New name: {name}
+HYi4dZlqqz	Install the GitHub app on your repositories so that you can access them here.
+HaQeT4ezzW	Conversation feedback
+HeT5uG3XWO	For your work in {role}
+HhTXQgmM3R	{count, plural, one {Writing # file…} other {Writing # files…}}
+HpVU1CVAj8	Connected with warning · {latency}ms
+HpttSPlhw9	Set up a revenue dashboard — top-line trend, top customers, segment mix, and forecast vs actual. Pull the data from my connected tools. If you're missing a source, ask before building.
+Hri/ILFyKc	You've reached your {period, select, daily {daily } weekly {weekly } monthly {monthly } other {}}spend limit. Your plan usage resets {day} at {time}.
+HusXd1Jm7K	Sign in another way
+I0iYUvUr/a	Tools Conway can use from your Claude connectors and connected apps.
+I6a8nLAaOv	Update my CRM after a call
+IJXGYyxFSQ	Always start with the default model
+IJa2qvN9NV	Put together a one-pager I can read before a client meeting — who's coming, recent emails, what's new at their company, what to bring up. Pull the data from my connected tools. If you're missing a source, ask before building.
+IQNwZ+COkV	Directory sync (SCIM) or automatic approval for new members (JIT)
+IarVDo1D+f	Make an on-brand deck
+IhP7OnjM14	Support routing
+IpWmHJ3bpY	Daily briefing
+Ipb67Xuxud	Couldn't stop the task — check your connection and try again.
+ItICDcI/fy	Automatically fall back to another model when a message is flagged by safety filters.
+IzEySeOy5/	All settings
+IzQEmX8KYb	{count, plural, one {Running # command…} other {Running # commands…}}
+J2D0+ihfKQ	Mark as completed
+J2KJ6p9ycJ	Each run starts a fresh session
+J2RNjCfahB	Applies to your whole Claude account, not just this Conway.
+J2r8CEi0fx	workflows
+JQCRTVSDaI	Preview URL: {url}
+JUwphi2vcg	Build a cashflow forecast
+JWx9Tmcn+e	Organization skill sharing
+Jab9736p5D	Editing memory…
+JjAk5QHGza	Agents you define in your project's `.claude/agents` show up in the `@`-mention picker — and new ones appear without a restart
+K5CCzWoT+1	Header secret
+K5n/qqgZlZ	After my meetings, post a summary to my team channel — decisions, action items with owners, open questions — and remind owners 2 days before the next meeting if their item is still open. Pull the data from my connected tools. If you're missing a source, ask before building.
+K8+AA5REVZ	Signing you in…
+KNgZLQsK30	Requires these settings:
+KQaWn3U7wU	Claude in artifacts
+Kd68snacT9	Writing…
+L1da6KXaMe	Claude.ai import
+L63dax6VpU	Weekly exec revenue update
+LGqcGkNTHX	{count} stopped
+LV/NY6rInQ	5-field standard cron (no seconds).
+LWRPWIwFN0	Claude Code quick web setup
+LfZUb1sDVr	Your organization isn't eligible for this plan right now. Contact sales for help.
+LjUPsj12b4	Choose a specific model
+LkWnw1Wj5a	Build a competitor comparison deck
+LqAfXOsBMe	Always uses the model Anthropic recommends for enterprise use. Updates automatically as newer models are released.
+LvAEazKAPC	Triage your inbox in one prompt, draft replies that wait for you to send, and find time across calendars.
+LvPO24kzJV	These settings take effect on June 8, 2026.
+LvWE5ErB/S	These keys have access to all Claude Security projects within the organization.
+MFl08hiONA	agents
+MGtIYVqVHZ	Couldn't check SSO settings. Reload the page to try again.
+MPRjr95W0C	Open in desktop app
+McpBuiltinAuthorityHost	Authority host
+McpBuiltinAuthorityHostHint	Microsoft sign-in endpoint. Leave blank for commercial Microsoft 365.
+McpBuiltinAuthorityHostPh	https://login.microsoftonline.com
+McpBuiltinClientId	Client ID
+McpBuiltinClientIdHint	Entra public-client (PKCE) app registration ID.
+McpBuiltinClientIdReq	Required for the built-in Microsoft 365 server.
+McpBuiltinServerLabel	Server
+McpBuiltinServerM365Opt	Microsoft 365
+McpBuiltinTenantId	Tenant ID
+McpBuiltinTenantIdHint	Your organization's Microsoft Entra directory (tenant) ID.
+McpBuiltinTenantIdPh	00000000-0000-0000-0000-000000000000
+McpBuiltinTenantIdReq	Required for the built-in Microsoft 365 server.
+Mk29PIBUYN	Enter a valid 5-field cron expression.
+Mo6cBCSzDG	Connection closed before a response. You can try again.
+MovOrtMoy9	To use {feature, select, voice {voice} other {dictation}}, open System Settings, go to Privacy and Security, select Microphone, and turn on Claude.
+N/3DZILFD+	Let Claude work across apps
+N7y7051b1A	CI checks unavailable
+NLBh1jFRC6	This invite link is for a different account. Sign out and try again.
+NLiniZQVIR	Connection was lost. You can try again.
+NMyxjimJkk	Container ID
+NUA7ZTsJ06	Run parallel coding sessions with a terminal, editor, and preview built in.
+NuNseyCYlt	Enables this task
+O2aQoA0WA6	{count, plural, one {# group added} other {# groups added}} (maximum {max})
+OGLnXBWFlh	Bypass
+OIJOcSxF7T	Customize → {section}
+OLJZO9J8Ee	Build a quarter-end forecast from my open opportunities — best, likely, worst — and flag the deals most at risk with what to do this week. Pull the data from my connected tools. If you're missing a source, ask before building.
+OQt93E2kkU	This proposal was updated — a newer one is below
+OlwN28lSKh	Please review the attached context above
+P2LCvY0vDt	Change anytime before you check out.
+P57YykZbIq	API key revoked
+PqsrhoQfSr	Couldn't preview which members would lose role access. Review the removed groups' memberships before saving.
+PrslT8iRzt	Group limit
+PyLH5dnCKU	GitHub CLI (<code>gh</code>) is not installed.
+Q3VQCtEfVI	No sessions match the current filters
+Q8j1olP7c8	View the API scope these keys carry
+QWTP0t8UTt	Speed
+R7ga24WzAc	Your card was saved but could not be set as default. Please try again.
+RyA8yzgAlp	SSO login domain
+RyJM/8RR63	Model selection isn't available until the container is connected.
+S1Sr5R/tLU	You're in the process of migrating accounts using your domain. <b>Affected users have been notified and must join by {deadline}.</b>
+S6HSTUKK79	Volume up
+SCIvrClHzB	Let specific groups reach Anthropic's support team if an AI support agent can't help. Choose from your existing groups, including SCIM-synced ones.
+SJ2nyiVhRr	Switch model and retry
+SPaaOmrai3	Also changes:
+SZgI2LoEVd	{count, plural, one {Reading # file…} other {Reading # files…}}
+Sgd7x9pszL	Stopped before any agents started
+T1mr5KlBFt	Couldn't set up this task
+T8t7Fu+JhP	Workforce Identity billing project
+TUV3xGsSqw	Writing file…
+TVLQSOK0oC	Approaching session usage limit
+TVZMHi8v8n	Space-separated; the token's audience must match what your bootstrap server validates.
+TVdWaZSDJo	Remote Control turned off.
+Tydhl828po	May use excessive tokens resulting in long response times and may hit token limits. Use sparingly for the hardest tasks.
+UAAInf775e	Multitasking…
+UC9e3Gj5Zo	Claude Code routines
+UCevJHq7kc	Now using usage credits
+UM/QErS3Zw	Search folders
+UVNyp5kzsb	Project (local)
+Uat5iUGZ2v	Claude Code security
+UqXY/z0pA6	Set the default spend limits for each member in this group.
+UuId1n4A3o	Header prefix
+Uyxusl3qag	You haven't used Sonnet yet
+V0tzXQEbdT	Limit increase requested; couldn't load this limit. Refresh the page to try again.
+V1ERGE3dDP	During this process, you won't be able to modify these settings:
+V9WPgzOs7J	Session exported to <reveal>your downloads</reveal>.
+V9mRgl5YoH	Per-week spend limit. Individual limits take precedence, otherwise the group limit applies.
+VD0xd1PORW	At least one spend limit is required.
+VRO5tuYsxj	Build an earnings + comps brief
+VZeCi0uoZQ	Starting a session on a branch works with macOS's built-in git
+VbB5ek1XTP	Header prefix (opt.)
+VeqEFgHu5h	Billed once a year
+WCIAidgueo	Searching files
+WP38t4MZJs	Domain claim initiated.
+WeL1huOh9/	To use {feature, select, voice {voice} other {dictation}}, open Settings, go to Privacy and security, select Microphone, and allow Claude.
+WgwrN+g0Z3	From "{name}"
+Wm9szD8GBy	Show users
+WmvWnaWOZv	The script was cancelled before it produced a credential.
+WpzZxar8Uy	{used} of {limit}
+WtkDPX8usa	Required. Set the scope your bootstrap server accepts as the token audience.
+Wtwl4aDBYy	To set defaults for specific roles, go to <rolesLink>Roles</rolesLink>. Role defaults take priority over the organization default. To manage Claude Code model defaults, go to <managedSettingsLink>Managed settings</managedSettingsLink>.
+X/dmPgx/Es	WTD
+X/yufVaTHJ	Settings → {section}
+X8jfcR/7Gb	You've reached your {period, select, daily {daily } weekly {weekly } monthly {monthly } other {}}spend limit. Manage spend limit to keep going now, or wait until {time} when your plan usage resets.
+XE3qsI1Ajh	Settings → {group} → {section}
+XIo/sQTuY7	Everyone in your organization can get quick answers from an AI support agent.
+XXURrYQoby	Searching files…
+XdszbK4r8P	Connector enabled
+XgFMQ2uC6Q	Searching for {pattern}
+Y7RxDEV4Af	Run task now
+YKl6sxhgrC	example.com
+YXR9pA8OQJ	Bring your conversations, projects, and files from Claude.ai into Cowork.
+YZXACcXzTz	{count, plural, one {Editing # file…} other {Editing # files…}}
+YfucG+3eg9	Workforce Identity sign-in (OIDC)
+YmslQPt7DE	Cron expression
+YobuobYqGl	Forecast my quarter
+Yu80pxpAk6	Controls whether new members joining through discovery or member invites are added automatically or require admin approval.
+Z7FwXCpI7r	Claude Design didn't load. Try opening it in your browser instead.
+ZBHRUoXb/S	Model defaults saved.
+ZELDj7hfVu	Volume down
+ZF5XQjwi2G	All affected accounts in the list above belong to your organization
+ZFBp0wzw9c	Timed out loading session. Check your connection and try again.
+ZFZYvzEuej	**The best price you'll get.** I'll check for our latest pricing.
+ZPveJa49VR	Request ID: {requestId}
+a5VS4oqqOK	Reconnection failed. Restart Claude Desktop, then try again.
+aO4HrhCDgs	To learn more about Anthropic's model capabilities and pricing, see the <modelsOverviewLink>models overview</modelsOverviewLink>.
+aOlSeK2rV0	{count, plural, one {# more group} other {# more groups}}. Keep typing to narrow.
+aQJJCK6cs4	Remote templates
+aZRUdur9da	Check that <code>gh</code> is installed and authenticated.
+aeBN6ZXchR	This organization isn't eligible for this offer. Contact sales.
+alcVFq9VM9	Project knowledge has grown past what Claude can read all at once, so Claude searches it and uses the most relevant parts in each chat. <link>Learn more</link>
+ax4mRsNy0b	You've reached your {period, select, daily {daily } weekly {weekly } monthly {monthly } other {}}spend limit. Manage spend limit to keep going now, or wait until {day} at {time} when your plan usage resets.
+axjlmjG7D8	Showing first {n}. Keep typing to narrow.
+bTBJTYxUYl	Smarter
+bV2dTY3jQq	Refresh connectors
+bXzpWpo1O9	Reading {file}
+bio1xd09zC	Design (opens in your browser)
+bjIMPZaby7	Per-day spend limit. Individual limits take precedence, otherwise the group limit applies.
+bvhdbswdqH	Run tasks on a schedule or whenever you need them.
+bw+L0wLpiO	Set up a place for ongoing work, where context builds over time
+byLbiDmAsH	No agents have started yet
+c+uxWPHl6M	Once you start migrating, you can't undo it
+c5qI63zrIs	Members with this role get the organization default (Anthropic's recommended default) unless another of their roles sets one.
+c6LNcWaCmr	Delete task
+c7QL9iJl3J	Run <code>gh auth login</code> to authenticate.
+c9BX4f3H1c	Continue to Enterprise checkout
+cAZaoX2NSr	Write my weekly marketing review
+cako1ZUBUi	Add a group
+cc4tPynCta	Workforce-pool provider audience. When set, sign-in uses your own IdP plus a GCP STS exchange instead of a Google identity.
+cflWd3GEL5	Claude Code couldn't write its settings file to the temporary directory. Check that the temp directory is writable, or adjust the sandbox policy.
+cjYin/xChB	{count} completed
+cnHH1HEs1x	Choose the starting model for new conversations in Chat and Cowork. Members can change their model anytime using the model picker, and Claude remembers their last selection for next time.
+d7foBWnS/o	Loading {slug}…
+dKEgofbwpe	Workforce Identity (STS)
+dN1nhuij65	The PR bar finds your open PR even when your local branch name doesn't match the remote's
+de6C2Wzbse	Your `WorktreeCreate` and `WorktreeRemove` hooks run for local sessions too — jj and Sapling setups can use worktree isolation
+dfCoF2i6bG	Select a specific model for your organization. This won't change when new models are released.
+drqM35WBPt	Couldn't start SSO. Try again, or sign in with your work email.
+dvXLXXhO0o	Read my emails about subscriptions and invoices, extract vendor / date / amount, and add a line to my expense spreadsheet for each one. Flag anything that doesn't match the budget. Pull the data from my connected tools. If you're missing a source, ask before building.
+e0/8tjz/FZ	Couldn't load this limit
+e2MksvaM4d	Run me a variance analysis — actuals vs budget, the biggest deltas explained, and flag anything that doesn't reconcile. Pull the data from my connected tools. If you're missing a source, ask before building.
+eCHBYR3o7a	Approaching usage credit limit
+eSej8NJHSy	Affected accounts will be deleted after {days} days, whether users migrate or not
+eV/BNCIRzM	The installed Claude Code version doesn't support a feature this app uses. Update Claude Code on this host.
+egZcnLe3Vv	{count, plural, one {Please address the comment above} other {Please address the comments above}}
+eoFIHEeJyH	Migrate accounts
+eox9+YBiQM	Artifacts are interactive pages that open in a side panel. <b>Cancel</b> to have Claude include it in the reply instead.
+ewOBk8nuZ0	Run this in the background with Cowork
+fDB74ChLSl	Open billing settings
+fKYwe8CpJI	Request couldn't be processed. You can try again.
+fKsrKggBu1	{count} failed
+fSKoqI4XSt	openid offline_access CLIENT_ID/.default
+fb0mFF7uEb	Choose the starting model for new conversations in Chat and Cowork. Members can change their model anytime using the model picker.
+fkB/zSNjus	Continue with {short}
+fnMCvoixrm	API key created
+fqAqWnF85q	Task resumed
+g+VnzeLG0N	No groups match the selected filters.
+g1zykniLaV	Post meeting summaries with action items
+g27cdpuzbp	You've reached your {period, select, daily {daily } weekly {weekly } monthly {monthly } other {}}spend limit. Your plan usage resets at {time}.
+g8zppRdmi+	Read my call transcript and update the opportunity in my CRM — next steps, call notes, use case, competition. Show me before saving. Pull the data from my connected tools. If you're missing a source, ask before building.
+gPE3NfQ/gn	Pull together a customer feedback digest — themes with counts, a few quotes, and what to prioritize. Pull the data from my connected tools. If you're missing a source, ask before building.
+gjhcMbSA41	{count} running
+gteLO/FfKM	CWE
+h7+io07X+s	You've reached your {period, select, daily {daily } weekly {weekly } monthly {monthly } other {}}spend limit. Request more to keep going now.
+hOGpgEqJ/6	monitors
+hgslxpqN19	Test connection is not available for built-in servers.
+hqDJB2IMdZ	These keys carry the {scope} scope, which only permits Claude Security actions.
+iEfZH5cyl6	About effort
+iLlsz1BLkf	Re-run helper for silent refresh
+iMGl038nIV	Request failed
+igjia97iEC	Fetching page…
+ikvYNW5SJj	See offer
+inyylxtDcN	If you or someone you know is having a difficult time, free support is available. <link>Find resources</link>
+ipQD5tGwZ5	Sign in to view this invitation.
+j1hp0c8Y2U	Members can let Claude share context between apps like Excel and PowerPoint.
+jQAhpucavu	Always allow tool approvals by default
+jQsg4pHnKC	Failed to revoke the API key. You can try again.
+jh+9q7nNtX	Everywhere
+jkBzOUPk6N	e.g. Bearer
+joPtfT21oo	This chat has {count} of {max} images (including PDF pages). Consider starting a new chat.
+jr4+vD7Qo0	Markdown
+jvQ4prePzH	Running command…
+jwf/WURmBJ	No agents ran in this phase
+k6h211zLcx	Microphone access is blocked
+k8l06lFyli	Stalled
+kCKK+84T6p	Bypass Permissions can't be used with root/sudo. Run as a non-root user, or turn off Bypass Permissions in settings.
+kD5Nz+s3Pa	Loading members
+kfgxaKhbCG	Pull together a weekly read on what people are saying about us across surveys, social, press, and call transcripts. Cluster the themes, count the mentions, flag the sentiment, and tell me what to act on. Pull the data from my connected tools. If you're missing a source, ask before building.
+kjW0KjX/V6	API is overloaded
+kqtFvmntYS	Billed month to month
+l/rfvlcDyA	A space is added between the prefix and secret (Bearer ***). Prefixes ending in = attach directly (token=***).
+lNGYK8/n18	Set up a campaign performance dashboard — spend, CPA, and conversions vs goal by channel and creative, plus a 'top performers' cut and a 'needs attention' cut. Pull the data from my connected tools. If you're missing a source, ask before building.
+lR2lIbKnv2	This GitHub Enterprise connection is set up with OAuth App credentials. Ask an org admin to reconfigure it with GitHub App credentials in Admin Settings.
+lRwLT4V394	No one can reach the Anthropic team yet. Add a group or include admins and owners.
+ldvKX1BAG1	Create a new Admin API key
+luc2Ad6lea	You can add at most {count, plural, one {# image} other {# images}} (including PDF pages) to a chat. {suggestion}
+mEdG/OmTPo	Connectors & tools
+mI6/kcnzPb	Failed to load groups. Close and reopen this menu to retry.
+n0of0+kpod	Finding matches…
+nJFFCU5ncZ	You've reached your {period, select, daily {daily } weekly {weekly } monthly {monthly } other {}}spend limit. Manage spend limit to keep going now.
+nLh88WSaL+	Failed to update workflows setting. Try again.
+njZwNcDCHM	Pull the latest earnings transcript and 10-Q for a target, extract guidance and key KPIs, compare to last quarter, and build a comps table against peers. Pull the data from my connected tools. If you're missing a source, ask before building.
+o45ANoEdsm	Failed to create the API key. You can try again.
+o6VLRz4ffK	Your organization enforces a fixed default, so each new conversation resets to the default. Members' own choices don't carry over.
+oDjail5Qj2	The default daily spend limit applied to each member of this group. Seat tiers are monthly-only.
+oDlZbF08hl	Hand off tasks and Claude works in your folders, apps, and browser.
+oRmI/l9OFX	{name} ({period})
+ob/MsgCqeR	By continuing, you agree to our {privacyPolicy}.
+obcOV35zKP	Build a 6-month cashflow forecast — optimistic, base, and pessimistic scenarios — and flag the biggest risks. Pull the data from my connected tools. If you're missing a source, ask before building.
+otBc5yLom7	Managed configuration has changed
+pBe3uZPnMp	Verify a domain above to turn this on.
+pCEGmnWQtV	Give me a full 360 on an account — deal history, recent calls and emails, open issues, news, and a color-coded health score. Pull the data from my connected tools. If you're missing a source, ask before building.
+pDu8LAeMGn	Couldn't start Claude Code on the remote host
+pNjWkEHKfE	e.g. Authorization
+pQzmTJWHyT	Hide users
+pV8HdOgErh	When a session's credential expires, re-run the helper with CLAUDE_HELPER_CONTEXT=mid-session-refresh to recover silently. Turn this off if your helper can't run non-interactively.
+pYRPMBAE8N	Editing this message will restart the conversation from here.
+puP9QWxX+t	Waiting for agents to start
+q1rDhp8puN	Run a customer 360
+q24oJXcctR	This chat has reached the {max}-image limit (including PDF pages). Start a new chat to add more.
+q7wi6Ob175	GitHub rate limit — retrying automatically.
+qHibv+HX9A	Remote control
+qiSoXe2ZAZ	Web search isolation
+qnfl4zhao6	Rate limited
+qxViuZGlAj	Some group spend limits couldn't be removed. Try again.
+qzbkMX4vIW	This connector is disabled to comply with your organization's HIPAA settings.
+r45bYPQCmm	Reading file…
+rE2z+wtHHy	Couldn't load all spend limits. Refresh the page before removing so daily and weekly limits aren't left in place.
+ralFTCLFvr	Internal preview
+rlHsLnmyiB	Out of extra usage
+rq61zqsEWq	Connected, but the identity provider didn't issue a refresh token. This connector will stop working when the access token expires. For OIDC providers, add 'offline_access' to the scope; for others, see your IdP's documentation.
+rsuTMjSeRY	Workbench feedback
+s7H4TjW2PX	Setting up your workspace…
+s8hQbj7ac0	More agents may appear
+sFB1oyGxRN	Reading a file
+sGQYZv/a29	See upgrade options
+sKU3L9lck/	{used} spent
+sax3sR1uez	Approaching weekly usage limit
+sbQRlzZKU0	12 months
+t40G4sO+0U	retrying ({attempt}/{maxRetries})
+t6rZDWs9YI	Container
+tGPL3D8V7/	Write my weekly stakeholder update — what shipped, what we learned, what's next, and what to watch — for me to review before I post it. Pull the data from my connected tools. If you're missing a source, ask before building.
+tICNG3XM2D	Require accounts using your verified domains to migrate to your organization (excluding Team accounts). For anyone who doesn't migrate within {days} days, we'll email their data and then delete their account.
+tc8YhXcfsS	Reading {fileName}…
+tpHFrFhksh	Ask
+u2XWYU1wrI	Billing period
+uPKONviRDh	Set up a Monday morning command center — a tiled dashboard with cards for my action items, emails I haven't replied to, and meetings that need prep. Pull the data from my connected tools. If you're missing a source, ask before building.
+ujiWwvxHNX	Editing file…
+uo0twp9Eqw	Chat with an AI support agent
+uqMVHy+i8V	unlimited
+vmfgjI0W/G	Can't reach {appName} right now — it may need to be reconnected.
+vrroVytaad	**I already know your account.** If you're using Claude, I can see your current plan, seats, and usage.
+vx9PyxWrqA	Built-in servers
+wSi3DAGmDd	Browse all
+wTFgQ9n3HJ	Turn a source doc into a customer-ready deck — match my colors, fonts, and logo, and make the copy sound like us. Pull the data from my connected tools. If you're missing a source, ask before building.
+wWIjms76Mv	Couldn't load all spend limits. Refresh the page before editing so daily and weekly limits aren't missed.
+wZkJgdBQ0M	Cowork can work on complex tasks across {connectorList} without you watching. Send it off, come back to results.
+waAScP8QQ5	A previous response is still running in this conversation. It will appear shortly — try again once it finishes.
+wbN+4o9yin	Claude Code for desktop
+wgKY0QhluI	Admin API keys
+wuRF9EdeGr	Got it
+wwLRC5JwCr	Name is too long.
+xJT34LJoZk	Built-in server, bundled with the Claude desktop app.
+xL7cDBls/V	Open Claude settings
+xMOVxAM+CY	Set default spend limits for each member in the selected group.
+xNKI+ggLdK	{period, select, daily {daily} weekly {weekly} other {monthly}}
+xQ1nQIrXCH	We'll notify affected users. They'll have {days} days to migrate. For anyone who doesn't migrate, we'll email their data and then delete their account. Console organizations and API access are not affected.
+xkTPaXZ/Zv	Claude Code review
+xl2L0w2bLY	Give Claude a folder you already work from
+xwsjkhC5V3	Writing {fileName}…
+xyTNikPd3V	Write my weekly exec revenue update — top-line trend, key drivers, charts, and what to watch — for me to review before I send it. Pull the data from my connected tools. If you're missing a source, ask before building.
+y2YNTXYpUu	5-field standard cron (no seconds). Cloud tasks need at least a 1-hour interval.
+y5DZpIdyzt	**A sales rep if you want one.** For complex or large deals, I'll hand you to a teammate with everything you've shared already in context.
+y8ZPM0PLcS	Start new
+yNuy7a4xdi	Allowed domains & code execution
+yRRyF+Ogkf	Skill creation
+yWD4LRLOTL	Copy project ID
+yX2nEGHr9u	Restart Conway
+yZZ8K2kE76	No repositories visible on {hostname}. Install the GitHub App on your repositories from its settings page.
+yZfZvYxlXn	Edit {period, select, daily {daily} weekly {weekly} other {monthly}} spend limit for {name}, currently {amount}
+yc7KYRoFnO	Reconcile my subscription expenses
+z79RWp5LsO	Claude Code is out of date
+zKz/fyd38X	Workspace ready
+zV6CaeOA6D	Accept
+zbJiVYheyP	Model, connectors, and plugins for this Conway. Account-wide settings stay in your Claude settings.
+zh+AkOLpeL	Bypass permissions mode
+zjjMfxoZ/k	Couldn't load this limit. Refresh the page to try again.
+zqdBcgGjTq	<b>Messaging the Anthropic team is off.</b> Everyone in your organization — including admins and owners — uses an AI support agent. Selected groups are saved for when you turn it back on.
+zse0jAfOdh	Suggesting task
+zw1IUPXtJ/	+{hostCount, plural, one {# more host} other {# more hosts}}

@@ -1,19 +1,17 @@
 # Release Notes
 
-## v1.9659.4
+## v1.10628.0
 
-适配版本：`Claude Desktop 1.9659.4.0`
+适配版本：`Claude Desktop 1.10628.0.0`
 
 ### 本次更新
 
-- 同步 Claude Desktop `1.9659.4.0` 的资源文件
+- 同步 Claude Desktop `1.10628.0.0` 的资源文件
 - 更新 `translated-zh-CN` 翻译基线
-- 修复新版前端语言注册逻辑
+- 适配当前前端语言注册逻辑
 - 修复运行时 i18n 合并顺序，确保本地 `zh-CN` 优先生效
-- 修复管理员提权后写错用户配置目录的问题
-- 增加对新版语言数组结构的兼容补丁
-- 补齐主界面与设置页关键中文文案
-- 新增本地截图资源，便于发布展示
+- 修复安装脚本误关闭 Claude Code CLI 的问题
+- 更新正式发布说明与打包配置
 
 ### 已验证内容
 
@@ -25,12 +23,12 @@
 
 ### 翻译统计
 
-- `ion-dist`: `15209`
-- `desktop-shell`: `397`
-- `statsig`: `46`
-- `ion-dist` 新增：`825`
-- `desktop-shell` 新增：`24`
-- `statsig` 新增：`0`
+- `ion-dist`: `15519`
+- `desktop-shell`: `406`
+- `statsig`: `65`
+- `ion-dist` 新增：`495`
+- `desktop-shell` 新增：`9`
+- `statsig` 新增：`19`
 
 ### 安装方式
 

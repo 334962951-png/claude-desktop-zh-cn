@@ -1,0 +1,19 @@
+0gtp5o1nEE	Complex, detailed work
+4RgMF5iUDm	Extended
+8iuHf335Ey	Always uses deep reasoning
+DvRKnnUSOG	Thinking
+HoZQmASaw3	Extra
+PLBs+fqKwX	Off
+QQ2UzmdmNN	Light, casual tasks
+RaZ/cp/eey	May use excessive tokens resulting in long response times and may hit token limits. Use sparingly for the hardest tasks.
+U0mtsR78v2	Medium
+Xads8RoR+/	Default
+Xft0R8xbIB	Low
+Zk4EtKw26K	Max
+Ztf14WwmNM	Balanced for everyday work
+dapWFrcWv4	Higher effort means more thorough responses, but takes longer and uses your limits faster.
+g8BKYKpvDv	Can think for more complex tasks
+mQRd+O9jEI	Org default
+oLD1YKsL8P	The hardest problems. Takes longest.
+vv9L/MN3/H	High
+zdSx1K4VL2	Quick replies to simple questions

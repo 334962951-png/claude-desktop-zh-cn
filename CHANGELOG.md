@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.10628.0] - 2026-06-04
+
+### Changed
+
+- Synced language resources to Claude Desktop `1.10628.0.0`
+- Re-extracted the installed app resources from `Claude_1.10628.0.0_x64__pzs8sxrjxfjjc`
+- Rebuilt `translated-zh-CN/` against the new `en-US` baseline while preserving existing translations
+- Updated the installer patch rules for the current `index-Bs0JmXJx.js` runtime structure
+- Fixed the installer process shutdown logic so it only targets Claude Desktop and does not kill Claude Code CLI
+- Refreshed release documentation and package defaults for `1.10628.0`
+
+### Translation Status
+
+- `ion-dist`: `15519` entries
+- `desktop-shell`: `406` entries
+- `statsig`: `65` entries
+- New `ion-dist` entries added this round: `495`
+- New `desktop-shell` entries added this round: `9`
+- New `statsig` entries added this round: `19`
+
+### Verified
+
+- Runtime `zh-CN` registration patched successfully on `1.10628.0.0`
+- Runtime message merge order patched successfully on `1.10628.0.0`
+- Claude Desktop launches normally after reinstalling the language pack
+
 ## [1.9659.4] - 2026-06-02
 
 ### Changed

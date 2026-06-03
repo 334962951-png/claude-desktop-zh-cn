@@ -1,7 +1,7 @@
 # Claude Desktop 简体中文语言包
 
 Claude Desktop Windows 版简体中文语言包项目。  
-当前已适配并验证 `Claude Desktop 1.9659.4.0`。
+当前已适配并验证 `Claude Desktop 1.10628.0.0`。
 
 [更新日志](./CHANGELOG.md) | [发布说明](./RELEASE.md)
 
@@ -20,7 +20,7 @@ Claude Desktop Windows 版简体中文语言包项目。
 - 主界面中文可用
 - 设置菜单中文可用
 - 设置页主要内容中文可用
-- 兼容 Claude Desktop `1.9659.4.0`
+- 兼容 Claude Desktop `1.10628.0.0`
 
 ## 截图
 
@@ -34,15 +34,16 @@ Claude Desktop Windows 版简体中文语言包项目。
 
 ## 当前版本状态
 
-- 适配版本：`1.9659.4.0`
-- `ion-dist`：`15209` 条
-- `desktop-shell`：`397` 条
-- `statsig`：`46` 条
-- 本轮 `ion-dist` 新增条目：`825`
-- 本轮 `desktop-shell` 新增条目：`24`
+- 适配版本：`1.10628.0.0`
+- `ion-dist`：`15519` 条
+- `desktop-shell`：`406` 条
+- `statsig`：`65` 条
+- 本轮 `ion-dist` 新增条目：`495`
+- 本轮 `desktop-shell` 新增条目：`9`
+- 本轮 `statsig` 新增条目：`19`
 - 当前仍保留少量英文专有名词或未优先处理文案
 
-详细统计见 [update-1.9659.4-summary.json](./update-1.9659.4-summary.json)。
+详细统计见 [update-1.10628.0-summary.json](./update-1.10628.0-summary.json)。
 
 ## 快速开始
 
@@ -98,8 +99,8 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build-release.ps1
 
 默认会在 `dist/` 下生成：
 
-- `claude-desktop-zh-cn-1.9659.4/`
-- `claude-desktop-zh-cn-1.9659.4.zip`
+- `claude-desktop-zh-cn-1.10628.0/`
+- `claude-desktop-zh-cn-1.10628.0.zip`
 
 ## 工作原理
 
@@ -133,10 +134,10 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build-release.ps1
 ├─ translation-template/
 ├─ docs/screenshots/
 ├─ archive/
-├─ update-1.9659.4-summary.json
-├─ new-ion-dist-keys-1.9659.4.txt
-├─ new-desktop-shell-keys-1.9659.4.txt
-└─ new-statsig-keys-1.9659.4.txt
+├─ update-1.10628.0-summary.json
+├─ new-ion-dist-keys-1.10628.0.txt
+├─ new-desktop-shell-keys-1.10628.0.txt
+└─ new-statsig-keys-1.10628.0.txt
 ```
 
 ## 更新与维护
