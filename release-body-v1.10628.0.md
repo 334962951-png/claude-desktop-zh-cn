@@ -26,7 +26,7 @@
 
 设置页：
 
-<img src="https://cdn.jsdelivr.net/gh/334962951-png/claude-desktop-zh-cn@main/docs/screenshots/settings-overview.jpg" alt="设置页中文界面" width="608" />
+<img src="https://cdn.jsdelivr.net/gh/334962951-png/claude-desktop-zh-cn@main/docs/screenshots/settings-overview-wide.png" alt="设置页中文界面" width="1200" />
 
 ### 安装
 
