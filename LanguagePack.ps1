@@ -158,6 +158,66 @@ function Grant-WriteAccess {
     }
 }
 
+function Wait-ForFileAvailability {
+    param(
+        [Parameter(Mandatory = $true)][string]$Path,
+        [int]$TimeoutSeconds = 15
+    )
+
+    $deadline = (Get-Date).AddSeconds($TimeoutSeconds)
+    while ((Get-Date) -lt $deadline) {
+        try {
+            if (-not (Test-Path -LiteralPath $Path)) {
+                return $true
+            }
+
+            $stream = [System.IO.File]::Open($Path, [System.IO.FileMode]::Open, [System.IO.FileAccess]::ReadWrite, [System.IO.FileShare]::None)
+            $stream.Close()
+            return $true
+        }
+        catch {
+            Start-Sleep -Milliseconds 500
+        }
+    }
+
+    return $false
+}
+
+function Copy-FileWithRetry {
+    param(
+        [Parameter(Mandatory = $true)][string]$Source,
+        [Parameter(Mandatory = $true)][string]$Destination,
+        [int]$MaxAttempts = 10
+    )
+
+    $parent = Split-Path -Parent $Destination
+    if ($parent) {
+        [System.IO.Directory]::CreateDirectory($parent) | Out-Null
+    }
+
+    $lastError = $null
+    for ($attempt = 1; $attempt -le $MaxAttempts; $attempt++) {
+        try {
+            if (Test-Path -LiteralPath $Destination -PathType Leaf) {
+                [void](Wait-ForFileAvailability -Path $Destination -TimeoutSeconds 2)
+            }
+
+            Copy-Item -LiteralPath $Source -Destination $Destination -Force -ErrorAction Stop
+            return
+        }
+        catch {
+            $lastError = $_
+            Start-Sleep -Milliseconds 700
+        }
+    }
+
+    if ($lastError) {
+        throw $lastError
+    }
+
+    throw "复制文件失败: $Destination"
+}
+
 function Backup-File {
     param(
         [Parameter(Mandatory = $true)][string]$Path
@@ -840,7 +900,35 @@ function Stop-ClaudeProcess {
     catch {
     }
 
-    Start-Sleep -Seconds 2
+    $deadline = (Get-Date).AddSeconds(15)
+    do {
+        $remaining = @()
+        try {
+            $remaining = Get-CimInstance Win32_Process -Filter "name='claude.exe'" -ErrorAction SilentlyContinue |
+                Where-Object {
+                    if (-not $_.ExecutablePath) {
+                        return $false
+                    }
+
+                    if ($desktopExe) {
+                        return ([System.IO.Path]::GetFullPath($_.ExecutablePath) -ieq [System.IO.Path]::GetFullPath($desktopExe))
+                    }
+
+                    return ($_.ExecutablePath -like "*\WindowsApps\Claude_*")
+                }
+        }
+        catch {
+            $remaining = @()
+        }
+
+        if (-not $remaining -or $remaining.Count -eq 0) {
+            break
+        }
+
+        Start-Sleep -Milliseconds 500
+    } while ((Get-Date) -lt $deadline)
+
+    Start-Sleep -Seconds 1
 }
 
 function Get-RequiredTranslationFiles {
@@ -951,8 +1039,7 @@ function Install-LanguagePack {
     )
 
     foreach ($target in $targets) {
-        [System.IO.Directory]::CreateDirectory((Split-Path -Parent $target.Target)) | Out-Null
-        Copy-Item -LiteralPath $target.Source -Destination $target.Target -Force
+        Copy-FileWithRetry -Source $target.Source -Destination $target.Target
         $relativeTarget = $target.Target.Substring($resolved.ResourcesPath.Length).TrimStart("\")
         Write-Host "  $relativeTarget"
     }
