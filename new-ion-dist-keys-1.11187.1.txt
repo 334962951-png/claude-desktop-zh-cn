@@ -1,0 +1,358 @@
++nFaxtEr90	We'll package up your conversations, projects, and settings for download. This might take some time to complete.
++sxwGl5/h7	Invite requested
++tfMZJGbJH	See full offer
+//Wx7/3+2u	Detached comment
+/A0j9hR6YS	Runs weekdays at {time} {tz}
+/UWVWsb2by	This upgrade link is for an organization this account doesn't have access to upgrade. You can create a new organization below, or sign in with an account that manages that organization.
+/WafiQssBm	Holding {keys}
+/Y/bSBJR75	Reading console messages
+/wDw6B6vx1	Reading network requests
+0++lmNha80	Domains where this credential can be sent. Wildcard only as the leftmost label (e.g. *.example.com).
+0KgbFt6Rd+	Estimated usage cost
+0bIJknc5LK	Usage-limit notices now say which limit you hit and when it resets
+0x75v+sDBR	Not delivered
+141ApHd27L	Set up a weekly marketing metrics review for leadership — pipeline vs goal, engagement by segment, biggest gaps, and what to watch — drafted as a doc plus Slack post for me to review before posting. Use this template, and pull the data from my connected tools. If you're missing a source, ask before building.
+15yY7TBeEi	Analytics for the Admin role is expanding
+1hkHGh+yJ+	{name} will be enabled
+1la72oveyT	· {count, plural, one {# to fix} other {# to fix}}
+2L6R5TY/RU	GitHub App
+2Wj4WTAKrw	Control who reaches human support
+2gbdtcM81x	Microsoft sign-in endpoint returned an unexpected response
+2iq+QrPXf4	Additional claims (JSON, optional)
+3+KNWt99aW	{count, plural, one {# task} other {# tasks}}
+33eorYiZ7V	Claude will be allowed to reach {hostCount, plural, one {this host} other {these hosts}} with this credential.
+3Gvh6xathD	Rules and credentials belong to an identity profile.
+3Xhhx1Hq48	Buying agent
+3cF2JtH5Nl	Conversation search
+3yurtFS7JU	Next run
+45glkPsLey	Connectors that surface sponsored, promoted, or advertising content are not accepted to the directory.
+4HrerxXUg5	Mark a waiting session as completed from the sidebar's right-click menu — clears the yellow dot without sending a reply
+4JbnO8Iefr	Export failed. Try again or contact support.
+4MtKNoDie5	Your account's primary owner
+4k1nNLxGMd	Connected as {identity}
+4p9ISBT4CQ	Holding key
+5+FGsSKJOz	{name} is unavailable. Restart it to reconnect.
+5WOgIc+Fyx	The MCP directory is where Claude users discover and connect to remote MCP servers. Once your server is reviewed and published, it's available across Claude products. Submission and inclusion in the directory <em>does not change the functionality of your connector</em>. It simply allows it to be listed.
+5YQM6WJ3q6	Ultracode is xhigh effort plus workflows. Most thorough, slowest, and heaviest on your limits.
+5cyUPsCdMM	Checking cursor position
+5hUPMvt350	Board
+5r1MpDDVk7	Fetching {url}
+6OtFUdP1dB	Fill in the required fields first.
+6PFugcgbqc	Get usage credits when you run it
+6RF9InSlhn	Bundled server is missing from this build
+6UNApeE9c5	Answering…
+6VeiFa+jgJ	Enabling auto-merge
+7+hNr5MrbH	This will be displayed in your listing on claude.ai.
+71g/NJdeHK	Designate which members can open tickets with the human support team, routing everyone else to Fin, our AI support assistant. After {date}, members outside your designated group get AI support only.
+73TpAH/Qml	Scrolling right
+78thxiZ+2K	Your subscription ends on {date}.
+7eGQWNqjXT	Mints an installation token from this App's private key for each proxied GitHub request. The private key is write-only and never shown after saving.
+7lugwqLc1s	Updates ({count})
+80JDFNGo43	Scrolling left
+88MPmi3Kex	Not enough disk space to set up the workspace. Free up space and try again.
+8TttJwI4dK	Creating GIF
+8jAKYtgD1r	Close preview
+8mCtZZmdKM	Connectors that call third-party APIs they don't control are typically not accepted to the directory. Explain your situation in Additional notes on the Compliance step.
+91bF7FZ/XO	Uploading image
+9D1lLcQFKf	Analytics for the Admin role is expanding beyond Claude.ai to cover Claude Code and Cowork. It turns on automatically for all admins on {date}, or you can turn it on now in custom roles.
+9QpIaEAMM6	Delete routine?
+9Y6CwUr1CC	Claude Code dynamic workflows turn on by default for all users on {date} and use more tokens than typical sessions. Decide who should have access: restrict by role with RBAC or turn them off org-wide with managed settings.
+9llqYnE3I/	Running page script
+9t4b7HghkI	Finding on page
+A/Bht8akH/	Dragging
+A46KUSGgWF	structured output
+ASlwiHaZkZ	Upcoming feature
+AUH2BIQb3H	The request couldn't be denied. Try again.
+AVI/0jhKeJ	Split
+AVd24w5yDN	Couldn't parse this file as a table. Switch to Source to view the raw text.
+Aq8+c6lPls	My connector does not collect conversation data beyond what is needed for its function.
+AwTZfHESgE	Ran task
+Azg8Cjj5Sy	{count, plural, one {Received a CI event} other {Received # CI events}}
+B10GaPD1EM	Control model defaults
+BDsiK56VGF	Turn on Claude in Slack to manage direct messages.
+BIenUSq8PN	connectors directory documentation
+BRJnftYjEt	Manage connector directory submissions for this organization.
+BV8rl3I9dc	Comment {number}
+BijsZyoZ6Y	Join requested
+Bpz0xZ7eyf	Answer now
+C6aS7HMlY7	Unexpected error starting the bundled server
+CCKrK/XryZ	Auto-populate the model picker from {url} at launch; when this key isn't set in the config, discovery is skipped if the model list below makes it unnecessary.
+CEUjglm18G	{name} will be disabled
+CGkoBng4o9	Export your data
+CXRlIo1Jxi	Print
+CiI6Z52HCq	Updating tasks…
+CkeaKvEKIR	{name} became required for your organization on {date}.
+D9yxHPGVon	Set up a product metrics dashboard — DAU/WAU, weekly retention, funnel conversion, feature adoption, plus a quick read on the trends. Use this template, and pull the data from my connected tools. If you're missing a source, ask before building.
+DbHD0I6L7a	Typing "{text}"
+DrggcnfFXW	My connector does not use AI models to generate images, video, or audio.
+Dv/niTtfNO	Tenant ID not found
+DvWj2EVWdT	{count, plural, one {Received a GitHub event} other {Received # GitHub events}}
+E9qJ1GXn2B	Seat requested
+Epc8ecv/Os	{name} required
+EvwT8rj6Rq	Extra string claims merged into the JWT, as a JSON object with string values.
+EwOfRsmiUd	You'll only see tools your organization has given you access to.
+FajjPgrpNG	PR Steward event
+GE2haKb7vs	<added>{amount} of usage credits added</added> — thanks for trying the feature of the week <cmd>/{command}</cmd>
+GE8hZwvUNO	This preview is truncated. Switch to Source to see more.
+GMuGuaewzg	Default model · {effort}
+GmV1gojBur	{count, plural, one {# deactivated} other {# deactivated}}
+GtogT5iw2q	I'm an AI buying agent, currently in beta, here to help you figure out which plan fits, what it'll cost, and how to get your team set up. We can do all of it right here.
+GxZ/47HXHT	My connector does not transfer money, cryptocurrency, or other financial assets on a user's behalf.
+H7Sbzbi4hU	Copy this code
+HFpcGWCIwR	Not enough disk space
+HHRj6ceroN	Credential added.
+HX0iGdV8lP	Routine actions
+HiAWFsOdjk	My server calls our own first-party APIs (or APIs we legitimately proxy with permission).
+HiLaq3gxV7	As of {date}, members outside your designated support group get AI support only. Designate which members can open tickets with the human support team.
+I0XzdzV1yn	Found
+ID0P9e4FTK	{model} · {effort}
+IPiWs8m7Em	Build me a 3-year financial model — base, bull, and bear cases, linked formulas, sensitivity table. Use this template, and pull the data from my connected tools. If you're missing a source, ask before building.
+IS2pe5BXXq	Universal URL (recommended)
+ITgaQ0SRSI	Artifact connectors
+IYMF3IRnw/	Opening a tab
+IcALQSno+z	Updates to your organization's features will show up here.
+ItI2+K2W8V	Allow direct messages
+J4cn3PEJ/A	Couldn't update the routine. Try again.
+JBiAMPiC/m	We'll package up your account information for download. This might take some time to complete.
+JDeaFAwoXN	Zooming
+JJ7D7Y4p8s	This file looks like binary data and can't be previewed as text.
+JOCRcjtlmM	Filling in "{value}"
+JQJXea0Tz0	Files can't be attached until the session finishes loading. Try again in a moment.
+JVTkcazQH6	Created by Claude
+Jdr9gPxUIc	The Files panel stays open when you switch between sessions
+JkZxBU/5Ph	No tasks
+JlW5B+wbn9	Server bundle
+K27ol/KhQQ	Run me a variance analysis — actuals vs budget, the biggest deltas explained, and flag anything that doesn't reconcile. Use this template, and pull the data from my connected tools. If you're missing a source, ask before building.
+KXwah37dSY	Identity profile
+KpkAnxh5qY	No changes
+L/45txOsOl	You can now set the default model new conversations start with for your whole organization. Pick Anthropic's recommended default, which updates as new models ship, or choose your own.
+L1/uE+L+Lu	The Ask Your Org tab moves to the Products section of your sidebar on {date}. No functionality is changing and no action is needed.
+LJiIMSrw29	Enabled auto-merge
+LW/0q8eKY2	This information appears on your connector's directory page. Everything on this page can be edited after you submit. Only the slug is permanent.
+LlR+BYH9jE	<label>Feature of the week:</label> <cmd>/{command}</cmd>
+Lpdvfeae94	Table preview
+LqNYmdMuC+	Format valid (fully verified at first sign-in)
+LyvoS49DnN	Unable to start session. Sign in again to continue.
+LzD3TVpXVC	Unified
+LzfsZghLZu	Not a GUID. Enter the application (client) ID from the Entra app registration.
+MFdyLk4imH	Usage credits requested
+N22yW4Qim4	Drive cataloging
+N2bqd9kL1X	Typing
+NODc2176Zs	Your MCP server's favicon is used as your icon in the directory listing and in product, via standard favicon linking. Optionally, set a custom icon URL below; it's respected in the directory listing. We recommend leaving this unset so the favicon from your MCP URL is shown.
+NS6TTwWvWL	· {count, plural, one {# prompt} other {# prompts}}
+NiLO8WrZgE	This scheduled work won't run anymore. This can't be undone.
+OBp9lQlPER	Ran shell
+Oeuto1vidR	Tool descriptions contain no instructions about model behavior, other tools, or external instruction sources, and no hidden or encoded text.
+Ojy1XM2Eqt	Analytics for the Admin role expanded
+P4gCHbYqEQ	These hosts are already allowed. Edit the existing connection to change how the credential is used.
+P9HUGvEpCU	Fork session
+PAPvZ7wcVe	{name} unavailable
+PGCiETTybo	Public-facing docs shown to users. IT admins often review these when deciding whether to approve an MCP server.
+PYMhR4zruJ	Waiting {count, plural, one {# second} other {# seconds}}
+PaCZDItnh3	Finding "{query}"
+Q7Wcb/Y5tf	{email} wants to join this org.
+QcYwTkTRvr	Add custom icon URL
+QrAsRXS0kX	This session's working folder no longer exists on the remote host. Recreate it there, or start a new session in a different folder.
+R1Vw5+Ktsk	Remove column
+R6bmgzv6Xs	Pressing key
+RAI+c2RRUM	Runs daily at {time} {tz}
+RAM2jlQCzo	Couldn't load identity profiles.
+RQoYC/4ueQ	Runs every {day} at {time} {tz}
+RTL1lhYCMK	Your data export is in progress. A download link will be emailed to {hasEmail, select, yes {{email}} other {your address}} when it's ready.
+RXrxwEVRx2	The Ask Your Org tab is now in the Products section of your sidebar. No functionality changed and no action is needed.
+RdJQooEgGT	Feature requested
+RfTTH6J+LD	Claude Code dynamic workflows turned on by default for all users on {date} and use more tokens than typical sessions. Restrict access by role with RBAC or turn them off org-wide with managed settings.
+RrFWg2Cbnv	No identity profiles yet. Create one before adding rules or credentials.
+RtoMGCCetj	Last scan was cancelled
+S1LMsBFtoC	Redeem by {date}.
+SBWkijOQlK	All environments
+SEsHEylS9M	Column name
+SFB5FraxQ7	{name} was turned off by default on {date}.
+SK9Kp1rMcp	Dynamic workflows are on by default
+SvPr/lnfNb	Scrolling down
+Sz8bokmphH	{name} will stay on for your organization.
+T9pvGbbiF0	Copy this code block
+TIkZEE9FMo	This file is outside the folders connected to this session.
+TXWOlsSti9	Project knowledge search
+TZdIFVaIN6	View scheduled messages and routines to keep track of all scheduled work.
+TlcWm5E9Ow	Showing the first 5,000 scheduled items.
+U/56Rw7+aG	Audit
+U7YYHODCK7	Track action items from my weekly meetings
+UClxajzxjC	Starting {date}, you can set the default model new conversations start with for your whole organization. Pick Anthropic's recommended default, which updates as new models ship, or choose your own.
+UH6V8ytQXn	Last activity {relativeTime}
+UJdVFK2KyY	Following a plan
+UOwVjP7z1U	Session token
+UgWeh71rd6	Add column
+V2SJG/UX9Y	Set up a Monday morning command center — a tiled dashboard with cards for my action items, emails I haven't replied to, and meetings that need prep. Use this template, and pull the data from my connected tools. If you're missing a source, ask before building.
+VDOTas3KLO	API base URL (optional)
+VGNi3bHLfj	Comment on this item
+VHhN1KfmCH	Sessions in their own window stay responsive when the main window is hidden
+VNoD11bBxB	Categories are used to filter connectors in the UI.
+VeUv6DR1kj	Scanned daily
+Vqd9xnOl2k	Opening a very large repository no longer crashes on startup
+Vwc3I4ylnm	Set up a campaign performance dashboard — spend, CPA, and conversions vs goal by channel and creative, plus a 'top performers' cut and a 'needs attention' cut. Use this template, and pull the data from my connected tools. If you're missing a source, ask before building.
+WEjZqzBur7	This file is no longer available.
+WWCTOc9uiI	· {count, plural, one {# suggestion} other {# suggestions}}
+WdWxHNx+TK	Expand diff
+WdxzyRXFjp	Disabled auto-merge
+WedfC1Evck	Marking PR draft
+WnP17mOhEW	Scheduled check-in
+WzyTXi2h28	Claude created this routine, so it runs in Auto mode — connector calls are checked by a classifier
+XD1Jy4C8ws	Get {amount} in usage credits when you run it
+XEz6wxqfU3	When enabled, Slack users can send messages to Claude directly, in addition to in a channel.
+XHgDuj8n73	Scrolling to element
+XHw47zc7tY	Capturing screen
+XLV8xUkyJt	Ran monitor
+XkBeJ4qyXp	Finding tools…
+XttBjwqWuu	Can't save your sign-in. Restart your computer, then try again.
+Y17nqODICN	Confirm that your connector meets <link>Anthropic's directory policies</link>. All items are required.
+Y88MryyeW4	Scheduled work
+YLgp976wcj	Ask Your Org is moving
+YY7xhXzNsh	Runs every hour
+YZKpcW2/oO	Model default controls are coming
+YppdzpLyIr	{name} will no longer be available starting {date}.
+YtSmOqou5i	JWT lifetime (seconds, optional)
+Z80jEUPH0j	interactive
+ZJVy4R7mdx	Hovering
+ZoZvYk/k6W	Draft a weekly metrics review for leadership
+a0dOVvhmng	Won't be automatically enabled for your organization (your organization's compliance settings restrict it).
+a7eqAUZmcr	New column
+aNzy1TCILl	Previous step
+aUpxzFIiG/	{name} will stay off for your organization.
+bK1TcMM6ux	Plugin event
+bWEfc2hXgv	Skipped (already running)
+bb03PMyLqZ	Resizing window
+bhFlN2Z88K	Bot message
+bjNlPzg7Mc	Couldn't run the test. Try again.
+btDLI+exL1	No scheduled work yet.
+bxHR4kdMT9	Navigating to {url}
+cG09T6tp8G	Blocked address
+cTu8n/bXEG	Failed
+cWJfIHFj/W	{email} has met their usage credit limit.
+cXIcxYfeiJ	Done commenting
+cn+uKaTjWd	No pending requests
+cqGbQhSB6R	This task will run remotely.
+cs7CYGdMuc	{name} enabled for your organization.
+d+qgix/ciX	Next step
+d9Hth95PnX	Directory management
+d9NDqfMVBB	Manage roles...
+dP9gSat5gA	Wait a moment, then try again.
+dPH6n+E0II	{name} disabled
+dUFzeVqhPP	Diff layout
+dZd8H/KE0T	Waiting
+dgqhUM6BxJ	Changes
+dy6ehPt97o	{name} will be enabled for your organization on {date}.
+e9zvl1HvE0	Change units
+eEZaxWqt5u	Reading page
+eLsGYCzKGh	Pull together an account 360
+eeoSImkdiY	These ranges are for guidance only. Your team's consumption will vary based on size, workflows, and usage patterns.
+fcVZ0DPiHS	Please quit and reopen Claude
+gC9+SjQopv	The diff panel and file previews work in SSH sessions
+giJ3fuczWQ	Folder not found on the remote host
+giU3LRQe8Q	When the model is overloaded, pick a different one right from the error card's retry menu
+gpcA2dvgUJ	{name} won't be automatically enabled for your organization (your organization's compliance settings restrict it).
+gsZoWr7ipW	Scrolling up
+h6tRhdrzOQ	Timed out starting the bundled server
+hAGdQWS+oY	{name} is leaving
+hEM4asyIjl	Archiving or deleting a session works while it's starting up or responding
+hdzDvv2zmw	We couldn't finish signing you in
+hrZMYZ96fN	Ask Your Org has moved
+i06zxbt2S4	{name} disabled for your organization.
+i62ENBe81P	Couldn't load scheduled work. Refresh to try again.
+iPB+yDOHy9	Pop out
+icn8CM+0cV	Press a number key to pick an option when Claude asks a question
+ihAPxs/hOd	Dynamic workflows will be on by default
+izmZ9illJz	Please review the {docsLink} to understand policies and processes.
+j2F6tU9PVi	Run cancelled
+j9FwWX70j2	Unknown scope
+j9GlsCFNh4	Human support routing is in effect
+jH94ZYW3sZ	Give me a full 360° on a customer account — deal history, recent activity, open issues, news, and a health score I can scan in 90 seconds. Use this template, and pull the data from my connected tools. If you're missing a source, ask before building.
+jJgvaXAvRf	Check the credential works before saving.
+jexWxSbZ8K	Export organization data
+k0s6Y9RJJX	Couldn't delete the routine. Try again.
+kVLQt2i9SW	Could not reach Microsoft sign-in endpoint
+kVe5R90gSD	Disabling auto-merge
+kk4TVWwJzd	Icon
+kkEftjMeP8	{name} will reconnect when it's next used.
+ko9Ma834YL	<label>Feature of the week:</label> <cmd>/{command}</cmd> — {blurb}
+kqtkJ7bpfr	Set up a pipeline dashboard — stages, pipeline value over time, and what needs attention this week. Use this template, and pull the data from my connected tools. If you're missing a source, ask before building.
+kxP/97PJd1	Pressing {keys}
+lFNvoQdQ5V	Try this prompt
+lgKD9EalBw	Mock up 2-3 clickable mobile prototypes of a feature — each a different take — so my team can react to something real, not a doc. Use this template, and look for a recent PRD in my connected tools. If you're missing a source, ask before building.
+lgMEj0UXFI	Tenant
+lsX7TXAzgq	Cancel run
+lz94YyzSOh	Analytics for the Admin role now covers Claude Code and Cowork in addition to Claude.ai. It turned on automatically for all admins on {date}.
+m6WGRc6ReI	Reading page text
+mHep2Rvyc7	Last run
+mn3PMJY6dc	Repositories
+mqbBZCU/me	Requests ({count})
+n43/KMHgLD	Clicking
+nMcyFjLZRE	Couldn't load more.
+nOk9mhxGpU	List
+nQmK7+9vAz	No annotations declared
+o/Qj9Nr243	Runs every hour at :{minute}
+o0NDb5qFVI	The attached template is in English — produce the artifact in my language instead.
+o6xZ7JK8IM	Capturing page
+o8yKrvTeYF	Write tools
+oPXeOoRDu+	This session's worktree was removed on the remote host. Fork the session to continue this conversation in a fresh worktree.
+oWCbrRNN5e	· {count, plural, one {# resource} other {# resources}}
+pEcGYF8Hfi	{count, plural, one {# member wants} other {# members want}} to access {feature}.
+pFm2K7k3z/	Something went wrong when adding your usage credits. Contact support for help.
+pbSQz7YmWX	Give me a full 360° on a sample customer account — deal history, recent activity, open issues, news, and a health score I can scan in 90 seconds. Use a made-up account to start. We can connect my CRM, my support tool, or paste a customer list later.
+q+UjUssgJw	Help us understand how users will interact with your connector and what it needs access to. These may be shown publicly but are primarily for internal review of the server.
+q10sBjWbJ0	Preview of {artifactName}
+q54/KP6cDD	{name} couldn't be updated. Try again.
+qelbuXry5t	Marked PR draft
+qw4tIPH/g7	After my weekly meetings, read the transcript, post a summary of decisions, action items with owners, and open questions to my team channel — and remind owners 2 days before the next meeting if their item is still open. Use this template, and pull the data from my connected tools. If you're missing a source, ask before building.
+qz7G9rOL4N	A member
+rLI4iZXrZF	Access to Claude in Chrome, the browser extension that lets Claude browse and act on web pages on the user's behalf.
+rSKJbXO2Qg	Checking open tabs
+rUC8UaKIBS	Put together a one-pager I can read before a client meeting — who's coming, recent emails, what's new at their company, what to bring up. Use this template, and pull the data from my connected tools. If you're missing a source, ask before building.
+s13x/nL7AU	Update didn't complete
+s3ZZz/tBhb	{name} enabled
+sCygocql5V	Submission failed. Try again.
+sNx+79v46o	{name} won't be enabled
+security/admin_killed	The scan was stopped by an administrator.
+security/projects_table_region	Projects table
+security/scan_couldnt_start	The scan couldn't start. Try running it again.
+security/scan_no_results	The scan ran into a problem and didn't finish. Try running it again.
+security/session_timed_out	The scan timed out. Try running it again.
+smkaFZHQft	Finishing your sign-in…
+ssRa7c1heU	View as text anyway
+t6NhSfY5oa	{inviter} invited {email} to join.
+tKWDKP1lgy	Scanned weekly
+tm3qriXsGs	Sponsored, promoted, and advertising content is prohibited in directory connectors. Does this connector surface any?
+uUJRvagdpq	Delete failed. Try again or contact support.
+uYLQ5lDLZu	Choose effort with a slider next to the model picker
+udhap4HaB5	{name} will be turned off by default on {date}.
+ufa5QA7ilZ	Ultracode
+uwWjfsxU3/	{name} will be required
+v0gvt4qolQ	View mode
+v4yogFBZV+	This is taking longer than usual. We'll keep trying for a moment.
+vEMaSy+wz1	View project
+vPCMyI/Dxj	Add a comment
+vPeZgEqCtF	<added>Usage credits added</added> — thanks for trying the feature of the week <cmd>/{command}</cmd>
+vfjX4SnwEz	Couldn't cancel the run
+vlR0m+0SYg	Can't save your sign-in because the macOS keychain is locked. Restart your Mac, then try again.
+vmFiamsztd	No scheduled work loaded yet.
+vrlRL6mz1+	What else can I work on?
+vwqEeHz1zx	To do
+whqTUGDPie	Static bearer tokens for servers in the directory are in beta. Email <link>{email}</link> if you're interested.
+wmqngvuHkT	{email} wants a seat upgrade.
+wn2vkdH65U	{base} → {head}
+wwWGzw+o1B	{name} is no longer available as of {date}.
+xCZsVqGp+b	{name} will be required for your organization starting {date}.
+xRy0lGrW4B	Requests from members of your organization will show up here.
+xgkFzhloWb	After my weekly meetings, read the transcript, post a summary of decisions, action items with owners, and open questions to my team channel — and remind owners 2 days before the next meeting if their item is still open. Show me a sample with a fake meeting first. We can connect my calendar and Slack later.
+xiFwcL35Ot	Filling in form
+xmXPKqaNPZ	Claude stopped because the page content may contain a prompt injection. Review the page before continuing.
+xsVurxQFne	Routine deleted
+yTgFGXF8BV	Clicking "{target}"
+yX6W+H81JR	Identity verified — click Subscribe to complete your purchase.
+yeBbpeNYqy	Try again in a moment, or switch to a different model.
+ykHlVsplIT	My connector does not query or extract data from model memory, chat history, conversation summaries, or user files.
+z76rEKV/Cm	Set up a weekly marketing metrics review for leadership — pipeline vs goal, engagement by segment, biggest gaps, and what to watch — drafted as a doc plus Slack post for me to review before posting. Use sample data first. We can connect my marketing dashboard later and run it every Monday.
+z9hwfZywT7	Not delivered · {time}
+zC3ooYcx9y	Set up a revenue dashboard — top-line trend, top customers, segment mix, and forecast vs actual. Use this template, and pull the data from my connected tools. If you're missing a source, ask before building.
+zP8wK0UN1g	{name} turned on by default for your organization on {date}.
+znslspxZFZ	Exit cooking mode

@@ -314,15 +314,21 @@ function Patch-JsLanguage {
         'const rp={chat:"New chat",cowork:"New task",code:"New session"}' = 'const rp={chat:"New chat",cowork:"新建任务",code:"新建会话"}'
         'lu={code:"New session",cowork:"New task"}' = 'lu={code:"新建会话",cowork:"新建任务"}'
         'const Uf={chat:"New chat",cowork:"New task",code:"New session"}' = 'const Uf={chat:"New chat",cowork:"新建任务",code:"新建会话"}'
+        'Pu={code:"New session",cowork:"New task"}' = 'Pu={code:"新建会话",cowork:"新建任务"}'
+        'hp={chat:"New chat",cowork:"New task",code:"New session"}' = 'hp={chat:"New chat",cowork:"新建任务",code:"新建会话"}'
         '{id:"projects",surface:"projects",icon:"Projects",label:"Projects",modes:["chat","cowork"]}' = '{id:"projects",surface:"projects",icon:"Projects",label:"项目",modes:["chat","cowork"]}'
         '{id:"scheduled",surface:"scheduled",icon:"Clock",label:"Scheduled",gate:"scheduled",modes:["cowork","code"]}' = '{id:"scheduled",surface:"scheduled",icon:"Clock",label:"已排期",gate:"scheduled",modes:["cowork","code"]}'
         '{id:"cowork-artifacts",href:$t,icon:"Artifacts",label:"Live artifacts",gate:"cowork-artifacts",modes:["cowork"]}' = '{id:"cowork-artifacts",href:$t,icon:"Artifacts",label:"实时构件",gate:"cowork-artifacts",modes:["cowork"]}'
+        '{id:"cowork-artifacts",href:Ld,icon:"Artifacts",label:"Live artifacts",gate:"cowork-artifacts",modes:["cowork"]}' = '{id:"cowork-artifacts",href:Ld,icon:"Artifacts",label:"实时构件",gate:"cowork-artifacts",modes:["cowork"]}'
         '{id:"customize",surface:"customize",icon:"Tool",label:"Customize"}' = '{id:"customize",surface:"customize",icon:"Tool",label:"自定义"}'
         'const lp="Recents"' = 'const lp="最近"'
+        'const vp="Recents"' = 'const vp="最近"'
         'z5t={recents:"Recents",shared:"Shared"}' = 'z5t={recents:"最近",shared:"Shared"}'
         'Lo.jsx(yt,{children:"Recents"})' = 'Lo.jsx(yt,{children:"最近"})'
         'children:["View all",Bo.jsx(Ht,{name:"CaretRight",size:"xsmall"})]' = 'children:["查看全部",Bo.jsx(Ht,{name:"CaretRight",size:"xsmall"})]'
         'Bo.jsx(Vt,{collapsed:r,onToggle:i,children:"Pinned"})' = 'Bo.jsx(Vt,{collapsed:r,onToggle:i,children:"已置顶"})'
+        'children:["View all",_t.jsx(Pn,{name:"CaretRight",size:"xsmall"})]' = 'children:["查看全部",_t.jsx(Pn,{name:"CaretRight",size:"xsmall"})]'
+        'children:"Pinned"' = 'children:"已置顶"'
         'label:"Inside project (.claude/worktrees)"' = 'label:"项目内（.claude/worktrees）"'
         'label:"Custom..."' = 'label:"自定义..."'
     }
@@ -356,6 +362,16 @@ function Patch-JsLanguage {
         @{
             Old = 'const xF="en-US",yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"];'
             New = 'const xF="en-US",yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN"];'
+        },
+        @{
+            Old = 'aj="en-US",rj=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"];'
+            New = 'aj="en-US",rj=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN"];'
+        }
+    )
+    $exactLocaleMaps = @(
+        @{
+            Old = 'const w8={"en-US":"en","de-DE":"de","fr-FR":"fr","ko-KR":"ko","ja-JP":"ja","es-419":"es","es-ES":"es","it-IT":"it","hi-IN":"en","pt-BR":"pt_BR","id-ID":"id"}'
+            New = 'const w8={"en-US":"en","de-DE":"de","fr-FR":"fr","ko-KR":"ko","ja-JP":"ja","es-419":"es","es-ES":"es","it-IT":"it","hi-IN":"en","pt-BR":"pt_BR","id-ID":"id","zh-CN":"zh"}'
         }
     )
     $languageRegexes = @(
@@ -370,6 +386,37 @@ function Patch-JsLanguage {
     $mergePatchedRegex = [regex]'const\s+[A-Za-z_$][\w$]*=\{\.\.\.[A-Za-z_$][\w$]*\?\.messages,\.\.\.[A-Za-z_$][\w$]*\};[A-Za-z_$][\w$]*\([A-Za-z_$][\w$]*,[A-Za-z_$][\w$]*\?\.gates\?\?\[\],'
 
     $patched = $false
+
+    foreach ($jsFile in $allJsFiles) {
+        Grant-WriteAccess -Path $jsFile.FullName
+
+        $content = [System.IO.File]::ReadAllText($jsFile.FullName)
+        $originalContent = $content
+        $languageMatched = $false
+
+        foreach ($languageArray in $exactLanguageArrays) {
+            if ($content.Contains($languageArray.Old)) {
+                $content = $content.Replace($languageArray.Old, $languageArray.New)
+                $languageMatched = $true
+            }
+        }
+
+        foreach ($localeMap in $exactLocaleMaps) {
+            if ($content.Contains($localeMap.Old)) {
+                $content = $content.Replace($localeMap.Old, $localeMap.New)
+                $languageMatched = $true
+            }
+        }
+
+        if ($content -ne $originalContent) {
+            Backup-File -Path $jsFile.FullName
+            Write-Utf8File -Path $jsFile.FullName -Content $content
+            $patched = $true
+            if ($languageMatched) {
+                Write-Host "  已注册语言: $($jsFile.Name)"
+            }
+        }
+    }
 
     foreach ($jsFile in $indexFiles) {
         Grant-WriteAccess -Path $jsFile.FullName
@@ -393,6 +440,18 @@ function Patch-JsLanguage {
                     $patched = $true
                     Write-Host "  已注册语言: $($jsFile.Name)"
                     break
+                }
+            }
+
+            if (-not $languageMatched) {
+                foreach ($localeMap in $exactLocaleMaps) {
+                    if ($content.Contains($localeMap.Old)) {
+                        $content = $content.Replace($localeMap.Old, $localeMap.New)
+                        $languageMatched = $true
+                        $patched = $true
+                        Write-Host "  已注册语言: $($jsFile.Name)"
+                        break
+                    }
                 }
             }
 
@@ -523,6 +582,16 @@ function Unpatch-JsLanguage {
         @{
             Old = 'const xF="en-US",yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN"];'
             New = 'const xF="en-US",yF=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"];'
+        },
+        @{
+            Old = 'aj="en-US",rj=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID","zh-CN"];'
+            New = 'aj="en-US",rj=["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"];'
+        }
+    )
+    $exactLocaleMaps = @(
+        @{
+            Old = 'const w8={"en-US":"en","de-DE":"de","fr-FR":"fr","ko-KR":"ko","ja-JP":"ja","es-419":"es","es-ES":"es","it-IT":"it","hi-IN":"en","pt-BR":"pt_BR","id-ID":"id","zh-CN":"zh"}'
+            New = 'const w8={"en-US":"en","de-DE":"de","fr-FR":"fr","ko-KR":"ko","ja-JP":"ja","es-419":"es","es-ES":"es","it-IT":"it","hi-IN":"en","pt-BR":"pt_BR","id-ID":"id"}'
         }
     )
     $languageRegexes = @(
@@ -569,15 +638,21 @@ function Unpatch-JsLanguage {
         'const rp={chat:"New chat",cowork:"新建任务",code:"新建会话"}' = 'const rp={chat:"New chat",cowork:"New task",code:"New session"}'
         'lu={code:"新建会话",cowork:"新建任务"}' = 'lu={code:"New session",cowork:"New task"}'
         'const Uf={chat:"New chat",cowork:"新建任务",code:"新建会话"}' = 'const Uf={chat:"New chat",cowork:"New task",code:"New session"}'
+        'Pu={code:"新建会话",cowork:"新建任务"}' = 'Pu={code:"New session",cowork:"New task"}'
+        'hp={chat:"New chat",cowork:"新建任务",code:"新建会话"}' = 'hp={chat:"New chat",cowork:"New task",code:"New session"}'
         '{id:"projects",surface:"projects",icon:"Projects",label:"项目",modes:["chat","cowork"]}' = '{id:"projects",surface:"projects",icon:"Projects",label:"Projects",modes:["chat","cowork"]}'
         '{id:"scheduled",surface:"scheduled",icon:"Clock",label:"已排期",gate:"scheduled",modes:["cowork","code"]}' = '{id:"scheduled",surface:"scheduled",icon:"Clock",label:"Scheduled",gate:"scheduled",modes:["cowork","code"]}'
         '{id:"cowork-artifacts",href:$t,icon:"Artifacts",label:"实时构件",gate:"cowork-artifacts",modes:["cowork"]}' = '{id:"cowork-artifacts",href:$t,icon:"Artifacts",label:"Live artifacts",gate:"cowork-artifacts",modes:["cowork"]}'
+        '{id:"cowork-artifacts",href:Ld,icon:"Artifacts",label:"实时构件",gate:"cowork-artifacts",modes:["cowork"]}' = '{id:"cowork-artifacts",href:Ld,icon:"Artifacts",label:"Live artifacts",gate:"cowork-artifacts",modes:["cowork"]}'
         '{id:"customize",surface:"customize",icon:"Tool",label:"自定义"}' = '{id:"customize",surface:"customize",icon:"Tool",label:"Customize"}'
         'const lp="最近"' = 'const lp="Recents"'
+        'const vp="最近"' = 'const vp="Recents"'
         'z5t={recents:"最近",shared:"Shared"}' = 'z5t={recents:"Recents",shared:"Shared"}'
         'Lo.jsx(yt,{children:"最近"})' = 'Lo.jsx(yt,{children:"Recents"})'
         'children:["查看全部",Bo.jsx(Ht,{name:"CaretRight",size:"xsmall"})]' = 'children:["View all",Bo.jsx(Ht,{name:"CaretRight",size:"xsmall"})]'
         'Bo.jsx(Vt,{collapsed:r,onToggle:i,children:"已置顶"})' = 'Bo.jsx(Vt,{collapsed:r,onToggle:i,children:"Pinned"})'
+        'children:["查看全部",_t.jsx(Pn,{name:"CaretRight",size:"xsmall"})]' = 'children:["View all",_t.jsx(Pn,{name:"CaretRight",size:"xsmall"})]'
+        'children:"已置顶"' = 'children:"Pinned"'
         'label:"项目内（.claude/worktrees）"' = 'label:"Inside project (.claude/worktrees)"'
         'label:"自定义..."' = 'label:"Custom..."'
     }
@@ -599,39 +674,46 @@ function Unpatch-JsLanguage {
         $content = [System.IO.File]::ReadAllText($jsFile.FullName)
         $originalContent = $content
 
-        if ($indexNames.ContainsKey($jsFile.Name)) {
-            if (-not $content.Contains('"zh-CN"')) {
-                Write-Host "  无需恢复: $($jsFile.Name)"
+        if ($content.Contains('"zh-CN"')) {
+            $languageRestored = $false
+            foreach ($languageArray in $exactLanguageArrays) {
+                if ($content.Contains($languageArray.Old)) {
+                    $content = $content.Replace($languageArray.Old, $languageArray.New)
+                    $languageRestored = $true
+                }
             }
-            else {
-                $languageRestored = $false
-                foreach ($languageArray in $exactLanguageArrays) {
-                    if ($content.Contains($languageArray.Old)) {
-                        $content = $content.Replace($languageArray.Old, $languageArray.New)
+
+            foreach ($localeMap in $exactLocaleMaps) {
+                if ($content.Contains($localeMap.Old)) {
+                    $content = $content.Replace($localeMap.Old, $localeMap.New)
+                    $languageRestored = $true
+                }
+            }
+
+            if (-not $languageRestored -and $indexNames.ContainsKey($jsFile.Name)) {
+                foreach ($languageRegex in $languageRegexes) {
+                    $newContent = $languageRegex.Replace($content, '$1$2]', 1)
+                    if ($newContent -ne $content) {
+                        $content = $newContent
                         $languageRestored = $true
-                        Write-Host "  语言注册已恢复: $($jsFile.Name)"
                         break
                     }
                 }
-
-                if (-not $languageRestored) {
-                    foreach ($languageRegex in $languageRegexes) {
-                        $newContent = $languageRegex.Replace($content, '$1$2]', 1)
-                        if ($newContent -ne $content) {
-                            $content = $newContent
-                            $languageRestored = $true
-                            Write-Host "  语言注册已恢复(正则): $($jsFile.Name)"
-                            break
-                        }
-                    }
-                }
-
-                if (-not $languageRestored) {
-                    Write-Host "  [警告] 无法移除 zh-CN: $($jsFile.Name)" -ForegroundColor Yellow
-                    Write-Host "  建议重新安装 Claude Desktop" -ForegroundColor Yellow
-                }
             }
 
+            if ($languageRestored) {
+                Write-Host "  语言注册已恢复: $($jsFile.Name)"
+            }
+            elseif ($indexNames.ContainsKey($jsFile.Name)) {
+                Write-Host "  [警告] 无法移除 zh-CN: $($jsFile.Name)" -ForegroundColor Yellow
+                Write-Host "  建议重新安装 Claude Desktop" -ForegroundColor Yellow
+            }
+        }
+        elseif ($indexNames.ContainsKey($jsFile.Name)) {
+            Write-Host "  无需恢复: $($jsFile.Name)"
+        }
+
+        if ($indexNames.ContainsKey($jsFile.Name)) {
             if ($content.Contains($mergeExactOld)) {
                 $content = $content.Replace($mergeExactOld, $mergeExactNew)
                 Write-Host "  运行时覆盖补丁已恢复: $($jsFile.Name)"

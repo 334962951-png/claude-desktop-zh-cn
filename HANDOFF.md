@@ -3,12 +3,12 @@
 ## 仓库与发布
 
 - 主仓库：`D:\claude-desktop-zh-cn`
-- 当前主分支最新本地提交：`e4e78ee fix: retry translation file copy on locked files`
-- 远端 `origin/main` 上一提交：`19ab007 fix: localize claude code settings labels`
+- 当前主分支最新提交：`f507dfb chore: add handoff notes and remove redundant files`
+- 远端 `origin/main` 已同步到：`f507dfb`
 - 当前正式 Release 标签：`v1.10628.0`
 - 当前适配 Claude Desktop 版本：
   - 已完整适配并发布：`1.10628.0.0`
-  - 本地刚验证安装环境：`1.10628.2.0`
+  - 当前本机最新已安装并已提取资源：`1.11187.1.0`
 
 ## 已完成的主要工作
 
@@ -41,28 +41,34 @@
 
 ## 当前遗留点
 
-- `e4e78ee` 这条提交还没推上 GitHub，只是网络超时，本地已提交。
-- `v1.10628.0` 标签和 Release 还没同步到 `e4e78ee`。
-- 当前本机 Claude Desktop 已升级到 `1.10628.2.0`。
-  - 现有语言包在该版本上已能安装并修掉一批设置页英文。
-  - 但还没做一轮完整的 `1.10628.2.0` 正式发布整理。
-- 在 `1.10628.2.0` 的 `cc3d7c553-RBPFbl7i.js` 里仍能搜到一条英文：
-  - `Local sessions require the desktop app.`
-  - 这是内部报错文案，不一定是用户日常可见界面。
-  - 上一轮检查显示它不是设置页标题残留。
+- `git push origin main` 已成功，远端已包含：
+  - `e4e78ee fix: retry translation file copy on locked files`
+  - `f507dfb chore: add handoff notes and remove redundant files`
+- `v1.10628.0` 标签与 Release 仍停留在旧版本口径，尚未反映安装脚本增强。
+- 当前本机 Claude Desktop 已继续升级到 `1.11187.1.0`，因此不建议再单独做 `1.10628.2.0` 正式发布。
+- 已从 `1.11187.1.0` 重新提取英文资源并完成差异统计：
+  - `ion-dist`：新增 `358`，删除 `153`，同 key 英文变更 `1`
+  - `desktop-shell`：新增 `2`，删除 `1`
+  - `statsig`：无变化
+- 当前差异统计文件已生成：
+  - `update-1.11187.1-summary.json`
+  - `new-ion-dist-keys-1.11187.1.txt`
+  - `new-desktop-shell-keys-1.11187.1.txt`
+  - `new-statsig-keys-1.11187.1.txt`
+  - `changed-ion-dist-keys-1.11187.1.txt`
+- 结论：`1.11187.1.0` 是值得单独正式适配的新版本，不属于仅更新文档即可覆盖的小修。
 
 ## 建议的新对话起点
 
 建议直接从下面这个目标继续：
 
-1. 先把 `e4e78ee` 推到远端。
-2. 再决定是否正式适配并发布 `1.10628.2.0`。
-3. 如果继续做 `1.10628.2.0`：
-   - 重新提取英文资源
-   - 对比 `1.10628.0` 与 `1.10628.2.0`
-   - 补齐新增或变化的英文 key
+1. 直接以 `1.11187.1.0` 为下一轮正式适配目标。
+2. 基于 `new-*.txt` 与 `changed-*.txt` 补齐新增或变化的中文翻译。
+3. 翻译完成后：
+   - 更新 `translated-zh-CN/*/zh-CN.json`
+   - 验证安装与界面效果
    - 重建 release zip
-   - 更新 Release 说明与截图
+   - 更新 `README.md`、`CHANGELOG.md`、`RELEASE.md` 与新的 release body
 
 ## 关键文件
 

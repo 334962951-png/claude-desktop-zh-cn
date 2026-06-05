@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.11187.1] - 2026-06-05
+
+### Changed
+
+- Synced language resources to Claude Desktop `1.11187.1.0`
+- Re-extracted the installed app resources from `Claude_1.11187.1.0_x64__pzs8sxrjxfjjc`
+- Rebuilt `translated-zh-CN/` against the new `en-US` baseline while preserving existing translations
+- Added Chinese translations for the newly introduced `ion-dist` and `desktop-shell` entries in this release
+- Updated the chat sandbox hint to reflect the new spreadsheet/computation note
+- Confirmed the latest installer still targets the correct `app\resources` layout on `1.11187.1.0`
+- Documented the current installation caveat that direct non-admin execution cannot write to `WindowsApps`
+
+### Translation Status
+
+- `ion-dist`: `15724` entries
+- `desktop-shell`: `407` entries
+- `statsig`: `65` entries
+- New `ion-dist` entries added this round: `358`
+- New `desktop-shell` entries added this round: `2`
+- New `statsig` entries added this round: `0`
+- Existing `ion-dist` entries with changed English text this round: `1`
+
+### Verified
+
+- `LanguagePack.ps1 -Extract` completed successfully against `1.11187.1.0`
+- The latest translation files contain all extracted keys for `ion-dist`, `desktop-shell`, and `statsig`
+- A direct non-admin installation run reaches the target app and fails only at the expected `WindowsApps` write boundary
+
 ## [1.10628.0] - 2026-06-04
 
 ### Changed

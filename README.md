@@ -1,7 +1,7 @@
 # Claude Desktop 简体中文语言包
 
-Claude Desktop Windows 版简体中文语言包项目。  
-当前已适配并验证 `Claude Desktop 1.10628.0.0`。
+Claude Desktop Windows 版简体中文语言包项目。
+当前已适配到 `Claude Desktop 1.11187.1.0`。
 
 [更新日志](./CHANGELOG.md) | [发布说明](./RELEASE.md)
 
@@ -15,12 +15,12 @@ Claude Desktop Windows 版简体中文语言包项目。
 - 将本地 `locale` 切换为 `zh-CN`
 - 支持一键卸载并恢复英文
 
-当前版本已经验证：
+当前版本已验证：
 
 - 主界面中文可用
 - 设置菜单中文可用
 - 设置页主要内容中文可用
-- 兼容 Claude Desktop `1.10628.0.0`
+- 兼容 Claude Desktop `1.11187.1.0`
 
 ## 截图
 
@@ -34,26 +34,26 @@ Claude Desktop Windows 版简体中文语言包项目。
 
 ## 当前版本状态
 
-- 适配版本：`1.10628.0.0`
-- `ion-dist`：`15519` 条
-- `desktop-shell`：`406` 条
+- 适配版本：`1.11187.1.0`
+- `ion-dist`：`15724` 条
+- `desktop-shell`：`407` 条
 - `statsig`：`65` 条
-- 本轮 `ion-dist` 新增条目：`495`
-- 本轮 `desktop-shell` 新增条目：`9`
-- 本轮 `statsig` 新增条目：`19`
-- 当前仍保留少量英文专有名词或未优先处理文案
+- 本轮 `ion-dist` 新增条目：`358`
+- 本轮 `desktop-shell` 新增条目：`2`
+- 本轮 `statsig` 新增条目：`0`
+- 当前仍保留少量英文专有名词或产品名
 
-详细统计见 [update-1.10628.0-summary.json](./update-1.10628.0-summary.json)。
+详细统计见 [update-1.11187.1-summary.json](./update-1.11187.1-summary.json)。
 
 ## 快速开始
 
 ### 安装
 
-1. 下载或克隆本仓库
-2. 完全关闭 Claude Desktop
-3. 双击 [安装中文语言包.bat](./安装中文语言包.bat)
-4. 在管理员权限弹窗中选择“是”
-5. 等待脚本执行完成，Claude 会自动重启
+1. 下载或克隆本仓库。
+2. 完全关闭 Claude Desktop。
+3. 双击 [安装中文语言包.bat](./安装中文语言包.bat)。
+4. 在管理员权限弹窗中选择“是”。
+5. 等待脚本执行完成；Claude 会自动重启。
 
 也可以直接运行 PowerShell：
 
@@ -63,9 +63,9 @@ powershell -ExecutionPolicy Bypass -File .\LanguagePack.ps1
 
 ### 卸载
 
-1. 完全关闭 Claude Desktop
-2. 双击 [卸载中文语言包.bat](./卸载中文语言包.bat)
-3. 在管理员权限弹窗中选择“是”
+1. 完全关闭 Claude Desktop。
+2. 双击 [卸载中文语言包.bat](./卸载中文语言包.bat)。
+3. 在管理员权限弹窗中选择“是”。
 
 或运行：
 
@@ -99,8 +99,8 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build-release.ps1
 
 默认会在 `dist/` 下生成：
 
-- `claude-desktop-zh-cn-1.10628.0/`
-- `claude-desktop-zh-cn-1.10628.0.zip`
+- `claude-desktop-zh-cn-1.11187.1/`
+- `claude-desktop-zh-cn-1.11187.1.zip`
 
 ## 工作原理
 
@@ -134,10 +134,10 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build-release.ps1
 ├─ translation-template/
 ├─ docs/screenshots/
 ├─ archive/
-├─ update-1.10628.0-summary.json
-├─ new-ion-dist-keys-1.10628.0.txt
-├─ new-desktop-shell-keys-1.10628.0.txt
-└─ new-statsig-keys-1.10628.0.txt
+├─ update-1.11187.1-summary.json
+├─ new-ion-dist-keys-1.11187.1.txt
+├─ new-desktop-shell-keys-1.11187.1.txt
+└─ new-statsig-keys-1.11187.1.txt
 ```
 
 ## 更新与维护
@@ -146,7 +146,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build-release.ps1
 
 1. 更新 Claude Desktop
 2. 运行 `LanguagePack.ps1 -Extract`
-3. 对比新版本 `en-US` 资源
+3. 对比新版 `en-US` 资源
 4. 合并旧翻译并补齐新增 key
 5. 更新 `translated-zh-CN/`
 6. 重新执行安装并验证界面
@@ -155,14 +155,15 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build-release.ps1
 
 ## 已知说明
 
-- 项目当前以 Windows 版 Claude Desktop 为目标
+- 项目当前仅以 Windows 版 Claude Desktop 为目标
 - 少量品牌名、字体名、专有名词可能保留英文
 - Claude Desktop 更新后可能覆盖安装目录，需要重新执行安装
-- 如果新版本前端结构变化较大，安装脚本中的前端补丁规则也需要同步更新
+- 如果新版前端结构变化较大，安装脚本中的前端补丁规则也需要同步更新
+- 安装脚本需要管理员权限；在非管理员 PowerShell 中直接运行会因 `WindowsApps` 写入权限不足而失败
 
 ## 常见问题
 
-### 安装后没有变成中文
+### 安装后没有变成中文？
 
 - 确认 Claude Desktop 已完全关闭后再安装
 - 确认脚本执行时已弹出并同意管理员权限
@@ -174,7 +175,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build-release.ps1
 已设置 locale=zh-CN
 ```
 
-### Claude 更新后语言包失效
+### Claude 更新后语言包失效？
 
 这是正常情况。Claude 更新可能会：
 
@@ -182,19 +183,18 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build-release.ps1
 - 替换前端 JS 文件名和结构
 - 新增或改动翻译 key
 
-重新运行安装脚本即可；如果仍有问题，需要针对新版本做适配。
+重新运行安装脚本即可；如果仍有问题，需要针对新版本做重新适配。
 
-### 为什么还有少量英文
+### 为什么还会有少量英文？
 
 常见原因有两类：
 
-- 专有名词刻意保留，例如字体名、品牌名
-- 当前翻译文件里仍有个别未翻译条目
+- 专有名词刻意保留，例如字体名、品牌名、产品名
+- 当前翻译文件里仍有个别未优先处理的条目
 
 ## 许可证
 
 本项目采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)。
-
 Claude Desktop 是 Anthropic 的产品，本项目为第三方中文化项目，与 Anthropic 官方无关。
 
 ## 致谢
